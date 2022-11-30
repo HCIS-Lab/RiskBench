@@ -1,0 +1,2821 @@
+{
+    "10_i-1_1_c_f_f_rl": {
+        "CloudySunset_low_": {
+            "120": 42690,
+            "gt_start_frame": 106,
+            "gt_end_frame": 120
+        },
+        "HardRainNight_low_": {
+            "121": 20284,
+            "gt_start_frame": 106,
+            "gt_end_frame": 121
+        },
+        "HardRainNoon_low_": {
+            "120": 22995,
+            "gt_start_frame": 105,
+            "gt_end_frame": 120
+        },
+        "WetCloudySunset_low_": {
+            "122": 30628,
+            "gt_start_frame": 107,
+            "gt_end_frame": 122
+        }
+    },
+    "10_i-1_1_c_l_l_0": {
+        "CloudyNoon_mid_": {
+            "114": 25004,
+            "gt_start_frame": 67,
+            "gt_end_frame": 114
+        },
+        "HardRainSunset_low_": {
+            "115": 30723,
+            "gt_start_frame": 70,
+            "gt_end_frame": 115
+        },
+        "MidRainyNoon_high_": {
+            "114": 25034,
+            "gt_start_frame": 67,
+            "gt_end_frame": 114
+        },
+        "WetCloudyNight_low_": {
+            "115": 20989,
+            "gt_start_frame": 68,
+            "gt_end_frame": 115
+        },
+        "WetCloudyNoon_low_": {
+            "113": 27666,
+            "gt_start_frame": 67,
+            "gt_end_frame": 113
+        },
+        "WetCloudySunset_mid_": {
+            "114": 30349,
+            "gt_start_frame": 67,
+            "gt_end_frame": 114
+        },
+        "WetNight_mid_": {
+            "114": 21029,
+            "gt_start_frame": 67,
+            "gt_end_frame": 114
+        }
+    },
+    "10_i-1_1_c_l_l_rl": {
+        "ClearSunset_low_": {
+            "121": 25917,
+            "gt_start_frame": 107,
+            "gt_end_frame": 121
+        },
+        "CloudySunset_low_": {
+            "125": 25864,
+            "gt_start_frame": 110,
+            "gt_end_frame": 125
+        },
+        "WetCloudyNoon_high_": {
+            "122": 18909,
+            "gt_start_frame": 107,
+            "gt_end_frame": 122
+        },
+        "WetCloudyNoon_mid_": {
+            "127": 25858,
+            "gt_start_frame": 112,
+            "gt_end_frame": 127
+        }
+    },
+    "10_i-1_1_c_r_l_0": {
+        "ClearSunset_low_": {
+            "161": 21069,
+            "gt_start_frame": 135,
+            "gt_end_frame": 161
+        },
+        "ClearSunset_mid_": {
+            "157": 26880,
+            "gt_start_frame": 134,
+            "gt_end_frame": 157
+        },
+        "HardRainNoon_mid_": {
+            "163": 24232,
+            "gt_start_frame": 135,
+            "gt_end_frame": 163
+        },
+        "MidRainyNoon_high_": {
+            "155": 23394,
+            "gt_start_frame": 134,
+            "gt_end_frame": 155
+        },
+        "WetCloudyNight_low_": {
+            "157": 16915,
+            "gt_start_frame": 135,
+            "gt_end_frame": 157
+        },
+        "WetCloudyNight_mid_": {
+            "156": 22113,
+            "gt_start_frame": 134,
+            "gt_end_frame": 156
+        },
+        "WetNoon_low_": {
+            "161": 22930,
+            "gt_start_frame": 135,
+            "gt_end_frame": 161
+        }
+    },
+    "10_i-1_1_t_f_f_rl": {
+        "CloudyNoon_mid_": {
+            "128": 21967,
+            "gt_start_frame": 113,
+            "gt_end_frame": 128
+        },
+        "HardRainNoon_low_": {
+            "126": 30876,
+            "gt_start_frame": 111,
+            "gt_end_frame": 126
+        },
+        "MidRainSunset_low_": {
+            "125": 25221,
+            "gt_start_frame": 110,
+            "gt_end_frame": 125
+        },
+        "MidRainSunset_mid_": {
+            "125": 31749,
+            "gt_start_frame": 110,
+            "gt_end_frame": 125
+        },
+        "MidRainyNoon_low_": {
+            "124": 33439,
+            "gt_start_frame": 104,
+            "gt_end_frame": 124
+        }
+    },
+    "10_i-1_1_t_f_l_0": {
+        "ClearNight_low_": {
+            "122": 29937,
+            "gt_start_frame": 67,
+            "gt_end_frame": 122
+        },
+        "ClearNoon_mid_": {
+            "121": 26602,
+            "gt_start_frame": 67,
+            "gt_end_frame": 121
+        },
+        "MidRainyNoon_high_": {
+            "122": 35858,
+            "gt_start_frame": 67,
+            "gt_end_frame": 122
+        },
+        "WetCloudyNight_mid_": {
+            "125": 27902,
+            "gt_start_frame": 67,
+            "gt_end_frame": 125
+        },
+        "WetNight_low_": {
+            "123": 20505,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "WetNoon_low_": {
+            "121": 24668,
+            "gt_start_frame": 69,
+            "gt_end_frame": 121
+        },
+        "WetSunset_mid_": {
+            "121": 30439,
+            "gt_start_frame": 67,
+            "gt_end_frame": 121
+        }
+    },
+    "10_i-1_1_t_l_f_0": {
+        "ClearSunset_mid_": {
+            "135": 47716,
+            "gt_start_frame": 67,
+            "gt_end_frame": 135
+        },
+        "CloudySunset_low_": {
+            "137": 23534,
+            "gt_start_frame": 69,
+            "gt_end_frame": 137
+        },
+        "HardRainNight_low_": {
+            "135": 34734,
+            "gt_start_frame": 67,
+            "gt_end_frame": 135
+        },
+        "WetCloudyNight_high_": {
+            "135": 24737,
+            "gt_start_frame": 67,
+            "gt_end_frame": 135
+        },
+        "WetCloudyNoon_low_": {
+            "137": 23582,
+            "gt_start_frame": 69,
+            "gt_end_frame": 137
+        },
+        "WetSunset_low_": {
+            "137": 29761,
+            "gt_start_frame": 69,
+            "gt_end_frame": 137
+        }
+    },
+    "10_i-1_1_t_r_r_s": {
+        "MidRainSunset_low_": {
+            "118": 29049,
+            "gt_start_frame": 69,
+            "gt_end_frame": 118
+        },
+        "MidRainyNight_high_": {
+            "117": 18919,
+            "gt_start_frame": 67,
+            "gt_end_frame": 117
+        },
+        "MidRainyNoon_high_": {
+            "118": 23043,
+            "gt_start_frame": 69,
+            "gt_end_frame": 118
+        },
+        "MidRainyNoon_low_": {
+            "122": 30391,
+            "gt_start_frame": 73,
+            "gt_end_frame": 122
+        },
+        "WetSunset_mid_": {
+            "116": 31624,
+            "gt_start_frame": 67,
+            "gt_end_frame": 116
+        }
+    },
+    "10_i-4_1_c_f_l_rl": {
+        "ClearSunset_low_": {
+            "114": 22248,
+            "gt_start_frame": 93,
+            "gt_end_frame": 114
+        },
+        "WetCloudySunset_mid_": {
+            "111": 28269,
+            "gt_start_frame": 90,
+            "gt_end_frame": 111
+        },
+        "WetNoon_low_": {
+            "113": 24703,
+            "gt_start_frame": 92,
+            "gt_end_frame": 113
+        },
+        "WetSunset_mid_": {
+            "114": 28246,
+            "gt_start_frame": 92,
+            "gt_end_frame": 114
+        }
+    },
+    "10_s-1_0_b_sr_f_0": {
+        "CloudySunset_mid_": {
+            "193": 29879,
+            "gt_start_frame": 161,
+            "gt_end_frame": 193
+        },
+        "HardRainNoon_low_": {
+            "199": 31050,
+            "gt_start_frame": 169,
+            "gt_end_frame": 199
+        },
+        "MidRainSunset_high_": {
+            "190": 28896,
+            "gt_start_frame": 158,
+            "gt_end_frame": 190
+        },
+        "MidRainyNight_low_": {
+            "194": 20807,
+            "gt_start_frame": 162,
+            "gt_end_frame": 194
+        },
+        "MidRainyNight_mid_": {
+            "192": 20807,
+            "gt_start_frame": 158,
+            "gt_end_frame": 192
+        }
+    },
+    "10_s-2_0_c_f_sr_0_1": {
+        "ClearNight_mid_": {
+            "120": 19195,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        },
+        "CloudyNight_high_": {
+            "120": 19075,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        },
+        "HardRainNight_low_": {
+            "120": 19186,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        },
+        "HardRainSunset_low_": {
+            "119": 29090,
+            "gt_start_frame": 67,
+            "gt_end_frame": 119
+        },
+        "MidRainSunset_mid_": {
+            "120": 31954,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        },
+        "WetCloudyNoon_low_": {
+            "116": 24785,
+            "gt_start_frame": 69,
+            "gt_end_frame": 116
+        },
+        "WetCloudyNoon_mid_": {
+            "120": 25804,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        },
+        "WetNoon_high_": {
+            "120": 30702,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        },
+        "WetSunset_high_": {
+            "120": 23053,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        }
+    },
+    "10_s-2_0_c_sl_f_0": {
+        "ClearNoon_low_": {
+            "125": 30092,
+            "gt_start_frame": 81,
+            "gt_end_frame": 125
+        },
+        "CloudySunset_mid_": {
+            "126": 30470,
+            "gt_start_frame": 82,
+            "gt_end_frame": 126
+        },
+        "HardRainNight_low_": {
+            "123": 50760,
+            "gt_start_frame": 79,
+            "gt_end_frame": 123
+        },
+        "HardRainNoon_mid_": {
+            "125": 24286,
+            "gt_start_frame": 81,
+            "gt_end_frame": 125
+        },
+        "WetCloudyNight_mid_": {
+            "122": 15904,
+            "gt_start_frame": 78,
+            "gt_end_frame": 122
+        },
+        "WetNight_high_": {
+            "122": 16376,
+            "gt_start_frame": 79,
+            "gt_end_frame": 122
+        }
+    },
+    "10_s-2_0_c_sl_f_0_1": {
+        "HardRainNight_mid_": {
+            "130": 17227,
+            "gt_start_frame": 106,
+            "gt_end_frame": 130
+        },
+        "MidRainSunset_mid_": {
+            "129": 20499,
+            "gt_start_frame": 105,
+            "gt_end_frame": 129
+        },
+        "WetCloudyNight_low_": {
+            "129": 17381,
+            "gt_start_frame": 105,
+            "gt_end_frame": 129
+        },
+        "WetCloudyNoon_low_": {
+            "130": 26450,
+            "gt_start_frame": 106,
+            "gt_end_frame": 130
+        },
+        "WetNight_high_": {
+            "131": 17463,
+            "gt_start_frame": 108,
+            "gt_end_frame": 131
+        },
+        "WetNight_low_": {
+            "130": 17236,
+            "gt_start_frame": 106,
+            "gt_end_frame": 130
+        },
+        "WetNight_mid_": {
+            "131": 17381,
+            "gt_start_frame": 108,
+            "gt_end_frame": 131
+        },
+        "WetNoon_low_": {
+            "130": 24300,
+            "gt_start_frame": 106,
+            "gt_end_frame": 130
+        },
+        "WetSunset_high_": {
+            "129": 20603,
+            "gt_start_frame": 105,
+            "gt_end_frame": 129
+        }
+    },
+    "10_s-2_0_c_sr_f_0": {
+        "ClearNoon_mid_": {
+            "126": 24941,
+            "gt_start_frame": 67,
+            "gt_end_frame": 126
+        },
+        "CloudyNoon_low_": {
+            "130": 25334,
+            "gt_start_frame": 69,
+            "gt_end_frame": 130
+        },
+        "HardRainNight_high_": {
+            "126": 20807,
+            "gt_start_frame": 67,
+            "gt_end_frame": 126
+        },
+        "MidRainyNight_low_": {
+            "126": 20807,
+            "gt_start_frame": 67,
+            "gt_end_frame": 126
+        },
+        "WetNight_mid_": {
+            "127": 24079,
+            "gt_start_frame": 67,
+            "gt_end_frame": 127
+        }
+    },
+    "10_s-4_0_c_sr_sl_0": {
+        "ClearNight_high_": {
+            "89": 20240,
+            "gt_start_frame": 67,
+            "gt_end_frame": 89
+        },
+        "ClearNoon_mid_": {
+            "89": 30128,
+            "gt_start_frame": 67,
+            "gt_end_frame": 89
+        },
+        "ClearSunset_mid_": {
+            "94": 23735,
+            "gt_start_frame": 70,
+            "gt_end_frame": 94
+        },
+        "CloudyNight_low_": {
+            "89": 19614,
+            "gt_start_frame": 67,
+            "gt_end_frame": 89
+        },
+        "CloudySunset_low_": {
+            "93": 29745,
+            "gt_start_frame": 70,
+            "gt_end_frame": 93
+        },
+        "HardRainSunset_high_": {
+            "89": 29757,
+            "gt_start_frame": 67,
+            "gt_end_frame": 89
+        },
+        "WetNight_mid_": {
+            "90": 20240,
+            "gt_start_frame": 68,
+            "gt_end_frame": 90
+        },
+        "WetNoon_low_": {
+            "93": 24250,
+            "gt_start_frame": 70,
+            "gt_end_frame": 93
+        },
+        "WetSunset_mid_": {
+            "88": 24738,
+            "gt_start_frame": 67,
+            "gt_end_frame": 88
+        }
+    },
+    "10_s-6_0_t_f_sr_0": {
+        "CloudyNight_high_": {
+            "123": 19397,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "CloudyNight_low_": {
+            "123": 19240,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "HardRainNoon_mid_": {
+            "123": 27299,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "HardRainSunset_mid_": {
+            "110": 29299,
+            "gt_start_frame": 70,
+            "gt_end_frame": 110
+        },
+        "MidRainyNight_mid_": {
+            "123": 21922,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "WetCloudyNoon_mid_": {
+            "110": 24677,
+            "gt_start_frame": 70,
+            "gt_end_frame": 110
+        },
+        "WetNight_low_": {
+            "123": 19397,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "WetNight_mid_": {
+            "123": 19240,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        }
+    },
+    "10_t1-1_1_c_r_r_0": {
+        "ClearNight_high_": {
+            "120": 19654,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        },
+        "ClearSunset_low_": {
+            "123": 29135,
+            "gt_start_frame": 70,
+            "gt_end_frame": 123
+        },
+        "HardRainNoon_low_": {
+            "126": 29192,
+            "gt_start_frame": 73,
+            "gt_end_frame": 126
+        },
+        "MidRainyNight_low_": {
+            "121": 19430,
+            "gt_start_frame": 68,
+            "gt_end_frame": 121
+        },
+        "WetNight_mid_": {
+            "120": 19439,
+            "gt_start_frame": 67,
+            "gt_end_frame": 120
+        }
+    },
+    "10_t1-1_1_c_r_r_0_1": {
+        "MidRainyNight_high_": {
+            "131": 18090,
+            "gt_start_frame": 67,
+            "gt_end_frame": 131
+        },
+        "MidRainyNight_low_": {
+            "123": 20644,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "MidRainyNight_mid_": {
+            "123": 18090,
+            "gt_start_frame": 67,
+            "gt_end_frame": 123
+        },
+        "WetCloudySunset_high_": {
+            "130": 22235,
+            "gt_start_frame": 67,
+            "gt_end_frame": 130
+        }
+    },
+    "10_t1-2_0_b_u_r_0": {
+        "ClearNoon_low_": {
+            "162": 26445,
+            "gt_start_frame": 98,
+            "gt_end_frame": 162
+        },
+        "CloudySunset_high_": {
+            "169": 29267,
+            "gt_start_frame": 101,
+            "gt_end_frame": 169
+        },
+        "MidRainSunset_mid_": {
+            "170": 34032,
+            "gt_start_frame": 97,
+            "gt_end_frame": 170
+        },
+        "WetCloudyNight_low_": {
+            "171": 19826,
+            "gt_start_frame": 98,
+            "gt_end_frame": 171
+        }
+    },
+    "10_t1-3_0_c_f_r_0_1": {
+        "CloudyNoon_low_": {
+            "102": 30870,
+            "gt_start_frame": 79,
+            "gt_end_frame": 102
+        },
+        "HardRainSunset_mid_": {
+            "107": 23217,
+            "gt_start_frame": 80,
+            "gt_end_frame": 107
+        },
+        "MidRainyNight_low_": {
+            "103": 19018,
+            "gt_start_frame": 79,
+            "gt_end_frame": 103
+        },
+        "WetCloudyNoon_mid_": {
+            "103": 28442,
+            "gt_start_frame": 79,
+            "gt_end_frame": 103
+        }
+    },
+    "10_t1-3_0_c_f_r_0_2": {
+        "ClearNoon_low_": {
+            "120": 25116,
+            "gt_start_frame": 90,
+            "gt_end_frame": 120
+        },
+        "CloudyNoon_low_": {
+            "120": 22759,
+            "gt_start_frame": 90,
+            "gt_end_frame": 120
+        },
+        "WetCloudyNoon_mid_": {
+            "120": 24931,
+            "gt_start_frame": 90,
+            "gt_end_frame": 120
+        },
+        "WetCloudySunset_mid_": {
+            "121": 24737,
+            "gt_start_frame": 91,
+            "gt_end_frame": 121
+        }
+    },
+    "10_t1-5_0_t_sr_r_0": {
+        "ClearNoon_mid_": {
+            "128": 23494,
+            "gt_start_frame": 112,
+            "gt_end_frame": 128
+        },
+        "CloudyNoon_mid_": {
+            "129": 24364,
+            "gt_start_frame": 113,
+            "gt_end_frame": 129
+        },
+        "MidRainSunset_low_": {
+            "128": 23614,
+            "gt_start_frame": 112,
+            "gt_end_frame": 128
+        },
+        "WetCloudyNight_high_": {
+            "129": 50751,
+            "gt_start_frame": 113,
+            "gt_end_frame": 129
+        },
+        "WetCloudySunset_mid_": {
+            "130": 24927,
+            "gt_start_frame": 114,
+            "gt_end_frame": 130
+        },
+        "WetSunset_high_": {
+            "129": 23599,
+            "gt_start_frame": 113,
+            "gt_end_frame": 129
+        },
+        "WetSunset_mid_": {
+            "129": 23890,
+            "gt_start_frame": 113,
+            "gt_end_frame": 129
+        }
+    },
+    "10_t1-6_1_c_f_r_rl": {
+        "CloudyNoon_low_": {
+            "139": 26663,
+            "gt_start_frame": 118,
+            "gt_end_frame": 139
+        },
+        "CloudySunset_low_": {
+            "139": 19870,
+            "gt_start_frame": 118,
+            "gt_end_frame": 139
+        },
+        "HardRainNoon_mid_": {
+            "139": 28975,
+            "gt_start_frame": 119,
+            "gt_end_frame": 139
+        },
+        "WetCloudyNight_mid_": {
+            "138": 15802,
+            "gt_start_frame": 118,
+            "gt_end_frame": 138
+        },
+        "WetCloudyNoon_high_": {
+            "139": 31655,
+            "gt_start_frame": 119,
+            "gt_end_frame": 139
+        }
+    },
+    "10_t1-6_1_p_c_r_0": {
+        "ClearNight_mid_": {
+            "121": 23553,
+            "gt_start_frame": 67,
+            "gt_end_frame": 121
+        },
+        "HardRainNight_high_": {
+            "121": 25015,
+            "gt_start_frame": 67,
+            "gt_end_frame": 121
+        },
+        "MidRainSunset_low_": {
+            "120": 25142,
+            "gt_start_frame": 69,
+            "gt_end_frame": 120
+        }
+    },
+    "10_t2-1_1_c_f_u_0": {
+        "ClearNoon_mid_": {
+            "153": 18505,
+            "gt_start_frame": 134,
+            "gt_end_frame": 153
+        },
+        "ClearSunset_mid_": {
+            "153": 30182,
+            "gt_start_frame": 134,
+            "gt_end_frame": 153
+        },
+        "CloudyNoon_low_": {
+            "153": 24624,
+            "gt_start_frame": 134,
+            "gt_end_frame": 153
+        },
+        "HardRainNight_low_": {
+            "154": 20660,
+            "gt_start_frame": 134,
+            "gt_end_frame": 154
+        },
+        "MidRainyNight_high_": {
+            "155": 18318,
+            "gt_start_frame": 135,
+            "gt_end_frame": 155
+        },
+        "MidRainyNight_mid_": {
+            "153": 18318,
+            "gt_start_frame": 134,
+            "gt_end_frame": 153
+        },
+        "WetCloudyNight_mid_": {
+            "155": 20669,
+            "gt_start_frame": 135,
+            "gt_end_frame": 155
+        }
+    },
+    "10_t2-1_1_c_u_f_0": {
+        "ClearNoon_low_": {
+            "149": 20128,
+            "gt_start_frame": 139,
+            "gt_end_frame": 149
+        },
+        "CloudyNoon_mid_": {
+            "148": 23606,
+            "gt_start_frame": 137,
+            "gt_end_frame": 148
+        },
+        "WetCloudySunset_mid_": {
+            "148": 23713,
+            "gt_start_frame": 137,
+            "gt_end_frame": 148
+        },
+        "WetNight_low_": {
+            "148": 19347,
+            "gt_start_frame": 137,
+            "gt_end_frame": 148
+        },
+        "WetSunset_low_": {
+            "150": 23778,
+            "gt_start_frame": 139,
+            "gt_end_frame": 150
+        }
+    },
+    "10_t2-1_1_t_l_r_rl": {
+        "ClearNoon_low_": {
+            "152": 26525,
+            "gt_start_frame": 141,
+            "gt_end_frame": 152
+        },
+        "CloudySunset_high_": {
+            "148": 28080,
+            "gt_start_frame": 136,
+            "gt_end_frame": 148
+        },
+        "MidRainyNight_low_": {
+            "148": 18635,
+            "gt_start_frame": 136,
+            "gt_end_frame": 148
+        },
+        "MidRainyNight_mid_": {
+            "151": 18635,
+            "gt_start_frame": 137,
+            "gt_end_frame": 151
+        },
+        "WetCloudyNight_low_": {
+            "148": 18019,
+            "gt_start_frame": 136,
+            "gt_end_frame": 148
+        },
+        "WetCloudySunset_mid_": {
+            "148": 27208,
+            "gt_start_frame": 136,
+            "gt_end_frame": 148
+        },
+        "WetNight_mid_": {
+            "148": 18019,
+            "gt_start_frame": 136,
+            "gt_end_frame": 148
+        }
+    },
+    "10_t2-2_0_c_l_r_0": {
+        "CloudyNight_high_": {
+            "99": 19265,
+            "gt_start_frame": 85,
+            "gt_end_frame": 99
+        },
+        "CloudyNight_mid_": {
+            "98": 19265,
+            "gt_start_frame": 85,
+            "gt_end_frame": 98
+        },
+        "CloudyNoon_low_": {
+            "97": 23287,
+            "gt_start_frame": 84,
+            "gt_end_frame": 97
+        },
+        "CloudyNoon_mid_": {
+            "98": 31101,
+            "gt_start_frame": 85,
+            "gt_end_frame": 98
+        },
+        "MidRainSunset_low_": {
+            "97": 29339,
+            "gt_start_frame": 85,
+            "gt_end_frame": 97
+        },
+        "MidRainyNight_mid_": {
+            "98": 19261,
+            "gt_start_frame": 85,
+            "gt_end_frame": 98
+        },
+        "WetCloudyNight_low_": {
+            "98": 19214,
+            "gt_start_frame": 85,
+            "gt_end_frame": 98
+        },
+        "WetNight_low_": {
+            "99": 24476,
+            "gt_start_frame": 87,
+            "gt_end_frame": 99
+        },
+        "WetNoon_low_": {
+            "97": 46700,
+            "gt_start_frame": 84,
+            "gt_end_frame": 97
+        }
+    },
+    "10_t2-2_0_p_c_f_0": {
+        "ClearNoon_low_": {
+            "134": 24719,
+            "gt_start_frame": 114,
+            "gt_end_frame": 134
+        },
+        "CloudyNoon_high_": {
+            "131": 30753,
+            "gt_start_frame": 112,
+            "gt_end_frame": 131
+        },
+        "WetNight_high_": {
+            "132": 19581,
+            "gt_start_frame": 113,
+            "gt_end_frame": 132
+        },
+        "WetNoon_mid_": {
+            "133": 34505,
+            "gt_start_frame": 114,
+            "gt_end_frame": 133
+        }
+    },
+    "10_t2-3_0_t_r_f_0": {
+        "ClearNoon_high_": {
+            "152": 29761,
+            "gt_start_frame": 136,
+            "gt_end_frame": 152
+        },
+        "HardRainSunset_low_": {
+            "152": 24953,
+            "gt_start_frame": 140,
+            "gt_end_frame": 152
+        },
+        "MidRainyNoon_mid_": {
+            "152": 26021,
+            "gt_start_frame": 136,
+            "gt_end_frame": 152
+        },
+        "WetCloudyNight_mid_": {
+            "152": 50751,
+            "gt_start_frame": 136,
+            "gt_end_frame": 152
+        },
+        "WetNoon_low_": {
+            "152": 29553,
+            "gt_start_frame": 138,
+            "gt_end_frame": 152
+        },
+        "WetSunset_high_": {
+            "152": 31137,
+            "gt_start_frame": 136,
+            "gt_end_frame": 152
+        }
+    },
+    "10_t2-5_0_p_c_r_0": {
+        "CloudySunset_high_": {
+            "172": 38159,
+            "gt_start_frame": 110,
+            "gt_end_frame": 172
+        },
+        "MidRainSunset_high_": {
+            "173": 22652,
+            "gt_start_frame": 110,
+            "gt_end_frame": 173
+        },
+        "MidRainSunset_mid_": {
+            "171": 24449,
+            "gt_start_frame": 110,
+            "gt_end_frame": 171
+        },
+        "WetSunset_low_": {
+            "171": 31086,
+            "gt_start_frame": 109,
+            "gt_end_frame": 171
+        }
+    },
+    "10_t2-5_0_t_r_f_0": {
+        "ClearSunset_mid_": {
+            "126": 25322,
+            "gt_start_frame": 106,
+            "gt_end_frame": 126
+        },
+        "CloudyNoon_mid_": {
+            "125": 22009,
+            "gt_start_frame": 105,
+            "gt_end_frame": 125
+        },
+        "HardRainNight_mid_": {
+            "126": 21174,
+            "gt_start_frame": 106,
+            "gt_end_frame": 126
+        },
+        "HardRainNoon_low_": {
+            "125": 33849,
+            "gt_start_frame": 107,
+            "gt_end_frame": 125
+        },
+        "HardRainSunset_low_": {
+            "125": 25158,
+            "gt_start_frame": 107,
+            "gt_end_frame": 125
+        },
+        "WetCloudyNight_low_": {
+            "125": 21183,
+            "gt_start_frame": 104,
+            "gt_end_frame": 125
+        }
+    },
+    "10_t3-2_0_c_r_l_0": {
+        "ClearNoon_low_": {
+            "119": 38966,
+            "gt_start_frame": 100,
+            "gt_end_frame": 119
+        },
+        "ClearNoon_mid_": {
+            "119": 21979,
+            "gt_start_frame": 100,
+            "gt_end_frame": 119
+        },
+        "CloudySunset_high_": {
+            "119": 34525,
+            "gt_start_frame": 100,
+            "gt_end_frame": 119
+        },
+        "CloudySunset_low_": {
+            "119": 25688,
+            "gt_start_frame": 100,
+            "gt_end_frame": 119
+        },
+        "HardRainNoon_high_": {
+            "119": 25554,
+            "gt_start_frame": 101,
+            "gt_end_frame": 119
+        },
+        "WetCloudyNight_low_": {
+            "119": 21183,
+            "gt_start_frame": 98,
+            "gt_end_frame": 119
+        }
+    },
+    "10_t3-2_0_p_c_l_0": {
+        "CloudyNoon_low_": {
+            "180": 24218,
+            "gt_start_frame": 90,
+            "gt_end_frame": 180
+        },
+        "CloudySunset_low_": {
+            "185": 29693,
+            "gt_start_frame": 88,
+            "gt_end_frame": 185
+        },
+        "MidRainyNight_low_": {
+            "182": 34013,
+            "gt_start_frame": 82,
+            "gt_end_frame": 182
+        },
+        "MidRainyNight_mid_": {
+            "183": 50760,
+            "gt_start_frame": 83,
+            "gt_end_frame": 183
+        }
+    },
+    "10_t3-6_1_m_f_u_0": {
+        "HardRainNight_mid_": {
+            "136": 19435,
+            "gt_start_frame": 118,
+            "gt_end_frame": 136
+        },
+        "HardRainSunset_low_": {
+            "140": 29801,
+            "gt_start_frame": 120,
+            "gt_end_frame": 140
+        },
+        "WetCloudySunset_mid_": {
+            "136": 34093,
+            "gt_start_frame": 118,
+            "gt_end_frame": 136
+        },
+        "WetNight_mid_": {
+            "135": 20014,
+            "gt_start_frame": 117,
+            "gt_end_frame": 135
+        }
+    },
+    "10_t3-6_1_m_l_f_0_1": {
+        "ClearNight_mid_": {
+            "111": 20014,
+            "gt_start_frame": 67,
+            "gt_end_frame": 111
+        },
+        "CloudySunset_high_": {
+            "109": 30229,
+            "gt_start_frame": 67,
+            "gt_end_frame": 109
+        },
+        "HardRainNight_low_": {
+            "111": 23612,
+            "gt_start_frame": 69,
+            "gt_end_frame": 111
+        },
+        "MidRainyNoon_mid_": {
+            "111": 24667,
+            "gt_start_frame": 67,
+            "gt_end_frame": 111
+        },
+        "WetCloudyNight_high_": {
+            "111": 18142,
+            "gt_start_frame": 67,
+            "gt_end_frame": 111
+        },
+        "WetCloudySunset_low_": {
+            "111": 20661,
+            "gt_start_frame": 69,
+            "gt_end_frame": 111
+        },
+        "WetNoon_low_": {
+            "111": 23999,
+            "gt_start_frame": 67,
+            "gt_end_frame": 111
+        },
+        "WetNoon_mid_": {
+            "111": 29461,
+            "gt_start_frame": 67,
+            "gt_end_frame": 111
+        }
+    },
+    "10_t3-6_1_m_l_f_rl": {
+        "ClearSunset_mid_": {
+            "127": 30112,
+            "gt_start_frame": 108,
+            "gt_end_frame": 127
+        },
+        "HardRainNight_high_": {
+            "127": 16873,
+            "gt_start_frame": 108,
+            "gt_end_frame": 127
+        },
+        "HardRainNight_low_": {
+            "127": 23477,
+            "gt_start_frame": 108,
+            "gt_end_frame": 127
+        },
+        "MidRainyNight_low_": {
+            "127": 19047,
+            "gt_start_frame": 108,
+            "gt_end_frame": 127
+        }
+    },
+    "1_t1-10_1_c_f_l_rl": {
+        "ClearNight_mid_": {
+            "107": 23198
+        },
+        "ClearNoon_low_": {
+            "107": 34264
+        },
+        "ClearSunset_low_": {
+            "107": 29469
+        },
+        "CloudyNight_low_": {
+            "107": 23164
+        },
+        "CloudySunset_high_": {
+            "107": 41789
+        },
+        "HardRainNoon_mid_": {
+            "108": 29598
+        },
+        "WetNoon_high_": {
+            "107": 29550
+        }
+    },
+    "1_t1-11_1_c_f_l_rl": {
+        "MidRainSunset_mid_": {
+            "110": 23233
+        },
+        "WetCloudyNoon_low_": {
+            "112": 23273
+        },
+        "WetCloudySunset_high_": {
+            "110": 23275
+        },
+        "WetCloudySunset_low_": {
+            "110": 25313
+        }
+    },
+    "1_t1-1_1_b_r_r_0": {
+        "CloudySunset_mid_": {
+            "183": 23267
+        },
+        "MidRainSunset_low_": {
+            "179": 23354
+        },
+        "WetCloudyNight_high_": {
+            "185": 23209
+        },
+        "WetNoon_low_": {
+            "180": 22310
+        }
+    },
+    "1_t1-3_1_c_l_l_rl": {
+        "ClearNight_low_": {
+            "88": 23026
+        },
+        "CloudySunset_mid_": {
+            "93": 23344
+        },
+        "MidRainyNoon_low_": {
+            "93": 23411
+        },
+        "WetCloudySunset_high_": {
+            "91": 25770
+        },
+        "WetNoon_high_": {
+            "91": 23424
+        },
+        "WetSunset_low_": {
+            "91": 23161
+        }
+    },
+    "1_t2-3_1_c_l_r_0": {
+        "ClearSunset_low_": {
+            "97": 22994
+        },
+        "ClearSunset_mid_": {
+            "98": 23056
+        },
+        "CloudyNight_mid_": {
+            "95": 22834
+        },
+        "HardRainNoon_high_": {
+            "98": 22896
+        },
+        "MidRainyNight_low_": {
+            "98": 22762
+        },
+        "MidRainyNoon_low_": {
+            "98": 22440
+        },
+        "WetNoon_mid_": {
+            "97": 22537
+        },
+        "WetSunset_high_": {
+            "94": 20789
+        }
+    },
+    "1_t3-10_1_c_f_l_0": {
+        "CloudyNoon_low_": {
+            "99": 22976
+        },
+        "CloudyNoon_mid_": {
+            "99": 25359
+        },
+        "HardRainNight_low_": {
+            "99": 25145
+        },
+        "MidRainyNight_low_": {
+            "99": 30201
+        },
+        "WetCloudyNight_mid_": {
+            "99": 25099
+        },
+        "WetNoon_high_": {
+            "99": 25376
+        },
+        "WetNoon_low_": {
+            "101": 25340
+        }
+    },
+    "1_t3-10_1_c_l_f_rl": {
+        "ClearNoon_high_": {
+            "100": 23185
+        },
+        "ClearSunset_low_": {
+            "100": 23102
+        },
+        "WetNoon_high_": {
+            "101": 29771
+        },
+        "WetNoon_low_": {
+            "100": 20457
+        },
+        "WetNoon_mid_": {
+            "100": 23173
+        }
+    },
+    "1_t3-12_1_c_l_l_rl": {
+        "HardRainNight_low_": {
+            "106": 22942
+        },
+        "HardRainNight_mid_": {
+            "105": 26045
+        },
+        "HardRainSunset_mid_": {
+            "105": 23452
+        },
+        "MidRainSunset_low_": {
+            "107": 25537
+        },
+        "MidRainyNoon_high_": {
+            "106": 30168
+        },
+        "WetCloudyNoon_low_": {
+            "109": 22820
+        },
+        "WetCloudyNoon_mid_": {
+            "106": 22939
+        },
+        "WetCloudySunset_high_": {
+            "106": 20766
+        }
+    },
+    "1_t3-14_1_c_l_f_rl": {
+        "ClearSunset_low_": {
+            "106": 24074
+        },
+        "HardRainNoon_low_": {
+            "108": 23270
+        },
+        "WetCloudyNight_high_": {
+            "105": 23987
+        },
+        "WetCloudyNight_mid_": {
+            "105": 24107
+        },
+        "WetNoon_high_": {
+            "106": 23349
+        },
+        "WetNoon_mid_": {
+            "106": 23239
+        },
+        "WetSunset_mid_": {
+            "106": 24220
+        }
+    },
+    "2_t1-2_1_c_r_r_rl": {
+        "CloudyNight_high_": {
+            "94": 31329
+        },
+        "CloudyNoon_low_": {
+            "94": 24379
+        },
+        "CloudySunset_mid_": {
+            "93": 24492
+        },
+        "HardRainNoon_high_": {
+            "95": 24439
+        },
+        "WetCloudySunset_low_": {
+            "93": 24359
+        }
+    },
+    "2_t2-2_1_c_l_r_0": {
+        "CloudySunset_high_": {
+            "124": 23529
+        },
+        "MidRainSunset_low_": {
+            "126": 25680
+        },
+        "MidRainyNight_low_": {
+            "124": 23261
+        },
+        "WetCloudySunset_mid_": {
+            "124": 23602
+        },
+        "WetNight_mid_": {
+            "115": 23313
+        },
+        "WetNoon_mid_": {
+            "124": 21212
+        }
+    },
+    "2_t3-1_1_p_c_l_0": {
+        "ClearNight_mid_": {
+            "145": 28925
+        },
+        "CloudyNoon_low_": {
+            "144": 48241
+        },
+        "CloudySunset_low_": {
+            "144": 29630
+        },
+        "MidRainyNoon_mid_": {
+            "145": 29092
+        },
+        "WetSunset_mid_": {
+            "145": 29246
+        }
+    },
+    "2_t3-2_1_c_r_l_0": {
+        "CloudyNoon_low_": {
+            "100": 29163
+        },
+        "HardRainNoon_low_": {
+            "100": 23493
+        },
+        "HardRainSunset_low_": {
+            "100": 23027
+        },
+        "WetCloudyNight_low_": {
+            "100": 28496
+        }
+    },
+    "2_t3-5_1_c_r_l_0": {
+        "ClearNight_mid_": {
+            "103": 23357
+        },
+        "ClearSunset_low_": {
+            "101": 23472
+        },
+        "WetCloudySunset_high_": {
+            "105": 23601
+        },
+        "WetNoon_high_": {
+            "101": 23552
+        }
+    },
+    "2_t3-6_1_c_r_l_0": {
+        "ClearNoon_mid_": {
+            "105": 23601
+        },
+        "CloudyNight_low_": {
+            "105": 20900
+        },
+        "HardRainNight_low_": {
+            "107": 23237
+        },
+        "WetCloudyNoon_low_": {
+            "105": 26154
+        }
+    },
+    "3_i-1_1_c_l_l_rl": {
+        "ClearNight_high_": {
+            "135": 19597
+        },
+        "ClearNoon_low_": {
+            "128": 50667
+        },
+        "HardRainNight_mid_": {
+            "129": 19588
+        },
+        "HardRainNoon_high_": {
+            "131": 21484
+        },
+        "MidRainyNoon_mid_": {
+            "130": 19599
+        },
+        "WetCloudyNight_low_": {
+            "131": 19453
+        },
+        "WetCloudySunset_high_": {
+            "129": 21627
+        }
+    },
+    "3_i-1_1_c_r_r_0": {
+        "ClearNoon_high_": {
+            "96": 27216
+        },
+        "ClearNoon_low_": {
+            "97": 23309
+        },
+        "HardRainNight_low_": {
+            "95": 19588
+        },
+        "HardRainSunset_mid_": {
+            "97": 23539
+        },
+        "MidRainSunset_high_": {
+            "95": 23553
+        },
+        "MidRainyNight_high_": {
+            "94": 19588
+        },
+        "MidRainyNoon_mid_": {
+            "97": 23451
+        },
+        "WetNight_mid_": {
+            "95": 19597
+        },
+        "WetSunset_low_": {
+            "97": 23548
+        }
+    },
+    "3_i-4_0_p_c_u_0": {
+        "CloudySunset_mid_": {
+            "142": 19526
+        },
+        "HardRainNoon_mid_": {
+            "143": 19038
+        },
+        "WetCloudyNoon_mid_": {
+            "143": 18958
+        },
+        "WetCloudySunset_high_": {
+            "146": 19846
+        }
+    },
+    "3_i-4_0_t_f_u_0": {
+        "ClearNight_high_": {
+            "140": 17686
+        },
+        "ClearNight_low_": {
+            "138": 17686
+        },
+        "ClearNoon_high_": {
+            "137": 21653
+        },
+        "CloudyNoon_low_": {
+            "132": 21651
+        },
+        "CloudySunset_mid_": {
+            "133": 21648
+        },
+        "WetCloudyNight_mid_": {
+            "139": 17686
+        },
+        "WetNoon_mid_": {
+            "134": 25762
+        },
+        "WetSunset_high_": {
+            "132": 21652
+        },
+        "WetSunset_low_": {
+            "133": 21648
+        }
+    },
+    "3_i-4_0_t_l_l_0": {
+        "ClearNoon_low_": {
+            "116": 21686
+        },
+        "ClearNoon_mid_": {
+            "116": 25748
+        },
+        "ClearSunset_low_": {
+            "116": 25530
+        },
+        "CloudyNight_high_": {
+            "115": 17731
+        },
+        "CloudyNoon_high_": {
+            "116": 21698
+        },
+        "MidRainSunset_high_": {
+            "116": 21455
+        },
+        "MidRainyNight_low_": {
+            "117": 17715
+        },
+        "MidRainyNight_mid_": {
+            "114": 17722
+        },
+        "WetCloudySunset_mid_": {
+            "116": 21692
+        }
+    },
+    "3_i-4_0_t_l_u_0": {
+        "ClearNight_high_": {
+            "132": 17419
+        },
+        "ClearSunset_low_": {
+            "133": 50669
+        },
+        "HardRainNoon_low_": {
+            "137": 21905
+        },
+        "HardRainNoon_mid_": {
+            "138": 21820
+        },
+        "MidRainSunset_high_": {
+            "136": 20101
+        },
+        "MidRainyNight_low_": {
+            "137": 17410
+        },
+        "MidRainyNight_mid_": {
+            "137": 17410
+        },
+        "WetCloudySunset_mid_": {
+            "137": 19743
+        }
+    },
+    "3_r-1_0_c_f_f_0": {
+        "ClearNight_low_": {
+            "116": 19282
+        },
+        "ClearNight_mid_": {
+            "118": 19282
+        },
+        "ClearSunset_low_": {
+            "116": 27170
+        },
+        "CloudySunset_mid_": {
+            "116": 23247
+        },
+        "HardRainNoon_low_": {
+            "115": 25636
+        },
+        "HardRainSunset_high_": {
+            "116": 27163
+        },
+        "MidRainyNoon_high_": {
+            "116": 22172
+        },
+        "MidRainyNoon_mid_": {
+            "116": 22085
+        }
+    },
+    "3_r-1_0_c_f_f_0_1": {
+        "ClearSunset_low_": {
+            "125": 24133
+        },
+        "HardRainNight_mid_": {
+            "122": 37886
+        },
+        "MidRainyNoon_high_": {
+            "121": 24124
+        },
+        "MidRainyNoon_mid_": {
+            "122": 28631
+        }
+    },
+    "3_r-1_0_p_j_f_j": {
+        "HardRainNoon_low_": {
+            "120": 19076
+        },
+        "HardRainSunset_low_": {
+            "120": 22526
+        },
+        "MidRainSunset_low_": {
+            "120": 22149
+        },
+        "MidRainyNoon_low_": {
+            "120": 25550
+        },
+        "WetCloudyNoon_mid_": {
+            "120": 19891
+        },
+        "WetCloudySunset_mid_": {
+            "120": 22348
+        }
+    },
+    "3_s-12_0_t_sl_f_0": {
+        "ClearNoon_low_": {
+            "127": 23131
+        },
+        "CloudyNight_mid_": {
+            "124": 19193
+        },
+        "CloudySunset_low_": {
+            "127": 23160
+        },
+        "HardRainNoon_mid_": {
+            "127": 23137
+        },
+        "MidRainSunset_mid_": {
+            "127": 23151
+        },
+        "WetCloudyNight_low_": {
+            "126": 19193
+        },
+        "WetCloudyNoon_high_": {
+            "127": 23160
+        },
+        "WetSunset_high_": {
+            "126": 23160
+        }
+    },
+    "3_s-6_0_c_f_sr_0": {
+        "ClearSunset_mid_": {
+            "121": 22975
+        },
+        "CloudyNight_mid_": {
+            "121": 19010
+        },
+        "CloudySunset_low_": {
+            "121": 22898
+        },
+        "HardRainNoon_high_": {
+            "121": 22770
+        },
+        "HardRainNoon_mid_": {
+            "121": 22954
+        },
+        "MidRainyNight_high_": {
+            "119": 19003
+        },
+        "WetSunset_high_": {
+            "121": 22975
+        }
+    },
+    "3_s-7_0_c_sr_f_0": {
+        "HardRainNight_high_": {
+            "124": 16867
+        },
+        "HardRainNight_mid_": {
+            "124": 16867
+        },
+        "HardRainSunset_mid_": {
+            "127": 18583
+        },
+        "MidRainyNoon_low_": {
+            "128": 22416
+        },
+        "WetSunset_high_": {
+            "127": 24531
+        }
+    },
+    "3_t1-10_0_p_c_r_0": {
+        "ClearNoon_low_": {
+            "153": 21487
+        },
+        "ClearSunset_high_": {
+            "151": 21246
+        },
+        "MidRainyNoon_high_": {
+            "152": 21487
+        },
+        "WetCloudyNoon_mid_": {
+            "153": 21497
+        }
+    },
+    "3_t1-3_1_p_c_r_0_2": {
+        "ClearNight_mid_": {
+            "157": 18363
+        },
+        "HardRainNoon_high_": {
+            "258": 22628
+        },
+        "MidRainSunset_low_": {
+            "169": 22979
+        },
+        "WetCloudyNight_mid_": {
+            "155": 16279
+        },
+        "WetNight_high_": {
+            "166": 18463
+        },
+        "WetNoon_low_": {
+            "167": 22649
+        }
+    },
+    "3_t2-2_0_b_f_u_0": {
+        "ClearNoon_high_": {
+            "180": 21366
+        },
+        "ClearNoon_low_": {
+            "187": 27386
+        },
+        "MidRainSunset_high_": {
+            "183": 22085
+        },
+        "MidRainyNoon_high_": {
+            "184": 21040
+        }
+    },
+    "3_t2-2_0_b_l_u_0": {
+        "ClearNight_mid_": {
+            "203": 18446
+        },
+        "CloudyNoon_high_": {
+            "207": 50663
+        },
+        "HardRainNoon_low_": {
+            "202": 18414
+        },
+        "HardRainSunset_high_": {
+            "202": 22655
+        }
+    },
+    "3_t2-2_0_b_u_r_0": {
+        "MidRainyNight_low_": {
+            "145": 18835
+        },
+        "MidRainyNoon_high_": {
+            "145": 22800
+        },
+        "WetCloudyNoon_mid_": {
+            "146": 22805
+        },
+        "WetCloudySunset_mid_": {
+            "146": 22741
+        },
+        "WetSunset_high_": {
+            "145": 22780
+        }
+    },
+    "3_t2-3_1_b_l_u_1_rl": {
+        "ClearNight_low_": {
+            "221": 18906
+        },
+        "HardRainNoon_mid_": {
+            "213": 26663
+        },
+        "MidRainyNoon_low_": {
+            "224": 22770
+        },
+        "WetCloudySunset_high_": {
+            "216": 22786
+        },
+        "WetNoon_high_": {
+            "221": 26246
+        },
+        "WetSunset_low_": {
+            "223": 22631
+        }
+    },
+    "5_i-1_0_t_f_f_0": {
+        "ClearNight_high_": {
+            "153": 17834,
+            "gt_start_frame": 120,
+            "gt_end_frame": 153
+        },
+        "ClearSunset_high_": {
+            "154": 29974,
+            "gt_start_frame": 120,
+            "gt_end_frame": 154
+        },
+        "ClearSunset_mid_": {
+            "156": 21960,
+            "gt_start_frame": 122,
+            "gt_end_frame": 156
+        },
+        "CloudyNight_mid_": {
+            "154": 17834,
+            "gt_start_frame": 120,
+            "gt_end_frame": 154
+        },
+        "MidRainyNight_low_": {
+            "156": 17825,
+            "gt_start_frame": 123,
+            "gt_end_frame": 156
+        },
+        "WetCloudySunset_low_": {
+            "156": 18645,
+            "gt_start_frame": 122,
+            "gt_end_frame": 156
+        },
+        "WetNoon_low_": {
+            "156": 27525,
+            "gt_start_frame": 123,
+            "gt_end_frame": 156
+        }
+    },
+    "5_i-7_1_m_f_l_0": {
+        "ClearSunset_low_": {
+            "149": 15522,
+            "gt_start_frame": 132,
+            "gt_end_frame": 149
+        },
+        "CloudyNoon_mid_": {
+            "149": 25153,
+            "gt_start_frame": 132,
+            "gt_end_frame": 149
+        },
+        "CloudySunset_low_": {
+            "149": 25780,
+            "gt_start_frame": 132,
+            "gt_end_frame": 149
+        },
+        "HardRainSunset_mid_": {
+            "149": 27964,
+            "gt_start_frame": 132,
+            "gt_end_frame": 149
+        },
+        "MidRainSunset_high_": {
+            "150": 23792,
+            "gt_start_frame": 132,
+            "gt_end_frame": 150
+        }
+    },
+    "5_i-7_1_m_f_r_0": {
+        "ClearSunset_low_": {
+            "124": 29797,
+            "gt_start_frame": 68,
+            "gt_end_frame": 124
+        },
+        "CloudySunset_mid_": {
+            "125": 34393,
+            "gt_start_frame": 66,
+            "gt_end_frame": 125
+        },
+        "HardRainNoon_low_": {
+            "119": 26090,
+            "gt_start_frame": 68,
+            "gt_end_frame": 119
+        },
+        "WetCloudyNight_high_": {
+            "117": 20685,
+            "gt_start_frame": 66,
+            "gt_end_frame": 117
+        }
+    },
+    "5_s-10_0_c_f_sl_0": {
+        "CloudyNoon_high_": {
+            "99": 20819
+        },
+        "CloudySunset_low_": {
+            "98": 30600
+        },
+        "HardRainNight_mid_": {
+            "99": 18628
+        },
+        "HardRainSunset_mid_": {
+            "99": 24382
+        },
+        "MidRainyNoon_low_": {
+            "98": 15510
+        },
+        "WetCloudySunset_high_": {
+            "99": 24435
+        },
+        "WetNight_low_": {
+            "99": 18637
+        }
+    },
+    "5_s-9_0_m_sl_sr_0_1": {
+        "ClearNight_mid_": {
+            "139": 25580,
+            "gt_start_frame": 66,
+            "gt_end_frame": 139
+        },
+        "ClearSunset_low_": {
+            "165": 26927,
+            "gt_start_frame": 68,
+            "gt_end_frame": 165
+        },
+        "CloudyNoon_high_": {
+            "138": 26442,
+            "gt_start_frame": 66,
+            "gt_end_frame": 138
+        },
+        "CloudySunset_high_": {
+            "138": 35104,
+            "gt_start_frame": 66,
+            "gt_end_frame": 138
+        },
+        "HardRainNoon_low_": {
+            "139": 30760,
+            "gt_start_frame": 68,
+            "gt_end_frame": 139
+        },
+        "MidRainyNight_mid_": {
+            "140": 26107,
+            "gt_start_frame": 66,
+            "gt_end_frame": 140
+        },
+        "MidRainyNoon_high_": {
+            "138": 25012,
+            "gt_start_frame": 66,
+            "gt_end_frame": 138
+        },
+        "WetCloudyNight_low_": {
+            "138": 21749,
+            "gt_start_frame": 66,
+            "gt_end_frame": 138
+        },
+        "WetCloudySunset_mid_": {
+            "137": 26826,
+            "gt_start_frame": 66,
+            "gt_end_frame": 137
+        },
+        "WetNight_high_": {
+            "139": 21317,
+            "gt_start_frame": 66,
+            "gt_end_frame": 139
+        }
+    },
+    "5_t1-2_0_c_f_l_0": {
+        "CloudySunset_low_": {
+            "148": 27636,
+            "gt_start_frame": 97,
+            "gt_end_frame": 148
+        },
+        "HardRainNight_mid_": {
+            "142": 21869,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        },
+        "WetCloudyNight_low_": {
+            "142": 21878,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        },
+        "WetNoon_low_": {
+            "147": 27227,
+            "gt_start_frame": 97,
+            "gt_end_frame": 147
+        }
+    },
+    "5_t2-2_0_c_u_f_0": {
+        "ClearNight_high_": {
+            "127": 21878,
+            "gt_start_frame": 114,
+            "gt_end_frame": 127
+        },
+        "CloudyNight_low_": {
+            "126": 21878,
+            "gt_start_frame": 113,
+            "gt_end_frame": 126
+        },
+        "CloudyNoon_high_": {
+            "127": 27617,
+            "gt_start_frame": 114,
+            "gt_end_frame": 127
+        },
+        "CloudySunset_high_": {
+            "126": 27645,
+            "gt_start_frame": 113,
+            "gt_end_frame": 126
+        },
+        "HardRainSunset_mid_": {
+            "128": 31880,
+            "gt_start_frame": 115,
+            "gt_end_frame": 128
+        },
+        "MidRainSunset_low_": {
+            "128": 27614,
+            "gt_start_frame": 115,
+            "gt_end_frame": 128
+        },
+        "MidRainyNoon_low_": {
+            "128": 27639,
+            "gt_start_frame": 115,
+            "gt_end_frame": 128
+        },
+        "WetCloudyNight_mid_": {
+            "126": 21878,
+            "gt_start_frame": 113,
+            "gt_end_frame": 126
+        },
+        "WetNoon_mid_": {
+            "128": 27678,
+            "gt_start_frame": 115,
+            "gt_end_frame": 128
+        }
+    },
+    "5_t2-7_0_c_r_f_0": {
+        "ClearNight_high_": {
+            "125": 17601,
+            "gt_start_frame": 103,
+            "gt_end_frame": 125
+        },
+        "CloudySunset_high_": {
+            "124": 23363,
+            "gt_start_frame": 103,
+            "gt_end_frame": 124
+        },
+        "HardRainSunset_low_": {
+            "126": 23306,
+            "gt_start_frame": 106,
+            "gt_end_frame": 126
+        },
+        "HardRainSunset_mid_": {
+            "126": 23289,
+            "gt_start_frame": 106,
+            "gt_end_frame": 126
+        },
+        "WetNoon_low_": {
+            "126": 27406,
+            "gt_start_frame": 106,
+            "gt_end_frame": 126
+        }
+    },
+    "5_t2-8_1_c_f_u_0": {
+        "ClearNoon_mid_": {
+            "145": 29772,
+            "gt_start_frame": 132,
+            "gt_end_frame": 145
+        },
+        "HardRainNoon_low_": {
+            "145": 23740,
+            "gt_start_frame": 132,
+            "gt_end_frame": 145
+        },
+        "HardRainSunset_low_": {
+            "145": 23672,
+            "gt_start_frame": 133,
+            "gt_end_frame": 145
+        },
+        "MidRainSunset_high_": {
+            "146": 23946,
+            "gt_start_frame": 132,
+            "gt_end_frame": 146
+        },
+        "MidRainyNight_mid_": {
+            "142": 18120,
+            "gt_start_frame": 129,
+            "gt_end_frame": 142
+        },
+        "WetCloudyNight_low_": {
+            "145": 18157,
+            "gt_start_frame": 132,
+            "gt_end_frame": 145
+        }
+    },
+    "5_t2-9_0_b_l_f_0": {
+        "MidRainyNight_high_": {
+            "181": 18148,
+            "gt_start_frame": 142,
+            "gt_end_frame": 181
+        },
+        "MidRainyNoon_low_": {
+            "183": 23917,
+            "gt_start_frame": 143,
+            "gt_end_frame": 183
+        },
+        "WetCloudyNoon_high_": {
+            "181": 23785,
+            "gt_start_frame": 142,
+            "gt_end_frame": 181
+        },
+        "WetNight_low_": {
+            "181": 18157,
+            "gt_start_frame": 142,
+            "gt_end_frame": 181
+        },
+        "WetNight_mid_": {
+            "181": 18157,
+            "gt_start_frame": 142,
+            "gt_end_frame": 181
+        },
+        "WetNoon_mid_": {
+            "186": 23924,
+            "gt_start_frame": 143,
+            "gt_end_frame": 186
+        },
+        "WetSunset_high_": {
+            "181": 30388,
+            "gt_start_frame": 142,
+            "gt_end_frame": 181
+        },
+        "WetSunset_low_": {
+            "184": 23922,
+            "gt_start_frame": 144,
+            "gt_end_frame": 184
+        }
+    },
+    "5_t3-2_0_c_u_f_0": {
+        "CloudySunset_low_": {
+            "126": 23029,
+            "gt_start_frame": 113,
+            "gt_end_frame": 126
+        },
+        "HardRainNoon_mid_": {
+            "126": 15513,
+            "gt_start_frame": 114,
+            "gt_end_frame": 126
+        },
+        "MidRainyNight_low_": {
+            "124": 17369,
+            "gt_start_frame": 111,
+            "gt_end_frame": 124
+        },
+        "MidRainyNight_mid_": {
+            "125": 17369,
+            "gt_start_frame": 113,
+            "gt_end_frame": 125
+        },
+        "WetNoon_high_": {
+            "126": 22319,
+            "gt_start_frame": 113,
+            "gt_end_frame": 126
+        },
+        "WetSunset_high_": {
+            "126": 22939,
+            "gt_start_frame": 113,
+            "gt_end_frame": 126
+        },
+        "WetSunset_mid_": {
+            "126": 23037,
+            "gt_start_frame": 113,
+            "gt_end_frame": 126
+        }
+    },
+    "5_t3-2_0_c_u_l_0": {
+        "CloudySunset_low_": {
+            "122": 24009,
+            "gt_start_frame": 101,
+            "gt_end_frame": 122
+        },
+        "HardRainNoon_low_": {
+            "122": 28180,
+            "gt_start_frame": 101,
+            "gt_end_frame": 122
+        },
+        "WetCloudyNight_low_": {
+            "122": 22451,
+            "gt_start_frame": 101,
+            "gt_end_frame": 122
+        },
+        "WetCloudyNoon_low_": {
+            "121": 23982,
+            "gt_start_frame": 101,
+            "gt_end_frame": 121
+        },
+        "WetNight_mid_": {
+            "118": 22451,
+            "gt_start_frame": 99,
+            "gt_end_frame": 118
+        },
+        "WetSunset_low_": {
+            "122": 29832,
+            "gt_start_frame": 101,
+            "gt_end_frame": 122
+        }
+    },
+    "5_t3-9_0_m_u_l_0": {
+        "CloudyNight_low_": {
+            "142": 16589,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        },
+        "CloudyNoon_high_": {
+            "142": 21189,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        },
+        "CloudySunset_high_": {
+            "142": 22328,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        },
+        "MidRainSunset_low_": {
+            "142": 22333,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        },
+        "MidRainyNight_high_": {
+            "141": 16580,
+            "gt_start_frame": 95,
+            "gt_end_frame": 141
+        },
+        "MidRainyNoon_low_": {
+            "142": 15513,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        },
+        "WetNoon_mid_": {
+            "142": 20913,
+            "gt_start_frame": 95,
+            "gt_end_frame": 142
+        }
+    },
+    "6_i-1_1_m_f_r_rl": {
+        "ClearNight_mid_": {
+            "178": 20286
+        },
+        "MidRainyNight_high_": {
+            "178": 17970
+        },
+        "WetNoon_low_": {
+            "177": 31022
+        },
+        "WetSunset_high_": {
+            "176": 18069
+        }
+    },
+    "6_i-2_1_m_f_f_rl": {
+        "ClearNoon_mid_": {
+            "152": 16226
+        },
+        "HardRainNight_mid_": {
+            "152": 17742
+        },
+        "WetCloudyNoon_low_": {
+            "151": 15477
+        },
+        "WetNoon_high_": {
+            "152": 17309
+        }
+    },
+    "6_i-2_1_m_f_r_rl": {
+        "ClearNight_low_": {
+            "164": 17929
+        },
+        "HardRainNoon_mid_": {
+            "166": 16274
+        },
+        "HardRainSunset_low_": {
+            "166": 17710
+        },
+        "WetCloudyNoon_high_": {
+            "166": 17182
+        }
+    },
+    "6_s-4_0_t_f_sl_0": {
+        "ClearNoon_low_": {
+            "182": 15477
+        },
+        "CloudyNoon_low_": {
+            "182": 15477
+        },
+        "HardRainNoon_low_": {
+            "184": 21068
+        },
+        "WetNoon_low_": {
+            "184": 18322
+        }
+    },
+    "6_s-4_0_t_sl_f_0": {
+        "ClearNoon_low_": {
+            "176": 20381
+        },
+        "HardRainSunset_high_": {
+            "179": 18086
+        },
+        "MidRainSunset_low_": {
+            "179": 18313
+        },
+        "WetCloudyNight_mid_": {
+            "179": 18046
+        },
+        "WetCloudyNoon_mid_": {
+            "180": 18186
+        },
+        "WetNight_low_": {
+            "179": 18046
+        },
+        "WetNoon_high_": {
+            "179": 18322
+        },
+        "WetSunset_mid_": {
+            "179": 18322
+        }
+    },
+    "6_s-4_0_t_sl_sr_0": {
+        "CloudySunset_mid_": {
+            "125": 16810
+        },
+        "HardRainNight_mid_": {
+            "125": 17994
+        },
+        "MidRainyNight_low_": {
+            "125": 17975
+        },
+        "WetCloudyNoon_low_": {
+            "124": 15478
+        },
+        "WetCloudySunset_high_": {
+            "125": 17059
+        },
+        "WetCloudySunset_low_": {
+            "124": 16733
+        }
+    },
+    "6_s-4_0_t_sr_f_0": {
+        "ClearSunset_low_": {
+            "133": 15466
+        },
+        "HardRainNoon_low_": {
+            "133": 15463
+        },
+        "MidRainyNoon_low_": {
+            "133": 18358
+        },
+        "WetSunset_low_": {
+            "133": 18357
+        }
+    },
+    "6_s-4_0_t_sr_sl_0": {
+        "ClearSunset_high_": {
+            "134": 16669
+        },
+        "ClearSunset_mid_": {
+            "134": 16659
+        },
+        "HardRainNoon_high_": {
+            "134": 16001
+        },
+        "WetCloudyNight_low_": {
+            "134": 16477
+        },
+        "WetCloudyNight_mid_": {
+            "134": 16477
+        },
+        "WetCloudySunset_low_": {
+            "134": 16657
+        },
+        "WetNight_high_": {
+            "133": 16477
+        },
+        "WetNoon_mid_": {
+            "131": 16092
+        }
+    },
+    "6_s-8_0_c_f_sl_0": {
+        "ClearSunset_low_": {
+            "170": 15477
+        },
+        "CloudyNight_low_": {
+            "172": 15588
+        },
+        "MidRainyNoon_low_": {
+            "170": 19464
+        },
+        "WetCloudySunset_high_": {
+            "172": 23138
+        },
+        "WetSunset_low_": {
+            "170": 15478
+        }
+    },
+    "6_s-8_0_c_sl_f_0": {
+        "ClearNoon_low_": {
+            "160": 15477
+        },
+        "CloudyNoon_high_": {
+            "161": 16186
+        },
+        "MidRainyNight_low_": {
+            "159": 50121
+        },
+        "WetNoon_low_": {
+            "160": 15477
+        }
+    },
+    "6_s-8_0_c_sr_f_0": {
+        "HardRainNoon_low_": {
+            "172": 16570
+        },
+        "HardRainSunset_low_": {
+            "172": 17002
+        },
+        "WetCloudyNight_high_": {
+            "172": 16034
+        },
+        "WetCloudySunset_low_": {
+            "172": 16219
+        }
+    },
+    "6_s-8_0_c_sr_sl_0": {
+        "ClearNoon_low_": {
+            "164": 17651
+        },
+        "MidRainSunset_low_": {
+            "164": 17440
+        },
+        "MidRainyNight_low_": {
+            "164": 17366
+        },
+        "WetCloudyNight_low_": {
+            "164": 17173
+        },
+        "WetCloudyNoon_low_": {
+            "164": 17449
+        },
+        "WetCloudySunset_low_": {
+            "166": 17651
+        }
+    },
+    "7_i-1_1_c_f_f_rl": {
+        "CloudyNight_high_": {
+            "138": 24849
+        },
+        "CloudyNoon_mid_": {
+            "138": 26258
+        },
+        "HardRainNoon_high_": {
+            "139": 26320
+        },
+        "HardRainSunset_mid_": {
+            "138": 26883
+        },
+        "MidRainSunset_high_": {
+            "140": 26552
+        },
+        "WetCloudyNoon_low_": {
+            "141": 26236
+        },
+        "WetCloudySunset_low_": {
+            "140": 26767
+        },
+        "WetNight_low_": {
+            "140": 26735
+        }
+    },
+    "7_i-1_1_c_l_r_0": {
+        "ClearNoon_mid_": {
+            "143": 26716
+        },
+        "CloudyNight_mid_": {
+            "146": 31366
+        },
+        "CloudySunset_high_": {
+            "146": 28364
+        },
+        "MidRainSunset_mid_": {
+            "144": 27918
+        },
+        "WetCloudyNoon_low_": {
+            "145": 26661
+        },
+        "WetNight_low_": {
+            "149": 28186
+        }
+    },
+    "7_i-2_1_m_f_f_rl": {
+        "ClearNight_low_": {
+            "132": 28177
+        },
+        "CloudyNight_mid_": {
+            "132": 28429
+        },
+        "CloudyNoon_high_": {
+            "132": 28407
+        },
+        "HardRainSunset_low_": {
+            "132": 32879
+        },
+        "MidRainSunset_mid_": {
+            "132": 28363
+        },
+        "WetCloudySunset_high_": {
+            "132": 28518
+        },
+        "WetNoon_mid_": {
+            "132": 28458
+        }
+    },
+    "7_i-2_1_t_f_f_rl": {
+        "ClearNight_high_": {
+            "119": 28133
+        },
+        "ClearSunset_high_": {
+            "121": 30225
+        },
+        "CloudyNight_low_": {
+            "121": 28175
+        },
+        "WetCloudyNight_mid_": {
+            "121": 28514
+        },
+        "WetCloudyNoon_low_": {
+            "121": 28205
+        },
+        "WetCloudyNoon_mid_": {
+            "121": 31275
+        },
+        "WetCloudySunset_low_": {
+            "121": 31285
+        },
+        "WetCloudySunset_mid_": {
+            "121": 28375
+        }
+    },
+    "7_i-3_0_p_c_l_0": {
+        "CloudySunset_low_": {
+            "131": 25938
+        },
+        "HardRainNight_mid_": {
+            "130": 34067
+        },
+        "MidRainyNoon_low_": {
+            "129": 30194
+        }
+    },
+    "7_r-1_0_t_u_r_0": {
+        "ClearSunset_low_": {
+            "160": 30661
+        },
+        "HardRainNight_high_": {
+            "160": 30668
+        },
+        "HardRainNoon_high_": {
+            "160": 30376
+        },
+        "WetCloudyNight_low_": {
+            "160": 30754
+        },
+        "WetCloudyNight_mid_": {
+            "160": 30784
+        },
+        "WetCloudyNoon_low_": {
+            "160": 30422
+        },
+        "WetNoon_mid_": {
+            "160": 30485
+        },
+        "WetSunset_high_": {
+            "160": 34376
+        },
+        "WetSunset_mid_": {
+            "160": 33623
+        }
+    },
+    "7_s-1_0_b_l_f_0": {
+        "HardRainNoon_low_": {
+            "135": 30862
+        },
+        "MidRainSunset_mid_": {
+            "134": 30716
+        },
+        "MidRainyNight_low_": {
+            "133": 30701
+        },
+        "WetCloudyNoon_high_": {
+            "134": 33751
+        },
+        "WetCloudyNoon_mid_": {
+            "135": 33528
+        }
+    },
+    "7_s-1_0_b_r_f_0": {
+        "ClearNoon_high_": {
+            "145": 30738
+        },
+        "CloudyNight_mid_": {
+            "142": 28290
+        },
+        "CloudyNoon_mid_": {
+            "151": 30796
+        },
+        "MidRainSunset_low_": {
+            "147": 31360
+        },
+        "WetCloudyNoon_mid_": {
+            "135": 31388
+        }
+    },
+    "7_s-3_0_m_f_f_0": {
+        "ClearNight_mid_": {
+            "120": 35523
+        },
+        "HardRainNight_high_": {
+            "120": 31793
+        },
+        "WetCloudyNight_high_": {
+            "119": 33104
+        },
+        "WetCloudyNoon_low_": {
+            "119": 28732
+        },
+        "WetSunset_high_": {
+            "120": 31883
+        }
+    },
+    "7_s-4_0_t_l_f_0_1": {
+        "ClearNight_high_": {
+            "146": 28506
+        },
+        "CloudyNight_low_": {
+            "146": 28415
+        },
+        "CloudySunset_mid_": {
+            "146": 28353
+        },
+        "HardRainNoon_low_": {
+            "146": 28467
+        },
+        "MidRainyNight_mid_": {
+            "147": 28484
+        },
+        "WetSunset_low_": {
+            "146": 28206
+        }
+    },
+    "7_t1-2_1_m_f_r_0": {
+        "ClearNoon_high_": {
+            "147": 31366
+        },
+        "ClearSunset_high_": {
+            "156": 28620
+        },
+        "ClearSunset_low_": {
+            "160": 28515
+        },
+        "HardRainNoon_low_": {
+            "155": 28440
+        },
+        "MidRainyNoon_mid_": {
+            "168": 31087
+        },
+        "WetNight_low_": {
+            "159": 28489
+        },
+        "WetSunset_mid_": {
+            "153": 31086
+        }
+    },
+    "7_t1-2_1_m_l_r_0": {
+        "ClearNight_high_": {
+            "145": 30314
+        },
+        "ClearNight_low_": {
+            "146": 28749
+        },
+        "CloudyNight_mid_": {
+            "146": 27027
+        },
+        "HardRainSunset_mid_": {
+            "148": 29395
+        },
+        "WetNoon_high_": {
+            "146": 30610
+        }
+    },
+    "7_t1-5_0_m_f_r_0": {
+        "ClearSunset_low_": {
+            "138": 28816
+        },
+        "HardRainNight_mid_": {
+            "135": 27981
+        },
+        "MidRainSunset_high_": {
+            "140": 20328
+        },
+        "WetCloudySunset_high_": {
+            "140": 26902
+        }
+    },
+    "7_t1-5_0_m_l_f_s": {
+        "CloudyNoon_mid_": {
+            "151": 34731
+        },
+        "WetCloudyNoon_high_": {
+            "138": 35548
+        },
+        "WetNoon_low_": {
+            "142": 24570
+        }
+    },
+    "7_t2-1_0_t_l_r_0": {
+        "CloudyNoon_high_": {
+            "138": 28984
+        },
+        "HardRainNight_low_": {
+            "138": 30272
+        },
+        "MidRainyNoon_low_": {
+            "138": 28975
+        },
+        "WetCloudyNight_high_": {
+            "138": 28801
+        },
+        "WetCloudyNoon_mid_": {
+            "138": 29006
+        },
+        "WetNight_mid_": {
+            "138": 27181
+        },
+        "WetSunset_low_": {
+            "138": 28896
+        },
+        "WetSunset_mid_": {
+            "138": 28988
+        }
+    },
+    "7_t2-1_0_t_r_f_0": {
+        "ClearNight_low_": {
+            "143": 31701
+        },
+        "ClearSunset_mid_": {
+            "145": 27169
+        },
+        "HardRainSunset_low_": {
+            "143": 30826
+        },
+        "WetCloudyNoon_low_": {
+            "143": 33327
+        }
+    },
+    "7_t2-3_0_c_r_f_0": {
+        "ClearNoon_low_": {
+            "151": 29063
+        },
+        "ClearSunset_low_": {
+            "150": 29046
+        },
+        "CloudyNight_low_": {
+            "150": 41353
+        },
+        "MidRainyNight_high_": {
+            "151": 29176
+        },
+        "MidRainyNoon_mid_": {
+            "151": 29158
+        },
+        "WetSunset_high_": {
+            "150": 29001
+        },
+        "WetSunset_mid_": {
+            "151": 29051
+        }
+    },
+    "7_t2-3_0_p_c_r_0": {
+        "CloudyNight_high_": {
+            "133": 34854
+        },
+        "HardRainSunset_mid_": {
+            "134": 35174
+        },
+        "MidRainSunset_high_": {
+            "133": 35173
+        },
+        "WetNight_low_": {
+            "131": 34884
+        },
+        "WetNoon_high_": {
+            "133": 35215
+        }
+    },
+    "7_t2-5_0_b_r_f_0": {
+        "CloudyNoon_low_": {
+            "125": 35153
+        },
+        "MidRainyNight_high_": {
+            "124": 35161
+        },
+        "MidRainyNight_mid_": {
+            "125": 35182
+        },
+        "WetNight_low_": {
+            "125": 38619
+        },
+        "WetSunset_low_": {
+            "125": 35149
+        },
+        "WetSunset_mid_": {
+            "125": 38278
+        }
+    },
+    "7_t3-1_0_t_r_l_0": {
+        "CloudySunset_mid_": {
+            "132": 35250
+        },
+        "HardRainNoon_high_": {
+            "132": 35021
+        },
+        "HardRainNoon_mid_": {
+            "132": 35260
+        },
+        "MidRainyNight_high_": {
+            "132": 28970
+        },
+        "MidRainyNight_mid_": {
+            "132": 48954
+        },
+        "WetCloudyNoon_low_": {
+            "132": 35263
+        },
+        "WetCloudySunset_low_": {
+            "132": 35216
+        }
+    }
+}

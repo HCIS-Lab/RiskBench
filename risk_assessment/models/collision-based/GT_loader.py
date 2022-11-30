@@ -1,6 +1,6 @@
 import json
 
-root = '15m/'
+root = 'GT_loader/'
 collision_data = root + 'new_collision_GT.json'
 interactive_data = root + 'new_interactive_GT.json'
 obstacle_data = root + 'new_obstacle_GT.json'

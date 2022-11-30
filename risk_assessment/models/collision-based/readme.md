@@ -21,13 +21,13 @@ All ground truth files are in "15m/" folder.
 customize dataloader.
 ## SA
 
-### baseline2.py
+### dsa_rnn.py
 run model
 ### baseline2_model.py 
 model file
 ## Risky Region
 
-### baseline3.py
+### dsa_rnn_supervised.py
 run model
 ### baseline3_model.py
 model file
