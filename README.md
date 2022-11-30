@@ -16,6 +16,12 @@
 
 ### Offline Risk Assessment
 xxx
+```
+python risk_assessment_identification.py --path xxx --model xxx 
+```
 
 ### Planning-aware Risk Assessment
-xxx
+XXX
+```
+python planning_aware_eval.py --path xxx --model xxx 
+```
