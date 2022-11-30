@@ -1,4 +1,6 @@
 # RiskBench: A Scenario-based Risk Assessment Benchmark
+This is an anonymous repo for submission.
+PyTorch code for RiskBench.
 ![RiskBench](images/teaser2.png)
 
 ## System requirements
