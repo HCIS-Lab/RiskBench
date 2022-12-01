@@ -14,6 +14,7 @@ PyTorch code for RiskBench.
 ## Installation
 1. Download CARLA from xxx 
 2. Unzip CARLA.zip
+3. install the conda environment following below steps
 
 ```bash
 # create conda environment 
