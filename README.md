@@ -43,9 +43,11 @@ Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We pro
 
 step 1. 
 
-Move to the planning_aware_eval folder
-
-COPY "interactive" or "obstacle" folder to path_to_carla/PythonAPI/
+```
+cd planning_aware_eval/
+cp interactive/ path_to_carla//PythonAPI/
+cp obstacle/ path_to_carla//PythonAPI/
+```
 
 setp 2. run bash file 
 ```
