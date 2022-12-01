@@ -108,7 +108,7 @@ User can select the algorithm to be evaluated in the process.
 
 The evaluation for each algorithm take about 4 hours.
 
-The testing results will be save to results/. 
+The testing results will be save to ./results/ 
 
 To obtain the Influenced ratio and Collision rate, run the command:
 ```
