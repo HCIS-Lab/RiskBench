@@ -95,7 +95,7 @@ cp interactive/ path_to_carla/PythonAPI/
 cp obstacle/ path_to_carla/PythonAPI/
 ```
 
-setp 2. run bash file 
+setp 2: execute planning-aware risk assessment evaluation
 ```
 # For interactive scenario
 bash test_interactive.sh
@@ -103,8 +103,11 @@ bash test_interactive.sh
 # For obstacle scenario
 bash test_obstacle.sh
 ```
-Note: All the testing result will be save to folder "results"
 
-After finishing all methods, move to "results" folder and run "python data_analysis.py".
+The evaluation for each algorithm take about 4 hours.
+The testing results will be save to results/. 
 
-(It takes 4 hour to eval each method. )
+To obtain the Influenced ratio and Collision rate, run the command:
+```
+python data_analysis.py
+```
