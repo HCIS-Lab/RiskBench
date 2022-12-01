@@ -86,7 +86,7 @@ def roi_testing(root, data_type, RA):
             for actor_id in all_actor_id:
 
                 is_risky = RA[scenario_weather][str(frame_id)][actor_id]
-                if int(actor_id) in gt_cause_id and (int(start_frame) < int(frame_id)):
+                if int(actor_id) in gt_cause_id:
                     if is_risky:
                         TP += 1
                     else:
