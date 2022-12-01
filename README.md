@@ -104,7 +104,7 @@ bash test_obstacle.sh
 ```
 User can select the algorithm to be evaluated in the process.
 
-The evaluation for each algorithm take about 4 hours. (If you want to test All methods, it takes 4 days for interactive scenario)
+The evaluation for each algorithm take about 4 hours.
 
 The testing results will be save to results/. 
 
