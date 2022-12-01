@@ -97,9 +97,11 @@ mv -r obstacle/ path_to_carla/PythonAPI/
 setp 2: execute planning-aware risk assessment evaluation
 ```
 # For interactive scenario
+# You can select method after runing test_interactive.sh
 bash test_interactive.sh
 
 # For obstacle scenario
+# You can select method after runing test_obstacle.sh
 bash test_obstacle.sh
 ```
 
