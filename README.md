@@ -64,7 +64,7 @@ We currently provide sample data for testing. The full dataset will be released 
 ## Code execution
 
 ### Risk Assessment Prediction (optional)
-On coming
+We provided risk assessment prediction results preserved in json format for each algorithm. Alternatively, one can generate by following the instruction in [risk_assessment/models](https://github.com/HCIS-Lab/RiskBench/tree/main/risk_assessment/models). We will release a intergrated API soon!
 
 ### Offline Risk Assessment Evaluation
 We perform offline risk assessment evaluation (with metric F-1 score and PIC) by taking input as preserved risk assessment prediction:
