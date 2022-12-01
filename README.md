@@ -15,6 +15,45 @@ PyTorch code for RiskBench.
 1. Download CARLA from xxx 
 2. Unzip CARLA.zip
 
+```bash
+# create conda environment 
+conda create -n carla python=3.7
+
+# instal pytorch 
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+
+# install detectron2 from 
+# https://detectron2.readthedocs.io/en/latest/tutorials/install.html
+python -m pip install detectron2 -f \
+  https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
+  
+# install pytorch lighting 
+pip install pytorch-lightning==0.8.5
+pip uninstall setuptools
+pip install setuptools==59.5.0
+
+# install opencv
+pip install opencv-python
+
+# others
+pip install timm
+pip install wandb
+pip install imgaug
+pip install pandas
+pip install pygame
+pip insall gdwon
+pip install attrdict
+
+# install carla 
+cd path_to_carla/PythonAPI/dist/
+pip install carla-0.9.13-cp37-cp37m-linux_x86_64.whl
+
+# install roi align
+# You need to install cudnn on root ( outside the conda environment  )
+cd ~/planning_aware_eval/interactive/roi_two_stage/models/roi_align/
+python setup.py install
+
+```
 
 
 
