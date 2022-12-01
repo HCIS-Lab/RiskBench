@@ -1,0 +1,1 @@
+{"topology": "4_way_intersection", "traffic_light": 1, "interaction_actor_type": "car", "interaction_action_type": "right_turn", "my_action": "left_turn", "interaction": "True", "violation": "None", "map": "Town10HD"}

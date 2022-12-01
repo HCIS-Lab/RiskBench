@@ -1,0 +1,14 @@
+static.prop.streetbarrier	Transform(Location(x=-67.045288, y=-68.693176, z=0.000000), Rotation(pitch=0.000000, yaw=-269.403259, roll=0.000000))	247
+static.prop.streetbarrier	Transform(Location(x=-63.044853, y=-68.651512, z=0.000000), Rotation(pitch=0.000000, yaw=-269.403259, roll=0.000000))	248
+static.prop.streetbarrier	Transform(Location(x=-46.826225, y=24.553915, z=0.000000), Rotation(pitch=0.000000, yaw=-89.840805, roll=0.000000))	249
+static.prop.streetbarrier	Transform(Location(x=-54.826195, y=24.531687, z=0.000000), Rotation(pitch=0.000000, yaw=-89.840805, roll=0.000000))	250
+static.prop.streetbarrier	Transform(Location(x=102.578484, y=42.165668, z=0.000000), Rotation(pitch=0.000000, yaw=0.390747, roll=0.000000))	251
+static.prop.streetbarrier	Transform(Location(x=102.619400, y=36.165810, z=0.000000), Rotation(pitch=0.000000, yaw=0.390747, roll=0.000000))	252
+static.prop.streetbarrier	Transform(Location(x=44.028950, y=52.548702, z=0.000000), Rotation(pitch=0.000000, yaw=-180.751099, roll=0.000000))	253
+static.prop.streetbarrier	Transform(Location(x=44.965954, y=59.141426, z=0.000000), Rotation(pitch=0.000000, yaw=156.854340, roll=0.000000))	254
+static.prop.streetbarrier	Transform(Location(x=-106.784859, y=3.901993, z=0.000000), Rotation(pitch=0.000000, yaw=-179.357758, roll=0.000000))	255
+static.prop.streetbarrier	Transform(Location(x=-106.874527, y=11.901489, z=0.000000), Rotation(pitch=0.000000, yaw=-179.357758, roll=0.000000))	256
+static.prop.streetbarrier	Transform(Location(x=-28.581728, y=140.535553, z=0.000000), Rotation(pitch=0.000000, yaw=-449.647888, roll=0.000000))	257
+static.prop.streetbarrier	Transform(Location(x=-32.581654, y=140.510956, z=0.000000), Rotation(pitch=0.000000, yaw=-449.647888, roll=0.000000))	258
+static.prop.streetbarrier	Transform(Location(x=-28.635891, y=69.711945, z=0.000000), Rotation(pitch=0.000000, yaw=-89.926743, roll=0.000000))	259
+static.prop.streetbarrier	Transform(Location(x=-35.643353, y=71.004410, z=0.000000), Rotation(pitch=0.000000, yaw=-115.975143, roll=0.000000))	260
