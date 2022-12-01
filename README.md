@@ -32,7 +32,7 @@ Arguments:
 | :------------ | :--------------------------------------------------- | :--------: |
 | --path        | path of the stored prediction .json file             | prediction |
 | --model       | name of the risk assessment method                   | two-stage  |
-| --metric      | Risk assessment metric                               |     F1     |
+| --metric      | risk assessment metric                               |     F1     |
 | --scenario    | scenario filter, default is ""                       |    Rain    |
 | --save_result | save result to {PREDICTION_PATH}/result/{MODEL}.json |    None    |
 
