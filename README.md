@@ -20,9 +20,8 @@ PyTorch code for RiskBench.
 We provided risk assessment results in json format. User 
 
 ### Offline Risk Assessment
-xxx
 ```
-python risk_assessment_identification.py --path xxx --model xxx 
+python risk_assessment_identification.py --path {root_path} --model {model}	--ttc --roi
 ```
 
 ### Planning-aware Risk Assessment
