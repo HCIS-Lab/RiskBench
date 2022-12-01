@@ -25,8 +25,11 @@ def analysis(name):
     print(counter)
     f.close
     x = count_min_distance/counter
-   
-    # x = -(x-6.2384)/6.2384
+    
+    
+    # you need to modify orig_D according No mask Result
+    orig_D = 6.2384
+    x = -(x-orig_D)/orig_D
     
     y = float(collision_counter/counter)
     name_ = name.split(".")[0]
