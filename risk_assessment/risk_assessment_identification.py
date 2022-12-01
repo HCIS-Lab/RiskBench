@@ -178,7 +178,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--save_result', default=True)
-    parser.add_argument('--mode', required=True, choices=["F1", "PIC"])
+    parser.add_argument('--metric', required=True, choices=["F1", "PIC"])
     parser.add_argument('--path', default="prediction")
     parser.add_argument('--scenario', required=False, default="",
                         choices=["Sunset", "Rain", "Noon", "Night", "low", "mid", "high"])
@@ -192,7 +192,7 @@ if __name__ == '__main__':
     attr = args.scenario
     method = args.model
 
-    if args.mode == "F1":
+    if args.metric == "F1":
         F1(root, method, save, attr)
-    if args.mode == "PIC":
+    if args.metric == "PIC":
         PIC(root, method, save, attr)
