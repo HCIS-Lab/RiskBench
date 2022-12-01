@@ -27,7 +27,7 @@ def analysis(name):
     x = count_min_distance/counter
     
     
-    # you need to modify orig_D according No mask Result
+    print("you need to modify orig_D according to No mask Result")
     orig_D = 6.2384
     x = -(x-orig_D)/orig_D
     
