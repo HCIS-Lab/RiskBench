@@ -61,3 +61,4 @@ bash test_obstacle.sh
 Note: All the testing result will be save to folder "results"
 
 After finishing all methods, move to "results" folder and run "python data_analysis.py".
+(It takes 4 hour to eval each method. )
