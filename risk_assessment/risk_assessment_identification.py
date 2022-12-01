@@ -164,7 +164,7 @@ def F1(root, method, save, attr):
     all_result.append(result)
 
     if save:
-        save_path = f"prediction/result/{method}.json"
+        save_path = f"{root}/result/{method}.json"
 
     with open(save_path, 'w') as f:
         json.dump(all_result, f, indent=4)

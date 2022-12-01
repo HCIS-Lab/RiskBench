@@ -23,8 +23,18 @@ We provide risk assessment results in json format though, user can generate risk
 ### Offline Risk Assessment
 We perform offline risk assessment evaluation (with metric F-1 score and PIC) by taking input as preserved risk assessment prediction:
 ```
-python risk_assessment_identification.py --path {PREDICTION_PATH} --model {MODEL} --mode {MODE}
+python risk_assessment_identification.py --path {PREDICTION_PATH} --model {MODEL} --mode {MODE} --scenario {ATTRIBUTE}
 ```
+
+Arguments: 
+
+| Parameter     | Description                                          |  Example   |
+| :------------ | :--------------------------------------------------- | :--------: |
+| --path        | path of the stored prediction .json file             | prediction |
+| --model       | name of the risk assessment method                   | two-stage  |
+| --mode        | Risk assessment metric                               |     F1     |
+| --scenario    | scenario filter, default is ""                       |    Rain    |
+| --save_result | save result to {PREDICTION_PATH}/result/{MODEL}.json |    None    |
 
 ### Planning-aware Risk Assessment
 Planning-aware risk assessment evaluation takes place in CARLA simulaotr.
