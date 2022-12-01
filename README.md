@@ -20,7 +20,7 @@ We currently provide sample data for testing. The full dataset will be released 
 ### Risk Assessment Prediction (optional)
 We provide risk assessment results in json format though, user can generate risk assessment prediction from raw data by:
 
-### Offline Risk Assessment
+### Offline Risk Assessment Evaluation
 We perform offline risk assessment evaluation (with metric F-1 score and PIC) by taking input as preserved risk assessment prediction:
 ```
 python risk_assessment_identification.py --path {PREDICTION_PATH} --model {MODEL} --metric {METRIC} --scenario {ATTRIBUTE}
@@ -38,7 +38,7 @@ Arguments:
 
 ### Planning-aware Risk Assessment
 Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
-XXX
+
 ```
 python planning_aware_eval.py --path xxx --model xxx 
 ```
