@@ -26,7 +26,9 @@ def analysis(name):
     f.close
     x = count_min_distance/counter
    
-    # x = -(x-6.2384)/6.2384
+    # you need to modify orig_D according No mask Result
+    orig_D = 3.1788
+    x = -(x-orig_D)/orig_D
     
     y = float(collision_counter/counter)
     name_ = name.split(".")[0]
@@ -52,6 +54,9 @@ if __name__ == '__main__':
         "./test_result_10_0_/result_obstacle.txt", 
         "./test_result_11_0_/result_obstacle.txt"
     ]
+    
+    for n in names:
+        analysis(n)
 
     names_obstacle_region = [
         "./test_result_0_1_/result_obstacle.txt", 
@@ -68,8 +73,7 @@ if __name__ == '__main__':
         "./test_result_11_1_/result_obstacle.txt"
     ]
     
-    for n in names:
-        analysis(n)
+
 
     for n in names_obstacle_region:
         analysis(n)
