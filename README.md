@@ -13,7 +13,7 @@ PyTorch code for RiskBench.
 ## Installation
 
 ## Dataset
-We currently provide sample scenarios for testing. The full dataset will be released soon.
+We currently provide sample data for testing. The full dataset will be released soon.
 
 ## Code execution
 
@@ -37,7 +37,7 @@ Arguments:
 | --save_result | save result to {PREDICTION_PATH}/result/{MODEL}.json |    None    |
 
 ### Planning-aware Risk Assessment
-Planning-aware risk assessment evaluation takes place in CARLA simulaotr.
+Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
 XXX
 ```
 python planning_aware_eval.py --path xxx --model xxx 
