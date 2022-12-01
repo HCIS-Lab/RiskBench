@@ -12,7 +12,7 @@ PyTorch code for RiskBench.
 - GPU ( Tested using Nvidia rtx3090)
 
 ## Installation
-1. Download CARLA from xxx 
+1. Download CARLA from https://drive.google.com/file/d/1bQE3H4mh2WBSGK8tZ4UzTfogce-5HcEJ/view?usp=share_link
 2. Unzip CARLA.zip
 3. install the conda environment following below steps
 
