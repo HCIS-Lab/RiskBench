@@ -60,11 +60,14 @@ def getGTframe(root, scenario_type, scenario_weather):
         return [int(data[scenario_id][weather]["nearest_obstacle_id"])], start, end
 
 
-def roi_testing(root, data_type, RA):
+def roi_testing(root, data_type, RA, attr):
 
     TP, FN, FP, TN = 0, 0, 0, 0
 
     for scenario_weather in RA.keys():
+
+        if not attr in scenario_weather:
+            continue
 
         # due to TTC_GT_loader no collision gt "10_t1-2_0_p_j_r_j"
         if '_'.join(scenario_weather.split('_')[:-3]) == "10_t1-2_0_p_j_r_j":
@@ -142,7 +145,7 @@ def compute_f1(confusion_matrix):
     return recall, precision, f1_score
 
 
-def ROI(root, method, save):
+def F1(root, method, save, attr):
     all_result = []
     confusion_matrix = np.zeros((4)).astype(int)
 
@@ -150,7 +153,7 @@ def ROI(root, method, save):
         RA = read_data(root, _type, method)
 
         # confusion_matrix: 1*4 ndarray, [TP, FN, FP, TN]
-        cur_confusion_matrix = roi_testing(root, _type, RA)
+        cur_confusion_matrix = roi_testing(root, _type, RA, attr)
         confusion_matrix += cur_confusion_matrix
 
         result, recall, precision, f1_score = show_result(
@@ -162,7 +165,7 @@ def ROI(root, method, save):
     all_result.append(result)
 
     if save:
-        save_path = f"prediction/result/{method}.json"
+        save_path = f"{root}/result/{method}.json"
 
     with open(save_path, 'w') as f:
         json.dump(all_result, f, indent=4)
@@ -463,7 +466,7 @@ def FalseAlarm(root, method, save):
     return FA_rate_per_scenario, FA_rate_per_frame
 
 
-def PIC(root, method, save):
+def PIC(root, method, save, attr):
     '''
     Progressive Increasing Cost (PIC):
         Merge results of 3 scenarios including collision, interactive and obstacle.
@@ -519,22 +522,23 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--save_result', default=True)
-    parser.add_argument('--pic', action='store_true')
-    parser.add_argument('--fa', action='store_true')
-    parser.add_argument('--roi', action='store_true')
+    parser.add_argument('--metric', required=True, choices=["F1", "PIC", "FA"])
     parser.add_argument('--path', default="prediction")
+    parser.add_argument('--scenario', required=False, default="",
+                        choices=["Sunset", "Rain", "Noon", "Night", "low", "mid", "high"])
     parser.add_argument('--model', required=True, choices=["random", "nearest", "rss", "kalman-filter", "social_gan",
                                                            "mantra", "dsa_rnn", "dsa_rnn_supervised", "single-stage", "two-stage"])
 
     args = parser.parse_args()
 
     save = args.save_result
-    method = args.model
     root = args.path
+    attr = args.scenario
+    method = args.model
 
-    if args.roi:
-        ROI(root, method, save)
-    if args.pic:
-        PIC(root, method, save)
-    if args.fa:
+    if args.metric == "F1":
+        F1(root, method, save, attr)
+    if args.metric == "PIC":
+        PIC(root, method, save, attr)
+    if args.metric == 'FA':
         FalseAlarm(root, method, save)

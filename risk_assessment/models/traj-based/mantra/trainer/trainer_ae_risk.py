@@ -49,14 +49,11 @@ class Trainer:
         self.file = open(self.folder_test + "details.txt", "w")
 
         print('Creating dataset...')
-
-        #TRAIN_DIR = 'data_carla_risk_all/train/' + data_type
-        #VAL_DIR = 'data_carla_risk_all/val/' + data_type
-        TRAIN_DIR = 'data_carla_risk_all/train/'
-        VAL_DIR = 'data_carla_risk_all/val/'
+        TRAIN_DIR = os.path.join(config.dataset_file, 'train')
+        VAL_DIR = os.path.join(config.dataset_file, 'val')
+        #TRAIN_DIR = 'data_carla_risk_all/train/'
+        #VAL_DIR = 'data_carla_risk_all/val/'
         dir_list = os.listdir(TRAIN_DIR)
-
-        train_array = []
         count = 0
         for type in dir_list:
             scenario_file = TRAIN_DIR + '/' + type
@@ -66,12 +63,7 @@ class Trainer:
                 for weather_type in os.listdir(weather_file):
                     traj_df = pd.read_csv(
                         weather_file + '/' + weather_type + '/trajectory_frame/' + scenario_name + '.csv')
-                    #traj_df['TRACK_ID'] = traj_df.TRACK_ID.apply(lambda x: 0 if (x == 'player') else x)
-
                     print(scenario_name, weather_type, count)
-
-                    # print((traj_df.OBJECT_TYPE).split('.')[0])
-                    # and traj_df.OBJECT_TYPE != 'actor.vehicle' and traj_df.OBJECT_TYPE != 'actor.pedestrian')
                     filter = (traj_df.OBJECT_TYPE != ('AGENT'))
                     traj_df = traj_df[filter].reset_index(drop=True)
                     filter = (traj_df.OBJECT_TYPE != ('actor.vehicle'))
@@ -80,38 +72,22 @@ class Trainer:
                     traj_df = traj_df[filter].reset_index(drop=True)
 
                     all_txt_list = []
-                    for filename in sorted(os.listdir('../mnt/Final_Dataset/dataset/' + type + '/' + scenario_name + '/variant_scenario/' + weather_type + '/bbox/front/')):
-                        # print(filename)
+                    for filename in sorted(os.listdir(dir_list + '/' + type + '/' + scenario_name + '/variant_scenario/' + weather_type + '/bbox/front/')):
                         all_txt_list.append(
                             int(filename.split(".")[0]))
-                    # print(all_txt_list)
                     if len(all_txt_list) != 0:
                         bbox_time_list = np.array(all_txt_list)
                         bbox_first_frame = np.min(bbox_time_list)
                         filter = (traj_df.FRAME >= int(bbox_first_frame))
                         traj_df = traj_df[filter].reset_index(drop=True)
-
-                    #       player_id = traj_df['TRACK_ID'].min()
-                    #filter = (traj_df.TRACK_ID != player_id)
-                    #traj_df_temp = traj_df[filter].reset_index(drop=True)
-                    #actor_id = traj_df_temp['TRACK_ID'].min()
-
                     vehicle_list = []
-
                     for obj_type, remain_df in traj_df.groupby('OBJECT_TYPE'):
-                        #print(obj_type, remain_df)
-                        # sys.exit()
                         if obj_type == 'EGO':
-                            #print(obj_type, player_id)
                             vehicle_list.append(remain_df)
                     len_time = len(vehicle_list[0]['FRAME'])
-                    # print(vehicle_list[0])
-                    # sys.exit()
-
                     for train_vehicle_num in range(len(vehicle_list)):
                         vehicle = vehicle_list[train_vehicle_num]
                         points = np.vstack((vehicle['X'], vehicle['Y'])).T
-
                         for t in range(len_time):
                             if len_time - t > 50:
                                 temp_past = points[t:t + 20].copy()
@@ -136,34 +112,17 @@ class Trainer:
                                     temp_past.reshape(-1, 1, 2), matRot_track).squeeze()
                                 future_rot = cv2.transform(
                                     temp_future.reshape(-1, 1, 2), matRot_track).squeeze()
-                                #print("matRot_track:", matRot_track)
                                 self.pasts.append(past_rot)
                                 self.futures.append(future_rot)
                                 self.presents.append(origin)
-
                     count += 1
-
-                    # for train_vehicle_num in range(len(vehicle_list)):
-
-                    #self.data_train = mantra.TrackDataset(train=True, name=scenario_name, weather_name=weather_type, num_time=len_time, vehicle=vehicle_list[train_vehicle_num])
-                    #train_array.append(mantra.TrackDataset(train=True, name=scenario_name, weather_name=weather_type, num_time=len_time, vehicle=vehicle_list[train_vehicle_num]))
-                    # for train_time_num in range(len_time):
-                    #    if len_time - train_time_num > 50:
-                    #        points = np.vstack((vehicle_list[train_vehicle_num]['X'], vehicle_list[train_vehicle_num]['Y'])).T # For now, 1 car, train_vehicle_num = 0
-                    #        temp_past = points[train_time_num:train_time_num + 20].copy()
-                    #        temp_future = points[train_time_num + 20:train_time_num + 50].copy()
-                    #        train_array.append(mantra.TrackDataset(train=True, name=scenario_name, weather_name=weather_type, num_time=train_time_num, vehicle=vehicle_list[train_vehicle_num]))
         self.pasts = torch.FloatTensor(self.pasts)
         self.futures = torch.FloatTensor(self.futures)
         self.presents = torch.FloatTensor(self.presents)
-        print(self.pasts.shape, self.futures.shape, self.presents.shape)
         self.data_train = mantra.CarlaDataset(
             past=self.pasts, future=self.futures, present=self.presents)
         self.train_loader = DataLoader(
             self.data_train, batch_size=256, num_workers=8, shuffle=True)
-        #print("len:", len(self.data_train))
-        # sys.exit()
-        val_array = []
         Val_List = os.listdir(VAL_DIR)
         for type in Val_List:
             scenario_file = VAL_DIR + '/' + type
@@ -179,10 +138,6 @@ class Trainer:
                     traj_df = traj_df[filter].reset_index(drop=True)
                     filter = (traj_df.OBJECT_TYPE != ('actor.pedestrian'))
                     traj_df = traj_df[filter].reset_index(drop=True)
-                    #player_id = traj_df['TRACK_ID'].min()
-                    #filter = (traj_df.TRACK_ID != player_id)
-                    #traj_df_temp = traj_df[filter].reset_index(drop=True)
-                    #actor_id = traj_df_temp['TRACK_ID'].min()
 
                     for obj_type, remain_df in traj_df.groupby('OBJECT_TYPE'):
                         if obj_type == 'EGO':
@@ -223,16 +178,12 @@ class Trainer:
         self.pasts_val = torch.FloatTensor(self.pasts_val)
         self.futures_val = torch.FloatTensor(self.futures_val)
         self.presents_val = torch.FloatTensor(self.presents_val)
-        print(self.pasts_val.shape, self.futures_val.shape,
-              self.presents_val.shape)
         self.data_test = mantra.CarlaDataset(
             past=self.pasts_val, future=self.futures_val, present=self.presents_val)
         self.val_loader = DataLoader(
             self.data_test, batch_size=256, num_workers=8, shuffle=False)
 
         print('Dataset created')
-        #print("test_len:", len(self.data_test[0]), self.data_test[0], self.data_test[-1])
-        # sys.exit()
         self.settings = {
             "batch_size": config.batch_size,
             "use_cuda": config.cuda,
@@ -421,10 +372,6 @@ class Trainer:
             horizon10s += torch.sum(distances[:, 9])
             horizon20s += torch.sum(distances[:, 19])
             horizon30s += torch.sum(distances[:, 29])
-            #horizon40s += torch.sum(distances[:, 39])
-
-            #print(loader, ":", past, future, pred)
-
             # Draw sample: the first of the batch
             '''
             if loader == self.val_loader:
@@ -451,13 +398,8 @@ class Trainer:
         :return: loss
         """
         config = self.config
-        #print("config:", config)
-        # print(self.train_loader)
-        #print(index, past, future, presents, angle_presents, videos, vehicles, number_vec, scene, scene_one_hot)
-
         for step, (past, future, presents) \
                 in enumerate(tqdm.tqdm(self.train_loader)):
-            #print("step:", step)
             self.iterations += 1
             past = Variable(past)
             future = Variable(future)
