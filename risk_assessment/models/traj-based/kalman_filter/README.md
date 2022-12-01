@@ -26,8 +26,10 @@ python3.8 kf_per_frame.py
 
 ## Preprocess for metric calculating
 You can integrate these json files into a overall format.
+```shell
 python final_output.py
     --future_length ${future_length} \
     --data_path ${data_path} \
     --val_or_test ${val_or_test} \
     --method ${mantra}
+```

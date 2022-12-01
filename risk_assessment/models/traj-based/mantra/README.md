@@ -12,6 +12,7 @@ You can train the model by running the following script.
 python3.8 train_ae_risk.py
 python3.8 train_controllerMem_risk.py --model ${model_ae_path}
 ```
+You can download the pretrained weight for each scenario type by the following [google drive link](https://drive.google.com/drive/folders/1DGENQhLkSGrihMi1JsaZItqkNazUD52_).
 
 ## Evaluation
 For the performance evaluation, you can use the following script to get the ADE/FDE for each scenario type.
@@ -42,21 +43,25 @@ python test.py \
 ```
 
 ## Risky object identification (faster)
+```shell
 You can get a risky object file as a json file in each scenario.
 python extract_data_no_plot.py
     --future_length ${future_length} \
     --data_path ${data_path} 
-
+```
 ## Risky object identification with bev figures (slower)
 You can get a risky object file as a json file and bird-eye-view prediction figures of each frame in each scenario.
+```shell
 python extract_data.py
     --future_length ${future_length} \
     --data_path ${data_path} 
-
+```
 ## Preprocess for metric calculating
 You can integrate these json files into a overall format.
+```shell
 python final_output.py
     --future_length ${future_length} \
     --data_path ${data_path} \
     --val_or_test ${val_or_test} \
     --method ${mantra}
+```

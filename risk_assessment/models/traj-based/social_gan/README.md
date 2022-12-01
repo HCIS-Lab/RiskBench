@@ -53,20 +53,24 @@ bash save_result.sh ${sc_type} ${test_or_val} ${pred_len} ${input_dir} ${output_
 
 ## Risky object identification (faster)
 You can get a risky object file as a json file in each scenario.
+```shell
 python extract_data_no_plot.py
     --future_length ${future_length} \
     --data_path ${data_path} 
-
+```
 ## Risky object identification with bev figures (slower)
 You can get a risky object file as a json file and bird-eye-view prediction figures of each frame in each scenario.
+```shell
 python extract_data.py
     --future_length ${future_length} \
     --data_path ${data_path} 
-
+```
 ## Preprocess for metric calculating
 You can integrate these json files into a overall format.
+```shell
 python final_output.py
     --future_length ${future_length} \
     --data_path ${data_path} \
     --val_or_test ${val_or_test} \
     --method ${mantra}
+```
