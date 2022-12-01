@@ -17,14 +17,16 @@ PyTorch code for RiskBench.
 ## Code execution
 
 ### Risk Assessment Prediction (optional)
-We provided risk assessment results in json format. User 
+We provide risk assessment results in json format though, user can generate risk assessment prediction from raw data by:
 
 ### Offline Risk Assessment
+We perform offline risk assessment evaluation (with metric F-1 score and PIC) by taking input as preserved risk assessment prediction:
 ```
-python risk_assessment_identification.py    --path {PREDICTION_PATH}   --model {MODEL}   --ttc   --roi
+python risk_assessment_identification.py --path {PREDICTION_PATH}   --model {MODEL}   --ttc   --roi
 ```
 
 ### Planning-aware Risk Assessment
+Planning-aware risk assessment evaluation takes place in CARLA simulaotr.
 XXX
 ```
 python planning_aware_eval.py --path xxx --model xxx 
