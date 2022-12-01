@@ -9,6 +9,7 @@ PyTorch code for RiskBench.
 - PyTorch (Tested using PyTorch 1.10.0)
 - CUDA (Tested using CUDA 11.3)
 - CARLA (Tested using CARLA 0.9.13)
+- GPU ( Nvidia rtx3090)
 
 ## Installation
 
