@@ -36,8 +36,6 @@ Arguments:
 | --scenario    | scenario filter, default is ""                       |    Rain    |
 | --save_result | save result to {PREDICTION_PATH}/result/{MODEL}.json |    None    |
 
-### Planning-aware Risk Assessment
-Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
 
 ### Planning-aware Risk Assessment
 Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
