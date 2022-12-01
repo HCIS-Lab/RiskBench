@@ -1,6 +1,7 @@
-import numpy as np
-import json
 import argparse
+import json
+import numpy as np
+import os
 
 data_type = ['interactive', 'obstacle', 'non-interactive', 'collision']
 
@@ -166,19 +167,363 @@ def ROI(root, method, save):
     with open(save_path, 'w') as f:
         json.dump(all_result, f, indent=4)
 
+def retrieve_prediction(predictions, id, weather):
+    '''
+    parse prediction result
+    return scneario raw_data
+    '''
 
-def TTC(root, method, save):
-    pass
+    raw_data = predictions[id + '_'+ weather]
+    # print(id + '_'+ weather)
+    # assert(len(raw_data) != 0)
+    return raw_data
+
+def jsonToDict(file_path):
+    with open(file_path) as f:
+        data = json.load(f)
+        f.close()
+        return data
+
+GT_root = './prediction/GT_loader/'
+dataset_town = '10'
+
+def parse_collision_data(root, method):    
+    print ('====parsing collision data====')
+    preds = jsonToDict(os.path.join(os.getcwd(), root, method, 'RA_collision.json'))
+    collision_GT = jsonToDict(os.path.join(os.getcwd(), root, 'TTC_GT_loader', 'new_collision_GT.json'))
+
+    before_GTframe_sample_result = dict()
+    
+    scenario_counter = 0
+    missing_list = list()
+
+    for s_id, weathers in collision_GT.items():
+        if s_id.startswith(dataset_town):
+            for weather, gts in weathers.items():
+                scenario_counter += 1
+                GT_frame_num = gts['gt_end_frame']
+                id = gts[str(GT_frame_num)]
+                
+                id_str = str(id)
+                
+                try:
+                    a_pred = retrieve_prediction(preds, s_id, weather)
+
+                except KeyError:
+                    missing_list.append([s_id, weather])
+                    continue
+                frame_prediction_per_scenario = np.zeros((400, 3),dtype=int)  # 400 frame: [{TP}, {FP}, {FN}]
+                for frame, data in a_pred.items():
+                    frame_num = int(frame)
+                    if frame_num < GT_frame_num:
+                        for id, tf in data.items():
+                            try:
+                                frame_index_before_GT_frame = GT_frame_num-frame_num-1
+                                if id == id_str:
+                                    if tf == True: # TP
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][0] += 1
+                                    else: # FN
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][2] += 1
+                                else:
+                                    if tf == True: # FP
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][1] += 1
+                            except KeyError: # no GT id
+                                continue
+                before_GTframe_sample_result['collision/'+s_id + '/' + weather] = frame_prediction_per_scenario
+                        
+                
+    effective_total = scenario_counter-len(missing_list)
+    
+    # print('Missing list', missing_list)
+    # print('#. of missing_list:',len(missing_list))        
+
+    # print('Total_scneario:', scenario_counter)
+    # print('Effective scenario amount:', effective_total)
+    # print ('====Done====')
+
+    return before_GTframe_sample_result
+
+def parse_interactive_data(root, method):    
+    print ('====parsing interactive data====')
+    preds = jsonToDict(os.path.join(os.getcwd(), root, method, 'RA_interactive.json'))
+    interactive_GT = jsonToDict(os.path.join(os.getcwd(), root, 'TTC_GT_loader', 'new_interactive_GT.json'))
+
+    before_GTframe_sample_result = dict()
+    
+    scenario_counter = 0
+    missing_list = list()
+
+    for s_id, weathers in interactive_GT.items():
+        if s_id.startswith(dataset_town):
+            for weather, gts in weathers.items():
+                scenario_counter += 1
+                GT_frame_num = gts['gt_end_frame']
+                id = gts[str(GT_frame_num)]
+                
+                id_str = str(id)
+                
+                try:
+                    a_pred = retrieve_prediction(preds, s_id, weather)
+
+                except KeyError:
+                    missing_list.append([s_id, weather])
+                    continue
+                frame_prediction_per_scenario = np.zeros((400, 3),dtype=int)  # 400 frame: [{TP}, {FP}, {FN}]
+                for frame, data in a_pred.items():
+                    frame_num = int(frame)
+                    if frame_num < GT_frame_num:
+                        for id, tf in data.items():
+                            try:
+                                frame_index_before_GT_frame = GT_frame_num-frame_num-1
+                                if id == id_str:
+                                    if tf == True: # TP
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][0] += 1
+                                    else: # FN
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][2] += 1
+                                else:
+                                    if tf == True: # FP
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][1] += 1
+                            except KeyError: # no GT id
+                                continue
+                before_GTframe_sample_result['interactive/'+s_id + '/' + weather] = frame_prediction_per_scenario
+                        
+                
+    effective_total = scenario_counter-len(missing_list)
+    
+    # print('Missing list', missing_list)
+    # print('#. of missing_list:',len(missing_list))        
+
+    # print('Total_scneario:', scenario_counter)
+    # print('Effective scenario amount:', effective_total)
+    # print ('====Done====')
+
+    return before_GTframe_sample_result
+
+def parse_obstacle_data(root, method):
+    print ('====parsing obstacle data====')
+    preds = jsonToDict(os.path.join(os.getcwd(), root, method, 'RA_obstacle.json'))
+    obstacle_GT = jsonToDict(os.path.join(os.getcwd(), root, 'TTC_GT_loader', 'new_obstacle_GT.json'))
+
+    before_GTframe_sample_result = dict()
+    
+    scenario_counter = 0
+    missing_list = list()
+
+    for s_id, weathers in obstacle_GT.items():
+        if s_id.startswith(dataset_town):
+            for weather, gts in weathers.items():
+                scenario_counter += 1
+
+                GT_frame_num = gts['gt_end_frame']
+                id_str = gts['nearest_obstacle_id']
+                
+                try:
+                    a_pred = retrieve_prediction(preds, s_id, weather)
+                    
+                except KeyError:
+                    missing_list.append([s_id, weather])
+                    continue
+
+                frame_prediction_per_scenario = np.zeros((400, 3),dtype=int)  # 400 frame: [{TP}, {FP}, {FN}]
+                for frame, data in a_pred.items():
+                    frame_num = int(frame)
+                    if frame_num < GT_frame_num:
+                        for id, tf in data.items():
+                            try:
+                                frame_index_before_GT_frame = GT_frame_num-frame_num - 1
+                                if id == id_str:
+                                    if tf == True: # TP
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][0] += 1
+                                    else: # FN
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][2] += 1
+                                else:
+                                    if tf == True: # FP
+                                        frame_prediction_per_scenario[frame_index_before_GT_frame][1] += 1
+                            except KeyError: # no GT id
+                                continue
+                before_GTframe_sample_result['obstacle/' + s_id + '/' + weather] = frame_prediction_per_scenario
+                
+    effective_total = scenario_counter-len(missing_list)
+
+    # print('Missing list', missing_list)
+    # print('#. of missing_list:',len(missing_list))
+
+    # print('Total_scneario:', scenario_counter)
+    # print('Effective scenario amount:', effective_total)
+    # print ('====Done====')
+
+    return before_GTframe_sample_result
+
+def FalseAlarm(root, method):
+    print('====parsing non-interactive data====')
+    preds = jsonToDict(os.path.join(os.getcwd(), root, method, 'RA_collision.json'))
+    non_interactive_GT = jsonToDict(os.path.join(os.getcwd(), root, 'TTC_GT_loader', 'new_collision_GT.json'))
+
+    scenario_counter = 0
+    frame_counter = 0
+
+    FP_frame = 0
+    FP_scenario = 0
+
+    missing_list = list()
+    for scenario_id, variant_scenarios in non_interactive_GT.items():
+        if scenario_id.startswith(dataset_town):
+            for weather in variant_scenarios:
+                scenario_counter += 1
+                try:
+                    FP_init = FP_frame
+                    a_pred = retrieve_prediction(preds, scenario_id, weather)
+                    
+                    for frame, data in a_pred.items():
+                        frame_counter += 1
+
+                        for id in data.keys():
+                            if data[id] == True:
+                                FP_frame += 1
+                                break
+
+                    if FP_init != FP_frame: # FP_frame increased
+                        FP_scenario += 1
+                        
+                except KeyError:
+                    missing_list.append([scenario_id,weather])
+                    continue
+                except AssertionError:
+                    missing_list.append([scenario_id,weather])
+                    continue
+    
+    FA_rate_per_scenario = float(FP_scenario)/float(scenario_counter-len(missing_list))
+    FA_rate_per_frame = float(FP_frame)/float(frame_counter)
+    # print('missing_list:', missing_list)
+    # print('#. of missing scenarios:', len(missing_list))
+    # print('#. of non-interactive scenario:', scenario_counter)
+
+    # print('FA per scenario:', FP_scenario)
+    # print('FA rate per scenario:', FA_rate_per_scenario)
+
+    # print('frame_counter:', frame_counter)
+    print('FP_frame:', FP_frame)
+    print('FA rate per frame:', FA_rate_per_frame)
+    print('==========non-interactive end=============')
+
+    return FA_rate_per_scenario, FA_rate_per_frame
+
+def FalseAlarm(root, method, save):
+    # print('====False Alarm====')
+    preds = jsonToDict(os.path.join(os.getcwd(), root, method, 'RA_collision.json'))
+    non_interactive_GT = jsonToDict(os.path.join(os.getcwd(), root, 'TTC_GT_loader', 'new_collision_GT.json'))
+
+    scenario_counter = 0
+    frame_counter = 0
+
+    FP_frame = 0
+    FP_scenario = 0
+
+    missing_list = list()
+    for scenario_id, variant_scenarios in non_interactive_GT.items():
+        if scenario_id.startswith(dataset_town):
+            for weather in variant_scenarios:
+                scenario_counter += 1
+                try:
+                    FP_init = FP_frame
+                    a_pred = retrieve_prediction(preds, scenario_id, weather)
+                    
+                    for frame, data in a_pred.items():
+                        frame_counter += 1
+
+                        for id in data.keys():
+                            if data[id] == True:
+                                FP_frame += 1
+                                break
+
+                    if FP_init != FP_frame: # FP_frame increased
+                        FP_scenario += 1
+                        
+                except KeyError:
+                    missing_list.append([scenario_id,weather])
+                    continue
+                except AssertionError:
+                    missing_list.append([scenario_id,weather])
+                    continue
+    
+    FA_rate_per_scenario = float(FP_scenario)/float(scenario_counter-len(missing_list))
+    FA_rate_per_frame = float(FP_frame)/float(frame_counter)
+    # print('missing_list:', missing_list)
+    # print('#. of missing scenarios:', len(missing_list))
+    # print('#. of non-interactive scenario:', scenario_counter)
+
+    # print('FA per scenario:', FP_scenario)
+    print('FA rate per scenario:', FA_rate_per_scenario)
+
+    # print('frame_counter:', frame_counter)
+    # print('FP_frame:', FP_frame)
+    print('FA rate per frame:', FA_rate_per_frame)
+    # print('==========non-interactive end=============')
+
+    return FA_rate_per_scenario, FA_rate_per_frame
+
+
+def PIC(root, method, save):
+    '''
+    Progressive Increasing Cost (PIC):
+        Merge results of 3 scenarios including collision, interactive and obstacle.
+        lowest_value = 1e-7 (if f-1 score == 0)
+    '''
+    collision_result = parse_collision_data(root, method)
+    interactive_result = parse_interactive_data(root, method)
+    obstacle_result = parse_obstacle_data(root, method)
+    result_dict = {**collision_result, **interactive_result, **obstacle_result}
+
+    result = np.zeros((400,3))
+
+    for s_id, pred in result_dict.items():
+        if 'non-interactive' not in s_id:
+            result += pred
+
+    lowest_value = 1e-7
+    # precision
+    Y_TP = result[:, 0]
+    Y_FP = result[:, 1]
+    T_P = Y_TP + Y_FP
+    index = np.where(T_P > 0)
+    Y_precision = np.zeros(400)
+    Y_precision[index] = Y_TP[index] / T_P[index]
+    index = np.where(Y_precision == 0)
+    Y_precision[index] = lowest_value
+
+    # recall 
+    Y_TP = result[:, 0]
+    Y_FN = result[:, 2]
+    P = Y_TP + Y_FN
+    index = np.where(P > 0)
+    Y_recall = np.zeros(400)
+    Y_recall[index] = Y_TP[index] / P[index]
+    index = np.where(Y_recall == 0)
+    Y_recall[index] = lowest_value
+
+    # F1
+    index = np.where((Y_precision + Y_recall) > 0)
+    Y_F1 = np.zeros(400)
+    Y_F1[index] = 2 * Y_precision[index] * Y_recall[index] / (Y_precision[index] + Y_recall[index])
+    index = np.where(Y_F1 == 0)
+    Y_F1[index] = lowest_value
+
+    # exponential F1 loss in 3 s
+    loss = 0
+    for i in range(60):
+        loss += -(np.exp(-((i+1)*0.05))*np.log(Y_F1[i]))
+    print('F1 loss in 3s:', loss)
 
 
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--save_result', default=True)
-    parser.add_argument('--ttc', action='store_true')
+    parser.add_argument('--pic', action='store_true')
+    parser.add_argument('--fa', action='store_true')
     parser.add_argument('--roi', action='store_true')
     parser.add_argument('--path', default="prediction")
-    parser.add_argument('--model', required=True, choices=["random", "nearest", "kalman-filter", "social_gan",
+    parser.add_argument('--model', required=True, choices=["random", "nearest", "rss", "kalman-filter", "social_gan",
                                                            "mantra", "dsa_rnn", "dsa_rnn_supervised", "single-stage", "two-stage"])
 
     args = parser.parse_args()
@@ -189,5 +534,7 @@ if __name__ == '__main__':
 
     if args.roi:
         ROI(root, method, save)
-    if args.ttc:
-        TTC(root, method, save)
+    if args.pic:
+        PIC(root, method, save)
+    if args.fa:
+        FalseAlarm(root, method, save)
