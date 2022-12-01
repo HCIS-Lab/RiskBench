@@ -5,9 +5,9 @@ PyTorch code for RiskBench.
 
 ## System requirements
 - Linux (Tested on Ubuntu 18.04)
-- Python3 (Tested using Python xxx)
-- PyTorch (Tested using PyTorch xxx)
-- CUDA (Tested using CUDA xxx)
+- Python3 (Tested using Python 3.7)
+- PyTorch (Tested using PyTorch 1.10.0)
+- CUDA (Tested using CUDA 11.3)
 - CARLA (Tested using CARLA 0.9.13)
 
 ## Installation
