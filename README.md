@@ -87,12 +87,11 @@ Arguments:
 ![planning aware ](images/planning_aware.gif)
 Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
 
-step 1. 
-
+step 1: move the recorded scenarios to the CARLA folder
 ```
 cd planning_aware_eval/
-cp interactive/ path_to_carla/PythonAPI/
-cp obstacle/ path_to_carla/PythonAPI/
+mv -r interactive/ path_to_carla/PythonAPI/
+mv -r obstacle/ path_to_carla/PythonAPI/
 ```
 
 setp 2: execute planning-aware risk assessment evaluation
