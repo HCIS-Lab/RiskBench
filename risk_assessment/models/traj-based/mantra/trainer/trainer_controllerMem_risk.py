@@ -50,10 +50,10 @@ class Trainer():
         self.file = open(self.folder_test + "details.txt", "w")
 
         print('creating dataset...')
-        #TRAIN_DIR = 'data_carla_risk_all/train/' + data_type
-        #VAL_DIR = 'data_carla_risk_all/val/' + data_type
-        TRAIN_DIR = 'data_carla_risk_all/train/'
-        VAL_DIR = 'data_carla_risk_all/val/'
+        TRAIN_DIR = os.path.join(config.dataset_file, 'train')
+        VAL_DIR = os.path.join(config.dataset_file, 'val')
+        #TRAIN_DIR = 'data_carla_risk_all/train/'
+        #VAL_DIR = 'data_carla_risk_all/val/'
         dir_list = os.listdir(TRAIN_DIR)
 
         for type in dir_list:
@@ -71,32 +71,13 @@ class Trainer():
                     traj_df = traj_df[filter].reset_index(drop=True)
                     filter = (traj_df.OBJECT_TYPE != ('actor.pedestrian'))
                     traj_df = traj_df[filter].reset_index(drop=True)
-                    #player_id = traj_df['TRACK_ID'].min()
-                    #filter = (traj_df.TRACK_ID != player_id)
-                    #traj_df_temp = traj_df[filter].reset_index(drop=True)
-                    #actor_id = traj_df_temp['TRACK_ID'].min()
-                    """
-                    all_txt_list = []
-                    for filename in os.listdir('../mnt/Final_Dataset/dataset/' + type + '/' + scenario_name + '/variant_scenario/' + weather_type + '/bbox/front/'):
-                        all_txt_list.append(
-                            int(filename.split(".")[0]))
-                    bbox_time_list = np.array(all_txt_list)
-                    bbox_first_frame = np.min(bbox_time_list)
-                    filter = (traj_df.FRAME >= int(bbox_first_frame))
-                    traj_df = traj_df[filter].reset_index(drop=True)
-                    """
                     for obj_type, remain_df in traj_df.groupby('OBJECT_TYPE'):
                         if obj_type == 'EGO':
                             vehicle_list.append(remain_df)
-
-                    # for obj_type, remain_df in traj_df.groupby('TRACK_ID'):
-                    #    if obj_type == player_id:
-                    #        vehicle_list.append(remain_df)
                     len_time = len(vehicle_list[0]['FRAME'])
                     for train_vehicle_num in range(len(vehicle_list)):
                         vehicle = vehicle_list[train_vehicle_num]
                         points = np.vstack((vehicle['X'], vehicle['Y'])).T
-
                         for t in range(len_time):
                             if len_time - t > 50:
                                 temp_past = points[t:t + 20].copy()
@@ -124,7 +105,6 @@ class Trainer():
                                 self.pasts.append(past_rot)
                                 self.futures.append(future_rot)
                                 self.presents.append(origin)
-                        #self.data_train = mantra.TrackDataset(train=True, name=scenario_name, weather_name=weather_type, num_time=len_time, vehicle=vehicle_list[train_vehicle_num])
         self.pasts = torch.FloatTensor(self.pasts)
         self.futures = torch.FloatTensor(self.futures)
         self.presents = torch.FloatTensor(self.presents)
@@ -148,21 +128,13 @@ class Trainer():
                     traj_df = traj_df[filter].reset_index(drop=True)
                     filter = (traj_df.OBJECT_TYPE != ('actor.pedestrian'))
                     traj_df = traj_df[filter].reset_index(drop=True)
-                    #player_id = traj_df['TRACK_ID'].min()
-                    #filter = (traj_df.TRACK_ID != player_id)
-                    #traj_df_temp = traj_df[filter].reset_index(drop=True)
-                    #actor_id = traj_df_temp['TRACK_ID'].min()
                     for obj_type, remain_df in traj_df.groupby('OBJECT_TYPE'):
                         if obj_type == 'EGO':
                             vehicle_list.append(remain_df)
-                    # for obj_type, remain_df in traj_df.groupby('TRACK_ID'):
-                    #    if obj_type == player_id:
-                    #        vehicle_list.append(remain_df)
                     len_time = len(vehicle_list[0]['FRAME'])
                     for val_vehicle_num in range(len(vehicle_list)):
                         vehicle = vehicle_list[val_vehicle_num]
                         points = np.vstack((vehicle['X'], vehicle['Y'])).T
-
                         for t in range(len_time):
                             if len_time - t > 50:
                                 temp_past = points[t:t + 20].copy()
@@ -207,7 +179,6 @@ class Trainer():
             "future_len": config.future_len
         }
         self.max_epochs = config.max_epochs
-        # load pretrained model and create memory model
         self.model_ae = torch.load(config.model_ae)
         self.mem_n2n = model_controllerMem(self.settings, self.model_ae)
         self.mem_n2n.future_len = config.future_len
@@ -318,23 +289,6 @@ class Trainer():
                 # Save model checkpoint
                 torch.save(self.mem_n2n, self.folder_test +
                            'model_controller_epoch_' + str(epoch) + '_' + self.name_test)
-
-                '''
-                # print memory on tensorboard
-                mem_size = self.mem_n2n.memory_past.shape[0]
-                for i in range(mem_size):
-                    track_mem = self.mem_n2n.check_memory(i).squeeze(0).cpu().detach().numpy()
-                    #plt.plot(track_mem[:, 0], track_mem[:, 1], marker='o', markersize=1)
-                #plt.axis('equal')
-                buf = io.BytesIO()
-                #plt.savefig(buf, format='jpeg')
-                buf.seek(0)
-                image = Image.open(buf)
-                image = ToTensor()(image).unsqueeze(0)
-                self.writer.add_image('memory_content/memory', image.squeeze(0), epoch)
-                #plt.close()
-                '''
-
                 # save results in a file .txt
                 self.save_results(dict_metrics_test, epoch=epoch + 1)
 
@@ -495,10 +449,6 @@ class Trainer():
                 index_min = torch.argmin(mean_distances, dim=1)
                 min_distances = distances[torch.arange(
                     0, len(index_min)), index_min]
-
-                #print("predict:", pred.shape)
-                # sys.exit()
-
                 eucl_mean += torch.sum(torch.mean(min_distances, 1))
                 ADE_1s += torch.sum(torch.mean(min_distances[:, :10], 1))
                 ADE_2s += torch.sum(torch.mean(min_distances[:, :20], 1))
@@ -507,18 +457,6 @@ class Trainer():
                 horizon10s += torch.sum(min_distances[:, 9])
                 horizon20s += torch.sum(min_distances[:, 19])
                 horizon30s += torch.sum(min_distances[:, 29])
-                #horizon40s += torch.sum(min_distances[:, 39])
-
-                # save in tensorboard: one for each batch
-                #vid = videos[0]
-                #vec = vehicles[0]
-                #num_vec = number_vec[0]
-                #index_track = index[0].numpy()
-                #angle = angle_presents[0].cpu()
-                # if loader == self.test_loader:
-                #    self.draw_track(past[0], future[0], scene[0], pred[0], angle, vid, vec + num_vec,
-                #                    index_tracklet=index_track, num_epoch=epoch)
-
             dict_metrics['eucl_mean'] = eucl_mean / len(loader.dataset)
             dict_metrics['ADE_1s'] = ADE_1s / len(loader.dataset)
             dict_metrics['ADE_2s'] = ADE_2s / len(loader.dataset)
@@ -526,7 +464,6 @@ class Trainer():
             dict_metrics['horizon10s'] = horizon10s / len(loader.dataset)
             dict_metrics['horizon20s'] = horizon20s / len(loader.dataset)
             dict_metrics['horizon30s'] = horizon30s / len(loader.dataset)
-            #dict_metrics['horizon40s'] = horizon40s / len(loader.dataset)
             self.writer.add_scalar(
                 'memory_size/memory_size_test', len(self.mem_n2n.memory_past), epoch)
 
