@@ -61,6 +61,8 @@ python setup.py install
 ## Dataset
 We currently provide sample data for testing. The full dataset will be released soon.
 
+sample data link : https://drive.google.com/drive/folders/1P_cMksFicHEYPuC0Nb2MYt0SbfBi7vz8?usp=share_link
+
 ## Code execution
 
 ### Risk Assessment Prediction (optional)
