@@ -45,8 +45,8 @@ step 1.
 
 ```
 cd planning_aware_eval/
-cp interactive/ path_to_carla//PythonAPI/
-cp obstacle/ path_to_carla//PythonAPI/
+cp interactive/ path_to_carla/PythonAPI/
+cp obstacle/ path_to_carla/PythonAPI/
 ```
 
 setp 2. run bash file 
@@ -59,4 +59,4 @@ bash test_obstacle.sh
 ```
 Note: All the testing result will be save to folder "results"
 
-And after finishing all methods, run "python data_analysis.py"
+After finishing all methods, run "python data_analysis.py"
