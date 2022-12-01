@@ -12,6 +12,11 @@ PyTorch code for RiskBench.
 - GPU ( Tested using Nvidia rtx3090)
 
 ## Installation
+1. Download CARLA from xxx 
+2. Unzip CARLA.zip
+
+
+
 
 ## Dataset
 We currently provide sample data for testing. The full dataset will be released soon.
