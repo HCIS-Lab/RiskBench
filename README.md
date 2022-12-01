@@ -51,4 +51,5 @@ bash test_interactive.sh
 bash test_obstacle.sh
 ```
 Note: All the testing result will be save to folder "results"
-And after finishing all method, run "python data_analysis.py"
+
+And after finishing all methods, run "python data_analysis.py"
