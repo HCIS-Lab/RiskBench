@@ -13,6 +13,7 @@ PyTorch code for RiskBench.
 ## Installation
 
 ## Dataset
+We currently provide sample scenarios for testing. The full dataset will be released soon.
 
 ## Code execution
 
