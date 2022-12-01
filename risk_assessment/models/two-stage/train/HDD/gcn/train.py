@@ -1,3 +1,7 @@
+from datasets import GCNDataLayer as DataLayer
+from models import GCN as Model
+import utils as utl
+import config as cfg
 import os
 import sys
 import time
@@ -14,19 +18,15 @@ from torchvision import transforms
 from tqdm import tqdm
 
 sys.path.insert(0, '../../../')
-import config as cfg
-import utils as utl
-from models import GCN as Model
-from datasets import GCNDataLayer as DataLayer
 
-
-# python train.py --lr 0.0000001 --time_steps 5 --batch_size 4 --num_workers 2 --cause 'interactive'
 
 def to_device(x, device):
     return x.to(device)  # .transpose(0,1)
 
+
 def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
+
 
 def load_weight(model, checkpoint):
 
@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
     model = Model(args.inputs, args.time_steps, pretrained=True,
                   partialConv=args.partial_conv, fusion=args.fusion)
-    
+
     # model = load_weight(model, "snapshots/all/2022-9-1_183046_w_dataAug_attn/inputs-camera-epoch-20.pth")
 
     model = nn.DataParallel(model).to(device)

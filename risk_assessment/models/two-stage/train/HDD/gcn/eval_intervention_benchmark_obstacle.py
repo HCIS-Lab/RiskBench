@@ -20,8 +20,6 @@ sys.path.insert(0, '../../../')
 from models import GCN as Model
 import config as cfg
 
-# python eval_intervention_benchmark.py --cause all --time_steps 5 --vis --show_process
-
 
 def vis_test(img, center_x=None, center_y=None, w=None, h=None):
     # width = 1280.0

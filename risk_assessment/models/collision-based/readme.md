@@ -16,7 +16,7 @@
 
 ## GT_loader.py
 Get ground truth frame, object id.
-All ground truth files are in "15m/" folder.
+All ground truth files are in "GT_loader/" folder.
 ## carla_dataset.py
 customize dataloader.
 ## SA

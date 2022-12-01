@@ -1,22 +1,20 @@
+from torchvision import transforms
+import torch.nn as nn
+import torch
+from datetime import datetime
+import matplotlib.pyplot as plt
+import PIL.Image as Image
+import numpy as np
+import argparse
+import json
+import cv2
+import copy
+import os.path as osp
+import os
+import config as cfg
+from models.GAT_LSTM import GAT_LSTM as Model
 import sys
 sys.path.insert(0, '../../../')
-
-from models.GAT_LSTM import GAT_LSTM as Model
-import config as cfg
-import os
-import os.path as osp
-import copy
-import cv2
-import json
-import argparse
-import numpy as np
-import PIL.Image as Image
-import matplotlib.pyplot as plt
-from datetime import datetime
-
-import torch
-import torch.nn as nn
-from torchvision import transforms
 
 
 def vis_test(img, center_x=None, center_y=None, w=None, h=None):
@@ -44,10 +42,12 @@ def vis_test(img, center_x=None, center_y=None, w=None, h=None):
 def to_device(x, device):
     return x.unsqueeze(0).to(device)
 
-towns = '05' # 10
+
+towns = '10'  # '05' or '10'
+
 
 def read_testdata():
-    
+
     test_set = []
     data_type = ["interactive", "obstacle", "collision", "non-interactive"]
 
@@ -55,13 +55,13 @@ def read_testdata():
         data_root = f'/media/waywaybao_cs10/Disk_2/Retrieve_tool/data_collection/{_type}'
 
         for basic_scene in os.listdir(data_root):
-            basic_scene_path = osp.join(data_root, basic_scene, 'variant_scenario')
-
+            basic_scene_path = osp.join(
+                data_root, basic_scene, 'variant_scenario')
 
             for var_scene in os.listdir(basic_scene_path):
                 var_scene_path = osp.join(basic_scene_path, var_scene)
 
-                if basic_scene[:2] == '5_':     # 5_ or 10
+                if basic_scene[:2] == '10':     # 5_ or 10
                     test_set.append(var_scene_path)
 
     return test_set
@@ -115,7 +115,6 @@ if __name__ == '__main__':
         transforms.Normalize(mean=[0.485, 0.456, 0.406],
                              std=[0.229, 0.224, 0.225]),
     ])
-
 
     time_steps = 5
     time_sample = 1  # 10
@@ -284,7 +283,7 @@ if __name__ == '__main__':
 
     for cnt, test_sample in enumerate(all_test, 1):
         with torch.set_grad_enabled(False):
-            
+
             # session = None
             folder = test_sample
             scenario_id = test_sample.split('/')[-3]
@@ -292,14 +291,14 @@ if __name__ == '__main__':
             dyn_desc = open(osp.join(folder, 'dynamic_description.json'))
             data = json.load(dyn_desc)
             dyn_desc.close()
-            
+
             gt_cause_id = data['player']
 
             print("===================================================")
             print(test_sample)
             print(test_sample.split('/')[-3], test_sample.split('/')[-1])
             print(gt_cause_id)
-            
+
             rgb_path = osp.join(test_sample, 'rgb/front')
             all_frame = sorted(os.listdir(rgb_path))
 
@@ -312,15 +311,17 @@ if __name__ == '__main__':
             each_roi_result = dict()
 
             for frame_id in range(first_frame_id+(time_steps-1)*time_sample, last_frame_id):
-                
+
                 et = int(frame_id)
                 st = et - (time_steps-1)*time_sample
                 pred_metrics = []
                 target_metrics = []
 
-                trackers, normalized_trackers, tracking_id = find_tracker(tracking_results, st, et)
-                
-                normalized_trackers = torch.from_numpy(normalized_trackers.astype(np.float32)).to(device)
+                trackers, normalized_trackers, tracking_id = find_tracker(
+                    tracking_results, st, et)
+
+                normalized_trackers = torch.from_numpy(
+                    normalized_trackers.astype(np.float32)).to(device)
                 normalized_trackers = normalized_trackers.unsqueeze(0)
                 num_box = len(trackers[0])
 
@@ -329,7 +330,8 @@ if __name__ == '__main__':
 
                     # camera_name = 'output{}.png'.format(str(l-1 + start_time))
                     camera_name = str(l).zfill(8)+'.png'
-                    camera_path = osp.join(test_sample, 'rgb/front', camera_name)
+                    camera_path = osp.join(
+                        test_sample, 'rgb/front', camera_name)
 
                     # save for later usage in intervention
                     read_image = Image.open(camera_path).convert('RGB')
@@ -341,18 +343,18 @@ if __name__ == '__main__':
                     camera_inputs.append(camera_input)
 
                 camera_inputs = torch.Tensor(camera_inputs)  # (t, c, w, h)
-                camera_inputs = camera_inputs.view(1, time_steps, 3, 360, 640).to(device)
+                camera_inputs = camera_inputs.view(
+                    1, time_steps, 3, 360, 640).to(device)
 
-                
+                vel, att_score_lst = model(
+                    camera_inputs, normalized_trackers, device)
 
-                vel, att_score_lst = model(camera_inputs, normalized_trackers, device)
-                
                 # Reshape and remove ego's attention
-                att_score_lst = att_score_lst[-1][1: len(tracking_id)+1].view(-1).tolist()
+                att_score_lst = att_score_lst[-1][1: len(
+                    tracking_id)+1].view(-1).tolist()
 
                 # Apply Softmax on vel result
                 confidence_go = softmax(vel).to('cpu').numpy()[0][0]
-
 
                 ##### Find each object's attention score #####
 
@@ -362,21 +364,23 @@ if __name__ == '__main__':
 
                 frame_result = dict()
                 for idx in range(len(tracking_id)):
-                    frame_result[str(tracking_id[idx])] = str(att_score_lst[idx])
+                    frame_result[str(tracking_id[idx])] = str(
+                        att_score_lst[idx])
 
                 frame_result["scenario_go"] = str(confidence_go)
                 each_roi_result[frame_id] = frame_result
 
-
-            scenario_name = test_sample.split('/')[-3] + "_" + test_sample.split('/')[-1]
-            all_roi_result[scenario_name] =  each_roi_result   
-                
-
+            scenario_name = test_sample.split(
+                '/')[-3] + "_" + test_sample.split('/')[-1]
+            all_roi_result[scenario_name] = each_roi_result
 
     ##### Store all frame, all object's risk score in json file #####
-    roi_file_name = "RA_" + args.cause + f"_town{towns}_timesteps=" + str(time_steps) + ".json"
+    roi_file_name = "RA_" + args.cause + \
+        f"_town{towns}_timesteps=" + str(time_steps) + ".json"
+    if not os.path.isdir("roi"):
+        os.makedirs("roi")
+
     roi_path = os.path.join("roi", roi_file_name)
 
     with open(roi_path, "w") as f:
-        json.dump(all_roi_result, f, indent=2, sort_keys=True)  
-
+        json.dump(all_roi_result, f, indent=2, sort_keys=True)
