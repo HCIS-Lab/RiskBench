@@ -43,8 +43,8 @@ python test.py \
 ```
 
 ## Risky object identification (faster)
-```shell
 You can get a risky object file as a json file in each scenario.
+```shell
 python extract_data_no_plot.py
     --future_length ${future_length} \
     --data_path ${data_path} 
