@@ -16,6 +16,9 @@ PyTorch code for RiskBench.
 
 ## Code execution
 
+### Risk Assessment Prediction (optional)
+We provided risk assessment results in json format. User 
+
 ### Offline Risk Assessment
 xxx
 ```
