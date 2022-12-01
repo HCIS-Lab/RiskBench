@@ -1,5 +1,11 @@
 # Social-GAN
 
+## Installation
+You can also install the dependencies using pip
+```shell
+pip install -r requirements.txt
+```
+
 ## Data Retrieving
 You can retrieve raw data to your desire position. data_type: non-interactive, interactive, obstacle, collision
 ```shell
