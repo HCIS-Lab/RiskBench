@@ -36,11 +36,12 @@ Arguments:
 | --scenario    | scenario filter, default is ""                       |    Rain    |
 | --save_result | save result to {PREDICTION_PATH}/result/{MODEL}.json |    None    |
 
-![planning aware ](images/planning_aware.gif)
+
 ### Planning-aware Risk Assessment
+![planning aware ](images/planning_aware.gif)
 Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
 
-step 1. Put all interactive(obstacle) dictionary file to path_to_carla/PythonAPI/
+step 1. Put all interactive/obstacle dictionary files to path_to_carla/PythonAPI/
 
 setp 2. run bash file 
 ```
