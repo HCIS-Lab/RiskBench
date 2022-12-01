@@ -18,7 +18,7 @@ We currently provide sample data for testing. The full dataset will be released 
 ## Code execution
 
 ### Risk Assessment Prediction (optional)
-We provide risk assessment results in json format though, user can generate risk assessment prediction from raw data by:
+On coming
 
 ### Offline Risk Assessment Evaluation
 We perform offline risk assessment evaluation (with metric F-1 score and PIC) by taking input as preserved risk assessment prediction:
