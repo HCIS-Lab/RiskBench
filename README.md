@@ -42,7 +42,7 @@ pip install wandb
 pip install imgaug
 pip install pandas
 pip install pygame
-pip insall gdwon
+pip install gdwon
 pip install attrdict
 
 # install carla 
