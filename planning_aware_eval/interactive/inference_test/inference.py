@@ -65,8 +65,47 @@ def read_input(data_path, start_frame):
 
     return img_list, bbox_list
 
+def get_features(raw_img, bbox, max_obj, device, data_path, tracking=False):
+    frame_features, roi_features = utils.run_model(raw_img, bbox, device)
+    
+    if tracking:
+        #load tracker_data
+        track_file = open(os.path.join(data_path, 'tracker.json'))
+        track_data = json.load(track_file)
+        track_file.close()
+    
+        temp = torch.zeros((max_obj, 256, 7, 7))
+        roi = roi_features[0]
+        for i, box in enumerate(bbox[0]):
+            if track_data[str(box['actor_id'])] >= max_obj:
+                continue
+            temp[track_data[str(box['actor_id'])]] = roi[i]
+    
+        roi = temp.unsqueeze(0)
+        for i, roi_temp in enumerate(roi_features[1:], 1):
+            temp = torch.zeros((max_obj, 256, 7, 7))
+    
+            for j, box in enumerate(bbox[i]):
+                if track_data[str(box['actor_id'])]>= max_obj:
+                    continue
+                temp[track_data[str(box['actor_id'])]] = roi_temp[j]
+            roi = torch.cat((roi, temp.unsqueeze(0)),dim=0)
+    else:
+        temp = torch.zeros((20,256,7,7))
+        roi = roi_features[0]
+        object_num = 20 if roi.shape[0]>20 else roi.shape[0]
+        temp[:object_num] = roi[:object_num]
+        roi = temp.unsqueeze(0)
+        for roi_temp in roi_features[1:]:
+            temp = torch.zeros((20,256,7,7))
+            object_num = 20 if roi_temp.shape[0]>20 else roi_temp.shape[0]
+            temp[:object_num] = roi_temp[:object_num]
+            roi = torch.cat((roi,temp.unsqueeze(0)),dim=0)
 
-def get_features(raw_img, bbox, max_obj, device, data_path, first_frame, tracking=False):
+    frame_features, roi = frame_features.unsqueeze(0), roi.unsqueeze(0)
+    return frame_features, roi
+
+def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_frame, tracking=False):
     frame_features, roi_features = utils.run_model(raw_img, bbox, device)
     
     state_inputs = np.zeros((roi_features.shape[0], max_obj, 4))
@@ -122,9 +161,9 @@ def get_features(raw_img, bbox, max_obj, device, data_path, first_frame, trackin
                 ego_x, ego_y = position_dict[tuple([i+first_frame, 0])] 
                
             for j,box in enumerate(bbox[i]):
-                if tracker_data[str(box['actor_id'])]>=max_obj:
+                if track_data[str(box['actor_id'])]>=max_obj:
                     continue
-                temp[tracker_data[str(box['actor_id'])]] = roi_temp[j]
+                temp[track_data[str(box['actor_id'])]] = roi_temp[j]
 
                 ### fill relative x and relative y ###
                 if state_flag:
@@ -171,14 +210,62 @@ def get_features(raw_img, bbox, max_obj, device, data_path, first_frame, trackin
     state_inputs = torch.from_numpy(state_inputs)
     return frame_features, roi, state_inputs
 
-
 def inference(device, data_path, net, start_frame):
     n_obj = 40
 
     img, bbox = read_input(data_path, start_frame)
 
     with torch.no_grad():
-        frame, roi, state = get_features(img, bbox, n_obj, device, data_path, start_frame,  tracking=True)
+        frame, roi = get_features(img, bbox, n_obj, device, data_path,  tracking=True)
+        frame, roi = frame.to(device), roi.to(device)
+
+        cur_len = roi.shape[1]
+        net.n_frame = cur_len
+        pred_c, _, pred_r, _ = net(roi, frame)
+        
+        pred_c = pred_c.cpu().numpy().squeeze(axis=0)#tx2
+        score_r = pred_r.cpu().numpy().squeeze(axis=0)#txn
+
+    track_file = open(os.path.join(data_path, 'tracker_inverse.json'))
+    track_data = json.load(track_file)
+    track_file.close()
+
+    colli_thres = 0.5
+    instance_thres = 0.8
+    accum = 1
+    result = []#list of (list:risk object) each frame
+    #sweep each frame
+
+    for i, score in enumerate(score_r):
+        risk_list = []
+        flag = True #for accumulate condition check
+        if i < accum-1:
+            flag = False
+        else:
+            for cnt in range(accum):#check accumulate condition
+                if pred_c[i-cnt, 1] < colli_thres:
+                    flag = False
+                    break
+                
+        if flag:#predict risk exist
+            for n in range(len(track_data)):#num of actual actors
+                if n >= n_obj:
+                    break
+                if score[n] > instance_thres:
+                    risk_list.append(track_data[str(n)])
+
+        result.append(risk_list)
+
+    # print(result)
+    return result
+
+def inference_intention(device, data_path, net, start_frame):
+    n_obj = 40
+
+    img, bbox = read_input(data_path, start_frame)
+
+    with torch.no_grad():
+        frame, roi, state = get_features_intention(img, bbox, n_obj, device, data_path, start_frame,  tracking=True)
         frame, roi, state = frame.to(device), roi.to(device), state.to(device)
 
         cur_len = roi.shape[1]
