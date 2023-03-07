@@ -2756,6 +2756,7 @@ def game_loop(args):
         
 
         ego_converter = Converter()
+        import gdown
         
         if not os.path.exists("./model_weight/LBC/"):
             os.makedirs("./model_weight/LBC/")
@@ -2973,16 +2974,16 @@ def game_loop(args):
             ## method 9
             # DSA-RNN-Supervised-intention
 
-            if not os.path.exists("./inference_test/baseline3/"):
-                os.makedirs("./inference_test/baseline3/")
+            # if not os.path.exists("./inference_test/baseline3/"):
+            #     os.makedirs("./inference_test/baseline3/")
 
-            if not os.path.isfile("./inference_test/baseline3/model_15"):
-                print("Download risk region weight")
-                url = "https://drive.google.com/u/4/uc?id=1WgP700b07kZGHSkZOmt8JrFIgFUuOPHG&export=download"
-                gdown.download(url, "./inference_test/baseline3/model_15")
+            # if not os.path.isfile("./inference_test/baseline3/model_15"):
+            #     print("Download risk region weight")
+            #     url = "https://drive.google.com/u/4/uc?id=1WgP700b07kZGHSkZOmt8JrFIgFUuOPHG&export=download"
+            #     gdown.download(url, "./inference_test/baseline3/model_15")
             n_obj = 40
-            model_dsa_supervised_intention = Supervised_intention(device,4, n_obj=n_obj, n_frame=60, features_size=256*7*7).to(device)
-            model_dsa_supervised_intention.load_state_dict(torch.load("./inference_test/baseline3/model_15", map_location='cuda:0'))
+            model_dsa_supervised_intention = Supervised_intention('cuda:0',4, n_obj=n_obj, n_frame=60, features_size=256*7*7).to('cuda:0')
+            model_dsa_supervised_intention.load_state_dict(torch.load("./inference_test/baseline3/model_2", map_location='cuda:0'))
             model_dsa_supervised_intention.eval()
         
 
@@ -3265,7 +3266,9 @@ def game_loop(args):
 
                             from inference_test.inference import inference 
                             from inference_test.inference import SA_inference 
+                            from inference_test.inference import inference_intention 
 
+                            # 
 
                             device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -3455,6 +3458,7 @@ def game_loop(args):
                                 elif args.method == 8:
                                     ## method 8
                                     # DSA-RNN   
+                                    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
                                     risk_obj = SA_inference(device, "./roi_two_stage/inference/test_data/", model_dsa, frame)
                                     remove_list = (risk_obj[-1])
@@ -3462,6 +3466,7 @@ def game_loop(args):
                                 elif args.method == 9:
                                     ## method 9
                                     # DSA-RNN-Supervised
+                                    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
                                     risk_obj = inference(device, "./roi_two_stage/inference/test_data/", model_dsa_supervised, frame)
                                     remove_list = (risk_obj[-1])
@@ -3494,7 +3499,9 @@ def game_loop(args):
                                 elif args.method == 13:
                                     ## method 13
                                     # DSA-RNN-Supervised intention
-
+                                    
+                                    
+                                    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
                                     risk_obj = inference_intention(device, "./roi_two_stage/inference/test_data/", model_dsa_supervised_intention, frame, traj_intention, ego_car_id)
                                     remove_list = (risk_obj[-1])
 
