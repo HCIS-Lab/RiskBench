@@ -105,105 +105,98 @@ def get_features(raw_img, bbox, max_obj, device, data_path, tracking=False):
     frame_features, roi = frame_features.unsqueeze(0), roi.unsqueeze(0)
     return frame_features, roi
 
-def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_frame, tracking=False):
+def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_frame, traj_intention,ego_id , tracking=False):
     frame_features, roi_features = utils.run_model(raw_img, bbox, device)
     
     state_inputs = np.zeros((roi_features.shape[0], max_obj, 4))
-    position_dict = dict()
-
-    name = os.listdir(os.path.join(data_path, "trajectory_frame"))[0]
-    path = os.path.join(data_path, "trajectory_frame", name)
-
-    # Let ego's id be 0
-    with open(path, newline='') as csvfile:
-        rows = csv.reader(csvfile)
-        for frame_id, object_id, _, x, y, _ in rows:
-            if frame_id != "FRAME":
-                if object_id == "player":
-                    idx = tuple([int(frame_id), 0])
-                    position_dict[idx] = [float(x), float(y)]
-                else:
-                    idx = tuple([int(frame_id), int(object_id)])
-                    position_dict[idx] = [float(x), float(y)]
-                    
-    if tracking:
-        #load tracker_data
-        track_file = open(os.path.join(data_path, 'tracker.json'))
-        track_data = json.load(track_file)
-        track_file.close()
     
+                    
+    #load tracker_data
+    track_file = open(os.path.join(data_path, 'tracker.json'))
+    track_data = json.load(track_file)
+    track_file.close()
+
 #         temp = torch.zeros((max_obj, 256, 7, 7))
 #         roi = roi_features[0]
 #         for i, box in enumerate(bbox[0]):
 #             if track_data[str(box['actor_id'])] >= max_obj:
 #                 continue
 #             temp[track_data[str(box['actor_id'])]] = roi[i]
-    
+
 #         roi = temp.unsqueeze(0)
 #         for i, roi_temp in enumerate(roi_features[1:], 1):
 #             temp = torch.zeros((max_obj, 256, 7, 7))
-    
+
 #             for j, box in enumerate(bbox[i]):
 #                 if track_data[str(box['actor_id'])]>= max_obj:
 #                     continue
 #                 temp[track_data[str(box['actor_id'])]] = roi_temp[j]
 #             roi = torch.cat((roi, temp.unsqueeze(0)),dim=0)
-        ## 
-        roi = torch.zeros((roi_features.shape[0],max_obj,256,7,7))
+    ## 
+    roi = torch.zeros((roi_features.shape[0],max_obj,256,7,7))
 
-        for i,roi_temp in enumerate(roi_features):
-            temp = torch.zeros((max_obj,256,7,7))
+    for i,roi_temp in enumerate(roi_features):
+        temp = torch.zeros((max_obj,256,7,7))
 
-            state_flag = True
-            if tuple([i+first_frame, 0]) not in position_dict: 
-                state_flag = False
-            else:
-                ego_x, ego_y = position_dict[tuple([i+first_frame, 0])] 
-               
-            for j,box in enumerate(bbox[i]):
-                if track_data[str(box['actor_id'])]>=max_obj:
+        state_flag = True
+        # if tuple([i+first_frame, 0]) not in position_dict: 
+        #     state_flag = False
+        if i+first_frame not in traj_intention:
+            state_flag = False
+        elif ego_id not in traj_intention[i+first_frame]:
+            state_flag = False
+        else:
+            ego_x, ego_y = traj_intention[i+first_frame][ego_id] 
+            
+        for j,box in enumerate(bbox[i]):
+            if track_data[str(box['actor_id'])]>=max_obj:
+                continue
+            temp[track_data[str(box['actor_id'])]] = roi_temp[j]
+
+            ### fill relative x and relative y ###
+            if state_flag:
+                # if tuple([i+first_frame, int(box['actor_id'])]) not in position_dict: 
+                #     continue
+                if i+first_frame not in traj_intention:
                     continue
-                temp[track_data[str(box['actor_id'])]] = roi_temp[j]
+                elif int(box['actor_id']) not in traj_intention[i+first_frame]:
+                    continue
 
-                ### fill relative x and relative y ###
-                if state_flag:
-                    if tuple([i+first_frame, int(box['actor_id'])]) not in position_dict: 
-                        continue
+                obj_x, obj_y = traj_intention[i+first_frame][int(box['actor_id'])]
+                rel_x = obj_x - ego_x
+                rel_y = obj_y - ego_y
+                if rel_x != 0:
+                    state_inputs[i, j, 0] = rel_x
+                if rel_y != 0:
+                    state_inputs[i, j, 1] = rel_y
 
-                    obj_x, obj_y = position_dict[tuple([i+first_frame, int(box['actor_id'])])] 
-                    rel_x = obj_x - ego_x
-                    rel_y = obj_y - ego_y
-                    if rel_x != 0:
-                        state_inputs[i, j, 0] = rel_x
-                    if rel_y != 0:
-                        state_inputs[i, j, 1] = rel_y
+                ### fill relative degree and own velocity ###
+                # pre_ego_key = tuple([i+first_frame-1, 0])
+                # pre_obj_key = tuple([i+first_frame-1, int(box['actor_id'])])
+                curr_flag = True
+                if i+first_frame-1 in traj_intention:
+                    if ego_id not in traj_intention:
+                        curr_flag = False
+                else:
+                    curr_flag = False
 
-                    ### fill relative degree and own velocity ###
-                    pre_ego_key = tuple([i+first_frame-1, 0])
-                    pre_obj_key = tuple([i+first_frame-1, int(box['actor_id'])])
+                if i+first_frame-1 in traj_intention:
+                    if int(box['actor_id']) not in traj_intention:
+                        curr_flag = False
+                else:
+                    curr_flag = False
+                if curr_flag:
+                    
+                    pre_ego_x, pre_ego_y = traj_intention[i+first_frame-1][ego_id]
+                    pre_obj_x, pre_obj_y = traj_intention[i+first_frame-1][int(box['actor_id'])]
+                    ego_direction = [ego_x - pre_ego_x, ego_y - pre_ego_y]
+                    obj_direction = [obj_x - pre_obj_x, obj_y - pre_obj_y]
 
-                    if pre_obj_key in position_dict and pre_ego_key in position_dict:
-                        pre_ego_x, pre_ego_y = position_dict[pre_ego_key]
-                        pre_obj_x, pre_obj_y = position_dict[pre_obj_key]
-                        ego_direction = [ego_x - pre_ego_x, ego_y - pre_ego_y]
-                        obj_direction = [obj_x - pre_obj_x, obj_y - pre_obj_y]
-
-                        degree = cal_angle(ego_direction, obj_direction)
-                        velocity = ((obj_x - pre_obj_x)**2 + (obj_y - pre_obj_y)**2)**0.5
-                        state_inputs[i, j, 2] = velocity
-                        state_inputs[i, j, 3] = degree
-            roi[i] = temp 
-    else:
-        temp = torch.zeros((20,256,7,7))
-        roi = roi_features[0]
-        object_num = 20 if roi.shape[0]>20 else roi.shape[0]
-        temp[:object_num] = roi[:object_num]
-        roi = temp.unsqueeze(0)
-        for roi_temp in roi_features[1:]:
-            temp = torch.zeros((20,256,7,7))
-            object_num = 20 if roi_temp.shape[0]>20 else roi_temp.shape[0]
-            temp[:object_num] = roi_temp[:object_num]
-            roi = torch.cat((roi,temp.unsqueeze(0)),dim=0)
+                    degree = cal_angle(ego_direction, obj_direction)
+                    velocity = ((obj_x - pre_obj_x)**2 + (obj_y - pre_obj_y)**2)**0.5
+                    state_inputs[i, j, 2] = velocity
+                    state_inputs[i, j, 3] = degree
+        roi[i] = temp 
 
     frame_features, roi = frame_features.unsqueeze(0), roi.unsqueeze(0)
     state_inputs = ((state_inputs-state_mean[1])/state_std[1]).astype(np.float32)
@@ -259,13 +252,13 @@ def inference(device, data_path, net, start_frame):
     # print(result)
     return result
 
-def inference_intention(device, data_path, net, start_frame):
+def inference_intention(device, data_path, net, start_frame, traj_intention,ego_id ):
     n_obj = 40
 
     img, bbox = read_input(data_path, start_frame)
 
     with torch.no_grad():
-        frame, roi, state = get_features_intention(img, bbox, n_obj, device, data_path, start_frame,  tracking=True)
+        frame, roi, state = get_features_intention(img, bbox, n_obj, device, data_path, start_frame, traj_intention,ego_id,  tracking=True)
         frame, roi, state = frame.to(device), roi.to(device), state.to(device)
 
         cur_len = roi.shape[1]
