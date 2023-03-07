@@ -62,7 +62,7 @@ class risk_obj_focal_loss(nn.Module):
 
 class Supervised_intention(nn.Module):
     def __init__(self, device, state_size, n_obj=60, n_frame=100, features_size=1024, frame_features_size=256, hidden_layer_size=256, lstm_size=256):#lstm512
-        super(Supervised, self).__init__()
+        super(Supervised_intention, self).__init__()
         self.device = device
         self.n_frame = n_frame
         self.n_obj = n_obj
