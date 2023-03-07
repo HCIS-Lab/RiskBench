@@ -172,11 +172,8 @@ def get_features(raw_img, bbox, max_obj, device, data_path, first_frame, trackin
     return frame_features, roi, state_inputs
 
 
-def inference(device, data_path, model_path, start_frame):
+def inference(device, data_path, net, start_frame):
     n_obj = 40
-    net = Supervised(device,4, n_obj=n_obj, n_frame=60, features_size=256*7*7).to(device)
-    net.load_state_dict(torch.load(model_path, map_location='cuda:0'))
-    net.eval()
 
     img, bbox = read_input(data_path, start_frame)
 
@@ -225,15 +222,13 @@ def inference(device, data_path, model_path, start_frame):
     return result
 
 
-def SA_inference(device, data_path, model_path, start_frame):
+def SA_inference(device, data_path, net, start_frame):
     accum = 1
     colli_thres = 0.5
     n_obj = 20
     instance_thres = 0.2
 
-    net = baseline2_model.Baseline_SA(20,device,0,n_frame=5,features_size=256*7*7) 
-    net= torch.nn.DataParallel(net, device_ids=[0])
-    net.load_state_dict(torch.load(model_path, map_location='cuda:0'))
+
     if device == "cpu":
         net = net.module.to(device)
     else:
