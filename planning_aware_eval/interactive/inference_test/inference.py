@@ -108,7 +108,7 @@ def get_features(raw_img, bbox, max_obj, device, data_path, tracking=False):
 def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_frame, traj_intention,ego_id , tracking=False):
     frame_features, roi_features = utils.run_model(raw_img, bbox, device)
     
-    state_inputs = np.zeros((roi_features.shape[0], max_obj, 4))
+    state_inputs = np.zeros((len(roi_features), max_obj, 4))
     
                     
     #load tracker_data
@@ -133,7 +133,7 @@ def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_fram
 #                 temp[track_data[str(box['actor_id'])]] = roi_temp[j]
 #             roi = torch.cat((roi, temp.unsqueeze(0)),dim=0)
     ## 
-    roi = torch.zeros((roi_features.shape[0],max_obj,256,7,7))
+    roi = torch.zeros((len(roi_features),max_obj,256,7,7))
 
     for i,roi_temp in enumerate(roi_features):
         temp = torch.zeros((max_obj,256,7,7))
