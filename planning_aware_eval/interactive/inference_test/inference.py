@@ -9,6 +9,18 @@ import inference_test.baseline2_model as baseline2_model
 from inference_test.Model import Supervised
 import inference_test.utils as utils
 
+def cal_angle(v1, v2):
+    """ Returns angle between two vectors.  """
+
+    if np.linalg.norm(v1) < 1e-5 or np.linalg.norm(v2) < 1e-5:
+        return 0.0
+
+    v1_u = v1 / np.linalg.norm(v1)
+    v2_u = v2 / np.linalg.norm(v2)
+    return 10*abs(np.clip(np.dot(v1_u, v2_u), -1.0, 1.0))
+
+state_mean = np.array([[0.24313546,-0.13347999,0.02635646,0.94242169],[ 0.34861214,-0.30283908,0.03641567,1.20873295],[0.6900253,1.99305726,0.02738251,1.08331018]])
+state_std = np.array([[15.62638275,14.08752373,0.08069739,2.78160651],[16.40402878,16.20550719,0.09305743,3.07405014],[13.3761317,14.8920529,0.0810105,2.99580468]])
 
 def read_input(data_path, start_frame):
     
@@ -54,31 +66,94 @@ def read_input(data_path, start_frame):
     return img_list, bbox_list
 
 
-def get_features(raw_img, bbox, max_obj, device, data_path, tracking=False):
+def get_features(raw_img, bbox, max_obj, device, data_path, first_frame, tracking=False):
     frame_features, roi_features = utils.run_model(raw_img, bbox, device)
     
+    state_inputs = np.zeros((roi_features.shape[0], max_obj, 4))
+    position_dict = dict()
+
+    name = os.listdir(os.path.join(data_path, "trajectory_frame"))[0]
+    path = os.path.join(data_path, "trajectory_frame", name)
+
+    # Let ego's id be 0
+    with open(path, newline='') as csvfile:
+        rows = csv.reader(csvfile)
+        for frame_id, object_id, _, x, y, _ in rows:
+            if frame_id != "FRAME":
+                if object_id == "player":
+                    idx = tuple([int(frame_id), 0])
+                    position_dict[idx] = [float(x), float(y)]
+                else:
+                    idx = tuple([int(frame_id), int(object_id)])
+                    position_dict[idx] = [float(x), float(y)]
+                    
     if tracking:
         #load tracker_data
         track_file = open(os.path.join(data_path, 'tracker.json'))
         track_data = json.load(track_file)
         track_file.close()
     
-        temp = torch.zeros((max_obj, 256, 7, 7))
-        roi = roi_features[0]
-        for i, box in enumerate(bbox[0]):
-            if track_data[str(box['actor_id'])] >= max_obj:
-                continue
-            temp[track_data[str(box['actor_id'])]] = roi[i]
+#         temp = torch.zeros((max_obj, 256, 7, 7))
+#         roi = roi_features[0]
+#         for i, box in enumerate(bbox[0]):
+#             if track_data[str(box['actor_id'])] >= max_obj:
+#                 continue
+#             temp[track_data[str(box['actor_id'])]] = roi[i]
     
-        roi = temp.unsqueeze(0)
-        for i, roi_temp in enumerate(roi_features[1:], 1):
-            temp = torch.zeros((max_obj, 256, 7, 7))
+#         roi = temp.unsqueeze(0)
+#         for i, roi_temp in enumerate(roi_features[1:], 1):
+#             temp = torch.zeros((max_obj, 256, 7, 7))
     
-            for j, box in enumerate(bbox[i]):
-                if track_data[str(box['actor_id'])]>= max_obj:
+#             for j, box in enumerate(bbox[i]):
+#                 if track_data[str(box['actor_id'])]>= max_obj:
+#                     continue
+#                 temp[track_data[str(box['actor_id'])]] = roi_temp[j]
+#             roi = torch.cat((roi, temp.unsqueeze(0)),dim=0)
+        ## 
+        roi = torch.zeros((roi_features.shape[0],max_obj,256,7,7))
+
+        for i,roi_temp in enumerate(roi_features):
+            temp = torch.zeros((max_obj,256,7,7))
+
+            state_flag = True
+            if tuple([i+first_frame, 0]) not in position_dict: 
+                state_flag = False
+            else:
+                ego_x, ego_y = position_dict[tuple([i+first_frame, 0])] 
+               
+            for j,box in enumerate(bbox[i]):
+                if tracker_data[str(box['actor_id'])]>=max_obj:
                     continue
-                temp[track_data[str(box['actor_id'])]] = roi_temp[j]
-            roi = torch.cat((roi, temp.unsqueeze(0)),dim=0)
+                temp[tracker_data[str(box['actor_id'])]] = roi_temp[j]
+
+                ### fill relative x and relative y ###
+                if state_flag:
+                    if tuple([i+first_frame, int(box['actor_id'])]) not in position_dict: 
+                        continue
+
+                    obj_x, obj_y = position_dict[tuple([i+first_frame, int(box['actor_id'])])] 
+                    rel_x = obj_x - ego_x
+                    rel_y = obj_y - ego_y
+                    if rel_x != 0:
+                        state_inputs[i, j, 0] = rel_x
+                    if rel_y != 0:
+                        state_inputs[i, j, 1] = rel_y
+
+                    ### fill relative degree and own velocity ###
+                    pre_ego_key = tuple([i+first_frame-1, 0])
+                    pre_obj_key = tuple([i+first_frame-1, int(box['actor_id'])])
+
+                    if pre_obj_key in position_dict and pre_ego_key in position_dict:
+                        pre_ego_x, pre_ego_y = position_dict[pre_ego_key]
+                        pre_obj_x, pre_obj_y = position_dict[pre_obj_key]
+                        ego_direction = [ego_x - pre_ego_x, ego_y - pre_ego_y]
+                        obj_direction = [obj_x - pre_obj_x, obj_y - pre_obj_y]
+
+                        degree = cal_angle(ego_direction, obj_direction)
+                        velocity = ((obj_x - pre_obj_x)**2 + (obj_y - pre_obj_y)**2)**0.5
+                        state_inputs[i, j, 2] = velocity
+                        state_inputs[i, j, 3] = degree
+            roi[i] = temp 
     else:
         temp = torch.zeros((20,256,7,7))
         roi = roi_features[0]
@@ -92,24 +167,26 @@ def get_features(raw_img, bbox, max_obj, device, data_path, tracking=False):
             roi = torch.cat((roi,temp.unsqueeze(0)),dim=0)
 
     frame_features, roi = frame_features.unsqueeze(0), roi.unsqueeze(0)
-    return frame_features, roi
+    state_inputs = ((state_inputs-state_mean[1])/state_std[1]).astype(np.float32)
+    state_inputs = torch.from_numpy(state_inputs)
+    return frame_features, roi, state_inputs
 
 
 def inference(device, data_path, model_path, start_frame):
     n_obj = 40
-    net = Supervised(device, n_obj=n_obj, n_frame=60, features_size=256*7*7).to(device)
+    net = Supervised(device,4, n_obj=n_obj, n_frame=60, features_size=256*7*7).to(device)
     net.load_state_dict(torch.load(model_path, map_location='cuda:0'))
     net.eval()
 
     img, bbox = read_input(data_path, start_frame)
 
     with torch.no_grad():
-        frame, roi = get_features(img, bbox, n_obj, device, data_path,  tracking=True)
-        frame, roi = frame.to(device), roi.to(device)
+        frame, roi, state = get_features(img, bbox, n_obj, device, data_path, start_frame,  tracking=True)
+        frame, roi, state = frame.to(device), roi.to(device), state.to(device)
 
         cur_len = roi.shape[1]
         net.n_frame = cur_len
-        pred_c, _, pred_r, _ = net(roi, frame)
+        pred_c, _, pred_r, _ = net(roi, frame, state)
         
         pred_c = pred_c.cpu().numpy().squeeze(axis=0)#tx2
         score_r = pred_r.cpu().numpy().squeeze(axis=0)#txn
