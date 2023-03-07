@@ -2862,6 +2862,7 @@ def game_loop(args):
               
         ######################### single stage model 
         elif args.method == 8:
+            device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
             if not os.path.exists("./inference_test/baseline2/"):
                 os.makedirs("./inference_test/baseline2/")
 
@@ -2876,6 +2877,7 @@ def game_loop(args):
         elif args.method == 9:
             ## method 9
             # DSA-RNN-Supervised
+            device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
             if not os.path.exists("./inference_test/baseline3/"):
                 os.makedirs("./inference_test/baseline3/")
