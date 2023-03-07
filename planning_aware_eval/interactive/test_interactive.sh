@@ -15,6 +15,7 @@ echo " 8 - DSA-RNN"
 echo " 9 - DSA-RNN-Supervised"
 echo "10 - BC single-stage"
 echo "11 - BC two-stage"
+echo "12 - BC two-stage with intention"
 echo " "
 
 read -p "Enter ID to run Planning-aware Evaluation Benchmark (interactive): " ds_id

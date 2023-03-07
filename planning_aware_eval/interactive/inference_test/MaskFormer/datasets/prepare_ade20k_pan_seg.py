@@ -339,7 +339,7 @@ if __name__ == "__main__":
 
         if not os.path.isdir(out_folder):
             print("Creating folder {} for panoptic segmentation PNGs".format(out_folder))
-            os.mkdir(out_folder)
+            os.makedirs(out_folder)
 
         # json config
         config_file = "datasets/ade20k_instance_imgCatIds.json"

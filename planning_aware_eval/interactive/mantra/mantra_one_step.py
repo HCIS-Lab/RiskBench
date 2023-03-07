@@ -106,7 +106,7 @@ class Validator():
 
         import gdown
         if not os.path.exists("./mantra/"):
-            os.mkdir("./mantra/")
+            os.makedirs("./mantra/")
 
         if not os.path.isfile("./mantra/model_controller"):
             print("Download mantra weight")
@@ -190,7 +190,7 @@ class Validator():
         if True: #self.config.saved_memory:
             import gdown
             if not os.path.exists('./mantra/carla_dataset_all/'):
-                os.mkdir('./mantra/carla_dataset_all/')
+                os.makedirs('./mantra/carla_dataset_all/')
 
             if not os.path.isfile('./mantra/carla_dataset_all/memory_past.pt'):
                 print("Download mantra memory_past weight")
@@ -262,6 +262,7 @@ def mantra_inference(vehicle_list, specific_frame, variant_ego_id, pedestrian_id
     future_len = 20
 
     v = Validator(vehicle_list,  specific_frame )
+    
     print('start evaluation')
     temp_df = v.test_model()
 

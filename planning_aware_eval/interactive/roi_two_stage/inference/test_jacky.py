@@ -161,7 +161,7 @@ def train(model, all_test, image_size, camera_transforms, device, data_path='inf
             if os.path.isfile("./roi_two_stage/inference/temp_weight/roi_history.json"):
                 os.remove("./roi_two_stage/inference/temp_weight/roi_history.json")
         if not os.path.isdir(temp_weight):
-            os.mkdir(temp_weight)
+            os.makedirs(temp_weight)
 
         frame_id = int(all_test[-1].split('/')[-1].split('.')[0])
 

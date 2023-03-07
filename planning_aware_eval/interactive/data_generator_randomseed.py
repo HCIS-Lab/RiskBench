@@ -21,6 +21,7 @@ from __future__ import print_function
 # ==============================================================================
 
 from roi_two_stage.demo import roi_two_stage_inference
+from roi_two_stage_intention.demo import roi_two_stage_inference_intention
 from single_stage.demo import single_stage
 
 import glob
@@ -1275,7 +1276,11 @@ class CameraManager(object):
         self.bev_map_frame = None
         self.actor_id_array = None
         self.ins_front_array = None
+        self.ins_front_array_frame = None
+        
+        
         self.front_image = None
+        self.front_image_frame = None
 
         self.lbc_img = []
         self.top_img = []
@@ -1888,10 +1893,12 @@ class CameraManager(object):
             self.surface = pygame.surfarray.make_surface(array.swapaxes(0, 1))
         elif view == 'front':
             self.front_image = image
+            self.front_image_frame = image.frame
         elif view == 'ins_front':
             self.ins_front_array = image
             ins_front_array = np.frombuffer(image.raw_data, dtype=np.dtype("uint8"))
             self.ins_front_array = np.reshape(ins_front_array, (image.height, image.width, 4))
+            self.ins_front_array_frame = image.frame
             
         elif view == 'lbc_ins_inf':
             # print("lbc ins inf")
@@ -2091,7 +2098,7 @@ def control_with_trasform_controller(controller, transform):
 
 def collect_trajectory(get_world, agent, scenario_id, period_end, stored_path, clock):
     if not os.path.exists(stored_path + '/trajectory/'):
-        os.mkdir(stored_path + '/trajectory/')
+        os.makedirs(stored_path + '/trajectory/')
     filepath = stored_path + '/trajectory/' + str(scenario_id) + '.csv'
     is_exist = os.path.isfile(filepath)
     f = open(filepath, 'w')
@@ -2404,8 +2411,8 @@ def produce_bbx(mask, agents_dict, frame, front_image, threshold=60):
 
     image = cv2.cvtColor(np.asarray(front_image),cv2.COLOR_RGB2BGR)  
     cv2.imwrite(f'./roi_two_stage/inference/test_data/rgb/front/{frame:08d}.png', image)
-    # cv2.imwrite(f'./test.jpeg', image)
-
+    
+    
     # ID: b*256+g 
     # class : r 
     
@@ -2476,8 +2483,6 @@ def game_loop(args):
         seeds.append(random.randint(1565169134, 2665169134))
     # print(seeds)
 
-
-
     filter_dict = {}
     try:
         for root, _, files in os.walk(path + '/filter/'):
@@ -2506,10 +2511,6 @@ def game_loop(args):
     abandon_scenario = False
     scenario_name = None
     is_collision = False 
-
-
-
-
 
     try:
         client = carla.Client(args.host, args.port)
@@ -2647,11 +2648,7 @@ def game_loop(args):
                     moment.append(s[1])
             period = float(moment[-1]) - float(moment[0])
             half_period = period / 2
-        # dynamic scenario setting
-        # stored_path = os.path.join(root, scenario_name)
-        # print(stored_path)
-        # if not os.path.exists(stored_path) and not args.no_save:
-        #     os.makedirs(stored_path)
+ 
         if args.save_rss:
             print(world.rss_sensor)
             world.rss_sensor.stored_path = stored_path
@@ -2663,17 +2660,8 @@ def game_loop(args):
             raise 
 
         iter_tick = 0
-        iter_start = 15
-        iter_toggle = 50
-        # # write trajector
-        # if not os.path.exists( './trajectory_frame/'):
-        #     os.mkdir('./trajectory_frame/')
-        # filepath = stored_path + '/trajectory_frame/' + str(args.scenario_id) + '.csv'
-        # is_exist = os.path.isfile('/trajectory_frame.csv')
-
-
-
-
+        iter_start = 40
+        iter_toggle = 60
 
         # ==============================================================================
         # -- LBC init. -----------------------------------------------------------------
@@ -2768,7 +2756,7 @@ def game_loop(args):
         ego_converter = Converter()
         
         if not os.path.exists("./model_weight/LBC/"):
-            os.mkdir("./model_weight/LBC/")
+            os.makedirs("./model_weight/LBC/")
 
         if not os.path.isfile('./model_weight/LBC/epoch=29.ckpt'):
             print("Download LBC (interactive) weight")
@@ -2792,7 +2780,8 @@ def game_loop(args):
 
         
         df_list = []
-
+        traj_intention = {}
+        
 
         distance_counter = 0
         total_distance = 0.0
@@ -2811,47 +2800,138 @@ def game_loop(args):
 
 
 
-        # =======================================
-        from attrdict import AttrDict
-        from social_gan import social_gan_one_step
-        from social_gan.sgan.models import TrajectoryGenerator
+        # ======================================= socal gan 
+        if args.method == 3:
         
-        if not os.path.exists("./social_gan/"):
-            os.mkdir("./social_gan/")
+            from attrdict import AttrDict
+            from social_gan import social_gan_one_step
+            from social_gan.sgan.models import TrajectoryGenerator
+            
+            if not os.path.exists("./social_gan/"):
+                os.makedirs("./social_gan/")
 
-        if not os.path.isfile('./social_gan/gan_test_with_model_all.pt'):
-            print("Download Socal Gan weight")
-            url = "https://drive.google.com/u/0/uc?id=1R6Vjac0HZBQi3PFfrfU-fzjUQYX7RIHm&export=download"
-            output = './social_gan/gan_test_with_model_all.pt'
-            gdown.download(url, output)
+            if not os.path.isfile('./social_gan/gan_test_with_model_all.pt'):
+                print("Download Socal Gan weight")
+                url = "https://drive.google.com/u/0/uc?id=1R6Vjac0HZBQi3PFfrfU-fzjUQYX7RIHm&export=download"
+                output = './social_gan/gan_test_with_model_all.pt'
+                gdown.download(url, output)
 
-        checkpoint = torch.load("social_gan/gan_test_with_model_all.pt")
-        args_sg = AttrDict(checkpoint['args'])
-        generator = TrajectoryGenerator(
-            obs_len=args_sg.obs_len,
-            pred_len=60 ,#new_args.pred_len,
-            embedding_dim=args_sg.embedding_dim,
-            encoder_h_dim=args_sg.encoder_h_dim_g,
-            decoder_h_dim=args_sg.decoder_h_dim_g,
-            mlp_dim=args_sg.mlp_dim,
-            num_layers=args_sg.num_layers,
-            noise_dim=args_sg.noise_dim,
-            noise_type=args_sg.noise_type,
-            noise_mix_type=args_sg.noise_mix_type,
-            pooling_type=args_sg.pooling_type,
-            pool_every_timestep=args_sg.pool_every_timestep,
-            dropout=args_sg.dropout,
-            bottleneck_dim=args_sg.bottleneck_dim,
-            neighborhood_size=args_sg.neighborhood_size,
-            grid_size=args_sg.grid_size,
-            batch_norm=args_sg.batch_norm)
-        generator.load_state_dict(checkpoint['g_state'])
-        generator.cuda()
-        generator.train()
-        _args = AttrDict(checkpoint['args'])
-        _args.dataset_name = "interactive" 
-        _args.skip = 1
-        _args.pred_len = 60 
+            checkpoint = torch.load("social_gan/gan_test_with_model_all.pt")
+            args_sg = AttrDict(checkpoint['args'])
+            generator = TrajectoryGenerator(
+                obs_len=args_sg.obs_len,
+                pred_len=60 ,#new_args.pred_len,
+                embedding_dim=args_sg.embedding_dim,
+                encoder_h_dim=args_sg.encoder_h_dim_g,
+                decoder_h_dim=args_sg.decoder_h_dim_g,
+                mlp_dim=args_sg.mlp_dim,
+                num_layers=args_sg.num_layers,
+                noise_dim=args_sg.noise_dim,
+                noise_type=args_sg.noise_type,
+                noise_mix_type=args_sg.noise_mix_type,
+                pooling_type=args_sg.pooling_type,
+                pool_every_timestep=args_sg.pool_every_timestep,
+                dropout=args_sg.dropout,
+                bottleneck_dim=args_sg.bottleneck_dim,
+                neighborhood_size=args_sg.neighborhood_size,
+                grid_size=args_sg.grid_size,
+                batch_norm=args_sg.batch_norm)
+            generator.load_state_dict(checkpoint['g_state'])
+            generator.cuda()
+            generator.train()
+            _args = AttrDict(checkpoint['args'])
+            _args.dataset_name = "interactive" 
+            _args.skip = 1
+            _args.pred_len = 60 
+            
+            
+        ######################### single stage model 
+        
+        elif args.method == 10:
+            
+            def load_weight():
+                from single_stage.models.GAT_LSTM import GAT_LSTM as Model
+                
+                model = Model('camera', time_steps = 5, pretrained=False).to("cuda:0")
+                
+                checkpoint = './single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/inputs-camera-epoch-20.pth'
+
+                if not os.path.exists('./single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/'):
+                    os.makedirs('./single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/')
+
+                if not os.path.isfile(checkpoint):
+                    print("Download single stage weight")
+                    url = "https://drive.google.com/u/4/uc?id=1ZeTmPax75ivcW-XO4yZLgQWDAp08V2Ax&export=download"
+                    gdown.download(url, checkpoint)
+
+                state_dict = torch.load('./single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/inputs-camera-epoch-20.pth')
+                state_dict_copy = {}
+                for key in state_dict.keys():
+                    state_dict_copy[key[7:]] = state_dict[key]
+
+                model.load_state_dict(state_dict_copy)
+                model.train(False)                
+                return copy.deepcopy(model)
+            model_single_stage = load_weight()
+                 
+        elif args.method == 11:
+            def load_weight():
+                from roi_two_stage.models import GCN as Model
+                
+                model = Model("camera", time_steps=5, pretrained=False, partialConv=True,
+                  fusion='attn').to("cuda:0")
+                
+                checkpoint = './roi_two_stage/inference/model_weight/all/2022-10-18_195551_w_dataAug_attn/inputs-camera-epoch-20.pth'
+
+                if not os.path.exists("./roi_two_stage/inference/model_weight/all/2022-10-18_195551_w_dataAug_attn/"):
+                    os.makedirs("./roi_two_stage/inference/model_weight/all/2022-10-18_195551_w_dataAug_attn/")
+
+                if not os.path.isfile(checkpoint):
+                    print("Download roi two stage weight")
+                    url = "https://drive.google.com/u/4/uc?id=1uH3gONPhIqYAG7JK9qfryhb5y6afxxv9&export=download"
+                    gdown.download(url, checkpoint)
+
+                state_dict = torch.load(checkpoint)
+                state_dict_copy = {}
+                for key in state_dict.keys():
+                    state_dict_copy[key[7:]] = state_dict[key]
+
+                model.load_state_dict(state_dict_copy)
+                model.train(False)
+                return copy.deepcopy(model)
+            
+            model_roi_two_stage = load_weight()
+
+        
+        ##################      two stage model with intention 
+        elif args.method == 12:
+            def load_weight():
+                from roi_two_stage_intention.models import GCN as Model
+                model = Model("camera", time_steps=5, pretrained=False, partialConv=True,
+                    fusion='attn').to( "cuda:0")
+                checkpoint = './roi_two_stage_intention/inference/model_weight/all/2023-3-6_001926_w_dataAug_attn/inputs-camera-epoch-1.pth'
+
+                if not os.path.exists("./roi_two_stage_intention/inference/model_weight/all/2023-3-6_001926_w_dataAug_attn/"):
+                    os.makedirs(
+                        "./roi_two_stage_intention/inference/model_weight/all/2023-3-6_001926_w_dataAug_attn/")
+
+                if not os.path.isfile(checkpoint):
+                    print("Download roi two stage with intention weight")
+                    url = "https://drive.google.com/u/3/uc?id=1zfnHj0YYq_jue-UpNloB3ZXiSqELzvNI&export=download"
+                    gdown.download(url, checkpoint)
+                    
+                    
+                state_dict = torch.load(checkpoint)
+                state_dict_copy = {}
+                for key in state_dict.keys():
+                    state_dict_copy[key[7:]] = state_dict[key]
+                model.load_state_dict(state_dict_copy)
+                model.train(False)
+                return copy.deepcopy(model)
+            model_roi_two_stage_intention = load_weight()
+        
+        
+        
 
         while (1):
             if frame > start_frame+ 120 :
@@ -2885,13 +2965,13 @@ def game_loop(args):
                 gt_interactor_id = int(keys[0])
 
 
-
-
                 for actor in actors:
                     if actor_transform_index['player'] < len(transform_dict[actor_id]):
                         x = actor.get_location().x
                         y = actor.get_location().y
                         id = actor.id
+                        traj_intention.setdefault( frame, {})[id] = np.array([float(x), float(y)])
+                        
                         if "vehicle" in actor.type_id:
                             if id == ego_car_id:
                                 #w.writerow( [frame, id, 'EGO', str(x), str(y), args.map])
@@ -2934,10 +3014,6 @@ def game_loop(args):
                 flag_for_store_actor_list = 0
 
 
-
-
-
-                                
                 # iterate actors
                 for actor_id, _ in filter_dict.items():
 
@@ -2952,8 +3028,6 @@ def game_loop(args):
                     if actor_transform_index[actor_id] < len(transform_dict[actor_id]):
                         x = transform_dict[actor_id][actor_transform_index[actor_id]].location.x
                         y = transform_dict[actor_id][actor_transform_index[actor_id]].location.y
-
-
 
                         if 'vehicle' in filter_dict[actor_id]:
                             if actor_id != 'player':
@@ -2996,26 +3070,21 @@ def game_loop(args):
                                 else:
                                     actor_transform_index[actor_id] += 1
 
-
                             gt_actor_location = agents_dict[keys[0]].get_transform().location
-
-             
 
                         elif 'pedestrian' in filter_dict[actor_id]:
                             agents_dict[actor_id].apply_control(
                                 ped_control_dict[actor_id][actor_transform_index[actor_id]])
                             actor_transform_index[actor_id] += 1
-
                     else:
                         finish[actor_id] = True
 
 
-
-                    
                     # ==============================================================================
                     # -- LBC inference and control -------------------------------------------------
                     # ==============================================================================
-                    if actor_id == 'player':
+                    
+                    if actor_id == 'player': # and frame > start_frame - 30:
                         # get input
 
                         if True:
@@ -3029,7 +3098,17 @@ def game_loop(args):
                                 if world.camera_manager.bev_map_frame == frame:
                                     topdown = world.camera_manager.bev_map
                                     actor_id_array = world.camera_manager.actor_id_array
+                                    break
+                            
+                            while True: 
+                                
+                                if world.camera_manager.front_image_frame == frame:
                                     front_img_input = world.camera_manager.front_image
+                                    break
+                                
+                            while True: 
+                                if world.camera_manager.ins_front_array_frame == frame:
+
                                     ins_front_array = world.camera_manager.ins_front_array ## b, g, r
                                     break
                             while True:    
@@ -3173,7 +3252,6 @@ def game_loop(args):
 
                                     ## method 1 
                                     # remove ground truth id
-                                    
                                     keys = list( agents_dict.keys())
                                     keys.remove('player')
                                     gt_actor_id = agents_dict[keys[0]].id
@@ -3196,7 +3274,6 @@ def game_loop(args):
                                     ego_location.x
                                     ego_location.y
 
-
                                     nearest_distance = 100000
                                     nearest_actor = None
                                     actors = world.world.get_actors()
@@ -3218,7 +3295,6 @@ def game_loop(args):
                                 elif args.method == 4:
                                     ## method 4 
                                     #  RSS 
-
 
                                     # method 7 RSS 
                                     start_time = time.time()
@@ -3306,6 +3382,7 @@ def game_loop(args):
                                     traj_df = pd.DataFrame(df_list, columns=['FRAME', 'TRACK_ID', 'OBJECT_TYPE', 'X', 'Y', 'CITY_NAME'])
                                     traj_df['X'] = traj_df['X'].astype(float)
                                     traj_df['Y'] = traj_df['Y'].astype(float)
+                                    
                                     for _, remain_df in traj_df.groupby('TRACK_ID'): # actor id 
                                         filter = (remain_df.FRAME > ( (frame-1) - 20))
 
@@ -3327,7 +3404,7 @@ def game_loop(args):
                                     # DSA-RNN   
 
                                     if not os.path.exists("./inference_test/baseline2/"):
-                                        os.mkdir("./inference_test/baseline2/")
+                                        os.makedirs("./inference_test/baseline2/")
 
                                     if not os.path.isfile("./inference_test/baseline2/model_19"):
                                         print("Download SA weight")
@@ -3342,34 +3419,41 @@ def game_loop(args):
                                     # DSA-RNN-Supervised
 
                                     if not os.path.exists("./inference_test/baseline3/"):
-                                        os.mkdir("./inference_test/baseline3/")
+                                        os.makedirs("./inference_test/baseline3/")
 
                                     if not os.path.isfile("./inference_test/baseline3/model_15"):
                                         print("Download risk region weight")
                                         url = "https://drive.google.com/u/4/uc?id=1WgP700b07kZGHSkZOmt8JrFIgFUuOPHG&export=download"
                                         gdown.download(url, "./inference_test/baseline3/model_15")
+                                    
                                     risk_obj = inference(device, "./roi_two_stage/inference/test_data/", "./inference_test/baseline3/model_15", start_frame=frame)
                                     remove_list = (risk_obj[-1])
 
                                 elif args.method == 10:
                                     ## method 10
                                     # BC single-stage  
-                                    
-                                    if frame == start_frame+1:
-                                        remove_list = single_stage(start_frame=frame, clean_state = True)
-                                    else:
-                                        remove_list = single_stage(start_frame=frame)
-                                    print(remove_list)
 
-                                elif args.method == 11:
+                                    if frame == start_frame+1:
+                                        remove_list = single_stage(start_frame=frame, clean_state = True, model =  model_single_stage)
+                                    else:
+                                        remove_list = single_stage(start_frame=frame, clean_state = False, model =  model_single_stage)
+                                    # print(remove_list)
+
+                                elif args.method == 11: # roi two stage 
                                     
                                     ## method 11
                                     # BC two-stage
                                     
                                     if frame == start_frame+1:
-                                        remove_list = roi_two_stage_inference(start_frame=frame, clean_state = True)
+                                        remove_list = roi_two_stage_inference(start_frame=frame, clean_state = True, model = model_roi_two_stage)
                                     else:
-                                        remove_list = roi_two_stage_inference(start_frame=frame)
+                                        remove_list = roi_two_stage_inference(start_frame=frame, clean_state = False, model = model_roi_two_stage)
+                                    
+                                elif args.method == 12: # roi two stage with intention
+                                    if frame == start_frame+1:
+                                        remove_list = roi_two_stage_inference_intention(start_frame=frame, clean_state = True, ego_id = ego_car_id, intention = traj_intention, model = model_roi_two_stage_intention)
+                                    else:
+                                        remove_list = roi_two_stage_inference_intention(start_frame=frame , clean_state = False , ego_id =  ego_car_id, intention =  traj_intention, model = model_roi_two_stage_intention)
 
 
                             #######################

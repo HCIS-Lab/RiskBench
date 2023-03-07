@@ -237,7 +237,7 @@ class World(object):
                 self.recording_dir_num += 1
                 dir_name = "_out%04d" % self.recording_dir_num
             self.recording_frame_num = 0
-            os.mkdir(dir_name)
+            os.makedirs(dir_name)
         else:
             self.hud.notification('Recording finished (folder: _out%04d)' % self.recording_dir_num)
 

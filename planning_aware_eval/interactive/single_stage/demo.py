@@ -9,7 +9,7 @@ import torch
 from roi_two_stage.inference.behavior_tool import build_tracking
 from single_stage.inference.test_gat import train
 from torchvision import transforms
-from single_stage.models.GAT_LSTM import GAT_LSTM as Model
+
 import gdown
 
 
@@ -23,26 +23,7 @@ def read_testdata(data_path='inference/test_data'):
     return imgs
 
 
-def load_weight(model):
-    checkpoint = './single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/inputs-camera-epoch-20.pth'
 
-
-    if not os.path.exists('./single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/'):
-        os.mkdir('./single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/')
-
-    if not os.path.isfile(checkpoint):
-        print("Download single stage weight")
-        url = "https://drive.google.com/u/4/uc?id=1ZeTmPax75ivcW-XO4yZLgQWDAp08V2Ax&export=download"
-        gdown.download(url, checkpoint)
-
-
-    state_dict = torch.load('./single_stage/inference/model_weight/all/2022-10-30_010032_w_dataAug_attn/inputs-camera-epoch-20.pth')
-    state_dict_copy = {}
-    for key in state_dict.keys():
-        state_dict_copy[key[7:]] = state_dict[key]
-
-    model.load_state_dict(state_dict_copy)
-    return copy.deepcopy(model)
 
 
 # def read_args():
@@ -115,7 +96,7 @@ def read_log(confidence_go, risk_id_list, score_list, sweeping=1, diff_threshold
 
 
 
-def single_stage(start_frame, clean_state=False):
+def single_stage(start_frame, clean_state=False, model = None):
 
     device = torch.device('cuda')
     data_path = './roi_two_stage/inference/test_data'
@@ -135,10 +116,7 @@ def single_stage(start_frame, clean_state=False):
         png_list.append(f'{save_id:08d}.json')
     build_tracking(start_frame, data_path)
 
-    model = Model('camera', time_steps = 5, pretrained=False).to(device)
 
-    model = load_weight(model)
-    model.train(False)
 
 
     confidence_go, risk_id_list, score_list = train(model, png_list, image_size,

@@ -65,7 +65,7 @@ def get_maskformer(device,mapillary_pretrained=True):
     
     import gdown
     if not os.path.exists('./inference_test/MaskFormer/demo/'):
-        os.mkdir('./inference_test/MaskFormer/demo/')
+        os.makedirs('./inference_test/MaskFormer/demo/')
 
     if not os.path.isfile('./inference_test/MaskFormer/demo/model_final_f3fc73.pkl'):
         print("Download maskformer weight")

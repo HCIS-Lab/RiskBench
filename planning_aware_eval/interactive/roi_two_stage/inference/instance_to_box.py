@@ -149,8 +149,8 @@ def generate_actor_ids(rows):
 def produce_boxes(data_path='test_data'):
     
     if not os.path.isdir(os.path.join(data_path, 'bbox')):
-        os.mkdir(os.path.join(data_path,'bbox'))
-        os.mkdir(os.path.join(data_path,'bbox','front'))
+        os.makedirs(os.path.join(data_path,'bbox'))
+        os.makedirs(os.path.join(data_path,'bbox','front'))
     else:
         return 
 

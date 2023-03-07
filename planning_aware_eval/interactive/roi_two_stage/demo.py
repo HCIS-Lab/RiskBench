@@ -7,29 +7,12 @@ import argparse
 from roi_two_stage.inference.behavior_tool import build_tracking
 from roi_two_stage.inference.test_jacky import train
 from torchvision import transforms
-from roi_two_stage.models import GCN as Model
+
 import gdown
 
 
 
-def load_weight(model):
-    checkpoint = './roi_two_stage/inference/model_weight/all/2022-10-18_195551_w_dataAug_attn/inputs-camera-epoch-20.pth'
 
-    if not os.path.exists("./roi_two_stage/inference/model_weight/all/2022-10-18_195551_w_dataAug_attn/"):
-        os.mkdir("./roi_two_stage/inference/model_weight/all/2022-10-18_195551_w_dataAug_attn/")
-
-    if not os.path.isfile(checkpoint):
-        print("Download roi two stage weight")
-        url = "https://drive.google.com/u/4/uc?id=1uH3gONPhIqYAG7JK9qfryhb5y6afxxv9&export=download"
-        gdown.download(url, checkpoint)
-
-    state_dict = torch.load(checkpoint)
-    state_dict_copy = {}
-    for key in state_dict.keys():
-        state_dict_copy[key[7:]] = state_dict[key]
-
-    model.load_state_dict(state_dict_copy)
-    return copy.deepcopy(model)
 
 
 
@@ -80,7 +63,7 @@ def read_log(confidence_go, risk_id_list, score_list, sweeping=1, diff_threshold
 
 
 
-def roi_two_stage_inference(start_frame, clean_state=False):
+def roi_two_stage_inference(start_frame, clean_state=False, model = None):
 
     device = torch.device('cuda')
     data_path = './roi_two_stage/inference/test_data'
@@ -104,10 +87,7 @@ def roi_two_stage_inference(start_frame, clean_state=False):
 
     build_tracking(start_frame, data_path)
 
-    model = Model("camera", time_steps=5, pretrained=False, partialConv=True,
-                  fusion='attn').to(device)
-    model = load_weight(model)
-    model.train(False)
+
 
     confidence_go, risk_id_list, score_list = train(model, png_list, image_size, camera_transforms, device, data_path=data_path, clean_state=clean_state)
     is_risky_dict = read_log(confidence_go, risk_id_list, score_list)
