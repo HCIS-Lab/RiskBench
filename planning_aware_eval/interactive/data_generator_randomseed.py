@@ -3577,12 +3577,16 @@ def game_loop(args):
                             if frame >= start_frame:
                                 topdown_draw.save("./image/"+str(frame)+".png")
                                 image_top = cv2.imread("./image/"+str(frame)+".png")
-
                                 out_topview.write(image_top)
 
-                                pygame.image.save(display, "screenshot.jpeg")
-                                image = cv2.imread("screenshot.jpeg")
-                                out.write(image)
+                            view = pygame.surfarray.array3d(display)
+                            view = view.transpose([1, 0, 2]) 
+                            debug_image = cv2.cvtColor(view, cv2.COLOR_RGB2BGR)
+
+                            if frame < start_frame:
+                                debug_image[:,:,2] = 0
+                            out.write(debug_image)
+
 
                             #################### learned contorl ###################
 

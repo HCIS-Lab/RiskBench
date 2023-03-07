@@ -201,6 +201,7 @@ def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_fram
     frame_features, roi = frame_features.unsqueeze(0), roi.unsqueeze(0)
     state_inputs = ((state_inputs-state_mean[1])/state_std[1]).astype(np.float32)
     state_inputs = torch.from_numpy(state_inputs)
+    state_inputs= state_inputs.unsqueeze(0)
     return frame_features, roi, state_inputs
 
 def inference(device, data_path, net, start_frame):
