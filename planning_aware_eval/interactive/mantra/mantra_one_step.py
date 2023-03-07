@@ -60,7 +60,7 @@ class NoFutureDataset(data.Dataset):
 
 
 class Validator():
-    def __init__(self, vehicle_list, frame):
+    def __init__(self, vehicle_list, frame, model):
         ################################
         data_type =  "interactive"#config.type
         self.load_memory = True #config.saved_memory
@@ -104,21 +104,14 @@ class Validator():
         print('dataset created')
         # load model to evaluate
 
-        import gdown
-        if not os.path.exists("./mantra/"):
-            os.makedirs("./mantra/")
 
-        if not os.path.isfile("./mantra/model_controller"):
-            print("Download mantra weight")
-            url = "https://drive.google.com/u/4/uc?id=1wiC0P5Idc3p6Pjl_6uNBcjBslc8-Z3_F&export=download"
-            gdown.download(url, "./mantra/model_controller")
-
-        self.mem_n2n = torch.load("./mantra/model_controller")
-
-
+        self.mem_n2n = model
         self.mem_n2n.num_prediction = 1
         self.mem_n2n.future_len = 30 #config.future_length
         self.mem_n2n.past_len = 20
+        
+        
+        
         self.EuclDistance = nn.PairwiseDistance(p=2)
         if True: #config.cuda:
             self.mem_n2n = self.mem_n2n.cuda()
@@ -246,7 +239,7 @@ def obstacle_collision(car_length, car_width, obs_length, obs_width, ego_x, ego_
         return [specific_frame, int(now_id)]
 
 
-def mantra_inference(vehicle_list, specific_frame, variant_ego_id, pedestrian_id_list, vehicle_id_list ):
+def mantra_inference(vehicle_list, specific_frame, variant_ego_id, pedestrian_id_list, vehicle_id_list , mem_n2n):
 
     vehicle_length = 4.7
     vehicle_width = 2
@@ -261,7 +254,7 @@ def mantra_inference(vehicle_list, specific_frame, variant_ego_id, pedestrian_id
     #config
     future_len = 20
 
-    v = Validator(vehicle_list,  specific_frame )
+    v = Validator(vehicle_list,  specific_frame , mem_n2n)
     
     print('start evaluation')
     temp_df = v.test_model()

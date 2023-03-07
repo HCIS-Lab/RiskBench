@@ -2845,8 +2845,20 @@ def game_loop(args):
             _args.dataset_name = "interactive" 
             _args.skip = 1
             _args.pred_len = 60 
+        
+        elif args.method == 7:
+            import gdown
+            if not os.path.exists("./mantra/"):
+                os.makedirs("./mantra/")
+
+            if not os.path.isfile("./mantra/model_controller"):
+                print("Download mantra weight")
+                url = "https://drive.google.com/u/4/uc?id=1wiC0P5Idc3p6Pjl_6uNBcjBslc8-Z3_F&export=download"
+                gdown.download(url, "./mantra/model_controller")
+
+            mem_n2n = torch.load("./mantra/model_controller")
             
-            
+              
         ######################### single stage model 
         elif args.method == 8:
             if not os.path.exists("./inference_test/baseline2/"):
@@ -3438,7 +3450,7 @@ def game_loop(args):
                                         if abs(dist_x) <= 37.5 and abs(dist_y) <= 37.5:
                                             vehicle_list.append(remain_df)
 
-                                    remove_list = mantra_inference(vehicle_list, frame, ego_car_id , ped_id, vehicle_id)
+                                    remove_list = mantra_inference(vehicle_list, frame, ego_car_id , ped_id, vehicle_id, mem_n2n)
 
                                 elif args.method == 8:
                                     ## method 8
