@@ -2662,7 +2662,7 @@ def game_loop(args):
             raise 
 
         iter_tick = 0
-        iter_start = 40
+        iter_start = 15
         iter_toggle = 60
 
         # ==============================================================================
