@@ -23,7 +23,9 @@ from __future__ import print_function
 from roi_two_stage.demo import roi_two_stage_inference
 from roi_two_stage_intention.demo import roi_two_stage_inference_intention
 from single_stage.demo import single_stage
-
+import inference_test.baseline2_model as baseline2_model
+from inference_test.Model import Supervised 
+from inference_test.Model_intention import Supervised_intention
 import glob
 import os
 import sys
@@ -2846,7 +2848,33 @@ def game_loop(args):
             
             
         ######################### single stage model 
-        
+        elif args.method == 8:
+            if not os.path.exists("./inference_test/baseline2/"):
+                os.makedirs("./inference_test/baseline2/")
+
+            if not os.path.isfile("./inference_test/baseline2/model_19"):
+                print("Download SA weight")
+                url = "https://drive.google.com/u/4/uc?id=1UPlnYMlYsSSAPvmzg7LM5PU_6Zx0e6i6&export=download"
+                gdown.download(url, "./inference_test/baseline2/model_19")
+            model_dsa = baseline2_model.Baseline_SA(20,device,0,n_frame=5,features_size=256*7*7) 
+            model_dsa= torch.nn.DataParallel(model_dsa, device_ids=[0])
+            model_dsa.load_state_dict(torch.load("./inference_test/baseline2/model_19", map_location='cuda:0'))
+
+        elif args.method == 9:
+            ## method 9
+            # DSA-RNN-Supervised
+
+            if not os.path.exists("./inference_test/baseline3/"):
+                os.makedirs("./inference_test/baseline3/")
+
+            if not os.path.isfile("./inference_test/baseline3/model_15"):
+                print("Download risk region weight")
+                url = "https://drive.google.com/u/4/uc?id=1WgP700b07kZGHSkZOmt8JrFIgFUuOPHG&export=download"
+                gdown.download(url, "./inference_test/baseline3/model_15")
+            n_obj = 40
+            model_dsa_supervised = Supervised(device, n_obj=n_obj, n_frame=60, features_size=256*7*7).to(device)
+            model_dsa_supervised.load_state_dict(torch.load("./inference_test/baseline3/model_15", map_location='cuda:0'))
+            model_dsa_supervised.eval()
         elif args.method == 10:
             
             def load_weight():
@@ -2901,7 +2929,6 @@ def game_loop(args):
                 return copy.deepcopy(model)
             
             model_roi_two_stage = load_weight()
-
         
         ##################      two stage model with intention 
         elif args.method == 12:
@@ -2929,8 +2956,22 @@ def game_loop(args):
                 model.train(False)
                 return copy.deepcopy(model)
             model_roi_two_stage_intention = load_weight()
-        
-        
+
+        elif args.method == 13:
+            ## method 9
+            # DSA-RNN-Supervised-intention
+
+            if not os.path.exists("./inference_test/baseline3/"):
+                os.makedirs("./inference_test/baseline3/")
+
+            if not os.path.isfile("./inference_test/baseline3/model_15"):
+                print("Download risk region weight")
+                url = "https://drive.google.com/u/4/uc?id=1WgP700b07kZGHSkZOmt8JrFIgFUuOPHG&export=download"
+                gdown.download(url, "./inference_test/baseline3/model_15")
+            n_obj = 40
+            model_dsa_supervised_intention = Supervised_intention(device,4, n_obj=n_obj, n_frame=60, features_size=256*7*7).to(device)
+            model_dsa_supervised_intention.load_state_dict(torch.load("./inference_test/baseline3/model_15", map_location='cuda:0'))
+            model_dsa_supervised_intention.eval()
         
 
         while (1):
@@ -3403,30 +3444,14 @@ def game_loop(args):
                                     ## method 8
                                     # DSA-RNN   
 
-                                    if not os.path.exists("./inference_test/baseline2/"):
-                                        os.makedirs("./inference_test/baseline2/")
-
-                                    if not os.path.isfile("./inference_test/baseline2/model_19"):
-                                        print("Download SA weight")
-                                        url = "https://drive.google.com/u/4/uc?id=1UPlnYMlYsSSAPvmzg7LM5PU_6Zx0e6i6&export=download"
-                                        gdown.download(url, "./inference_test/baseline2/model_19")
-
-                                    risk_obj = SA_inference(device, "./roi_two_stage/inference/test_data/", "./inference_test/baseline2/model_19", start_frame=frame)
+                                    risk_obj = SA_inference(device, "./roi_two_stage/inference/test_data/", model_dsa, frame)
                                     remove_list = (risk_obj[-1])
 
                                 elif args.method == 9:
                                     ## method 9
                                     # DSA-RNN-Supervised
 
-                                    if not os.path.exists("./inference_test/baseline3/"):
-                                        os.makedirs("./inference_test/baseline3/")
-
-                                    if not os.path.isfile("./inference_test/baseline3/model_15"):
-                                        print("Download risk region weight")
-                                        url = "https://drive.google.com/u/4/uc?id=1WgP700b07kZGHSkZOmt8JrFIgFUuOPHG&export=download"
-                                        gdown.download(url, "./inference_test/baseline3/model_15")
-                                    
-                                    risk_obj = inference(device, "./roi_two_stage/inference/test_data/", "./inference_test/baseline3/model_15", start_frame=frame)
+                                    risk_obj = inference(device, "./roi_two_stage/inference/test_data/", model_dsa_supervised, frame)
                                     remove_list = (risk_obj[-1])
 
                                 elif args.method == 10:
@@ -3454,7 +3479,12 @@ def game_loop(args):
                                         remove_list = roi_two_stage_inference_intention(start_frame=frame, clean_state = True, ego_id = ego_car_id, intention = traj_intention, model = model_roi_two_stage_intention)
                                     else:
                                         remove_list = roi_two_stage_inference_intention(start_frame=frame , clean_state = False , ego_id =  ego_car_id, intention =  traj_intention, model = model_roi_two_stage_intention)
+                                elif args.method == 13:
+                                    ## method 13
+                                    # DSA-RNN-Supervised intention
 
+                                    risk_obj = inference_intention(device, "./roi_two_stage/inference/test_data/", model_dsa_supervised_intention, frame, traj_intention, ego_car_id)
+                                    remove_list = (risk_obj[-1])
 
                             #######################
 
