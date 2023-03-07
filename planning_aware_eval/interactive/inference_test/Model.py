@@ -41,37 +41,18 @@ class risk_obj_loss(nn.Module):
         # print(loss)
         return loss
 
-class risk_obj_focal_loss(nn.Module):
-    def __init__(self):
-        super(risk_obj_focal_loss, self).__init__()
-        self.alpha = 0.25
-        self.gamma = 2
-
-    def forward(self, outputs, targets, device):
-        loss = torch.tensor(0.0).to(device)
-        batch = targets.shape[0]
-
-        # outputs: txBxn, targets: Bxn
-        for out in outputs:# for each frame
-            for pred, tar in zip(out, targets):# for each batch
-                # pred: n, tar: n
-                temp_loss = torchvision.ops.sigmoid_focal_loss(pred, tar.float(), self.alpha, self.gamma, reduction='mean')
-                loss += temp_loss
-        loss /= batch
-        return loss
-
 class Supervised(nn.Module):
-    def __init__(self, device, state_size, n_obj=60, n_frame=100, features_size=1024, frame_features_size=256, hidden_layer_size=256, lstm_size=256):#lstm512
+    def __init__(self, device, n_obj=40, n_frame=60, features_size=1024, frame_features_size=256, hidden_layer_size=256, lstm_size=256):
         super(Supervised, self).__init__()
         self.device = device
         self.n_frame = n_frame
         self.n_obj = n_obj
-        self.state_size = state_size
 
         self.features_size = features_size
         self.frame_features_size = frame_features_size
         self.hidden_layer_size = hidden_layer_size
-        self.lstm_layer_size = lstm_size+self.state_size*32
+        self.lstm_layer_size = lstm_size
+
         self.frame_pre_layer = nn.Sequential(
             nn.Conv2d(256, 256, 3),
             nn.BatchNorm2d(256),
@@ -85,12 +66,8 @@ class Supervised(nn.Module):
             nn.Linear(1024, self.hidden_layer_size),
             nn.ReLU(inplace=True),                                                 
         )
-        self.state_layer = nn.Sequential(
-            nn.Linear(self.state_size, self.state_size*32),
-            nn.BatchNorm1d(self.state_size*32),
-            nn.ReLU(inplace=True),                                            
-        )
-        self.fusion_size = self.hidden_layer_size+self.state_size*32#2 * self.hidden_layer_size
+
+        self.fusion_size = self.hidden_layer_size#2 * self.hidden_layer_size
         self.bn1 = nn.BatchNorm1d(self.features_size)
         self.drop = nn.Dropout(p=0.5)
         self.global_avg_pooling = nn.AdaptiveAvgPool2d((1,1))
@@ -98,12 +75,12 @@ class Supervised(nn.Module):
 
         self.lstm = nn.LSTMCell(self.fusion_size, self.lstm_layer_size)
         self.collision_output = nn.Linear(self.lstm_layer_size, 2)
-        self.risk_output = nn.Linear(self.hidden_layer_size+self.state_size*32, 1)
+        self.risk_output = nn.Linear(self.hidden_layer_size, 1)
 
-        self.att_w = nn.Parameter(torch.normal(mean = 0,std = 0.01,size=(self.hidden_layer_size+self.state_size*32,1)), requires_grad = True)#.to('cuda')
-        self.att_wa = nn.Parameter(torch.normal(mean = 0,std = 0.01,size=(self.lstm_layer_size,self.hidden_layer_size+self.state_size*32)), requires_grad = True)#.to('cuda')
-        self.att_ua = nn.Parameter(torch.normal(mean = 0,std = 0.01,size=(self.hidden_layer_size+self.state_size*32,self.hidden_layer_size+self.state_size*32)), requires_grad = True)#.to('cuda')
-        self.att_ba = nn.Parameter(torch.zeros(self.hidden_layer_size+self.state_size*32), requires_grad = True)#.to('cuda')
+        self.att_w = nn.Parameter(torch.normal(mean = 0,std = 0.01,size=(self.hidden_layer_size,1)), requires_grad = True)#.to('cuda')
+        self.att_wa = nn.Parameter(torch.normal(mean = 0,std = 0.01,size=(self.lstm_layer_size,self.hidden_layer_size)), requires_grad = True)#.to('cuda')
+        self.att_ua = nn.Parameter(torch.normal(mean = 0,std = 0.01,size=(self.hidden_layer_size,self.hidden_layer_size)), requires_grad = True)#.to('cuda')
+        self.att_ba = nn.Parameter(torch.zeros(self.hidden_layer_size), requires_grad = True)#.to('cuda')
 
     def step(self, fusion, hx, cx):
         hx, cx = self.lstm(self.drop(fusion), (hx, cx))
@@ -123,10 +100,11 @@ class Supervised(nn.Module):
         input_features = input_features.view(b, t, n, c)
         return input_features
 
-    def forward(self, input_features, input_frame, input_states):
-        # features: b,t,60,C  (batch, frame, n(obj), C)
+    def forward(self, input_features, input_frame):
+        # features: b,t,40,C  (batch, frame, n(obj), C)
         batch_size = input_features.size()[0]
         input_features = input_features.view(batch_size, self.n_frame, self.n_obj, -1)
+        
         hx = torch.zeros((batch_size, self.lstm_layer_size)).to(self.device)
         cx = torch.zeros((batch_size, self.lstm_layer_size)).to(self.device)
         zeros_object =  torch.sum(input_features.permute(1, 2, 0, 3), 3).eq(0) # t x n x b
@@ -143,26 +121,18 @@ class Supervised(nn.Module):
             full_frame = self.frame_pre_layer(input_frame[:, i])
             full_frame = self.global_avg_pooling(full_frame)
             full_frame = full_frame.view(batch_size, self.frame_features_size)
-            # img = input_frame[:,i].view(-1, self.frame_features_size)
             full_frame = self.frame_layer(full_frame)#bxh
-
 
             object = input_features[:, i].permute(1, 0, 2).contiguous() # nxbxc
             object = object.view(-1, self.features_size).contiguous() # (nxb)xc
             object = self.object_layer(object) #(nxb)xh
             object = object.view(self.n_obj, batch_size, self.hidden_layer_size)
             object = object * torch.unsqueeze(zeros_object[i], 2)#nxbxh
-            
-            states = input_states[:,i].permute(1, 0, 2).contiguous()
-            states = states.view(-1, self.state_size).contiguous()
-            states = self.state_layer(states)
-            states = states.view(self.n_obj, batch_size, self.state_size*32)
-            states = states * torch.unsqueeze(zeros_object[i], 2)
 
             for n in range(self.n_obj):
                 object[n].add(full_frame)
             object = self.relu(object)
-            object = torch.cat((object,states),2)
+
             ### Collision Prediction Branch
             brcst_w, e = self.attention_layer(object, hx)
             alphas = torch.mul(nn.functional.softmax(torch.sum(torch.matmul(e, brcst_w), 2), 0), zeros_object[i])#nxb
