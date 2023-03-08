@@ -19,9 +19,10 @@ def cal_angle(v1, v2):
     v2_u = v2 / np.linalg.norm(v2)
     return 10*abs(np.clip(np.dot(v1_u, v2_u), -1.0, 1.0))
 
-state_mean = np.array([[0.24313546,-0.13347999,0.02635646,0.94242169],[ 0.34861214,-0.30283908,0.03641567,1.20873295],[0.6900253,1.99305726,0.02738251,1.08331018]])
-state_std = np.array([[15.62638275,14.08752373,0.08069739,2.78160651],[16.40402878,16.20550719,0.09305743,3.07405014],[13.3761317,14.8920529,0.0810105,2.99580468]])
-
+state_mean = np.array([ 0.34861214,-0.30283908,0.03641567,1.20873295])
+state_std = np.array([16.40402878,16.20550719,0.09305743,3.07405014])
+intention_mean = np.mean([0.30162844,-0.4297243])
+intention_std = np.array([15.352445,15.402867])
 def read_input(data_path, start_frame):
     
 
@@ -105,10 +106,10 @@ def get_features(raw_img, bbox, max_obj, device, data_path, tracking=False):
     frame_features, roi = frame_features.unsqueeze(0), roi.unsqueeze(0)
     return frame_features, roi
 
-def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_frame, traj_intention,ego_id , tracking=False):
+def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_frame, traj_intention,ego_id , state_dim, tracking=False):
     frame_features, roi_features = utils.run_model(raw_img, bbox, device)
     
-    state_inputs = np.zeros((len(roi_features), max_obj, 4))
+    state_inputs = np.zeros((len(roi_features), max_obj, state_dim))
     
                     
     #load tracker_data
@@ -161,41 +162,56 @@ def get_features_intention(raw_img, bbox, max_obj, device, data_path, first_fram
                     continue
                 elif int(box['actor_id']) not in traj_intention[i+first_frame]:
                     continue
-
-                obj_x, obj_y = traj_intention[i+first_frame][int(box['actor_id'])]
-                rel_x = obj_x - ego_x
-                rel_y = obj_y - ego_y
-                if rel_x != 0:
-                    state_inputs[i, j, 0] = rel_x
-                if rel_y != 0:
-                    state_inputs[i, j, 1] = rel_y
+                
+#                 obj_x, obj_y = traj_intention[i+first_frame][int(box['actor_id'])]
+#                 rel_x = obj_x - ego_x
+#                 rel_y = obj_y - ego_y
+#                 if rel_x != 0:
+#                     state_inputs[i, j, 0] = rel_x
+#                 if rel_y != 0:
+#                     state_inputs[i, j, 1] = rel_y
+                    
+                 if state_dim == 4 :
+                    obj_x, obj_y = traj_intention[i+first_frame][int(box['actor_id'])]
+                    rel_x = obj_x - ego_x
+                    rel_y = obj_y - ego_y
+                else :
+                    try:
+                        obj_x, obj_y = traj_intention[i+first_frame+5][int(box['actor_id'])]
+                        rel_x = obj_x - ego_x
+                        rel_y = obj_y - ego_y
+                    except:
+                        rel_x, rel_y = 0, 0
+                state_inputs[i, j, 0] = rel_x
+                state_inputs[i, j, 1] = rel_y
 
                 ### fill relative degree and own velocity ###
                 # pre_ego_key = tuple([i+first_frame-1, 0])
                 # pre_obj_key = tuple([i+first_frame-1, int(box['actor_id'])])
-                curr_flag = True
-                if i+first_frame-1 in traj_intention:
-                    if ego_id not in traj_intention:
+                if state_dim == 4 :
+                    curr_flag = True
+                    if i+first_frame-1 in traj_intention:
+                        if ego_id not in traj_intention:
+                            curr_flag = False
+                    else:
                         curr_flag = False
-                else:
-                    curr_flag = False
 
-                if i+first_frame-1 in traj_intention:
-                    if int(box['actor_id']) not in traj_intention:
+                    if i+first_frame-1 in traj_intention:
+                        if int(box['actor_id']) not in traj_intention:
+                            curr_flag = False
+                    else:
                         curr_flag = False
-                else:
-                    curr_flag = False
-                if curr_flag:
-                    
-                    pre_ego_x, pre_ego_y = traj_intention[i+first_frame-1][ego_id]
-                    pre_obj_x, pre_obj_y = traj_intention[i+first_frame-1][int(box['actor_id'])]
-                    ego_direction = [ego_x - pre_ego_x, ego_y - pre_ego_y]
-                    obj_direction = [obj_x - pre_obj_x, obj_y - pre_obj_y]
+                    if curr_flag:
 
-                    degree = cal_angle(ego_direction, obj_direction)
-                    velocity = ((obj_x - pre_obj_x)**2 + (obj_y - pre_obj_y)**2)**0.5
-                    state_inputs[i, j, 2] = velocity
-                    state_inputs[i, j, 3] = degree
+                        pre_ego_x, pre_ego_y = traj_intention[i+first_frame-1][ego_id]
+                        pre_obj_x, pre_obj_y = traj_intention[i+first_frame-1][int(box['actor_id'])]
+                        ego_direction = [ego_x - pre_ego_x, ego_y - pre_ego_y]
+                        obj_direction = [obj_x - pre_obj_x, obj_y - pre_obj_y]
+
+                        degree = cal_angle(ego_direction, obj_direction)
+                        velocity = ((obj_x - pre_obj_x)**2 + (obj_y - pre_obj_y)**2)**0.5
+                        state_inputs[i, j, 2] = velocity
+                        state_inputs[i, j, 3] = degree
         roi[i] = temp 
 
     frame_features, roi = frame_features.unsqueeze(0), roi.unsqueeze(0)
@@ -253,13 +269,13 @@ def inference(device, data_path, net, start_frame):
     # print(result)
     return result
 
-def inference_intention(device, data_path, net, start_frame, traj_intention,ego_id ):
+def inference_intention(device, data_path, net, start_frame, traj_intention, ego_id, state_dim):
     n_obj = 40
 
     img, bbox = read_input(data_path, start_frame)
 
     with torch.no_grad():
-        frame, roi, state = get_features_intention(img, bbox, n_obj, device, data_path, start_frame, traj_intention,ego_id,  tracking=True)
+        frame, roi, state = get_features_intention(img, bbox, n_obj, device, data_path, start_frame, traj_intention,ego_id, state_dim, tracking=True)
         frame, roi, state = frame.to(device), roi.to(device), state.to(device)
 
         cur_len = roi.shape[1]
