@@ -2974,7 +2974,7 @@ def game_loop(args):
 
         elif args.method == 13:
             ## method 9
-            # DSA-RNN-Supervised-intention
+            # DSA-RNN-Supervised-low_level
 
             # if not os.path.exists("./inference_test/baseline3/"):
             #     os.makedirs("./inference_test/baseline3/")
@@ -2987,7 +2987,21 @@ def game_loop(args):
             model_dsa_supervised_intention = Supervised_intention('cuda:0',4, n_obj=n_obj, n_frame=60, features_size=256*7*7).to('cuda:0')
             model_dsa_supervised_intention.load_state_dict(torch.load("./inference_test/baseline3/model_2", map_location='cuda:0'))
             model_dsa_supervised_intention.eval()
-        
+        elif args.method == 14:
+            ## method 9
+            # DSA-RNN-Supervised-intention
+
+            # if not os.path.exists("./inference_test/baseline3/"):
+            #     os.makedirs("./inference_test/baseline3/")
+
+            # if not os.path.isfile("./inference_test/baseline3/model_15"):
+            #     print("Download risk region weight")
+            #     url = "https://drive.google.com/u/4/uc?id=1WgP700b07kZGHSkZOmt8JrFIgFUuOPHG&export=download"
+            #     gdown.download(url, "./inference_test/baseline3/model_15")
+            n_obj = 40
+            model_dsa_supervised_intention = Supervised_intention('cuda:0',2, n_obj=n_obj, n_frame=60, features_size=256*7*7).to('cuda:0')
+            model_dsa_supervised_intention.load_state_dict(torch.load("./inference_test/baseline3/model_2", map_location='cuda:0'))
+            model_dsa_supervised_intention.eval()
 
         while (1):
             if frame > start_frame+ 120 :
@@ -3500,11 +3514,19 @@ def game_loop(args):
                                         remove_list = roi_two_stage_inference_intention(start_frame=frame , clean_state = False , ego_id =  ego_car_id, intention =  traj_intention, model = model_roi_two_stage_intention)
                                 elif args.method == 13:
                                     ## method 13
+                                    # DSA-RNN-Supervised low level
+                                    
+                                    
+                                    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+                                    risk_obj = inference_intention(device, "./roi_two_stage/inference/test_data/", model_dsa_supervised_intention, frame, traj_intention, ego_car_id, 4)
+                                    remove_list = (risk_obj[-1])
+                                elif args.method == 14:
+                                    ## method 13
                                     # DSA-RNN-Supervised intention
                                     
                                     
                                     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-                                    risk_obj = inference_intention(device, "./roi_two_stage/inference/test_data/", model_dsa_supervised_intention, frame, traj_intention, ego_car_id)
+                                    risk_obj = inference_intention(device, "./roi_two_stage/inference/test_data/", model_dsa_supervised_intention, frame, traj_intention, ego_car_id, 2)
                                     remove_list = (risk_obj[-1])
 
                             #######################
