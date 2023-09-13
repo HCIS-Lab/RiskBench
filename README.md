@@ -19,40 +19,13 @@ PyTorch code for RiskBench.
 ```bash
 # create conda environment 
 conda create -n carla python=3.7
+conda activate carla
 
-# instal pytorch 
+# install pytorch 
 conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 
-# install detectron2 from 
-# https://detectron2.readthedocs.io/en/latest/tutorials/install.html
-python -m pip install detectron2 -f \
-  https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
-  
-# install pytorch lighting 
-pip install pytorch-lightning==0.8.5
-pip uninstall setuptools
-pip install setuptools==59.5.0
-
-# install opencv
-pip install opencv-python
-
-# others
-pip install timm
-pip install wandb
-pip install imgaug
-pip install pandas
-pip install pygame
-pip install gdown
-pip install attrdict
-
-# install carla 
-cd path_to_carla/PythonAPI/dist/
-pip install carla-0.9.13-cp37-cp37m-linux_x86_64.whl
-
-# install roi align
-# You need to install cudnn on root ( outside the conda environment  )
-cd ~/planning_aware_eval/interactive/roi_two_stage/models/roi_align/
-python setup.py install
+# install packages
+pip install -r requirements.txt
 
 ```
 
@@ -61,12 +34,14 @@ python setup.py install
 ## Dataset
 We currently provide sample data for testing. The full dataset will be released soon.
 
-sample data link : https://drive.google.com/drive/folders/1P_cMksFicHEYPuC0Nb2MYt0SbfBi7vz8?usp=share_link
+Download link : [google drive](https://drive.google.com/drive/folders/1P_cMksFicHEYPuC0Nb2MYt0SbfBi7vz8?usp=share_link) <br />
+
+Also, we provide instructions on how to collect basic scenarios and data augmentation. Please refer to [dataset](dataset/).
 
 ## Code execution
 
 ### Risk Identification (optional)
-We provided risk identification results preserved in json format for each algorithm. Alternatively, one can generate by following the instruction in [risk_identification/models](https://github.com/HCIS-Lab/RiskBench/tree/main/risk_identification/models). We will release a intergrated API soon!
+We provided risk identification results preserved in json format for each algorithm. Alternatively, one can generate by following the instruction in [models](risk_identification/models). We will release a intergrated API soon!
 
 ### Offline Risk Identification Evaluation
 We perform offline risk identification evaluation (with metric F-1 score and PIC) by taking input as preserved risk identification prediction:
