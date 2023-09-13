@@ -1,4 +1,4 @@
-# RiskBench: A Scenario-based Risk Assessment Benchmark
+# RiskBench: A Scenario-based Benchmark for Risk Identification
 This is an anonymous repo for submission.
 PyTorch code for RiskBench.
 ![RiskBench](images/teaser2.png)
@@ -65,13 +65,13 @@ sample data link : https://drive.google.com/drive/folders/1P_cMksFicHEYPuC0Nb2MY
 
 ## Code execution
 
-### Risk Assessment Prediction (optional)
-We provided risk assessment prediction results preserved in json format for each algorithm. Alternatively, one can generate by following the instruction in [risk_assessment/models](https://github.com/HCIS-Lab/RiskBench/tree/main/risk_assessment/models). We will release a intergrated API soon!
+### Risk Identification (optional)
+We provided risk identification results preserved in json format for each algorithm. Alternatively, one can generate by following the instruction in [risk_identification/models](https://github.com/HCIS-Lab/RiskBench/tree/main/risk_identification/models). We will release a intergrated API soon!
 
-### Offline Risk Assessment Evaluation
-We perform offline risk assessment evaluation (with metric F-1 score and PIC) by taking input as preserved risk assessment prediction:
+### Offline Risk Identification Evaluation
+We perform offline risk identification evaluation (with metric F-1 score and PIC) by taking input as preserved risk identification prediction:
 ```
-python risk_assessment_identification.py --path {PREDICTION_PATH} --model {MODEL} --metric {METRIC} --scenario {ATTRIBUTE}
+python risk_identification.py --path {PREDICTION_PATH} --model {MODEL} --metric {METRIC} --scenario {ATTRIBUTE}
 ```
 
 Arguments: 
@@ -79,15 +79,15 @@ Arguments:
 | Parameter     | Description                                          |  Example   |
 | :------------ | :--------------------------------------------------- | :--------: |
 | --path        | path of the stored prediction .json file             | prediction |
-| --model       | name of the risk assessment method                   | two-stage  |
-| --metric      | risk assessment metric                               |     F1     |
+| --model       | name of the risk identification method               | two-stage  |
+| --metric      | risk identification metric                           |     F1     |
 | --scenario    | scenario filter, default is ""                       |    Rain    |
 | --save_result | save result to {PREDICTION_PATH}/result/{MODEL}.json |    None    |
 
 
-### Planning-aware Risk Assessment
+### Planning-aware Risk Identification
 ![planning aware ](images/planning_aware.gif)
-Planning-aware risk assessment evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
+Planning-aware risk identification evaluation takes place in CARLA simulaotr. We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
 
 step 1: move the recorded scenarios to the CARLA folder
 ```
@@ -96,7 +96,7 @@ mv -r interactive/ path_to_carla/PythonAPI/
 mv -r obstacle/ path_to_carla/PythonAPI/
 ```
 
-setp 2: execute planning-aware risk assessment evaluation
+setp 2: execute planning-aware risk identification evaluation
 ```
 # For interactive scenario
 bash test_interactive.sh
