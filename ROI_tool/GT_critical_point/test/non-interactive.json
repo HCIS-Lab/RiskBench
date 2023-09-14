@@ -1,0 +1,5972 @@
+{
+    "10_i-1_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_l_0_0_1_ClearSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_1_CloudyNoon_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_1_HardRainSunset_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_1_MidRainSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_1_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_1_WetSunset_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_2_ClearSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_2_CloudySunset_high_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_2_HardRainNoon_high_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_2_HardRainSunset_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_2_MidRainSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_2_MidRainyNoon_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_r_0_0_2_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_u_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_i-1_1_0_0_u_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_i-1_1_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_i-1_1_0_0_u_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_i-1_1_0_0_u_0_0_WetSunset_mid_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_s-1_0_0_0_sr_0_0_WetSunset_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_CloudySunset_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_1_MidRainSunset_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_1_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_1_MidRainyNoon_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sl_0_0_1_WetNoon_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_WetNoon_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_CloudyNoon_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_CloudyNoon_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_CloudySunset_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_HardRainNoon_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_HardRainSunset_high_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "10_s-2_0_0_0_sr_0_0_1_WetSunset_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_CloudySunset_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_MidRainyNoon_high_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_MidRainyNoon_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_WetNoon_high_": [
+        null
+    ],
+    "10_s-4_0_0_0_sl_0_0_1_WetSunset_high_": [
+        null
+    ],
+    "10_s-4_0_0_0_sr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-4_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "10_s-4_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_WetNoon_high_": [
+        null
+    ],
+    "10_s-5_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_s-6_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_s-7_0_0_0_sl_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "10_s-7_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_s-7_0_0_0_sl_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_s-7_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-7_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_s-7_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_s-7_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_WetNoon_high_": [
+        null
+    ],
+    "10_s-7_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_ClearSunset_low_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_ClearSunset_mid_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_CloudySunset_high_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_HardRainSunset_high_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_HardRainSunset_mid_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_MidRainyNoon_high_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_WetNoon_high_": [
+        null
+    ],
+    "10_s-8_0_0_0_sl_0_0_1_WetNoon_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_r_0_rl_CloudySunset_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_r_0_rl_CloudySunset_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_r_0_rl_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_r_0_rl_MidRainSunset_high_": [
+        null
+    ],
+    "10_t1-1_1_0_0_r_0_rl_MidRainSunset_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_r_0_rl_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t1-1_1_0_0_r_0_rl_WetNoon_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_WetNoon_high_": [
+        null
+    ],
+    "10_t1-1_1_0_0_u_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_1_CloudySunset_mid_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_1_MidRainSunset_high_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_1_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_1_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t1-3_0_0_0_r_0_0_1_WetNoon_mid_": [
+        null
+    ],
+    "10_t1-3_0_0_0_u_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_t1-3_0_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t1-3_0_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_WetSunset_high_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_ClearSunset_high_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_CloudySunset_mid_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_HardRainSunset_high_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t1-4_1_0_0_u_0_0_1_WetSunset_low_": [
+        null
+    ],
+    "10_t1-5_0_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_t1-5_0_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t1-5_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t1-5_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_t1-5_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t1-5_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t1-6_1_0_0_u_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_t1-6_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t1-6_1_0_0_u_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t1-7_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_WetSunset_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_ClearSunset_high_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_WetNoon_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_0_1_WetSunset_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_rl_CloudySunset_high_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_rl_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_rl_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_rl_HardRainSunset_low_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_rl_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_rl_WetNoon_mid_": [
+        null
+    ],
+    "10_t2-1_1_0_0_u_0_rl_WetSunset_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_CloudySunset_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_CloudySunset_mid_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_HardRainSunset_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_MidRainSunset_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_t2-2_0_0_0_r_0_ss_WetSunset_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_WetNoon_high_": [
+        null
+    ],
+    "10_t2-2_0_0_0_u_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "10_t2-3_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_ClearSunset_high_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_CloudyNoon_high_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_CloudySunset_mid_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_HardRainNoon_high_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t2-4_1_0_0_f_0_rl_WetSunset_low_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_ClearSunset_low_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_HardRainNoon_high_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_HardRainSunset_low_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_MidRainSunset_high_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_WetNoon_mid_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_WetSunset_high_": [
+        null
+    ],
+    "10_t2-4_1_0_0_r_0_rl_WetSunset_mid_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t2-7_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "10_t3-1_1_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_rl_CloudySunset_low_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_rl_CloudySunset_mid_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_rl_HardRainSunset_low_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_rl_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_rl_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t3-1_1_0_0_l_0_rl_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_ClearSunset_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_ClearSunset_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_HardRainNoon_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_HardRainSunset_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_MidRainSunset_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_MidRainSunset_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_WetNoon_high_": [
+        null
+    ],
+    "10_t3-2_0_0_0_f_0_ss_WetSunset_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t3-2_0_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t3-2_0_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "10_t3-6_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t3-6_1_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t3-6_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t3-6_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "10_t3-7_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "10_t3-7_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "10_t3-7_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t3-7_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "10_t3-7_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "10_t3-7_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t3-7_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "10_t3-7_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "10_t3-7_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "10_t3-7_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "10_t3-7_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "10_t3-7_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "10_t3-7_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "10_t3-7_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "1_s-3_0_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "1_s-3_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_s-3_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_s-3_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_s-3_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_s-3_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "1_s-4_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_s-5_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_s-6_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_s-7_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_s-9_0_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_ClearSunset_high_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t1-10_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t1-12_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t1-1_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t1-1_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t1-1_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t1-1_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t1-1_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t1-1_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t1-1_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t1-2_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t1-3_1_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_WetNoon_low_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t1-3_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t1-5_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t1-9_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t1-9_1_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "1_t2-10_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_t2-10_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t2-10_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t2-10_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t2-10_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t2-11_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t2-11_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t2-11_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t2-11_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t2-1_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t2-2_1_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "1_t2-2_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_t2-2_1_0_0_r_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t2-2_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_t2-2_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t2-2_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t2-2_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t2-3_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_t2-4_1_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_t2-9_1_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t3-10_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t3-10_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t3-10_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t3-10_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t3-11_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t3-14_1_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t3-14_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t3-14_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t3-14_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t3-14_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t3-14_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t3-1_1_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "1_t3-2_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "1_t3-2_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "1_t3-2_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "1_t3-2_1_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t3-2_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t3-2_1_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "1_t3-3_1_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_t3-3_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t3-3_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "1_t3-3_1_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t3-3_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "1_t3-3_1_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "1_t3-4_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "1_t3-4_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "1_t3-4_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "1_t3-4_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "1_t3-4_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t3-4_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "1_t3-4_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "1_t3-8_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "1_t3-8_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "1_t3-8_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "1_t3-8_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "1_t3-8_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "1_t3-8_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "2_s-3_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_WetNoon_low_": [
+        null
+    ],
+    "2_s-6_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_t1-17_1_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_t1-1_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "2_t1-2_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "2_t1-2_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "2_t1-2_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "2_t1-2_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "2_t1-2_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "2_t1-2_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "2_t1-2_1_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_t1-3_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "2_t1-3_1_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "2_t1-3_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t1-3_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "2_t1-3_1_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "2_t1-6_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "2_t1-6_1_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "2_t1-6_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "2_t1-6_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "2_t1-6_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t1-6_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_t1-6_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "2_t1-8_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "2_t2-2_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "2_t2-5_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "2_t2-6_1_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "2_t3-5_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "2_t3-5_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "2_t3-5_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "2_t3-5_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "2_t3-5_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "2_t3-5_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "2_t3-5_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "2_t3-6_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "2_t3-6_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "2_t3-6_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "2_t3-6_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "2_t3-7_1_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_WetNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_WetSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_CloudySunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_CloudySunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_HardRainNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_HardRainNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_HardRainSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_HardRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_HardRainSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_MidRainyNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_WetNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_WetNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_2_WetSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_CloudyNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_HardRainNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_HardRainNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_HardRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_MidRainSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_MidRainSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gi_0_0_3_WetSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_ClearSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_ClearSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_ClearSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_CloudyNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_MidRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_MidRainyNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_1_WetNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_2_CloudySunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_2_HardRainNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_2_HardRainNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_2_MidRainSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_2_MidRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_2_MidRainSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_2_WetSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_3_CloudySunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_3_HardRainNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_3_MidRainyNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_3_WetSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_ClearSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_CloudyNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_CloudySunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_CloudySunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_HardRainNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_MidRainSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_MidRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_MidRainSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_MidRainyNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_MidRainyNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_4_WetNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_CloudySunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_HardRainNoon_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_HardRainSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_HardRainSunset_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_MidRainSunset_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_MidRainyNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_WetNoon_high_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_WetSunset_low_": [
+        null
+    ],
+    "3_r-1_0_0_0_gr_0_0_5_WetSunset_mid_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_s-10_1_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_WetNoon_high_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_WetSunset_high_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_s-11_0_0_0_sr_0_0_WetSunset_mid_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "3_s-4_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "3_s-5_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_CloudySunset_high_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "3_s-6_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_CloudySunset_low_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_WetSunset_high_": [
+        null
+    ],
+    "3_s-7_0_0_0_sr_0_0_WetSunset_mid_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_ClearSunset_high_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_WetNoon_high_": [
+        null
+    ],
+    "3_s-8_0_0_0_sr_0_0_WetSunset_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_ClearSunset_low_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_WetNoon_high_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_s-9_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_t1-6_0_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "3_t2-7_1_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "3_t2-7_1_0_0_u_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_t2-7_1_0_0_u_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_WetNoon_high_": [
+        null
+    ],
+    "3_t2-9_1_0_0_u_0_0_WetSunset_high_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sl_0_0_WetSunset_mid_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "3_t3-6_0_0_0_sr_0_0_WetSunset_mid_": [
+        null
+    ],
+    "3_t3-8_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "3_t3-8_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "3_t3-8_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "3_t3-8_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-10_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-10_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-10_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-10_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-10_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-10_1_0_0_u_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-10_1_0_0_u_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_i-10_1_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-10_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-10_1_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_i-10_1_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-11_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-11_1_0_0_u_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_i-11_1_0_0_u_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_i-11_1_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-11_1_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-11_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-11_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-11_1_0_0_u_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_i-12_1_0_0_u_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_i-13_0_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_1_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_1_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_1_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_f_0_0_1_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_1_ClearSunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_1_MidRainSunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_l_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_u_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-1_0_0_0_u_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_u_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-1_0_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-1_0_0_0_u_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_1_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_1_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_1_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_l_0_0_1_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-2_1_0_0_u_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-4_1_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-5_1_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_i-5_1_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-5_1_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-5_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-5_1_0_0_u_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-5_1_0_0_u_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-5_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-6_1_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_i-6_1_0_0_u_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_i-7_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_i-7_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_i-9_1_0_0_u_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sl_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_s-10_0_0_0_sr_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_s-1_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_s-3_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_s-3_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_s-4_0_0_0_sl_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_s-4_0_0_0_sl_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_s-4_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_s-4_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_s-4_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_s-4_0_0_0_sl_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_s-5_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_s-8_0_0_0_sl_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_s-8_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_s-9_0_0_0_sl_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_s-9_0_0_0_sl_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_s-9_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_s-9_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_s-9_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_s-9_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_s-9_0_0_0_sl_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_s-9_0_0_0_sr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_s-9_0_0_0_sr_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_s-9_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_s-9_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_s-9_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_s-9_0_0_0_sr_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_t1-10_1_0_0_l_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_t1-2_0_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_t1-2_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_t1-2_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t1-2_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_t1-4_1_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_t1-7_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t1-7_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_t1-7_0_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_t1-7_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_t1-8_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "5_t2-2_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_t2-2_0_0_0_u_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "5_t2-6_0_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_t2-6_1_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "5_t3-2_0_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_i-1_1_0_0_f_0_0_WetNoon_low_": [
+        null
+    ],
+    "6_i-1_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "6_i-1_1_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_i-2_1_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "6_i-2_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_i-2_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "6_i-2_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_i-2_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_i-2_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_i-2_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_i-2_1_0_0_r_0_s_ClearSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_l_0_0_WetSunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_CloudySunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_0_WetNoon_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_CloudyNoon_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_CloudySunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_CloudySunset_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_HardRainNoon_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_HardRainSunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_HardRainSunset_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_MidRainSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_MidRainyNoon_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_r_0_rl_WetSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_CloudySunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_CloudySunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_WetNoon_high_": [
+        null
+    ],
+    "6_i-4_1_0_0_u_0_0_WetSunset_mid_": [
+        null
+    ],
+    "6_s-1_0_0_0_sl_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "6_s-1_0_0_0_sl_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_s-1_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_s-1_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_s-1_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-1_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-2_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_CloudySunset_high_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_s-3_0_0_0_sr_0_0_WetSunset_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_CloudySunset_high_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_CloudySunset_low_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_s-4_0_0_0_sl_0_0_WetSunset_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-4_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_ClearNoon_mid_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-5_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sl_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_s-6_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sl_0_0_WetNoon_high_": [
+        null
+    ],
+    "6_s-6_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sl_0_0_WetSunset_mid_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_WetSunset_high_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_ClearNoon_mid_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_MidRainyNoon_high_": [
+        null
+    ],
+    "6_s-6_0_0_0_sr_0_0_1_WetNoon_high_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_s-7_0_0_0_sl_0_0_WetSunset_high_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_ClearSunset_high_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-7_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_ClearNoon_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_ClearSunset_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_WetNoon_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_s-8_0_0_0_sl_0_0_WetSunset_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_ClearNoon_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_ClearSunset_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_WetNoon_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_ClearNoon_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_ClearNoon_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_ClearSunset_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_CloudySunset_mid_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_MidRainSunset_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_MidRainSunset_low_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_MidRainyNoon_high_": [
+        null
+    ],
+    "6_s-8_0_0_0_sr_0_0_1_MidRainyNoon_low_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_CloudyNoon_low_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "6_t1-1_0_0_0_r_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "6_t2-1_1_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "6_t2-1_1_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "6_t2-1_1_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "6_t2-1_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "6_t2-1_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "6_t2-1_1_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_ClearSunset_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_ClearSunset_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_HardRainSunset_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_MidRainSunset_high_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_MidRainSunset_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_MidRainyNoon_high_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_MidRainyNoon_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_WetNoon_high_": [
+        null
+    ],
+    "7_i-1_1_0_0_f_0_rl_WetSunset_high_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_r_0_rl_CloudySunset_high_": [
+        null
+    ],
+    "7_i-1_1_0_0_r_0_rl_HardRainNoon_mid_": [
+        null
+    ],
+    "7_i-1_1_0_0_r_0_rl_MidRainSunset_low_": [
+        null
+    ],
+    "7_i-1_1_0_0_r_0_rl_WetSunset_low_": [
+        null
+    ],
+    "7_i-2_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_i-2_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_i-2_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_i-2_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_i-2_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_i-2_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "7_i-2_1_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "7_i-3_0_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_i-3_0_0_0_u_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_i-3_0_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_i-3_0_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_i-3_0_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_i-3_0_0_0_u_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_r-1_0_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_r-1_0_0_0_r_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_s-1_0_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_s-1_0_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_s-1_0_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_s-1_0_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_s-1_0_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_s-1_0_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_s-1_0_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_s-1_0_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_l_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_s-3_0_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_ClearSunset_mid_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_CloudySunset_high_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_CloudySunset_low_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_HardRainNoon_high_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_HardRainNoon_low_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_HardRainNoon_mid_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_HardRainSunset_low_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_MidRainSunset_high_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_MidRainSunset_mid_": [
+        null
+    ],
+    "7_s-4_0_0_0_f_0_0_1_WetNoon_high_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t1-1_0_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t1-2_1_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t1-2_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_t1-4_0_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t1-4_0_0_0_u_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t1-5_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t2-1_0_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_ClearSunset_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_ClearSunset_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_CloudyNoon_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_CloudyNoon_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_CloudySunset_low_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_HardRainNoon_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_HardRainSunset_low_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_MidRainSunset_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t2-2_1_0_0_l_0_rl_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_ClearNoon_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t2-2_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_t2-3_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_t2-4_0_0_0_f_0_0_ClearNoon_high_": [
+        null
+    ],
+    "7_t2-4_0_0_0_f_0_0_ClearNoon_mid_": [
+        null
+    ],
+    "7_t2-4_0_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t2-4_0_0_0_f_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_ss_CloudySunset_high_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_ss_HardRainSunset_low_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_ss_MidRainSunset_high_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_ss_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_ss_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_ss_WetNoon_mid_": [
+        null
+    ],
+    "7_t2-4_0_0_0_r_0_ss_WetSunset_mid_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t2-5_0_0_0_r_0_0_WetNoon_high_": [
+        null
+    ],
+    "7_t3-1_0_0_0_f_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_t3-1_0_0_0_f_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t3-1_0_0_0_f_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t3-1_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t3-1_0_0_0_f_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t3-1_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t3-1_0_0_0_f_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_t3-3_0_0_0_l_0_0_WetSunset_mid_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t3-4_0_0_0_l_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_MidRainSunset_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_CloudyNoon_mid_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t3-4_1_0_0_r_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_CloudySunset_high_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_WetNoon_high_": [
+        null
+    ],
+    "7_t3-5_0_0_0_f_0_0_WetSunset_low_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_ClearSunset_high_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_ClearSunset_mid_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_HardRainSunset_mid_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "7_t3-5_0_0_0_l_0_0_WetNoon_mid_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_CloudySunset_low_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_CloudySunset_mid_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_HardRainNoon_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_HardRainSunset_low_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_MidRainyNoon_low_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_MidRainyNoon_mid_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_WetNoon_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_l_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_ClearSunset_low_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_CloudyNoon_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_HardRainNoon_low_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_HardRainNoon_mid_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_HardRainSunset_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_MidRainSunset_low_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_MidRainSunset_mid_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_MidRainyNoon_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_WetSunset_high_": [
+        null
+    ],
+    "7_t3-5_1_0_0_r_0_0_WetSunset_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_16_CloudyNoon_high_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_16_CloudyNoon_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_16_CloudySunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_16_HardRainSunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_16_WetSunset_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_22_ClearSunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_22_MidRainSunset_high_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_22_MidRainSunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sl_0_0_22_MidRainyNoon_high_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_11_MidRainSunset_high_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_11_MidRainSunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_11_MidRainyNoon_high_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_11_MidRainyNoon_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_11_WetSunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_11_WetSunset_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_13_ClearSunset_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_13_HardRainNoon_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_13_MidRainSunset_high_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_13_MidRainSunset_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_13_MidRainyNoon_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_13_WetSunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_19_CloudySunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_19_HardRainNoon_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_19_MidRainSunset_high_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_19_MidRainSunset_low_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_19_MidRainyNoon_mid_": [
+        null
+    ],
+    "B3_r-1_0_0_0_sr_0_0_19_WetSunset_mid_": [
+        null
+    ]
+}
