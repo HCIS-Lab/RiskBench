@@ -15,6 +15,7 @@ def get_parser():
     parser.add_argument("--intention",action='store_true',default=False)
     parser.add_argument("--supervised",action='store_true',default=False)
     parser.add_argument("--state",action='store_true',default=False)
+    parser.add_argument("--vis",action='store_true',default=False)
 
     args = parser.parse_args()
     return args
