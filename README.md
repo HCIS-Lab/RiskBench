@@ -1,5 +1,5 @@
 # RiskBench: A Scenario-based Benchmark for Risk Identification
-![RiskBench](images/teaser2.png)
+![RiskBench](images/teaser.png)
 
 ## System requirements
 - Linux (Tested on Ubuntu 18.04)
