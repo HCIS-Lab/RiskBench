@@ -1,5 +1,4 @@
 # RiskBench: A Scenario-based Benchmark for Risk Identification
-PyTorch code for RiskBench.
 ![RiskBench](images/teaser2.png)
 
 ## System requirements
