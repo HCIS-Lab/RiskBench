@@ -1,0 +1,7 @@
+{
+    "high_level_command": "turn-right",
+    "video_start": 65,
+    "video_end": 270,
+    "command_start": 110,
+    "command_end": 240
+}

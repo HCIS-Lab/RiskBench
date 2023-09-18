@@ -1,0 +1,5801 @@
+{
+    "10_i-1_1_c_r_l_0_HardRainNoon_low_": [
+        "17424"
+    ],
+    "10_i-1_1_c_r_l_0_HardRainNoon_mid_": [
+        "17382"
+    ],
+    "10_i-1_1_c_r_l_0_HardRainSunset_high_": [
+        "17144"
+    ],
+    "10_i-1_1_c_r_l_0_HardRainSunset_low_": [
+        "17323"
+    ],
+    "10_i-1_1_c_r_l_0_MidRainSunset_high_": [
+        "17352"
+    ],
+    "10_i-1_1_c_r_l_0_MidRainSunset_mid_": [
+        "17631"
+    ],
+    "10_i-1_1_c_r_l_0_MidRainyNoon_high_": [
+        "17540"
+    ],
+    "10_i-1_1_c_r_l_0_WetNoon_high_": [
+        "17485"
+    ],
+    "10_i-1_1_c_r_l_0_WetNoon_low_": [
+        "17617"
+    ],
+    "10_i-1_1_c_r_l_0_WetNoon_mid_": [
+        "17617"
+    ],
+    "10_i-1_1_c_r_l_0_WetSunset_low_": [
+        "39407"
+    ],
+    "10_i-1_1_c_r_l_0_WetSunset_mid_": [
+        "17617"
+    ],
+    "10_i-1_1_t_l_f_0_CloudyNoon_high_": [
+        "20695"
+    ],
+    "10_i-1_1_t_l_f_0_CloudySunset_high_": [
+        "19747"
+    ],
+    "10_i-1_1_t_l_f_0_CloudySunset_low_": [
+        "42972"
+    ],
+    "10_i-1_1_t_l_f_0_CloudySunset_mid_": [
+        "20476"
+    ],
+    "10_i-1_1_t_l_f_0_HardRainNoon_high_": [
+        "19633"
+    ],
+    "10_i-1_1_t_l_f_0_HardRainNoon_low_": [
+        "19416"
+    ],
+    "10_i-1_1_t_l_f_0_HardRainNoon_mid_": [
+        "30682"
+    ],
+    "10_i-1_1_t_l_f_0_HardRainSunset_mid_": [
+        "20866"
+    ],
+    "10_i-1_1_t_l_f_0_MidRainSunset_high_": [
+        "20746"
+    ],
+    "10_i-1_1_t_l_f_0_MidRainSunset_low_": [
+        "21226"
+    ],
+    "10_i-1_1_t_l_f_0_MidRainSunset_mid_": [
+        "21226"
+    ],
+    "10_i-1_1_t_l_f_0_MidRainyNoon_high_": [
+        "35945"
+    ],
+    "10_i-1_1_t_l_f_0_MidRainyNoon_mid_": [
+        "21226"
+    ],
+    "10_i-1_1_t_l_f_0_WetNoon_mid_": [
+        "19929"
+    ],
+    "10_i-1_1_t_l_f_0_WetSunset_low_": [
+        "19936"
+    ],
+    "10_i-1_1_t_l_f_0_WetSunset_mid_": [
+        "21043"
+    ],
+    "10_s-1_0_b_sr_f_0_ClearSunset_high_": [
+        "21230"
+    ],
+    "10_s-1_0_b_sr_f_0_CloudySunset_high_": [
+        "36527"
+    ],
+    "10_s-1_0_b_sr_f_0_CloudySunset_low_": [
+        "38817"
+    ],
+    "10_s-1_0_b_sr_f_0_HardRainSunset_high_": [
+        "20607"
+    ],
+    "10_s-1_0_b_sr_f_0_HardRainSunset_low_": [
+        "21118"
+    ],
+    "10_s-1_0_b_sr_f_0_HardRainSunset_mid_": [
+        "21139"
+    ],
+    "10_s-1_0_b_sr_f_0_MidRainyNoon_high_": [
+        "21226"
+    ],
+    "10_s-1_0_b_sr_f_0_MidRainyNoon_low_": [
+        "40418"
+    ],
+    "10_s-1_0_b_sr_f_0_MidRainyNoon_mid_": [
+        "20959"
+    ],
+    "10_s-1_0_b_sr_f_0_WetNoon_high_": [
+        "21230"
+    ],
+    "10_s-1_0_b_sr_f_0_WetNoon_mid_": [
+        "21166"
+    ],
+    "10_s-1_0_b_sr_f_0_WetSunset_low_": [
+        "33643"
+    ],
+    "10_s-1_0_b_sr_f_0_WetSunset_mid_": [
+        "36302"
+    ],
+    "10_s-1_0_b_sr_f_0_5_ClearNoon_high_": [
+        "32284"
+    ],
+    "10_s-1_0_b_sr_f_0_5_ClearNoon_low_": [
+        "17952"
+    ],
+    "10_s-1_0_b_sr_f_0_5_ClearNoon_mid_": [
+        "17983"
+    ],
+    "10_s-1_0_b_sr_f_0_5_ClearSunset_low_": [
+        "17983"
+    ],
+    "10_s-1_0_b_sr_f_0_5_CloudyNoon_high_": [
+        "17983"
+    ],
+    "10_s-1_0_b_sr_f_0_5_CloudyNoon_low_": [
+        "18407"
+    ],
+    "10_s-1_0_b_sr_f_0_5_CloudySunset_mid_": [
+        "18407"
+    ],
+    "10_s-1_0_b_sr_f_0_5_HardRainSunset_mid_": [
+        "18403"
+    ],
+    "10_s-1_0_b_sr_f_0_5_MidRainSunset_low_": [
+        "45955"
+    ],
+    "10_s-1_0_b_sr_f_0_5_MidRainyNoon_high_": [
+        "18396"
+    ],
+    "10_s-1_0_b_sr_f_0_5_MidRainyNoon_low_": [
+        "18538"
+    ],
+    "10_s-1_0_b_sr_f_0_5_MidRainyNoon_mid_": [
+        "18538"
+    ],
+    "10_s-1_0_b_sr_f_0_5_WetNoon_mid_": [
+        "18542"
+    ],
+    "10_s-7_0_c_sl_f_1_s_ClearSunset_high_": [
+        "34774"
+    ],
+    "10_s-7_0_c_sl_f_1_s_CloudyNoon_high_": [
+        "19629"
+    ],
+    "10_s-7_0_c_sl_f_1_s_CloudyNoon_mid_": [
+        "19854"
+    ],
+    "10_s-7_0_c_sl_f_1_s_CloudySunset_low_": [
+        "28645"
+    ],
+    "10_s-7_0_c_sl_f_1_s_CloudySunset_mid_": [
+        "19859"
+    ],
+    "10_s-7_0_c_sl_f_1_s_HardRainNoon_low_": [
+        "19776"
+    ],
+    "10_s-7_0_c_sl_f_1_s_HardRainNoon_mid_": [
+        "19851"
+    ],
+    "10_s-7_0_c_sl_f_1_s_HardRainSunset_high_": [
+        "19855"
+    ],
+    "10_s-7_0_c_sl_f_1_s_HardRainSunset_low_": [
+        "19855"
+    ],
+    "10_s-7_0_c_sl_f_1_s_MidRainSunset_high_": [
+        "19837"
+    ],
+    "10_s-7_0_c_sl_f_1_s_MidRainSunset_low_": [
+        "19855"
+    ],
+    "10_s-7_0_c_sl_f_1_s_MidRainSunset_mid_": [
+        "19826"
+    ],
+    "10_s-7_0_c_sl_f_1_s_MidRainyNoon_high_": [
+        "27592"
+    ],
+    "10_s-7_0_c_sl_f_1_s_MidRainyNoon_low_": [
+        "19764"
+    ],
+    "10_s-7_0_c_sl_f_1_s_MidRainyNoon_mid_": [
+        "19764"
+    ],
+    "10_s-7_0_c_sl_f_1_s_WetNoon_high_": [
+        "19859"
+    ],
+    "10_s-7_0_c_sl_f_1_s_WetSunset_high_": [
+        "19745"
+    ],
+    "10_s-7_0_c_sl_f_1_s_WetSunset_low_": [
+        "19842"
+    ],
+    "10_s-7_0_c_sl_f_1_s_WetSunset_mid_": [
+        "19838"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_ClearSunset_high_": [
+        "19842"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_ClearSunset_low_": [
+        "37956"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_ClearSunset_mid_": [
+        "19880"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_CloudyNoon_mid_": [
+        "35715"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_CloudySunset_high_": [
+        "20010"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_CloudySunset_low_": [
+        "20226"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_CloudySunset_mid_": [
+        "19417"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_HardRainNoon_high_": [
+        "20222"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_HardRainNoon_mid_": [
+        "20222"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_HardRainSunset_high_": [
+        "34623"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_HardRainSunset_mid_": [
+        "20222"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_MidRainSunset_high_": [
+        "20203"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_MidRainSunset_low_": [
+        "19145"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_MidRainSunset_mid_": [
+        "30824"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_MidRainyNoon_high_": [
+        "20222"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_MidRainyNoon_low_": [
+        "34258"
+    ],
+    "10_s-7_0_c_sr_f_1_0_1_WetNoon_high_": [
+        "36858"
+    ],
+    "10_t1-2_0_b_u_r_0_ClearSunset_high_": [
+        "33387"
+    ],
+    "10_t1-2_0_b_u_r_0_ClearSunset_low_": [
+        "20484"
+    ],
+    "10_t1-2_0_b_u_r_0_ClearSunset_mid_": [
+        "20262"
+    ],
+    "10_t1-2_0_b_u_r_0_CloudyNoon_high_": [
+        "20481"
+    ],
+    "10_t1-2_0_b_u_r_0_CloudyNoon_mid_": [
+        "20038"
+    ],
+    "10_t1-2_0_b_u_r_0_CloudySunset_high_": [
+        "20466"
+    ],
+    "10_t1-2_0_b_u_r_0_HardRainNoon_high_": [
+        "20321"
+    ],
+    "10_t1-2_0_b_u_r_0_HardRainNoon_low_": [
+        "35214"
+    ],
+    "10_t1-2_0_b_u_r_0_HardRainNoon_mid_": [
+        "19962"
+    ],
+    "10_t1-2_0_b_u_r_0_HardRainSunset_low_": [
+        "20066"
+    ],
+    "10_t1-2_0_b_u_r_0_MidRainSunset_high_": [
+        "20053"
+    ],
+    "10_t1-2_0_b_u_r_0_MidRainSunset_low_": [
+        "40165"
+    ],
+    "10_t1-2_0_b_u_r_0_MidRainSunset_mid_": [
+        "20251"
+    ],
+    "10_t1-2_0_b_u_r_0_MidRainyNoon_low_": [
+        "37393"
+    ],
+    "10_t1-2_0_b_u_r_0_MidRainyNoon_mid_": [
+        "20340"
+    ],
+    "10_t1-2_0_b_u_r_0_5_ClearNoon_high_": [
+        "18540"
+    ],
+    "10_t1-2_0_b_u_r_0_5_ClearNoon_low_": [
+        "20923"
+    ],
+    "10_t1-2_0_b_u_r_0_5_ClearNoon_mid_": [
+        "20901"
+    ],
+    "10_t1-2_0_b_u_r_0_5_CloudyNoon_high_": [
+        "20858"
+    ],
+    "10_t1-2_0_b_u_r_0_5_CloudySunset_mid_": [
+        "20923"
+    ],
+    "10_t1-2_0_b_u_r_0_5_HardRainNoon_low_": [
+        "20901"
+    ],
+    "10_t1-2_0_b_u_r_0_5_HardRainSunset_high_": [
+        "20901"
+    ],
+    "10_t1-2_0_b_u_r_0_5_HardRainSunset_low_": [
+        "20919"
+    ],
+    "10_t1-2_0_b_u_r_0_5_HardRainSunset_mid_": [
+        "20919"
+    ],
+    "10_t1-2_0_b_u_r_0_5_MidRainSunset_high_": [
+        "20932"
+    ],
+    "10_t1-2_0_b_u_r_0_5_MidRainSunset_low_": [
+        "20872"
+    ],
+    "10_t1-2_0_b_u_r_0_5_MidRainyNoon_high_": [
+        "20919"
+    ],
+    "10_t1-2_0_b_u_r_0_5_MidRainyNoon_mid_": [
+        "42870"
+    ],
+    "10_t1-2_0_b_u_r_0_5_WetSunset_high_": [
+        "20853"
+    ],
+    "10_t1-2_0_b_u_r_0_5_WetSunset_low_": [
+        "36928"
+    ],
+    "10_t1-2_0_p_j_r_j_ClearSunset_mid_": [
+        "30406"
+    ],
+    "10_t1-2_0_p_j_r_j_CloudySunset_high_": [
+        "20694"
+    ],
+    "10_t1-2_0_p_j_r_j_CloudySunset_low_": [
+        "19708"
+    ],
+    "10_t1-2_0_p_j_r_j_CloudySunset_mid_": [
+        "34491"
+    ],
+    "10_t1-2_0_p_j_r_j_HardRainNoon_high_": [
+        "34883"
+    ],
+    "10_t1-2_0_p_j_r_j_HardRainNoon_low_": [
+        "43772"
+    ],
+    "10_t1-2_0_p_j_r_j_HardRainSunset_high_": [
+        "28125"
+    ],
+    "10_t1-2_0_p_j_r_j_HardRainSunset_low_": [
+        "20733"
+    ],
+    "10_t1-2_0_p_j_r_j_HardRainSunset_mid_": [
+        "20780"
+    ],
+    "10_t1-2_0_p_j_r_j_MidRainyNoon_high_": [
+        "20780"
+    ],
+    "10_t1-2_0_p_j_r_j_MidRainyNoon_low_": [
+        "20850"
+    ],
+    "10_t1-2_0_p_j_r_j_MidRainyNoon_mid_": [
+        "20850"
+    ],
+    "10_t1-2_0_p_j_r_j_WetNoon_mid_": [
+        "32284"
+    ],
+    "10_t1-2_0_p_j_r_j_WetSunset_high_": [
+        "19407"
+    ],
+    "10_t1-5_0_p_j_r_j_ClearSunset_high_": [
+        "18533"
+    ],
+    "10_t1-5_0_p_j_r_j_ClearSunset_low_": [
+        "18645"
+    ],
+    "10_t1-5_0_p_j_r_j_CloudyNoon_high_": [
+        "20307"
+    ],
+    "10_t1-5_0_p_j_r_j_HardRainNoon_high_": [
+        "19790"
+    ],
+    "10_t1-5_0_p_j_r_j_HardRainNoon_low_": [
+        "21106"
+    ],
+    "10_t1-5_0_p_j_r_j_HardRainSunset_low_": [
+        "20964"
+    ],
+    "10_t1-5_0_p_j_r_j_MidRainSunset_high_": [
+        "35607"
+    ],
+    "10_t1-5_0_p_j_r_j_MidRainSunset_mid_": [
+        "21106"
+    ],
+    "10_t1-5_0_p_j_r_j_MidRainyNoon_high_": [
+        "21089"
+    ],
+    "10_t1-5_0_p_j_r_j_MidRainyNoon_low_": [
+        "21130"
+    ],
+    "10_t1-5_0_p_j_r_j_MidRainyNoon_mid_": [
+        "21130"
+    ],
+    "10_t1-5_0_p_j_r_j_WetNoon_high_": [
+        "35870"
+    ],
+    "10_t1-5_0_p_j_r_j_WetSunset_low_": [
+        "21134"
+    ],
+    "10_t1-5_0_p_j_r_j_WetSunset_mid_": [
+        "20992"
+    ],
+    "10_t2-1_1_c_u_f_0_ClearSunset_mid_": [
+        "21021"
+    ],
+    "10_t2-1_1_c_u_f_0_CloudyNoon_high_": [
+        "21127"
+    ],
+    "10_t2-1_1_c_u_f_0_CloudyNoon_mid_": [
+        "21134"
+    ],
+    "10_t2-1_1_c_u_f_0_CloudySunset_high_": [
+        "21060"
+    ],
+    "10_t2-1_1_c_u_f_0_CloudySunset_low_": [
+        "20583"
+    ],
+    "10_t2-1_1_c_u_f_0_HardRainNoon_low_": [
+        "21076"
+    ],
+    "10_t2-1_1_c_u_f_0_HardRainNoon_mid_": [
+        "21066"
+    ],
+    "10_t2-1_1_c_u_f_0_HardRainSunset_low_": [
+        "21036"
+    ],
+    "10_t2-1_1_c_u_f_0_HardRainSunset_mid_": [
+        "21083"
+    ],
+    "10_t2-1_1_c_u_f_0_MidRainSunset_high_": [
+        "21065"
+    ],
+    "10_t2-1_1_c_u_f_0_MidRainSunset_low_": [
+        "21130"
+    ],
+    "10_t2-1_1_c_u_f_0_MidRainSunset_mid_": [
+        "21083"
+    ],
+    "10_t2-1_1_c_u_f_0_MidRainyNoon_high_": [
+        "21130"
+    ],
+    "10_t2-1_1_c_u_f_0_MidRainyNoon_low_": [
+        "21130"
+    ],
+    "10_t2-1_1_c_u_f_0_MidRainyNoon_mid_": [
+        "20742"
+    ],
+    "10_t2-1_1_c_u_f_0_WetNoon_mid_": [
+        "20777"
+    ],
+    "10_t2-1_1_c_u_f_0_WetSunset_low_": [
+        "21075"
+    ],
+    "10_t2-2_0_p_c_f_0_ClearSunset_low_": [
+        "21126"
+    ],
+    "10_t2-2_0_p_c_f_0_ClearSunset_mid_": [
+        "21134"
+    ],
+    "10_t2-2_0_p_c_f_0_CloudyNoon_high_": [
+        "21029"
+    ],
+    "10_t2-2_0_p_c_f_0_CloudySunset_high_": [
+        "35823"
+    ],
+    "10_t2-2_0_p_c_f_0_HardRainNoon_high_": [
+        "19862"
+    ],
+    "10_t2-2_0_p_c_f_0_HardRainNoon_mid_": [
+        "31796"
+    ],
+    "10_t2-2_0_p_c_f_0_HardRainSunset_high_": [
+        "20966"
+    ],
+    "10_t2-2_0_p_c_f_0_HardRainSunset_mid_": [
+        "32288"
+    ],
+    "10_t2-2_0_p_c_f_0_MidRainSunset_high_": [
+        "19015"
+    ],
+    "10_t2-2_0_p_c_f_0_MidRainSunset_low_": [
+        "19558"
+    ],
+    "10_t2-2_0_p_c_f_0_MidRainSunset_mid_": [
+        "19553"
+    ],
+    "10_t2-2_0_p_c_f_0_MidRainyNoon_high_": [
+        "19558"
+    ],
+    "10_t2-2_0_p_c_f_0_MidRainyNoon_low_": [
+        "20068"
+    ],
+    "10_t2-2_0_p_c_f_0_WetNoon_high_": [
+        "20085"
+    ],
+    "10_t2-2_0_p_c_f_0_WetSunset_high_": [
+        "20025"
+    ],
+    "10_t2-2_0_p_c_f_0_WetSunset_mid_": [
+        "18355"
+    ],
+    "10_t2-3_0_t_r_f_0_CloudyNoon_high_": [
+        "23953"
+    ],
+    "10_t2-3_0_t_r_f_0_CloudySunset_low_": [
+        "20513"
+    ],
+    "10_t2-3_0_t_r_f_0_HardRainSunset_low_": [
+        "20939"
+    ],
+    "10_t2-3_0_t_r_f_0_HardRainSunset_mid_": [
+        "21028"
+    ],
+    "10_t2-3_0_t_r_f_0_MidRainSunset_high_": [
+        "21506"
+    ],
+    "10_t2-3_0_t_r_f_0_MidRainSunset_low_": [
+        "34330"
+    ],
+    "10_t2-3_0_t_r_f_0_MidRainSunset_mid_": [
+        "29754"
+    ],
+    "10_t2-3_0_t_r_f_0_MidRainyNoon_low_": [
+        "38108"
+    ],
+    "10_t2-3_0_t_r_f_0_MidRainyNoon_mid_": [
+        "21513"
+    ],
+    "10_t2-3_0_t_r_f_0_WetSunset_low_": [
+        "21606"
+    ],
+    "10_t2-3_0_t_r_f_0_WetSunset_mid_": [
+        "21588"
+    ],
+    "10_t2-5_0_p_c_r_0_ClearSunset_high_": [
+        "21606"
+    ],
+    "10_t2-5_0_p_c_r_0_CloudyNoon_high_": [
+        "21606"
+    ],
+    "10_t2-5_0_p_c_r_0_CloudyNoon_mid_": [
+        "21606"
+    ],
+    "10_t2-5_0_p_c_r_0_CloudySunset_low_": [
+        "20716"
+    ],
+    "10_t2-5_0_p_c_r_0_HardRainNoon_high_": [
+        "31532"
+    ],
+    "10_t2-5_0_p_c_r_0_HardRainNoon_low_": [
+        "30445"
+    ],
+    "10_t2-5_0_p_c_r_0_HardRainNoon_mid_": [
+        "20859"
+    ],
+    "10_t2-5_0_p_c_r_0_HardRainSunset_high_": [
+        "20820"
+    ],
+    "10_t2-5_0_p_c_r_0_HardRainSunset_low_": [
+        "21574"
+    ],
+    "10_t2-5_0_p_c_r_0_MidRainSunset_high_": [
+        "21575"
+    ],
+    "10_t2-5_0_p_c_r_0_MidRainSunset_mid_": [
+        "39682"
+    ],
+    "10_t2-5_0_p_c_r_0_MidRainyNoon_high_": [
+        "43198"
+    ],
+    "10_t2-5_0_p_c_r_0_MidRainyNoon_mid_": [
+        "21571"
+    ],
+    "10_t2-5_0_p_c_r_0_WetNoon_mid_": [
+        "21552"
+    ],
+    "10_t2-5_0_p_c_r_0_WetSunset_mid_": [
+        "21030"
+    ],
+    "10_t2-5_0_t_r_f_0_ClearSunset_low_": [
+        "44522"
+    ],
+    "10_t2-5_0_t_r_f_0_CloudySunset_mid_": [
+        "20741"
+    ],
+    "10_t2-5_0_t_r_f_0_HardRainNoon_high_": [
+        "21584"
+    ],
+    "10_t2-5_0_t_r_f_0_HardRainNoon_low_": [
+        "21571"
+    ],
+    "10_t2-5_0_t_r_f_0_HardRainNoon_mid_": [
+        "21511"
+    ],
+    "10_t2-5_0_t_r_f_0_HardRainSunset_high_": [
+        "21306"
+    ],
+    "10_t2-5_0_t_r_f_0_HardRainSunset_low_": [
+        "20335"
+    ],
+    "10_t2-5_0_t_r_f_0_HardRainSunset_mid_": [
+        "21012"
+    ],
+    "10_t2-5_0_t_r_f_0_MidRainSunset_high_": [
+        "21602"
+    ],
+    "10_t2-5_0_t_r_f_0_MidRainSunset_low_": [
+        "21615"
+    ],
+    "10_t2-5_0_t_r_f_0_MidRainSunset_mid_": [
+        "21569"
+    ],
+    "10_t2-5_0_t_r_f_0_WetNoon_mid_": [
+        "21606"
+    ],
+    "10_t2-5_0_t_r_f_0_WetSunset_high_": [
+        "21175"
+    ],
+    "10_t2-5_0_t_r_f_0_WetSunset_low_": [
+        "21447"
+    ],
+    "10_t3-2_0_c_r_l_0_CloudySunset_high_": [
+        "21400"
+    ],
+    "10_t3-2_0_c_r_l_0_CloudySunset_low_": [
+        "20373"
+    ],
+    "10_t3-2_0_c_r_l_0_CloudySunset_mid_": [
+        "42338"
+    ],
+    "10_t3-2_0_c_r_l_0_HardRainNoon_high_": [
+        "30776"
+    ],
+    "10_t3-2_0_c_r_l_0_HardRainNoon_low_": [
+        "21602"
+    ],
+    "10_t3-2_0_c_r_l_0_HardRainNoon_mid_": [
+        "21602"
+    ],
+    "10_t3-2_0_c_r_l_0_HardRainSunset_high_": [
+        "21461"
+    ],
+    "10_t3-2_0_c_r_l_0_HardRainSunset_low_": [
+        "20341"
+    ],
+    "10_t3-2_0_c_r_l_0_HardRainSunset_mid_": [
+        "21336"
+    ],
+    "10_t3-2_0_c_r_l_0_MidRainSunset_high_": [
+        "20395"
+    ],
+    "10_t3-2_0_c_r_l_0_MidRainSunset_mid_": [
+        "21546"
+    ],
+    "10_t3-2_0_c_r_l_0_MidRainyNoon_high_": [
+        "36467"
+    ],
+    "10_t3-2_0_c_r_l_0_WetNoon_high_": [
+        "21423"
+    ],
+    "10_t3-2_0_c_r_l_0_WetNoon_mid_": [
+        "20005"
+    ],
+    "10_t3-2_0_c_r_l_0_WetSunset_high_": [
+        "32284"
+    ],
+    "10_t3-2_0_c_r_l_0_WetSunset_low_": [
+        "20057"
+    ],
+    "10_t3-2_0_p_c_l_0_ClearSunset_mid_": [
+        "19618"
+    ],
+    "10_t3-2_0_p_c_l_0_HardRainNoon_high_": [
+        "50694"
+    ],
+    "10_t3-2_0_p_c_l_0_HardRainNoon_low_": [
+        "19293"
+    ],
+    "10_t3-2_0_p_c_l_0_HardRainNoon_mid_": [
+        "20281"
+    ],
+    "10_t3-2_0_p_c_l_0_HardRainSunset_high_": [
+        "19412"
+    ],
+    "10_t3-2_0_p_c_l_0_HardRainSunset_low_": [
+        "32288"
+    ],
+    "10_t3-2_0_p_c_l_0_HardRainSunset_mid_": [
+        "17085"
+    ],
+    "10_t3-2_0_p_c_l_0_MidRainSunset_high_": [
+        "18855"
+    ],
+    "10_t3-2_0_p_c_l_0_MidRainSunset_mid_": [
+        "20128"
+    ],
+    "10_t3-2_0_p_c_l_0_MidRainyNoon_high_": [
+        "20068"
+    ],
+    "10_t3-2_0_p_c_l_0_MidRainyNoon_low_": [
+        "20587"
+    ],
+    "10_t3-2_0_p_c_l_0_WetNoon_high_": [
+        "20139"
+    ],
+    "10_t3-2_0_p_c_l_0_WetNoon_mid_": [
+        "19581"
+    ],
+    "10_t3-2_0_p_c_l_0_WetSunset_high_": [
+        "20591"
+    ],
+    "10_t3-2_0_p_c_l_0_WetSunset_low_": [
+        "18762"
+    ],
+    "10_t3-2_0_p_c_l_0_WetSunset_mid_": [
+        "19863"
+    ],
+    "10_t3-6_1_m_f_u_0_ClearSunset_mid_": [
+        "19181"
+    ],
+    "10_t3-6_1_m_f_u_0_CloudyNoon_high_": [
+        "44630"
+    ],
+    "10_t3-6_1_m_f_u_0_HardRainNoon_high_": [
+        "19675"
+    ],
+    "10_t3-6_1_m_f_u_0_MidRainyNoon_high_": [
+        "20651"
+    ],
+    "10_t3-6_1_m_f_u_0_MidRainyNoon_low_": [
+        "19641"
+    ],
+    "10_t3-6_1_m_l_f_0_1_ClearSunset_high_": [
+        "20265"
+    ],
+    "10_t3-6_1_m_l_f_0_1_ClearSunset_low_": [
+        "19977"
+    ],
+    "10_t3-6_1_m_l_f_0_1_CloudyNoon_high_": [
+        "33336"
+    ],
+    "10_t3-6_1_m_l_f_0_1_HardRainNoon_low_": [
+        "36371"
+    ],
+    "10_t3-6_1_m_l_f_0_1_HardRainNoon_mid_": [
+        "20547"
+    ],
+    "10_t3-6_1_m_l_f_0_1_HardRainSunset_high_": [
+        "20702"
+    ],
+    "10_t3-6_1_m_l_f_0_1_HardRainSunset_low_": [
+        "20757"
+    ],
+    "10_t3-6_1_m_l_f_0_1_MidRainSunset_mid_": [
+        "20605"
+    ],
+    "10_t3-6_1_m_l_f_0_1_MidRainyNoon_high_": [
+        "35235"
+    ],
+    "10_t3-6_1_m_l_f_0_1_MidRainyNoon_mid_": [
+        "19440"
+    ],
+    "10_t3-6_1_m_l_f_0_1_WetNoon_high_": [
+        "20675"
+    ],
+    "10_t3-6_1_m_l_f_0_1_WetNoon_mid_": [
+        "20761"
+    ],
+    "10_t3-6_1_m_l_f_0_1_WetSunset_low_": [
+        "20761"
+    ],
+    "10_t3-6_1_m_l_f_0_1_WetSunset_mid_": [
+        "20761"
+    ],
+    "1_t1-1_1_b_r_r_0_ClearSunset_high_": [
+        "64946"
+    ],
+    "1_t1-1_1_b_r_r_0_ClearSunset_low_": [
+        "64790"
+    ],
+    "1_t1-1_1_b_r_r_0_ClearSunset_mid_": [
+        "9993"
+    ],
+    "1_t1-1_1_b_r_r_0_CloudyNoon_mid_": [
+        "64787"
+    ],
+    "1_t1-1_1_b_r_r_0_CloudySunset_high_": [
+        "63418"
+    ],
+    "1_t1-1_1_b_r_r_0_CloudySunset_low_": [
+        "5984"
+    ],
+    "1_t1-1_1_b_r_r_0_CloudySunset_mid_": [
+        "64702"
+    ],
+    "1_t1-1_1_b_r_r_0_HardRainNoon_high_": [
+        "10744"
+    ],
+    "1_t1-1_1_b_r_r_0_HardRainNoon_mid_": [
+        "20522"
+    ],
+    "1_t1-1_1_b_r_r_0_HardRainSunset_high_": [
+        "32021"
+    ],
+    "1_t1-1_1_b_r_r_0_HardRainSunset_mid_": [
+        "48625"
+    ],
+    "1_t1-1_1_b_r_r_0_MidRainSunset_low_": [
+        "5512"
+    ],
+    "1_t1-1_1_b_r_r_0_MidRainSunset_mid_": [
+        "26258"
+    ],
+    "1_t1-1_1_b_r_r_0_MidRainyNoon_high_": [
+        "62884"
+    ],
+    "1_t1-1_1_b_r_r_0_MidRainyNoon_low_": [
+        "20852"
+    ],
+    "1_t1-1_1_b_r_r_0_MidRainyNoon_mid_": [
+        "19201"
+    ],
+    "1_t1-1_1_b_r_r_0_WetNoon_high_": [
+        "64715"
+    ],
+    "1_t2-3_1_p_c_r_1_0_ClearSunset_high_": [
+        "64787"
+    ],
+    "1_t2-3_1_p_c_r_1_0_ClearSunset_mid_": [
+        "57811"
+    ],
+    "1_t2-3_1_p_c_r_1_0_CloudySunset_low_": [
+        "18636"
+    ],
+    "1_t2-3_1_p_c_r_1_0_HardRainNoon_high_": [
+        "15852"
+    ],
+    "1_t2-3_1_p_c_r_1_0_HardRainNoon_low_": [
+        "14260"
+    ],
+    "1_t2-3_1_p_c_r_1_0_HardRainNoon_mid_": [
+        "62094"
+    ],
+    "1_t2-3_1_p_c_r_1_0_HardRainSunset_high_": [
+        "64592"
+    ],
+    "1_t2-3_1_p_c_r_1_0_MidRainSunset_low_": [
+        "58266"
+    ],
+    "1_t2-3_1_p_c_r_1_0_MidRainSunset_mid_": [
+        "17299"
+    ],
+    "1_t2-3_1_p_c_r_1_0_MidRainyNoon_low_": [
+        "2408"
+    ],
+    "1_t2-3_1_p_c_r_1_0_WetNoon_high_": [
+        "19200"
+    ],
+    "1_t2-3_1_p_c_r_1_0_WetNoon_mid_": [
+        "61572"
+    ],
+    "1_t2-3_1_p_c_r_1_0_WetSunset_mid_": [
+        "8525"
+    ],
+    "2_s-3_0_p_j_f_j_ClearSunset_high_": [
+        "12988"
+    ],
+    "2_s-3_0_p_j_f_j_ClearSunset_low_": [
+        "58268"
+    ],
+    "2_s-3_0_p_j_f_j_ClearSunset_mid_": [
+        "56636"
+    ],
+    "2_s-3_0_p_j_f_j_CloudyNoon_mid_": [
+        "35832"
+    ],
+    "2_s-3_0_p_j_f_j_HardRainNoon_high_": [
+        "60300"
+    ],
+    "2_s-3_0_p_j_f_j_HardRainNoon_mid_": [
+        "22014"
+    ],
+    "2_s-3_0_p_j_f_j_HardRainSunset_high_": [
+        "62520"
+    ],
+    "2_s-3_0_p_j_f_j_HardRainSunset_mid_": [
+        "58522"
+    ],
+    "2_s-3_0_p_j_f_j_MidRainSunset_high_": [
+        "56711"
+    ],
+    "2_s-3_0_p_j_f_j_MidRainSunset_low_": [
+        "40174"
+    ],
+    "2_s-3_0_p_j_f_j_MidRainyNoon_low_": [
+        "19702"
+    ],
+    "2_s-3_0_p_j_f_j_MidRainyNoon_mid_": [
+        "24971"
+    ],
+    "2_s-3_0_p_j_f_j_WetNoon_high_": [
+        "22712"
+    ],
+    "2_t1-3_1_p_j_l_j_ClearNoon_high_": [
+        "51248"
+    ],
+    "2_t1-3_1_p_j_l_j_ClearNoon_low_": [
+        "57435"
+    ],
+    "2_t1-3_1_p_j_l_j_ClearNoon_mid_": [
+        "50803"
+    ],
+    "2_t1-3_1_p_j_l_j_ClearSunset_high_": [
+        "50803"
+    ],
+    "2_t1-3_1_p_j_l_j_ClearSunset_low_": [
+        "50799"
+    ],
+    "2_t1-3_1_p_j_l_j_CloudyNoon_low_": [
+        "51111"
+    ],
+    "2_t1-3_1_p_j_l_j_CloudySunset_low_": [
+        "54034"
+    ],
+    "2_t1-3_1_p_j_l_j_HardRainNoon_low_": [
+        "2649"
+    ],
+    "2_t1-3_1_p_j_l_j_HardRainNoon_mid_": [
+        "56683"
+    ],
+    "2_t1-3_1_p_j_l_j_HardRainSunset_high_": [
+        "55251"
+    ],
+    "2_t1-3_1_p_j_l_j_HardRainSunset_low_": [
+        "54051"
+    ],
+    "2_t1-3_1_p_j_l_j_MidRainSunset_low_": [
+        "2567"
+    ],
+    "2_t1-3_1_p_j_l_j_MidRainyNoon_low_": [
+        "2374"
+    ],
+    "2_t1-6_1_p_j_l_j_ClearNoon_high_": [
+        "56157"
+    ],
+    "2_t1-6_1_p_j_l_j_ClearNoon_low_": [
+        "2480"
+    ],
+    "2_t1-6_1_p_j_l_j_ClearNoon_mid_": [
+        "2463"
+    ],
+    "2_t1-6_1_p_j_l_j_ClearSunset_high_": [
+        "61980"
+    ],
+    "2_t1-6_1_p_j_l_j_ClearSunset_mid_": [
+        "60087"
+    ],
+    "2_t1-6_1_p_j_l_j_CloudyNoon_mid_": [
+        "2126"
+    ],
+    "2_t1-6_1_p_j_l_j_HardRainSunset_low_": [
+        "2366"
+    ],
+    "2_t1-6_1_p_j_l_j_MidRainSunset_high_": [
+        "51828"
+    ],
+    "2_t1-6_1_p_j_l_j_MidRainSunset_low_": [
+        "60138"
+    ],
+    "2_t1-6_1_p_j_l_j_MidRainSunset_mid_": [
+        "986"
+    ],
+    "2_t1-6_1_p_j_l_j_MidRainyNoon_high_": [
+        "60208"
+    ],
+    "2_t1-6_1_p_j_l_j_MidRainyNoon_low_": [
+        "15497"
+    ],
+    "2_t1-6_1_p_j_l_j_WetSunset_high_": [
+        "23223"
+    ],
+    "2_t1-6_1_p_j_l_j_WetSunset_low_": [
+        "29788"
+    ],
+    "2_t3-1_1_p_c_l_0_ClearSunset_mid_": [
+        "25513"
+    ],
+    "2_t3-1_1_p_c_l_0_CloudyNoon_high_": [
+        "22779"
+    ],
+    "2_t3-1_1_p_c_l_0_CloudySunset_high_": [
+        "22779"
+    ],
+    "2_t3-1_1_p_c_l_0_HardRainNoon_high_": [
+        "21625"
+    ],
+    "2_t3-1_1_p_c_l_0_HardRainNoon_low_": [
+        "34724"
+    ],
+    "2_t3-1_1_p_c_l_0_HardRainSunset_high_": [
+        "22775"
+    ],
+    "2_t3-1_1_p_c_l_0_HardRainSunset_low_": [
+        "44967"
+    ],
+    "2_t3-1_1_p_c_l_0_HardRainSunset_mid_": [
+        "19535"
+    ],
+    "2_t3-1_1_p_c_l_0_MidRainyNoon_high_": [
+        "35346"
+    ],
+    "2_t3-1_1_p_c_l_0_MidRainyNoon_low_": [
+        "24379"
+    ],
+    "2_t3-1_1_p_c_l_0_MidRainyNoon_mid_": [
+        "18627"
+    ],
+    "2_t3-1_1_p_c_l_0_WetSunset_high_": [
+        "22801"
+    ],
+    "2_t3-1_1_p_c_l_0_WetSunset_low_": [
+        "34799"
+    ],
+    "2_t3-8_1_p_j_l_j_ClearNoon_high_": [
+        "23517"
+    ],
+    "2_t3-8_1_p_j_l_j_ClearNoon_low_": [
+        "22113"
+    ],
+    "2_t3-8_1_p_j_l_j_ClearNoon_mid_": [
+        "23626"
+    ],
+    "2_t3-8_1_p_j_l_j_ClearSunset_low_": [
+        "22052"
+    ],
+    "2_t3-8_1_p_j_l_j_ClearSunset_mid_": [
+        "23404"
+    ],
+    "2_t3-8_1_p_j_l_j_CloudyNoon_high_": [
+        "22081"
+    ],
+    "2_t3-8_1_p_j_l_j_CloudySunset_mid_": [
+        "21738"
+    ],
+    "2_t3-8_1_p_j_l_j_HardRainNoon_high_": [
+        "22196"
+    ],
+    "2_t3-8_1_p_j_l_j_HardRainNoon_low_": [
+        "22266"
+    ],
+    "2_t3-8_1_p_j_l_j_HardRainNoon_mid_": [
+        "22265"
+    ],
+    "2_t3-8_1_p_j_l_j_HardRainSunset_low_": [
+        "22266"
+    ],
+    "2_t3-8_1_p_j_l_j_HardRainSunset_mid_": [
+        "23655"
+    ],
+    "2_t3-8_1_p_j_l_j_MidRainSunset_high_": [
+        "22263"
+    ],
+    "2_t3-8_1_p_j_l_j_MidRainSunset_low_": [
+        "22290"
+    ],
+    "2_t3-8_1_p_j_l_j_WetNoon_mid_": [
+        "22294"
+    ],
+    "2_t3-8_1_p_j_l_j_WetSunset_high_": [
+        "24435"
+    ],
+    "3_i-1_1_c_l_l_rl_ClearSunset_mid_": [
+        "58526"
+    ],
+    "3_i-1_1_c_l_l_rl_CloudySunset_high_": [
+        "17645"
+    ],
+    "3_i-1_1_c_l_l_rl_CloudySunset_low_": [
+        "19465"
+    ],
+    "3_i-1_1_c_l_l_rl_HardRainNoon_high_": [
+        "23036"
+    ],
+    "3_i-1_1_c_l_l_rl_HardRainNoon_low_": [
+        "19304"
+    ],
+    "3_i-1_1_c_l_l_rl_HardRainNoon_mid_": [
+        "26544"
+    ],
+    "3_i-1_1_c_l_l_rl_HardRainSunset_high_": [
+        "22930"
+    ],
+    "3_i-1_1_c_l_l_rl_HardRainSunset_mid_": [
+        "22878"
+    ],
+    "3_i-1_1_c_l_l_rl_MidRainSunset_high_": [
+        "19304"
+    ],
+    "3_i-1_1_c_l_l_rl_MidRainSunset_low_": [
+        "19148"
+    ],
+    "3_i-1_1_c_l_l_rl_MidRainSunset_mid_": [
+        "32080"
+    ],
+    "3_i-1_1_c_l_l_rl_MidRainyNoon_high_": [
+        "19135"
+    ],
+    "3_i-1_1_c_l_l_rl_MidRainyNoon_low_": [
+        "58531"
+    ],
+    "3_i-1_1_c_l_l_rl_WetNoon_high_": [
+        "19514"
+    ],
+    "3_i-1_1_c_l_l_rl_WetSunset_low_": [
+        "18363"
+    ],
+    "3_i-1_1_c_r_r_0_ClearSunset_high_": [
+        "18601"
+    ],
+    "3_i-1_1_c_r_r_0_ClearSunset_low_": [
+        "19350"
+    ],
+    "3_i-1_1_c_r_r_0_ClearSunset_mid_": [
+        "30183"
+    ],
+    "3_i-1_1_c_r_r_0_CloudyNoon_high_": [
+        "19350"
+    ],
+    "3_i-1_1_c_r_r_0_CloudyNoon_mid_": [
+        "53106"
+    ],
+    "3_i-1_1_c_r_r_0_CloudySunset_low_": [
+        "18865"
+    ],
+    "3_i-1_1_c_r_r_0_HardRainNoon_high_": [
+        "18950"
+    ],
+    "3_i-1_1_c_r_r_0_HardRainNoon_low_": [
+        "19346"
+    ],
+    "3_i-1_1_c_r_r_0_HardRainNoon_mid_": [
+        "19346"
+    ],
+    "3_i-1_1_c_r_r_0_HardRainSunset_high_": [
+        "22956"
+    ],
+    "3_i-1_1_c_r_r_0_HardRainSunset_low_": [
+        "19512"
+    ],
+    "3_i-1_1_c_r_r_0_HardRainSunset_mid_": [
+        "19505"
+    ],
+    "3_i-1_1_c_r_r_0_MidRainSunset_high_": [
+        "19512"
+    ],
+    "3_i-1_1_c_r_r_0_MidRainSunset_low_": [
+        "19512"
+    ],
+    "3_i-1_1_c_r_r_0_MidRainSunset_mid_": [
+        "28041"
+    ],
+    "3_i-1_1_c_r_r_0_MidRainyNoon_mid_": [
+        "19419"
+    ],
+    "3_i-1_1_c_r_r_0_WetNoon_high_": [
+        "32201"
+    ],
+    "3_i-1_1_c_r_r_0_WetSunset_high_": [
+        "19516"
+    ],
+    "3_i-1_1_c_sr_r_1_0_ClearSunset_high_": [
+        "19516"
+    ],
+    "3_i-1_1_c_sr_r_1_0_ClearSunset_mid_": [
+        "18945"
+    ],
+    "3_i-1_1_c_sr_r_1_0_CloudySunset_low_": [
+        "19516"
+    ],
+    "3_i-1_1_c_sr_r_1_0_HardRainNoon_low_": [
+        "48946"
+    ],
+    "3_i-1_1_c_sr_r_1_0_HardRainNoon_mid_": [
+        "19484"
+    ],
+    "3_i-1_1_c_sr_r_1_0_HardRainSunset_mid_": [
+        "19512"
+    ],
+    "3_i-1_1_c_sr_r_1_0_MidRainSunset_high_": [
+        "19512"
+    ],
+    "3_i-1_1_c_sr_r_1_0_MidRainyNoon_high_": [
+        "19396"
+    ],
+    "3_i-1_1_c_sr_r_1_0_MidRainyNoon_mid_": [
+        "19597"
+    ],
+    "3_i-1_1_c_sr_r_1_0_WetNoon_high_": [
+        "19241"
+    ],
+    "3_i-1_1_c_sr_r_1_0_WetNoon_mid_": [
+        "18618"
+    ],
+    "3_i-1_1_c_sr_r_1_0_WetSunset_high_": [
+        "37341"
+    ],
+    "3_i-1_1_c_sr_r_1_0_WetSunset_low_": [
+        "31875"
+    ],
+    "3_i-4_0_t_f_u_0_ClearSunset_low_": [
+        "22975"
+    ],
+    "3_i-4_0_t_f_u_0_CloudySunset_mid_": [
+        "19348"
+    ],
+    "3_i-4_0_t_f_u_0_HardRainNoon_high_": [
+        "19546"
+    ],
+    "3_i-4_0_t_f_u_0_HardRainSunset_high_": [
+        "19425"
+    ],
+    "3_i-4_0_t_f_u_0_HardRainSunset_low_": [
+        "23190"
+    ],
+    "3_i-4_0_t_f_u_0_HardRainSunset_mid_": [
+        "19322"
+    ],
+    "3_i-4_0_t_f_u_0_MidRainSunset_high_": [
+        "19560"
+    ],
+    "3_i-4_0_t_f_u_0_MidRainSunset_low_": [
+        "23053"
+    ],
+    "3_i-4_0_t_f_u_0_MidRainSunset_mid_": [
+        "19504"
+    ],
+    "3_i-4_0_t_f_u_0_MidRainyNoon_low_": [
+        "19412"
+    ],
+    "3_i-4_0_t_f_u_0_MidRainyNoon_mid_": [
+        "19518"
+    ],
+    "3_i-4_0_t_f_u_0_WetNoon_high_": [
+        "19430"
+    ],
+    "3_i-4_0_t_f_u_0_WetNoon_mid_": [
+        "19370"
+    ],
+    "3_i-4_0_t_f_u_0_WetSunset_high_": [
+        "23123"
+    ],
+    "3_i-4_0_t_f_u_0_WetSunset_mid_": [
+        "33893"
+    ],
+    "3_i-4_0_t_l_l_0_ClearSunset_low_": [
+        "23179"
+    ],
+    "3_i-4_0_t_l_l_0_ClearSunset_mid_": [
+        "19549"
+    ],
+    "3_i-4_0_t_l_l_0_CloudyNoon_high_": [
+        "23158"
+    ],
+    "3_i-4_0_t_l_l_0_HardRainNoon_low_": [
+        "26460"
+    ],
+    "3_i-4_0_t_l_l_0_HardRainNoon_mid_": [
+        "58531"
+    ],
+    "3_i-4_0_t_l_l_0_HardRainSunset_low_": [
+        "16735"
+    ],
+    "3_i-4_0_t_l_l_0_HardRainSunset_mid_": [
+        "16778"
+    ],
+    "3_i-4_0_t_l_l_0_MidRainSunset_high_": [
+        "30430"
+    ],
+    "3_i-4_0_t_l_l_0_MidRainSunset_mid_": [
+        "17244"
+    ],
+    "3_i-4_0_t_l_l_0_MidRainyNoon_high_": [
+        "17677"
+    ],
+    "3_i-4_0_t_l_l_0_MidRainyNoon_low_": [
+        "17208"
+    ],
+    "3_i-4_0_t_l_l_0_MidRainyNoon_mid_": [
+        "51271"
+    ],
+    "3_i-4_0_t_l_l_0_WetNoon_high_": [
+        "17681"
+    ],
+    "3_i-4_0_t_l_l_0_WetSunset_high_": [
+        "16864"
+    ],
+    "3_i-4_0_t_l_l_0_WetSunset_low_": [
+        "17368"
+    ],
+    "3_i-4_0_t_l_u_0_ClearSunset_high_": [
+        "17605"
+    ],
+    "3_i-4_0_t_l_u_0_ClearSunset_low_": [
+        "17225"
+    ],
+    "3_i-4_0_t_l_u_0_ClearSunset_mid_": [
+        "17621"
+    ],
+    "3_i-4_0_t_l_u_0_CloudyNoon_high_": [
+        "21119"
+    ],
+    "3_i-4_0_t_l_u_0_CloudySunset_low_": [
+        "17492"
+    ],
+    "3_i-4_0_t_l_u_0_CloudySunset_mid_": [
+        "17473"
+    ],
+    "3_i-4_0_t_l_u_0_HardRainNoon_low_": [
+        "17440"
+    ],
+    "3_i-4_0_t_l_u_0_HardRainNoon_mid_": [
+        "17499"
+    ],
+    "3_i-4_0_t_l_u_0_HardRainSunset_high_": [
+        "17564"
+    ],
+    "3_i-4_0_t_l_u_0_HardRainSunset_low_": [
+        "21024"
+    ],
+    "3_i-4_0_t_l_u_0_HardRainSunset_mid_": [
+        "16314"
+    ],
+    "3_i-4_0_t_l_u_0_MidRainSunset_high_": [
+        "16892"
+    ],
+    "3_i-4_0_t_l_u_0_MidRainyNoon_high_": [
+        "17815"
+    ],
+    "3_i-4_0_t_l_u_0_MidRainyNoon_low_": [
+        "58531"
+    ],
+    "3_i-4_0_t_l_u_0_MidRainyNoon_mid_": [
+        "16226"
+    ],
+    "3_i-4_0_t_l_u_0_WetNoon_mid_": [
+        "17347"
+    ],
+    "3_r-1_0_c_gr_gi_0_CloudyNoon_high_": [
+        "16786"
+    ],
+    "3_r-1_0_c_gr_gi_0_CloudySunset_high_": [
+        "19403"
+    ],
+    "3_r-1_0_c_gr_gi_0_CloudySunset_low_": [
+        "23404"
+    ],
+    "3_r-1_0_c_gr_gi_0_CloudySunset_mid_": [
+        "19784"
+    ],
+    "3_r-1_0_c_gr_gi_0_HardRainNoon_high_": [
+        "19581"
+    ],
+    "3_r-1_0_c_gr_gi_0_HardRainNoon_low_": [
+        "19781"
+    ],
+    "3_r-1_0_c_gr_gi_0_HardRainNoon_mid_": [
+        "19792"
+    ],
+    "3_r-1_0_c_gr_gi_0_HardRainSunset_high_": [
+        "35179"
+    ],
+    "3_r-1_0_c_gr_gi_0_HardRainSunset_low_": [
+        "18795"
+    ],
+    "3_r-1_0_c_gr_gi_0_HardRainSunset_mid_": [
+        "18898"
+    ],
+    "3_r-1_0_c_gr_gi_0_MidRainSunset_high_": [
+        "19394"
+    ],
+    "3_r-1_0_c_gr_gi_0_MidRainyNoon_high_": [
+        "43047"
+    ],
+    "3_r-1_0_c_gr_gi_0_MidRainyNoon_low_": [
+        "20008"
+    ],
+    "3_r-1_0_c_gr_gi_0_MidRainyNoon_mid_": [
+        "20155"
+    ],
+    "3_r-1_0_c_gr_gi_0_WetSunset_high_": [
+        "20275"
+    ],
+    "3_r-1_0_c_gr_gi_0_WetSunset_low_": [
+        "20308"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_ClearSunset_mid_": [
+        "20291"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_CloudyNoon_mid_": [
+        "23838"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_CloudySunset_low_": [
+        "27684"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_HardRainNoon_high_": [
+        "20129"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_HardRainNoon_low_": [
+        "33430"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_HardRainNoon_mid_": [
+        "26897"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_HardRainSunset_low_": [
+        "21820"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_HardRainSunset_mid_": [
+        "23943"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_MidRainSunset_high_": [
+        "20259"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_MidRainSunset_mid_": [
+        "39830"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_MidRainyNoon_low_": [
+        "43465"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_MidRainyNoon_mid_": [
+        "23889"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_WetNoon_mid_": [
+        "26800"
+    ],
+    "3_r-1_0_c_gr_gi_0_1_WetSunset_low_": [
+        "20136"
+    ],
+    "3_r-1_0_p_j_er_1_j_ClearSunset_high_": [
+        "20213"
+    ],
+    "3_r-1_0_p_j_er_1_j_ClearSunset_mid_": [
+        "19372"
+    ],
+    "3_r-1_0_p_j_er_1_j_CloudyNoon_mid_": [
+        "19517"
+    ],
+    "3_r-1_0_p_j_er_1_j_CloudySunset_high_": [
+        "54074"
+    ],
+    "3_r-1_0_p_j_er_1_j_CloudySunset_low_": [
+        "19291"
+    ],
+    "3_r-1_0_p_j_er_1_j_HardRainNoon_high_": [
+        "19701"
+    ],
+    "3_r-1_0_p_j_er_1_j_HardRainNoon_low_": [
+        "20304"
+    ],
+    "3_r-1_0_p_j_er_1_j_HardRainNoon_mid_": [
+        "20122"
+    ],
+    "3_r-1_0_p_j_er_1_j_HardRainSunset_high_": [
+        "20304"
+    ],
+    "3_r-1_0_p_j_er_1_j_HardRainSunset_low_": [
+        "23070"
+    ],
+    "3_r-1_0_p_j_er_1_j_HardRainSunset_mid_": [
+        "19881"
+    ],
+    "3_r-1_0_p_j_er_1_j_MidRainyNoon_mid_": [
+        "20290"
+    ],
+    "3_r-1_0_p_j_er_1_j_WetNoon_high_": [
+        "35707"
+    ],
+    "3_r-1_0_p_j_er_1_j_WetSunset_low_": [
+        "20308"
+    ],
+    "3_r-1_0_p_j_er_1_j_WetSunset_mid_": [
+        "20302"
+    ],
+    "3_r-1_0_p_j_gi_j_ClearSunset_high_": [
+        "27205"
+    ],
+    "3_r-1_0_p_j_gi_j_ClearSunset_low_": [
+        "19870"
+    ],
+    "3_r-1_0_p_j_gi_j_ClearSunset_mid_": [
+        "31943"
+    ],
+    "3_r-1_0_p_j_gi_j_CloudyNoon_high_": [
+        "19973"
+    ],
+    "3_r-1_0_p_j_gi_j_CloudyNoon_mid_": [
+        "20262"
+    ],
+    "3_r-1_0_p_j_gi_j_CloudySunset_high_": [
+        "20308"
+    ],
+    "3_r-1_0_p_j_gi_j_CloudySunset_low_": [
+        "20179"
+    ],
+    "3_r-1_0_p_j_gi_j_CloudySunset_mid_": [
+        "23730"
+    ],
+    "3_r-1_0_p_j_gi_j_HardRainNoon_high_": [
+        "23988"
+    ],
+    "3_r-1_0_p_j_gi_j_HardRainNoon_low_": [
+        "36194"
+    ],
+    "3_r-1_0_p_j_gi_j_HardRainNoon_mid_": [
+        "19590"
+    ],
+    "3_r-1_0_p_j_gi_j_HardRainSunset_mid_": [
+        "27070"
+    ],
+    "3_r-1_0_p_j_gi_j_MidRainSunset_high_": [
+        "30377"
+    ],
+    "3_r-1_0_p_j_gi_j_MidRainSunset_mid_": [
+        "20304"
+    ],
+    "3_r-1_0_p_j_gi_j_MidRainyNoon_high_": [
+        "20304"
+    ],
+    "3_r-1_0_p_j_gi_j_MidRainyNoon_low_": [
+        "19412"
+    ],
+    "3_r-1_0_p_j_gi_j_MidRainyNoon_mid_": [
+        "19441"
+    ],
+    "3_r-1_0_p_j_gi_j_WetNoon_mid_": [
+        "20113"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_ClearSunset_high_": [
+        "26761"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_ClearSunset_low_": [
+        "20308"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_CloudyNoon_mid_": [
+        "20240"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_CloudySunset_high_": [
+        "58527"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_CloudySunset_low_": [
+        "29090"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_CloudySunset_mid_": [
+        "19628"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_HardRainNoon_mid_": [
+        "33830"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_HardRainSunset_low_": [
+        "22858"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_HardRainSunset_mid_": [
+        "23255"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_MidRainSunset_high_": [
+        "20165"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_MidRainyNoon_high_": [
+        "20154"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_MidRainyNoon_low_": [
+        "20168"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_WetNoon_high_": [
+        "20145"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_WetNoon_mid_": [
+        "20172"
+    ],
+    "3_r-1_0_p_j_gr_1_j_2_WetSunset_mid_": [
+        "23675"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_ClearSunset_high_": [
+        "20112"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_ClearSunset_mid_": [
+        "20172"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_CloudyNoon_high_": [
+        "36234"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_CloudySunset_high_": [
+        "18890"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_CloudySunset_low_": [
+        "23846"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_HardRainNoon_high_": [
+        "56573"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_HardRainSunset_high_": [
+        "19482"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_HardRainSunset_low_": [
+        "33529"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_HardRainSunset_mid_": [
+        "19539"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_MidRainSunset_mid_": [
+        "30647"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_MidRainyNoon_low_": [
+        "33846"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_MidRainyNoon_mid_": [
+        "23798"
+    ],
+    "3_r-1_0_p_j_gr_1_j_3_WetSunset_mid_": [
+        "19444"
+    ],
+    "3_r-1_0_t_er_er_1_0_2_ClearSunset_high_": [
+        "33127"
+    ],
+    "3_r-1_0_t_er_er_1_0_2_CloudySunset_mid_": [
+        "23829"
+    ],
+    "3_r-1_0_t_er_er_1_0_2_HardRainNoon_low_": [
+        "20151"
+    ],
+    "3_r-1_0_t_er_er_1_0_2_MidRainSunset_low_": [
+        "20151"
+    ],
+    "3_r-1_0_t_er_er_1_0_2_MidRainSunset_mid_": [
+        "23249"
+    ],
+    "3_r-1_0_t_er_er_1_0_2_MidRainyNoon_low_": [
+        "23428"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_CloudyNoon_mid_": [
+        "19807"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_CloudySunset_high_": [
+        "33863"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_HardRainNoon_high_": [
+        "20168"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_HardRainNoon_low_": [
+        "23842"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_HardRainNoon_mid_": [
+        "20168"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_HardRainSunset_high_": [
+        "19565"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_HardRainSunset_low_": [
+        "35187"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_HardRainSunset_mid_": [
+        "19597"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_MidRainSunset_high_": [
+        "20168"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_MidRainyNoon_low_": [
+        "19021"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_WetNoon_high_": [
+        "19677"
+    ],
+    "3_r-1_0_t_gi_gr_1_0_1_WetSunset_mid_": [
+        "19401"
+    ],
+    "3_s-12_0_t_sl_f_0_ClearSunset_high_": [
+        "32075"
+    ],
+    "3_s-12_0_t_sl_f_0_ClearSunset_low_": [
+        "20172"
+    ],
+    "3_s-12_0_t_sl_f_0_CloudySunset_mid_": [
+        "52739"
+    ],
+    "3_s-12_0_t_sl_f_0_HardRainNoon_high_": [
+        "27465"
+    ],
+    "3_s-12_0_t_sl_f_0_HardRainNoon_low_": [
+        "19859"
+    ],
+    "3_s-12_0_t_sl_f_0_HardRainNoon_mid_": [
+        "20117"
+    ],
+    "3_s-12_0_t_sl_f_0_HardRainSunset_high_": [
+        "20103"
+    ],
+    "3_s-12_0_t_sl_f_0_HardRainSunset_low_": [
+        "33407"
+    ],
+    "3_s-12_0_t_sl_f_0_HardRainSunset_mid_": [
+        "19941"
+    ],
+    "3_s-12_0_t_sl_f_0_MidRainSunset_high_": [
+        "20117"
+    ],
+    "3_s-12_0_t_sl_f_0_MidRainSunset_low_": [
+        "32517"
+    ],
+    "3_s-12_0_t_sl_f_0_MidRainyNoon_high_": [
+        "19954"
+    ],
+    "3_s-12_0_t_sl_f_0_WetNoon_high_": [
+        "20172"
+    ],
+    "3_s-12_0_t_sl_f_0_WetNoon_mid_": [
+        "20172"
+    ],
+    "3_s-12_0_t_sl_f_0_WetSunset_high_": [
+        "31797"
+    ],
+    "3_s-12_0_t_sl_f_0_WetSunset_mid_": [
+        "20172"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_ClearSunset_high_": [
+        "27475"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_ClearSunset_mid_": [
+        "19675"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_CloudyNoon_mid_": [
+        "19687"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_CloudySunset_high_": [
+        "19837"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_CloudySunset_low_": [
+        "23818"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_CloudySunset_mid_": [
+        "19481"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_HardRainNoon_high_": [
+        "19821"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_HardRainNoon_low_": [
+        "23814"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_HardRainNoon_mid_": [
+        "19464"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_HardRainSunset_high_": [
+        "23814"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_HardRainSunset_low_": [
+        "37189"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_HardRainSunset_mid_": [
+        "20140"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_MidRainSunset_high_": [
+        "58531"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_MidRainSunset_low_": [
+        "16486"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_MidRainyNoon_high_": [
+        "16468"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_MidRainyNoon_low_": [
+        "29108"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_MidRainyNoon_mid_": [
+        "16491"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_WetNoon_high_": [
+        "16495"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_WetNoon_mid_": [
+        "16665"
+    ],
+    "3_s-5_0_c_sl_sr_0_1_WetSunset_low_": [
+        "25930"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_ClearSunset_high_": [
+        "54110"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_ClearSunset_low_": [
+        "16630"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_ClearSunset_mid_": [
+        "16673"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_CloudyNoon_high_": [
+        "16589"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_CloudySunset_low_": [
+        "16758"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_HardRainNoon_low_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_HardRainNoon_mid_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_HardRainSunset_high_": [
+        "16759"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_HardRainSunset_low_": [
+        "16741"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_HardRainSunset_mid_": [
+        "16583"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_MidRainSunset_high_": [
+        "27886"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_MidRainSunset_low_": [
+        "16734"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_MidRainyNoon_high_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_MidRainyNoon_low_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_WetNoon_high_": [
+        "16793"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_WetNoon_mid_": [
+        "16793"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_WetSunset_high_": [
+        "16740"
+    ],
+    "3_s-5_0_c_sl_sr_0_2_WetSunset_mid_": [
+        "16619"
+    ],
+    "3_s-5_0_c_sr_sl_0_ClearSunset_low_": [
+        "16768"
+    ],
+    "3_s-5_0_c_sr_sl_0_ClearSunset_mid_": [
+        "16768"
+    ],
+    "3_s-5_0_c_sr_sl_0_CloudyNoon_high_": [
+        "16708"
+    ],
+    "3_s-5_0_c_sr_sl_0_CloudySunset_high_": [
+        "16793"
+    ],
+    "3_s-5_0_c_sr_sl_0_CloudySunset_low_": [
+        "16725"
+    ],
+    "3_s-5_0_c_sr_sl_0_CloudySunset_mid_": [
+        "16742"
+    ],
+    "3_s-5_0_c_sr_sl_0_HardRainNoon_high_": [
+        "16738"
+    ],
+    "3_s-5_0_c_sr_sl_0_HardRainNoon_low_": [
+        "16778"
+    ],
+    "3_s-5_0_c_sr_sl_0_HardRainSunset_high_": [
+        "16572"
+    ],
+    "3_s-5_0_c_sr_sl_0_HardRainSunset_low_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sr_sl_0_HardRainSunset_mid_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sr_sl_0_MidRainSunset_high_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sr_sl_0_MidRainSunset_mid_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sr_sl_0_MidRainyNoon_high_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sr_sl_0_MidRainyNoon_mid_": [
+        "16789"
+    ],
+    "3_s-5_0_c_sr_sl_0_WetNoon_mid_": [
+        "16742"
+    ],
+    "3_s-5_0_t_sl_f_1_0_ClearSunset_mid_": [
+        "58527"
+    ],
+    "3_s-5_0_t_sl_f_1_0_CloudySunset_low_": [
+        "16150"
+    ],
+    "3_s-5_0_t_sl_f_1_0_CloudySunset_mid_": [
+        "16197"
+    ],
+    "3_s-5_0_t_sl_f_1_0_HardRainNoon_high_": [
+        "16193"
+    ],
+    "3_s-5_0_t_sl_f_1_0_HardRainNoon_mid_": [
+        "16463"
+    ],
+    "3_s-5_0_t_sl_f_1_0_HardRainSunset_low_": [
+        "49995"
+    ],
+    "3_s-5_0_t_sl_f_1_0_HardRainSunset_mid_": [
+        "16500"
+    ],
+    "3_s-5_0_t_sl_f_1_0_MidRainSunset_high_": [
+        "16500"
+    ],
+    "3_s-5_0_t_sl_f_1_0_MidRainSunset_low_": [
+        "23721"
+    ],
+    "3_s-5_0_t_sl_f_1_0_MidRainSunset_mid_": [
+        "16500"
+    ],
+    "3_s-5_0_t_sl_f_1_0_MidRainyNoon_high_": [
+        "25961"
+    ],
+    "3_s-5_0_t_sl_f_1_0_MidRainyNoon_low_": [
+        "16241"
+    ],
+    "3_s-5_0_t_sl_f_1_0_WetSunset_high_": [
+        "16258"
+    ],
+    "3_s-5_0_t_sl_f_1_0_WetSunset_low_": [
+        "16506"
+    ],
+    "3_s-6_0_c_f_sr_0_ClearSunset_high_": [
+        "16506"
+    ],
+    "3_s-6_0_c_f_sr_0_ClearSunset_mid_": [
+        "16762"
+    ],
+    "3_s-6_0_c_f_sr_0_CloudyNoon_mid_": [
+        "16750"
+    ],
+    "3_s-6_0_c_f_sr_0_CloudySunset_low_": [
+        "16759"
+    ],
+    "3_s-6_0_c_f_sr_0_HardRainNoon_low_": [
+        "16758"
+    ],
+    "3_s-6_0_c_f_sr_0_HardRainNoon_mid_": [
+        "19325"
+    ],
+    "3_s-6_0_c_f_sr_0_MidRainSunset_mid_": [
+        "16758"
+    ],
+    "3_s-6_0_c_f_sr_0_WetSunset_high_": [
+        "16864"
+    ],
+    "3_s-7_0_c_sr_f_0_ClearSunset_high_": [
+        "16962"
+    ],
+    "3_s-7_0_c_sr_f_0_CloudySunset_high_": [
+        "17865"
+    ],
+    "3_s-7_0_c_sr_f_0_CloudySunset_low_": [
+        "17748"
+    ],
+    "3_s-7_0_c_sr_f_0_CloudySunset_mid_": [
+        "18550"
+    ],
+    "3_s-7_0_c_sr_f_0_HardRainNoon_low_": [
+        "21030"
+    ],
+    "3_s-7_0_c_sr_f_0_HardRainNoon_mid_": [
+        "18560"
+    ],
+    "3_s-7_0_c_sr_f_0_HardRainSunset_high_": [
+        "18560"
+    ],
+    "3_s-7_0_c_sr_f_0_HardRainSunset_low_": [
+        "18890"
+    ],
+    "3_s-7_0_c_sr_f_0_MidRainSunset_high_": [
+        "18890"
+    ],
+    "3_s-7_0_c_sr_f_0_MidRainSunset_low_": [
+        "35382"
+    ],
+    "3_s-7_0_c_sr_f_0_MidRainSunset_mid_": [
+        "27496"
+    ],
+    "3_s-7_0_c_sr_f_0_MidRainyNoon_high_": [
+        "19196"
+    ],
+    "3_s-7_0_c_sr_f_0_WetSunset_low_": [
+        "18040"
+    ],
+    "3_s-7_0_c_sr_f_0_WetSunset_mid_": [
+        "18710"
+    ],
+    "3_t1-10_0_p_c_r_0_ClearSunset_high_": [
+        "18349"
+    ],
+    "3_t1-10_0_p_c_r_0_CloudyNoon_mid_": [
+        "22766"
+    ],
+    "3_t1-10_0_p_c_r_0_CloudySunset_mid_": [
+        "18987"
+    ],
+    "3_t1-10_0_p_c_r_0_HardRainNoon_high_": [
+        "21662"
+    ],
+    "3_t1-10_0_p_c_r_0_HardRainNoon_low_": [
+        "33477"
+    ],
+    "3_t1-10_0_p_c_r_0_HardRainNoon_mid_": [
+        "18684"
+    ],
+    "3_t1-10_0_p_c_r_0_HardRainSunset_high_": [
+        "18070"
+    ],
+    "3_t1-10_0_p_c_r_0_HardRainSunset_low_": [
+        "22728"
+    ],
+    "3_t1-10_0_p_c_r_0_HardRainSunset_mid_": [
+        "49546"
+    ],
+    "3_t1-10_0_p_c_r_0_MidRainSunset_high_": [
+        "19017"
+    ],
+    "3_t1-10_0_p_c_r_0_MidRainSunset_low_": [
+        "31409"
+    ],
+    "3_t1-10_0_p_c_r_0_MidRainSunset_mid_": [
+        "26387"
+    ],
+    "3_t1-10_0_p_c_r_0_MidRainyNoon_low_": [
+        "19227"
+    ],
+    "3_t1-10_0_p_c_r_0_MidRainyNoon_mid_": [
+        "22825"
+    ],
+    "3_t1-10_0_p_c_r_0_WetNoon_mid_": [
+        "22734"
+    ],
+    "3_t1-10_0_p_c_r_0_WetSunset_high_": [
+        "30838"
+    ],
+    "3_t1-10_0_p_c_r_0_WetSunset_low_": [
+        "18864"
+    ],
+    "3_t1-10_0_p_c_r_0_WetSunset_mid_": [
+        "19123"
+    ],
+    "3_t1-2_0_p_c_f_0_ClearSunset_high_": [
+        "33587"
+    ],
+    "3_t1-2_0_p_c_f_0_ClearSunset_low_": [
+        "19242"
+    ],
+    "3_t1-2_0_p_c_f_0_ClearSunset_mid_": [
+        "22869"
+    ],
+    "3_t1-2_0_p_c_f_0_CloudyNoon_high_": [
+        "19007"
+    ],
+    "3_t1-2_0_p_c_f_0_CloudyNoon_mid_": [
+        "18796"
+    ],
+    "3_t1-2_0_p_c_f_0_CloudySunset_mid_": [
+        "19242"
+    ],
+    "3_t1-2_0_p_c_f_0_HardRainNoon_high_": [
+        "26468"
+    ],
+    "3_t1-2_0_p_c_f_0_HardRainNoon_low_": [
+        "19238"
+    ],
+    "3_t1-2_0_p_c_f_0_HardRainNoon_mid_": [
+        "19190"
+    ],
+    "3_t1-2_0_p_c_f_0_HardRainSunset_low_": [
+        "58531"
+    ],
+    "3_t1-2_0_p_c_f_0_HardRainSunset_mid_": [
+        "16648"
+    ],
+    "3_t1-2_0_p_c_f_0_MidRainSunset_high_": [
+        "17189"
+    ],
+    "3_t1-2_0_p_c_f_0_MidRainSunset_low_": [
+        "18044"
+    ],
+    "3_t1-2_0_p_c_f_0_MidRainSunset_mid_": [
+        "28284"
+    ],
+    "3_t1-2_0_p_c_f_0_MidRainyNoon_low_": [
+        "33511"
+    ],
+    "3_t1-2_0_p_c_f_0_MidRainyNoon_mid_": [
+        "47619"
+    ],
+    "3_t1-2_0_p_c_f_0_WetNoon_high_": [
+        "18163"
+    ],
+    "3_t1-2_0_p_c_f_0_WetNoon_mid_": [
+        "17872"
+    ],
+    "3_t1-2_0_p_c_f_0_WetSunset_high_": [
+        "18022"
+    ],
+    "3_t1-2_0_p_c_f_0_WetSunset_low_": [
+        "30220"
+    ],
+    "3_t1-2_0_p_c_f_0_1_ClearSunset_high_": [
+        "18208"
+    ],
+    "3_t1-2_0_p_c_f_0_1_ClearSunset_mid_": [
+        "18020"
+    ],
+    "3_t1-2_0_p_c_f_0_1_CloudySunset_low_": [
+        "18236"
+    ],
+    "3_t1-2_0_p_c_f_0_1_CloudySunset_mid_": [
+        "18078"
+    ],
+    "3_t1-2_0_p_c_f_0_1_HardRainNoon_high_": [
+        "18232"
+    ],
+    "3_t1-2_0_p_c_f_0_1_HardRainNoon_low_": [
+        "17881"
+    ],
+    "3_t1-2_0_p_c_f_0_1_HardRainNoon_mid_": [
+        "18151"
+    ],
+    "3_t1-2_0_p_c_f_0_1_HardRainSunset_high_": [
+        "17967"
+    ],
+    "3_t1-2_0_p_c_f_0_1_HardRainSunset_low_": [
+        "30558"
+    ],
+    "3_t1-2_0_p_c_f_0_1_HardRainSunset_mid_": [
+        "18217"
+    ],
+    "3_t1-2_0_p_c_f_0_1_MidRainSunset_low_": [
+        "48389"
+    ],
+    "3_t1-2_0_p_c_f_0_1_MidRainSunset_mid_": [
+        "18209"
+    ],
+    "3_t1-2_0_p_c_f_0_1_MidRainyNoon_high_": [
+        "18246"
+    ],
+    "3_t1-2_0_p_c_f_0_1_MidRainyNoon_low_": [
+        "30805"
+    ],
+    "3_t1-2_0_p_c_f_0_1_MidRainyNoon_mid_": [
+        "17923"
+    ],
+    "3_t1-2_0_p_c_f_0_1_WetNoon_mid_": [
+        "18087"
+    ],
+    "3_t1-2_0_p_c_f_0_1_WetSunset_low_": [
+        "18235"
+    ],
+    "3_t1-3_1_p_c_r_0_2_ClearSunset_low_": [
+        "18387"
+    ],
+    "3_t1-3_1_p_c_r_0_2_CloudySunset_high_": [
+        "18334"
+    ],
+    "3_t1-3_1_p_c_r_0_2_CloudySunset_mid_": [
+        "18593"
+    ],
+    "3_t1-3_1_p_c_r_0_2_HardRainNoon_high_": [
+        "48611"
+    ],
+    "3_t1-3_1_p_c_r_0_2_HardRainNoon_low_": [
+        "18304"
+    ],
+    "3_t1-3_1_p_c_r_0_2_HardRainSunset_high_": [
+        "18467"
+    ],
+    "3_t1-3_1_p_c_r_0_2_MidRainSunset_low_": [
+        "18222"
+    ],
+    "3_t1-3_1_p_c_r_0_2_MidRainSunset_mid_": [
+        "18510"
+    ],
+    "3_t1-3_1_p_c_r_0_2_MidRainyNoon_mid_": [
+        "18381"
+    ],
+    "3_t1-3_1_p_c_r_0_2_WetNoon_mid_": [
+        "18387"
+    ],
+    "3_t1-3_1_p_c_r_0_2_WetSunset_high_": [
+        "18593"
+    ],
+    "3_t1-3_1_p_c_r_0_2_WetSunset_low_": [
+        "18433"
+    ],
+    "3_t1-3_1_p_c_r_0_2_WetSunset_mid_": [
+        "18348"
+    ],
+    "3_t2-2_0_b_f_u_0_CloudySunset_low_": [
+        "32567"
+    ],
+    "3_t2-2_0_b_f_u_0_HardRainNoon_high_": [
+        "51911"
+    ],
+    "3_t2-2_0_b_f_u_0_HardRainSunset_high_": [
+        "58531"
+    ],
+    "3_t2-2_0_b_f_u_0_HardRainSunset_mid_": [
+        "18308"
+    ],
+    "3_t2-2_0_b_f_u_0_MidRainSunset_high_": [
+        "34604"
+    ],
+    "3_t2-2_0_b_f_u_0_MidRainSunset_low_": [
+        "17578"
+    ],
+    "3_t2-2_0_b_f_u_0_MidRainyNoon_high_": [
+        "18236"
+    ],
+    "3_t2-2_0_b_f_u_0_MidRainyNoon_low_": [
+        "18625"
+    ],
+    "3_t2-2_0_b_f_u_0_WetSunset_low_": [
+        "18578"
+    ],
+    "3_t2-2_0_b_f_u_0_WetSunset_mid_": [
+        "18629"
+    ],
+    "3_t2-2_0_b_l_u_0_ClearSunset_high_": [
+        "18451"
+    ],
+    "3_t2-2_0_b_l_u_0_CloudySunset_high_": [
+        "17969"
+    ],
+    "3_t2-2_0_b_l_u_0_HardRainNoon_high_": [
+        "35135"
+    ],
+    "3_t2-2_0_b_l_u_0_HardRainNoon_low_": [
+        "18174"
+    ],
+    "3_t2-2_0_b_l_u_0_HardRainSunset_high_": [
+        "18729"
+    ],
+    "3_t2-2_0_b_l_u_0_HardRainSunset_mid_": [
+        "18292"
+    ],
+    "3_t2-2_0_b_l_u_0_MidRainSunset_low_": [
+        "18593"
+    ],
+    "3_t2-2_0_b_l_u_0_MidRainyNoon_high_": [
+        "18593"
+    ],
+    "3_t2-2_0_b_l_u_0_MidRainyNoon_low_": [
+        "34258"
+    ],
+    "3_t2-2_0_b_l_u_0_MidRainyNoon_mid_": [
+        "18678"
+    ],
+    "3_t2-2_0_b_l_u_0_WetNoon_high_": [
+        "18561"
+    ],
+    "3_t2-2_0_b_l_u_0_WetNoon_mid_": [
+        "18757"
+    ],
+    "3_t2-2_0_b_l_u_0_WetSunset_low_": [
+        "18757"
+    ],
+    "3_t2-2_0_b_l_u_0_WetSunset_mid_": [
+        "18757"
+    ],
+    "3_t2-2_0_b_u_r_0_ClearSunset_high_": [
+        "18679"
+    ],
+    "3_t2-2_0_b_u_r_0_ClearSunset_low_": [
+        "30603"
+    ],
+    "3_t2-2_0_b_u_r_0_CloudyNoon_mid_": [
+        "18547"
+    ],
+    "3_t2-2_0_b_u_r_0_CloudySunset_low_": [
+        "18682"
+    ],
+    "3_t2-2_0_b_u_r_0_CloudySunset_mid_": [
+        "18629"
+    ],
+    "3_t2-2_0_b_u_r_0_HardRainNoon_high_": [
+        "30895"
+    ],
+    "3_t2-2_0_b_u_r_0_HardRainNoon_low_": [
+        "17812"
+    ],
+    "3_t2-2_0_b_u_r_0_HardRainNoon_mid_": [
+        "17935"
+    ],
+    "3_t2-2_0_b_u_r_0_HardRainSunset_high_": [
+        "18124"
+    ],
+    "3_t2-2_0_b_u_r_0_MidRainSunset_high_": [
+        "32694"
+    ],
+    "3_t2-2_0_b_u_r_0_MidRainSunset_low_": [
+        "18211"
+    ],
+    "3_t2-2_0_b_u_r_0_MidRainSunset_mid_": [
+        "18142"
+    ],
+    "3_t2-2_0_b_u_r_0_MidRainyNoon_high_": [
+        "24238"
+    ],
+    "3_t2-2_0_b_u_r_0_MidRainyNoon_mid_": [
+        "18844"
+    ],
+    "3_t2-2_0_b_u_r_0_WetNoon_high_": [
+        "18697"
+    ],
+    "3_t2-2_0_b_u_r_0_WetSunset_mid_": [
+        "18856"
+    ],
+    "3_t2-2_0_b_u_r_0_5_ClearNoon_high_": [
+        "18465"
+    ],
+    "3_t2-2_0_b_u_r_0_5_ClearNoon_low_": [
+        "18782"
+    ],
+    "3_t2-2_0_b_u_r_0_5_ClearNoon_mid_": [
+        "21901"
+    ],
+    "3_t2-2_0_p_c_f_0_ClearSunset_mid_": [
+        "18837"
+    ],
+    "3_t2-2_0_p_c_f_0_CloudyNoon_mid_": [
+        "18657"
+    ],
+    "3_t2-2_0_p_c_f_0_CloudySunset_high_": [
+        "18700"
+    ],
+    "3_t2-2_0_p_c_f_0_HardRainNoon_high_": [
+        "18695"
+    ],
+    "3_t2-2_0_p_c_f_0_HardRainNoon_low_": [
+        "18695"
+    ],
+    "3_t2-2_0_p_c_f_0_HardRainNoon_mid_": [
+        "18695"
+    ],
+    "3_t2-2_0_p_c_f_0_HardRainSunset_low_": [
+        "30660"
+    ],
+    "3_t2-2_0_p_c_f_0_HardRainSunset_mid_": [
+        "30827"
+    ],
+    "3_t2-2_0_p_c_f_0_MidRainSunset_high_": [
+        "17956"
+    ],
+    "3_t2-2_0_p_c_f_0_MidRainSunset_mid_": [
+        "18395"
+    ],
+    "3_t2-2_0_p_c_f_0_MidRainyNoon_high_": [
+        "18739"
+    ],
+    "3_t2-2_0_p_c_f_0_MidRainyNoon_mid_": [
+        "18676"
+    ],
+    "3_t2-2_0_p_c_f_0_WetNoon_mid_": [
+        "18696"
+    ],
+    "3_t2-2_0_p_c_f_0_WetSunset_low_": [
+        "18839"
+    ],
+    "3_t2-2_0_p_c_f_0_WetSunset_mid_": [
+        "41317"
+    ],
+    "3_t2-2_0_p_c_f_0_1_ClearSunset_high_": [
+        "18839"
+    ],
+    "3_t2-2_0_p_c_f_0_1_ClearSunset_mid_": [
+        "18856"
+    ],
+    "3_t2-2_0_p_c_f_0_1_CloudyNoon_high_": [
+        "58527"
+    ],
+    "3_t2-2_0_p_c_f_0_1_CloudySunset_low_": [
+        "24407"
+    ],
+    "3_t2-2_0_p_c_f_0_1_HardRainNoon_high_": [
+        "17903"
+    ],
+    "3_t2-2_0_p_c_f_0_1_HardRainNoon_mid_": [
+        "31314"
+    ],
+    "3_t2-2_0_p_c_f_0_1_HardRainSunset_high_": [
+        "18007"
+    ],
+    "3_t2-2_0_p_c_f_0_1_HardRainSunset_low_": [
+        "18189"
+    ],
+    "3_t2-2_0_p_c_f_0_1_HardRainSunset_mid_": [
+        "18267"
+    ],
+    "3_t2-2_0_p_c_f_0_1_MidRainSunset_high_": [
+        "18113"
+    ],
+    "3_t2-2_0_p_c_f_0_1_MidRainSunset_low_": [
+        "17593"
+    ],
+    "3_t2-2_0_p_c_f_0_1_MidRainSunset_mid_": [
+        "18069"
+    ],
+    "3_t2-2_0_p_c_f_0_1_MidRainyNoon_high_": [
+        "18272"
+    ],
+    "3_t2-2_0_p_c_f_0_1_MidRainyNoon_low_": [
+        "18063"
+    ],
+    "3_t2-2_0_p_c_f_0_1_WetNoon_mid_": [
+        "18162"
+    ],
+    "3_t2-2_0_p_c_f_0_1_WetSunset_high_": [
+        "18126"
+    ],
+    "3_t2-2_0_p_c_f_0_1_WetSunset_low_": [
+        "30152"
+    ],
+    "3_t2-2_0_p_c_f_0_4_ClearSunset_high_": [
+        "18105"
+    ],
+    "3_t2-2_0_p_c_f_0_4_ClearSunset_low_": [
+        "30180"
+    ],
+    "3_t2-2_0_p_c_f_0_4_CloudyNoon_high_": [
+        "18127"
+    ],
+    "3_t2-2_0_p_c_f_0_4_CloudySunset_mid_": [
+        "17582"
+    ],
+    "3_t2-2_0_p_c_f_0_4_HardRainNoon_high_": [
+        "32509"
+    ],
+    "3_t2-2_0_p_c_f_0_4_HardRainNoon_low_": [
+        "18287"
+    ],
+    "3_t2-2_0_p_c_f_0_4_HardRainSunset_mid_": [
+        "18281"
+    ],
+    "3_t2-2_0_p_c_f_0_4_MidRainSunset_high_": [
+        "21072"
+    ],
+    "3_t2-2_0_p_c_f_0_4_MidRainSunset_low_": [
+        "18227"
+    ],
+    "3_t2-2_0_p_c_f_0_4_MidRainSunset_mid_": [
+        "18264"
+    ],
+    "3_t2-2_0_p_c_f_0_4_MidRainyNoon_high_": [
+        "30317"
+    ],
+    "3_t2-2_0_p_c_f_0_4_MidRainyNoon_mid_": [
+        "18287"
+    ],
+    "3_t2-2_0_p_c_f_0_4_WetNoon_mid_": [
+        "18291"
+    ],
+    "3_t2-2_0_p_c_f_0_4_WetSunset_high_": [
+        "58527"
+    ],
+    "5_i-12_1_c_sr_r_0_ClearSunset_high_": [
+        "18736"
+    ],
+    "5_i-12_1_c_sr_r_0_ClearSunset_low_": [
+        "17984"
+    ],
+    "5_i-12_1_c_sr_r_0_ClearSunset_mid_": [
+        "18269"
+    ],
+    "5_i-12_1_c_sr_r_0_CloudyNoon_high_": [
+        "18677"
+    ],
+    "5_i-12_1_c_sr_r_0_HardRainNoon_high_": [
+        "18732"
+    ],
+    "5_i-12_1_c_sr_r_0_HardRainNoon_low_": [
+        "18267"
+    ],
+    "5_i-12_1_c_sr_r_0_HardRainNoon_mid_": [
+        "18525"
+    ],
+    "5_i-12_1_c_sr_r_0_HardRainSunset_high_": [
+        "18732"
+    ],
+    "5_i-12_1_c_sr_r_0_MidRainSunset_high_": [
+        "18664"
+    ],
+    "5_i-12_1_c_sr_r_0_MidRainSunset_low_": [
+        "18745"
+    ],
+    "5_i-12_1_c_sr_r_0_MidRainSunset_mid_": [
+        "18732"
+    ],
+    "5_i-12_1_c_sr_r_0_MidRainyNoon_low_": [
+        "18656"
+    ],
+    "5_i-12_1_c_sr_r_0_WetNoon_high_": [
+        "18721"
+    ],
+    "5_i-12_1_c_sr_r_0_WetNoon_mid_": [
+        "34704"
+    ],
+    "5_i-12_1_c_sr_r_0_WetSunset_high_": [
+        "18265"
+    ],
+    "5_i-12_1_c_sr_r_0_1_ClearSunset_low_": [
+        "18736"
+    ],
+    "5_i-12_1_c_sr_r_0_1_CloudyNoon_high_": [
+        "18736"
+    ],
+    "5_i-12_1_c_sr_r_0_1_CloudyNoon_mid_": [
+        "18718"
+    ],
+    "5_i-12_1_c_sr_r_0_1_CloudySunset_high_": [
+        "18718"
+    ],
+    "5_i-12_1_c_sr_r_0_1_CloudySunset_low_": [
+        "18736"
+    ],
+    "5_i-12_1_c_sr_r_0_1_CloudySunset_mid_": [
+        "18658"
+    ],
+    "5_i-12_1_c_sr_r_0_1_HardRainNoon_high_": [
+        "18732"
+    ],
+    "5_i-12_1_c_sr_r_0_1_HardRainNoon_low_": [
+        "18681"
+    ],
+    "5_i-12_1_c_sr_r_0_1_HardRainNoon_mid_": [
+        "18656"
+    ],
+    "5_i-12_1_c_sr_r_0_1_HardRainSunset_high_": [
+        "18714"
+    ],
+    "5_i-12_1_c_sr_r_0_1_HardRainSunset_low_": [
+        "18732"
+    ],
+    "5_i-12_1_c_sr_r_0_1_HardRainSunset_mid_": [
+        "18681"
+    ],
+    "5_i-12_1_c_sr_r_0_1_MidRainSunset_high_": [
+        "18732"
+    ],
+    "5_i-12_1_c_sr_r_0_1_MidRainSunset_low_": [
+        "18024"
+    ],
+    "5_i-12_1_c_sr_r_0_1_MidRainyNoon_mid_": [
+        "18581"
+    ],
+    "5_i-12_1_c_sr_r_0_1_WetSunset_high_": [
+        "18685"
+    ],
+    "5_i-12_1_c_sr_r_0_1_WetSunset_mid_": [
+        "18736"
+    ],
+    "5_i-13_0_c_sr_r_0_1_ClearSunset_high_": [
+        "17507"
+    ],
+    "5_i-13_0_c_sr_r_0_1_ClearSunset_low_": [
+        "31142"
+    ],
+    "5_i-13_0_c_sr_r_0_1_ClearSunset_mid_": [
+        "17804"
+    ],
+    "5_i-13_0_c_sr_r_0_1_CloudyNoon_high_": [
+        "17895"
+    ],
+    "5_i-13_0_c_sr_r_0_1_CloudyNoon_mid_": [
+        "36300"
+    ],
+    "5_i-13_0_c_sr_r_0_1_CloudySunset_mid_": [
+        "21959"
+    ],
+    "5_i-13_0_c_sr_r_0_1_HardRainNoon_mid_": [
+        "17893"
+    ],
+    "5_i-13_0_c_sr_r_0_1_HardRainSunset_low_": [
+        "17990"
+    ],
+    "5_i-13_0_c_sr_r_0_1_MidRainSunset_high_": [
+        "17990"
+    ],
+    "5_i-13_0_c_sr_r_0_1_MidRainSunset_mid_": [
+        "18001"
+    ],
+    "5_i-13_0_c_sr_r_0_1_MidRainyNoon_high_": [
+        "17888"
+    ],
+    "5_i-13_0_c_sr_r_0_1_MidRainyNoon_low_": [
+        "18051"
+    ],
+    "5_i-13_0_c_sr_r_0_1_MidRainyNoon_mid_": [
+        "18007"
+    ],
+    "5_i-13_0_c_sr_r_0_1_WetSunset_high_": [
+        "18038"
+    ],
+    "5_i-13_0_c_sr_r_0_1_WetSunset_low_": [
+        "31470"
+    ],
+    "5_i-7_1_c_f_sl_0_ClearSunset_low_": [
+        "18052"
+    ],
+    "5_i-7_1_c_f_sl_0_CloudyNoon_high_": [
+        "18055"
+    ],
+    "5_i-7_1_c_f_sl_0_CloudySunset_high_": [
+        "17938"
+    ],
+    "5_i-7_1_c_f_sl_0_CloudySunset_mid_": [
+        "18928"
+    ],
+    "5_i-7_1_c_f_sl_0_HardRainNoon_high_": [
+        "18830"
+    ],
+    "5_i-7_1_c_f_sl_0_HardRainNoon_low_": [
+        "36677"
+    ],
+    "5_i-7_1_c_f_sl_0_HardRainNoon_mid_": [
+        "18657"
+    ],
+    "5_i-7_1_c_f_sl_0_HardRainSunset_high_": [
+        "18279"
+    ],
+    "5_i-7_1_c_f_sl_0_HardRainSunset_low_": [
+        "34824"
+    ],
+    "5_i-7_1_c_f_sl_0_HardRainSunset_mid_": [
+        "18942"
+    ],
+    "5_i-7_1_c_f_sl_0_MidRainSunset_high_": [
+        "19305"
+    ],
+    "5_i-7_1_c_f_sl_0_MidRainSunset_low_": [
+        "34589"
+    ],
+    "5_i-7_1_c_f_sl_0_MidRainyNoon_low_": [
+        "18882"
+    ],
+    "5_i-7_1_c_f_sl_0_MidRainyNoon_mid_": [
+        "29834"
+    ],
+    "5_i-7_1_c_f_sl_0_WetSunset_mid_": [
+        "19048"
+    ],
+    "5_i-7_1_c_f_sr_0_2_ClearSunset_high_": [
+        "19954"
+    ],
+    "5_i-7_1_c_f_sr_0_2_ClearSunset_low_": [
+        "19184"
+    ],
+    "5_i-7_1_c_f_sr_0_2_CloudyNoon_mid_": [
+        "23751"
+    ],
+    "5_i-7_1_c_f_sr_0_2_CloudySunset_high_": [
+        "20072"
+    ],
+    "5_i-7_1_c_f_sr_0_2_CloudySunset_mid_": [
+        "20305"
+    ],
+    "5_i-7_1_c_f_sr_0_2_HardRainNoon_high_": [
+        "23865"
+    ],
+    "5_i-7_1_c_f_sr_0_2_HardRainNoon_low_": [
+        "23941"
+    ],
+    "5_i-7_1_c_f_sr_0_2_HardRainNoon_mid_": [
+        "20263"
+    ],
+    "5_i-7_1_c_f_sr_0_2_HardRainSunset_high_": [
+        "19689"
+    ],
+    "5_i-7_1_c_f_sr_0_2_HardRainSunset_low_": [
+        "39064"
+    ],
+    "5_i-7_1_c_f_sr_0_2_HardRainSunset_mid_": [
+        "23401"
+    ],
+    "5_i-7_1_c_f_sr_0_2_MidRainSunset_high_": [
+        "20109"
+    ],
+    "5_i-7_1_c_f_sr_0_2_MidRainSunset_low_": [
+        "35111"
+    ],
+    "5_i-7_1_c_f_sr_0_2_MidRainSunset_mid_": [
+        "20054"
+    ],
+    "5_i-7_1_c_f_sr_0_2_MidRainyNoon_mid_": [
+        "19605"
+    ],
+    "5_i-7_1_c_f_sr_0_2_WetNoon_high_": [
+        "23886"
+    ],
+    "5_i-7_1_m_f_l_0_ClearSunset_low_": [
+        "19057"
+    ],
+    "5_i-7_1_m_f_l_0_CloudySunset_low_": [
+        "23112"
+    ],
+    "5_i-7_1_m_f_l_0_HardRainNoon_low_": [
+        "19578"
+    ],
+    "5_i-7_1_m_f_l_0_HardRainSunset_mid_": [
+        "19626"
+    ],
+    "5_i-7_1_m_f_l_0_MidRainSunset_low_": [
+        "20091"
+    ],
+    "5_i-7_1_m_f_l_0_MidRainyNoon_high_": [
+        "41756"
+    ],
+    "5_i-7_1_m_f_l_0_WetNoon_high_": [
+        "20305"
+    ],
+    "5_i-7_1_m_f_l_0_WetSunset_mid_": [
+        "35100"
+    ],
+    "5_i-7_1_m_f_r_0_ClearSunset_high_": [
+        "36102"
+    ],
+    "5_i-7_1_m_f_r_0_CloudyNoon_high_": [
+        "19407"
+    ],
+    "5_i-7_1_m_f_r_0_CloudySunset_high_": [
+        "20074"
+    ],
+    "5_i-7_1_m_f_r_0_CloudySunset_mid_": [
+        "20281"
+    ],
+    "5_i-7_1_m_f_r_0_HardRainNoon_mid_": [
+        "23902"
+    ],
+    "5_i-7_1_m_f_r_0_HardRainSunset_high_": [
+        "20277"
+    ],
+    "5_i-7_1_m_f_r_0_MidRainSunset_low_": [
+        "57985"
+    ],
+    "5_i-7_1_m_f_r_0_MidRainSunset_mid_": [
+        "17372"
+    ],
+    "5_i-7_1_m_f_r_0_MidRainyNoon_high_": [
+        "30844"
+    ],
+    "5_i-7_1_m_f_r_0_MidRainyNoon_low_": [
+        "18856"
+    ],
+    "5_i-7_1_m_f_r_0_MidRainyNoon_mid_": [
+        "19102"
+    ],
+    "5_i-7_1_m_f_r_0_WetNoon_high_": [
+        "18807"
+    ],
+    "5_i-7_1_m_f_r_0_WetSunset_low_": [
+        "19415"
+    ],
+    "5_i-7_1_m_f_r_0_WetSunset_mid_": [
+        "19105"
+    ],
+    "5_s-11_0_t_sl_sr_0_ClearSunset_low_": [
+        "19435"
+    ],
+    "5_s-11_0_t_sl_sr_0_CloudyNoon_high_": [
+        "19408"
+    ],
+    "5_s-11_0_t_sl_sr_0_CloudySunset_high_": [
+        "33371"
+    ],
+    "5_s-11_0_t_sl_sr_0_CloudySunset_mid_": [
+        "19435"
+    ],
+    "5_s-11_0_t_sl_sr_0_HardRainNoon_high_": [
+        "19128"
+    ],
+    "5_s-11_0_t_sl_sr_0_HardRainSunset_high_": [
+        "30126"
+    ],
+    "5_s-11_0_t_sl_sr_0_HardRainSunset_mid_": [
+        "19404"
+    ],
+    "5_s-11_0_t_sl_sr_0_MidRainSunset_high_": [
+        "19275"
+    ],
+    "5_s-11_0_t_sl_sr_0_MidRainSunset_low_": [
+        "19431"
+    ],
+    "5_s-11_0_t_sl_sr_0_MidRainSunset_mid_": [
+        "19431"
+    ],
+    "5_s-11_0_t_sl_sr_0_MidRainyNoon_low_": [
+        "22898"
+    ],
+    "5_s-11_0_t_sl_sr_0_MidRainyNoon_mid_": [
+        "19430"
+    ],
+    "5_s-11_0_t_sl_sr_0_WetNoon_mid_": [
+        "23016"
+    ],
+    "5_s-11_0_t_sl_sr_0_WetSunset_low_": [
+        "19435"
+    ],
+    "5_s-11_0_t_sl_sr_0_WetSunset_mid_": [
+        "19435"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_ClearSunset_low_": [
+        "19435"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_CloudyNoon_high_": [
+        "23016"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_CloudyNoon_mid_": [
+        "18974"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_CloudySunset_low_": [
+        "19346"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_CloudySunset_mid_": [
+        "19384"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_HardRainNoon_low_": [
+        "23012"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_HardRainNoon_mid_": [
+        "19431"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_HardRainSunset_low_": [
+        "32869"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_MidRainSunset_high_": [
+        "22992"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_MidRainSunset_low_": [
+        "19212"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_MidRainSunset_mid_": [
+        "19314"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_MidRainyNoon_high_": [
+        "19431"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_MidRainyNoon_low_": [
+        "34596"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_MidRainyNoon_mid_": [
+        "19355"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_WetNoon_high_": [
+        "19403"
+    ],
+    "5_s-8_0_t_sl_sr_0_1_WetSunset_high_": [
+        "39347"
+    ],
+    "5_t2-2_0_c_u_f_0_ClearSunset_high_": [
+        "17843"
+    ],
+    "5_t2-2_0_c_u_f_0_ClearSunset_low_": [
+        "37337"
+    ],
+    "5_t2-2_0_c_u_f_0_ClearSunset_mid_": [
+        "17846"
+    ],
+    "5_t2-2_0_c_u_f_0_CloudyNoon_high_": [
+        "17836"
+    ],
+    "5_t2-2_0_c_u_f_0_CloudySunset_high_": [
+        "20936"
+    ],
+    "5_t2-2_0_c_u_f_0_HardRainNoon_high_": [
+        "17907"
+    ],
+    "5_t2-2_0_c_u_f_0_HardRainNoon_low_": [
+        "17743"
+    ],
+    "5_t2-2_0_c_u_f_0_HardRainNoon_mid_": [
+        "17871"
+    ],
+    "5_t2-2_0_c_u_f_0_HardRainSunset_high_": [
+        "17773"
+    ],
+    "5_t2-2_0_c_u_f_0_HardRainSunset_low_": [
+        "17920"
+    ],
+    "5_t2-2_0_c_u_f_0_HardRainSunset_mid_": [
+        "17896"
+    ],
+    "5_t2-2_0_c_u_f_0_MidRainSunset_low_": [
+        "17907"
+    ],
+    "5_t2-2_0_c_u_f_0_MidRainyNoon_high_": [
+        "17907"
+    ],
+    "5_t2-2_0_c_u_f_0_MidRainyNoon_low_": [
+        "17714"
+    ],
+    "5_t2-2_0_c_u_f_0_MidRainyNoon_mid_": [
+        "17856"
+    ],
+    "5_t2-2_0_c_u_f_0_WetNoon_mid_": [
+        "17911"
+    ],
+    "5_t2-2_0_c_u_f_0_WetSunset_low_": [
+        "17911"
+    ],
+    "5_t2-2_0_c_u_f_0_WetSunset_mid_": [
+        "17886"
+    ],
+    "5_t2-7_0_c_r_f_0_CloudyNoon_high_": [
+        "17849"
+    ],
+    "5_t2-7_0_c_r_f_0_CloudyNoon_mid_": [
+        "32081"
+    ],
+    "5_t2-7_0_c_r_f_0_CloudySunset_low_": [
+        "17885"
+    ],
+    "5_t2-7_0_c_r_f_0_CloudySunset_mid_": [
+        "17885"
+    ],
+    "5_t2-7_0_c_r_f_0_HardRainNoon_high_": [
+        "17907"
+    ],
+    "5_t2-7_0_c_r_f_0_HardRainNoon_low_": [
+        "17907"
+    ],
+    "5_t2-7_0_c_r_f_0_HardRainSunset_high_": [
+        "17907"
+    ],
+    "5_t2-7_0_c_r_f_0_HardRainSunset_low_": [
+        "17889"
+    ],
+    "5_t2-7_0_c_r_f_0_MidRainSunset_high_": [
+        "17889"
+    ],
+    "5_t2-7_0_c_r_f_0_MidRainyNoon_low_": [
+        "17556"
+    ],
+    "5_t2-7_0_c_r_f_0_MidRainyNoon_mid_": [
+        "17812"
+    ],
+    "5_t2-7_0_c_r_f_0_WetSunset_high_": [
+        "17730"
+    ],
+    "5_t2-7_0_c_r_f_0_WetSunset_low_": [
+        "17911"
+    ],
+    "5_t2-7_0_c_r_f_0_WetSunset_mid_": [
+        "17876"
+    ],
+    "5_t2-8_1_c_f_u_0_CloudyNoon_high_": [
+        "17793"
+    ],
+    "5_t2-8_1_c_f_u_0_CloudyNoon_mid_": [
+        "17893"
+    ],
+    "5_t2-8_1_c_f_u_0_CloudySunset_high_": [
+        "17893"
+    ],
+    "5_t2-8_1_c_f_u_0_CloudySunset_mid_": [
+        "31838"
+    ],
+    "5_t2-8_1_c_f_u_0_HardRainNoon_high_": [
+        "17907"
+    ],
+    "5_t2-8_1_c_f_u_0_HardRainNoon_low_": [
+        "17907"
+    ],
+    "5_t2-8_1_c_f_u_0_HardRainSunset_high_": [
+        "17856"
+    ],
+    "5_t2-8_1_c_f_u_0_HardRainSunset_mid_": [
+        "17920"
+    ],
+    "5_t2-8_1_c_f_u_0_MidRainSunset_high_": [
+        "29331"
+    ],
+    "5_t2-8_1_c_f_u_0_MidRainSunset_low_": [
+        "17907"
+    ],
+    "5_t2-8_1_c_f_u_0_MidRainSunset_mid_": [
+        "17907"
+    ],
+    "5_t2-8_1_c_f_u_0_MidRainyNoon_high_": [
+        "17861"
+    ],
+    "5_t2-8_1_c_f_u_0_MidRainyNoon_mid_": [
+        "42208"
+    ],
+    "5_t2-8_1_c_f_u_0_WetNoon_mid_": [
+        "17902"
+    ],
+    "5_t2-8_1_c_f_u_0_WetSunset_high_": [
+        "17857"
+    ],
+    "5_t2-8_1_c_f_u_0_WetSunset_low_": [
+        "17776"
+    ],
+    "5_t2-8_1_c_f_u_0_WetSunset_mid_": [
+        "17898"
+    ],
+    "5_t2-9_0_b_l_f_0_ClearSunset_high_": [
+        "28894"
+    ],
+    "5_t2-9_0_b_l_f_0_ClearSunset_low_": [
+        "17805"
+    ],
+    "5_t2-9_0_b_l_f_0_ClearSunset_mid_": [
+        "17903"
+    ],
+    "5_t2-9_0_b_l_f_0_CloudyNoon_mid_": [
+        "17911"
+    ],
+    "5_t2-9_0_b_l_f_0_CloudySunset_mid_": [
+        "17872"
+    ],
+    "5_t2-9_0_b_l_f_0_HardRainNoon_mid_": [
+        "17907"
+    ],
+    "5_t2-9_0_b_l_f_0_HardRainSunset_high_": [
+        "17900"
+    ],
+    "5_t2-9_0_b_l_f_0_HardRainSunset_low_": [
+        "17907"
+    ],
+    "5_t2-9_0_b_l_f_0_HardRainSunset_mid_": [
+        "17907"
+    ],
+    "5_t2-9_0_b_l_f_0_MidRainSunset_mid_": [
+        "17776"
+    ],
+    "5_t2-9_0_b_l_f_0_MidRainyNoon_high_": [
+        "17907"
+    ],
+    "5_t2-9_0_b_l_f_0_MidRainyNoon_mid_": [
+        "17907"
+    ],
+    "5_t2-9_0_b_l_f_0_WetNoon_mid_": [
+        "17911"
+    ],
+    "5_t2-9_0_b_l_f_0_WetSunset_high_": [
+        "17893"
+    ],
+    "5_t3-2_0_c_u_f_0_CloudyNoon_high_": [
+        "17911"
+    ],
+    "5_t3-2_0_c_u_f_0_CloudySunset_high_": [
+        "57981"
+    ],
+    "5_t3-2_0_c_u_f_0_CloudySunset_low_": [
+        "17616"
+    ],
+    "5_t3-2_0_c_u_f_0_HardRainNoon_high_": [
+        "18472"
+    ],
+    "5_t3-2_0_c_u_f_0_HardRainNoon_low_": [
+        "31936"
+    ],
+    "5_t3-2_0_c_u_f_0_HardRainSunset_high_": [
+        "18165"
+    ],
+    "5_t3-2_0_c_u_f_0_HardRainSunset_mid_": [
+        "17171"
+    ],
+    "5_t3-2_0_c_u_f_0_MidRainSunset_high_": [
+        "18008"
+    ],
+    "5_t3-2_0_c_u_f_0_MidRainSunset_low_": [
+        "18118"
+    ],
+    "5_t3-2_0_c_u_f_0_MidRainSunset_mid_": [
+        "18135"
+    ],
+    "5_t3-2_0_c_u_f_0_MidRainyNoon_low_": [
+        "18186"
+    ],
+    "5_t3-2_0_c_u_f_0_MidRainyNoon_mid_": [
+        "18186"
+    ],
+    "5_t3-2_0_c_u_f_0_WetNoon_mid_": [
+        "18107"
+    ],
+    "5_t3-2_0_c_u_f_0_WetSunset_high_": [
+        "18190"
+    ],
+    "5_t3-2_0_c_u_f_0_WetSunset_low_": [
+        "18197"
+    ],
+    "5_t3-2_0_c_u_f_0_WetSunset_mid_": [
+        "18236"
+    ],
+    "5_t3-2_0_c_u_l_0_CloudyNoon_high_": [
+        "18218"
+    ],
+    "5_t3-2_0_c_u_l_0_HardRainNoon_low_": [
+        "18232"
+    ],
+    "5_t3-2_0_c_u_l_0_HardRainSunset_low_": [
+        "18232"
+    ],
+    "5_t3-2_0_c_u_l_0_MidRainSunset_high_": [
+        "18232"
+    ],
+    "5_t3-2_0_c_u_l_0_MidRainSunset_low_": [
+        "18232"
+    ],
+    "5_t3-2_0_c_u_l_0_MidRainSunset_mid_": [
+        "18232"
+    ],
+    "5_t3-2_0_c_u_l_0_MidRainyNoon_low_": [
+        "18232"
+    ],
+    "5_t3-2_0_c_u_l_0_MidRainyNoon_mid_": [
+        "18232"
+    ],
+    "5_t3-2_0_c_u_l_0_WetNoon_mid_": [
+        "18119"
+    ],
+    "5_t3-2_0_c_u_l_0_WetSunset_high_": [
+        "18103"
+    ],
+    "5_t3-2_0_c_u_l_0_WetSunset_low_": [
+        "31935"
+    ],
+    "5_t3-9_0_m_u_l_0_ClearSunset_low_": [
+        "18148"
+    ],
+    "5_t3-9_0_m_u_l_0_ClearSunset_mid_": [
+        "18183"
+    ],
+    "5_t3-9_0_m_u_l_0_CloudyNoon_mid_": [
+        "18236"
+    ],
+    "5_t3-9_0_m_u_l_0_CloudySunset_high_": [
+        "18212"
+    ],
+    "5_t3-9_0_m_u_l_0_HardRainNoon_high_": [
+        "18245"
+    ],
+    "5_t3-9_0_m_u_l_0_HardRainNoon_mid_": [
+        "18232"
+    ],
+    "5_t3-9_0_m_u_l_0_HardRainSunset_low_": [
+        "18232"
+    ],
+    "5_t3-9_0_m_u_l_0_HardRainSunset_mid_": [
+        "18232"
+    ],
+    "5_t3-9_0_m_u_l_0_MidRainSunset_high_": [
+        "18232"
+    ],
+    "5_t3-9_0_m_u_l_0_MidRainSunset_mid_": [
+        "18232"
+    ],
+    "5_t3-9_0_m_u_l_0_MidRainyNoon_high_": [
+        "18232"
+    ],
+    "5_t3-9_0_m_u_l_0_MidRainyNoon_low_": [
+        "18245"
+    ],
+    "5_t3-9_0_m_u_l_0_MidRainyNoon_mid_": [
+        "18232"
+    ],
+    "5_t3-9_0_m_u_l_0_WetNoon_high_": [
+        "18236"
+    ],
+    "5_t3-9_0_m_u_l_0_WetSunset_mid_": [
+        "18236"
+    ],
+    "6_i-1_1_m_f_r_rl_MidRainyNoon_low_": [
+        "32317"
+    ],
+    "6_i-1_1_m_f_r_rl_MidRainyNoon_mid_": [
+        "24267"
+    ],
+    "6_i-1_1_m_f_r_rl_WetSunset_high_": [
+        "24544"
+    ],
+    "6_i-1_1_m_f_r_rl_WetSunset_low_": [
+        "35135"
+    ],
+    "6_i-1_1_t_f_f_rl_ClearSunset_high_": [
+        "24479"
+    ],
+    "6_i-1_1_t_f_f_rl_HardRainSunset_high_": [
+        "24574"
+    ],
+    "6_i-1_1_t_f_f_rl_HardRainSunset_low_": [
+        "24306"
+    ],
+    "6_i-1_1_t_f_f_rl_MidRainSunset_high_": [
+        "24517"
+    ],
+    "6_i-1_1_t_f_f_rl_MidRainSunset_low_": [
+        "31859"
+    ],
+    "6_i-1_1_t_f_f_rl_MidRainyNoon_low_": [
+        "23324"
+    ],
+    "6_i-1_1_t_f_f_rl_WetSunset_high_": [
+        "24446"
+    ],
+    "6_i-1_1_t_f_f_rl_WetSunset_low_": [
+        "24081"
+    ],
+    "6_i-2_1_m_f_f_rl_ClearSunset_low_": [
+        "24264"
+    ],
+    "6_i-2_1_m_f_f_rl_CloudyNoon_mid_": [
+        "24476"
+    ],
+    "6_i-2_1_m_f_f_rl_CloudySunset_high_": [
+        "24477"
+    ],
+    "6_i-2_1_m_f_f_rl_CloudySunset_low_": [
+        "24578"
+    ],
+    "6_i-2_1_m_f_f_rl_CloudySunset_mid_": [
+        "24578"
+    ],
+    "6_i-2_1_m_f_f_rl_HardRainNoon_high_": [
+        "24574"
+    ],
+    "6_i-2_1_m_f_f_rl_HardRainNoon_low_": [
+        "23921"
+    ],
+    "6_i-2_1_m_f_f_rl_HardRainNoon_mid_": [
+        "15543"
+    ],
+    "6_i-2_1_m_f_f_rl_HardRainSunset_high_": [
+        "17279"
+    ],
+    "6_i-2_1_m_f_f_rl_HardRainSunset_low_": [
+        "27563"
+    ],
+    "6_i-2_1_m_f_f_rl_HardRainSunset_mid_": [
+        "17812"
+    ],
+    "6_i-2_1_m_f_f_rl_MidRainSunset_low_": [
+        "17814"
+    ],
+    "6_i-2_1_m_f_f_rl_MidRainyNoon_high_": [
+        "17771"
+    ],
+    "6_i-2_1_m_f_f_rl_MidRainyNoon_low_": [
+        "18221"
+    ],
+    "6_i-2_1_m_f_f_rl_WetNoon_high_": [
+        "18127"
+    ],
+    "6_i-2_1_m_f_r_rl_ClearSunset_low_": [
+        "18301"
+    ],
+    "6_i-2_1_m_f_r_rl_CloudySunset_high_": [
+        "18301"
+    ],
+    "6_i-2_1_m_f_r_rl_HardRainNoon_mid_": [
+        "18297"
+    ],
+    "6_i-2_1_m_f_r_rl_HardRainSunset_high_": [
+        "18297"
+    ],
+    "6_i-2_1_m_f_r_rl_HardRainSunset_low_": [
+        "28563"
+    ],
+    "6_i-2_1_m_f_r_rl_MidRainSunset_high_": [
+        "18563"
+    ],
+    "6_i-2_1_m_f_r_rl_MidRainSunset_low_": [
+        "18449"
+    ],
+    "6_i-2_1_m_f_r_rl_MidRainyNoon_high_": [
+        "18597"
+    ],
+    "6_i-2_1_m_f_r_rl_WetSunset_high_": [
+        "18601"
+    ],
+    "6_i-2_1_m_f_r_rl_WetSunset_low_": [
+        "32153"
+    ],
+    "6_i-2_1_m_f_r_rl_WetSunset_mid_": [
+        "21492"
+    ],
+    "6_s-4_0_t_f_sl_0_ClearSunset_high_": [
+        "18583"
+    ],
+    "6_s-4_0_t_f_sl_0_ClearSunset_mid_": [
+        "21604"
+    ],
+    "6_s-4_0_t_f_sl_0_CloudySunset_low_": [
+        "18148"
+    ],
+    "6_s-4_0_t_f_sl_0_HardRainNoon_high_": [
+        "18524"
+    ],
+    "6_s-4_0_t_f_sl_0_HardRainNoon_low_": [
+        "18445"
+    ],
+    "6_s-4_0_t_f_sl_0_HardRainNoon_mid_": [
+        "18508"
+    ],
+    "6_s-4_0_t_f_sl_0_HardRainSunset_high_": [
+        "18271"
+    ],
+    "6_s-4_0_t_f_sl_0_HardRainSunset_low_": [
+        "18579"
+    ],
+    "6_s-4_0_t_f_sl_0_HardRainSunset_mid_": [
+        "18457"
+    ],
+    "6_s-4_0_t_f_sl_0_MidRainyNoon_high_": [
+        "28547"
+    ],
+    "6_s-4_0_t_f_sl_0_MidRainyNoon_low_": [
+        "18563"
+    ],
+    "6_s-4_0_t_f_sl_0_WetNoon_high_": [
+        "18567"
+    ],
+    "6_s-4_0_t_f_sl_0_WetSunset_high_": [
+        "18370"
+    ],
+    "6_s-4_0_t_sl_f_0_ClearSunset_low_": [
+        "18409"
+    ],
+    "6_s-4_0_t_sl_f_0_ClearSunset_mid_": [
+        "18481"
+    ],
+    "6_s-4_0_t_sl_f_0_CloudyNoon_high_": [
+        "18543"
+    ],
+    "6_s-4_0_t_sl_f_0_CloudyNoon_mid_": [
+        "18198"
+    ],
+    "6_s-4_0_t_sl_f_0_CloudySunset_high_": [
+        "18462"
+    ],
+    "6_s-4_0_t_sl_f_0_CloudySunset_low_": [
+        "18583"
+    ],
+    "6_s-4_0_t_sl_f_0_HardRainNoon_low_": [
+        "24559"
+    ],
+    "6_s-4_0_t_sl_f_0_HardRainNoon_mid_": [
+        "27728"
+    ],
+    "6_s-4_0_t_sl_f_0_HardRainSunset_low_": [
+        "18561"
+    ],
+    "6_s-4_0_t_sl_f_0_MidRainSunset_high_": [
+        "21582"
+    ],
+    "6_s-4_0_t_sl_f_0_MidRainSunset_mid_": [
+        "18560"
+    ],
+    "6_s-4_0_t_sl_f_0_MidRainyNoon_high_": [
+        "18553"
+    ],
+    "6_s-4_0_t_sl_f_0_MidRainyNoon_mid_": [
+        "18579"
+    ],
+    "6_s-4_0_t_sl_f_0_WetNoon_high_": [
+        "18240"
+    ],
+    "6_s-4_0_t_sl_f_0_WetNoon_mid_": [
+        "18567"
+    ],
+    "6_s-4_0_t_sl_sr_0_CloudySunset_high_": [
+        "18260"
+    ],
+    "6_s-4_0_t_sl_sr_0_CloudySunset_low_": [
+        "30680"
+    ],
+    "6_s-4_0_t_sl_sr_0_CloudySunset_mid_": [
+        "18503"
+    ],
+    "6_s-4_0_t_sl_sr_0_HardRainNoon_low_": [
+        "17869"
+    ],
+    "6_s-4_0_t_sl_sr_0_HardRainNoon_mid_": [
+        "25652"
+    ],
+    "6_s-4_0_t_sl_sr_0_HardRainSunset_high_": [
+        "28626"
+    ],
+    "6_s-4_0_t_sl_sr_0_HardRainSunset_low_": [
+        "31682"
+    ],
+    "6_s-4_0_t_sl_sr_0_HardRainSunset_mid_": [
+        "18416"
+    ],
+    "6_s-4_0_t_sl_sr_0_MidRainSunset_high_": [
+        "18475"
+    ],
+    "6_s-4_0_t_sl_sr_0_MidRainSunset_low_": [
+        "18535"
+    ],
+    "6_s-4_0_t_sl_sr_0_MidRainSunset_mid_": [
+        "18550"
+    ],
+    "6_s-4_0_t_sl_sr_0_MidRainyNoon_high_": [
+        "21600"
+    ],
+    "6_s-4_0_t_sl_sr_0_MidRainyNoon_low_": [
+        "18249"
+    ],
+    "6_s-4_0_t_sl_sr_0_MidRainyNoon_mid_": [
+        "18409"
+    ],
+    "6_s-4_0_t_sl_sr_0_WetNoon_high_": [
+        "18543"
+    ],
+    "6_s-4_0_t_sl_sr_0_WetSunset_low_": [
+        "17739"
+    ],
+    "6_s-4_0_t_sl_sr_0_WetSunset_mid_": [
+        "18257"
+    ],
+    "6_s-4_0_t_sr_f_0_ClearSunset_low_": [
+        "18191"
+    ],
+    "6_s-4_0_t_sr_f_0_CloudyNoon_mid_": [
+        "18506"
+    ],
+    "6_s-4_0_t_sr_f_0_CloudySunset_low_": [
+        "18531"
+    ],
+    "6_s-4_0_t_sr_f_0_CloudySunset_mid_": [
+        "18531"
+    ],
+    "6_s-4_0_t_sr_f_0_HardRainNoon_high_": [
+        "18527"
+    ],
+    "6_s-4_0_t_sr_f_0_HardRainNoon_low_": [
+        "18336"
+    ],
+    "6_s-4_0_t_sr_f_0_HardRainNoon_mid_": [
+        "15543"
+    ],
+    "6_s-4_0_t_sr_f_0_HardRainSunset_high_": [
+        "16815"
+    ],
+    "6_s-4_0_t_sr_f_0_HardRainSunset_low_": [
+        "17317"
+    ],
+    "6_s-4_0_t_sr_f_0_MidRainSunset_high_": [
+        "17241"
+    ],
+    "6_s-4_0_t_sr_f_0_MidRainSunset_low_": [
+        "17537"
+    ],
+    "6_s-4_0_t_sr_f_0_MidRainSunset_mid_": [
+        "17515"
+    ],
+    "6_s-4_0_t_sr_f_0_MidRainyNoon_mid_": [
+        "17537"
+    ],
+    "6_s-4_0_t_sr_f_0_WetNoon_high_": [
+        "30271"
+    ],
+    "6_s-4_0_t_sr_f_0_WetSunset_high_": [
+        "27429"
+    ],
+    "6_s-4_0_t_sr_f_0_WetSunset_mid_": [
+        "17215"
+    ],
+    "6_s-4_0_t_sr_sl_0_ClearSunset_low_": [
+        "17541"
+    ],
+    "6_s-4_0_t_sr_sl_0_ClearSunset_mid_": [
+        "17504"
+    ],
+    "6_s-4_0_t_sr_sl_0_CloudyNoon_high_": [
+        "17504"
+    ],
+    "6_s-4_0_t_sr_sl_0_CloudyNoon_mid_": [
+        "17453"
+    ],
+    "6_s-4_0_t_sr_sl_0_HardRainNoon_low_": [
+        "17515"
+    ],
+    "6_s-4_0_t_sr_sl_0_HardRainSunset_high_": [
+        "17509"
+    ],
+    "6_s-4_0_t_sr_sl_0_HardRainSunset_low_": [
+        "17537"
+    ],
+    "6_s-4_0_t_sr_sl_0_HardRainSunset_mid_": [
+        "22762"
+    ],
+    "6_s-4_0_t_sr_sl_0_MidRainSunset_high_": [
+        "17442"
+    ],
+    "6_s-4_0_t_sr_sl_0_MidRainSunset_low_": [
+        "21956"
+    ],
+    "6_s-4_0_t_sr_sl_0_MidRainyNoon_high_": [
+        "17242"
+    ],
+    "6_s-4_0_t_sr_sl_0_MidRainyNoon_low_": [
+        "17484"
+    ],
+    "6_s-4_0_t_sr_sl_0_MidRainyNoon_mid_": [
+        "17519"
+    ],
+    "6_s-4_0_t_sr_sl_0_WetNoon_mid_": [
+        "17541"
+    ],
+    "6_s-4_0_t_sr_sl_0_WetSunset_high_": [
+        "17541"
+    ],
+    "6_s-8_0_c_f_sl_0_ClearSunset_high_": [
+        "17541"
+    ],
+    "6_s-8_0_c_f_sl_0_ClearSunset_mid_": [
+        "17541"
+    ],
+    "6_s-8_0_c_f_sl_0_CloudySunset_high_": [
+        "17541"
+    ],
+    "6_s-8_0_c_f_sl_0_CloudySunset_low_": [
+        "17527"
+    ],
+    "6_s-8_0_c_f_sl_0_HardRainNoon_high_": [
+        "24733"
+    ],
+    "6_s-8_0_c_f_sl_0_HardRainNoon_mid_": [
+        "17216"
+    ],
+    "6_s-8_0_c_f_sl_0_HardRainSunset_high_": [
+        "17449"
+    ],
+    "6_s-8_0_c_f_sl_0_HardRainSunset_mid_": [
+        "27633"
+    ],
+    "6_s-8_0_c_f_sl_0_MidRainSunset_low_": [
+        "17537"
+    ],
+    "6_s-8_0_c_f_sl_0_MidRainSunset_mid_": [
+        "17504"
+    ],
+    "6_s-8_0_c_f_sl_0_MidRainyNoon_low_": [
+        "17491"
+    ],
+    "6_s-8_0_c_f_sl_0_MidRainyNoon_mid_": [
+        "17519"
+    ],
+    "6_s-8_0_c_f_sl_0_WetNoon_high_": [
+        "27086"
+    ],
+    "6_s-8_0_c_f_sl_0_WetNoon_mid_": [
+        "27324"
+    ],
+    "6_s-8_0_c_f_sl_0_WetSunset_low_": [
+        "17492"
+    ],
+    "6_s-8_0_c_sl_f_0_ClearSunset_high_": [
+        "17527"
+    ],
+    "6_s-8_0_c_sl_f_0_ClearSunset_mid_": [
+        "17524"
+    ],
+    "6_s-8_0_c_sl_f_0_CloudyNoon_high_": [
+        "17524"
+    ],
+    "6_s-8_0_c_sl_f_0_HardRainNoon_high_": [
+        "17531"
+    ],
+    "6_s-8_0_c_sl_f_0_HardRainNoon_low_": [
+        "17319"
+    ],
+    "6_s-8_0_c_sl_f_0_HardRainNoon_mid_": [
+        "17459"
+    ],
+    "6_s-8_0_c_sl_f_0_MidRainSunset_high_": [
+        "17395"
+    ],
+    "6_s-8_0_c_sl_f_0_MidRainSunset_low_": [
+        "17382"
+    ],
+    "6_s-8_0_c_sl_f_0_MidRainSunset_mid_": [
+        "17479"
+    ],
+    "6_s-8_0_c_sl_f_0_MidRainyNoon_high_": [
+        "17523"
+    ],
+    "6_s-8_0_c_sl_f_0_MidRainyNoon_mid_": [
+        "27825"
+    ],
+    "6_s-8_0_c_sl_f_0_WetNoon_high_": [
+        "17380"
+    ],
+    "6_s-8_0_c_sl_f_0_WetNoon_mid_": [
+        "17159"
+    ],
+    "6_s-8_0_c_sl_f_0_WetSunset_low_": [
+        "17541"
+    ],
+    "6_s-8_0_c_sr_f_0_CloudyNoon_high_": [
+        "17523"
+    ],
+    "6_s-8_0_c_sr_f_0_CloudyNoon_mid_": [
+        "30026"
+    ],
+    "6_s-8_0_c_sr_f_0_CloudySunset_low_": [
+        "17406"
+    ],
+    "6_s-8_0_c_sr_f_0_HardRainNoon_high_": [
+        "21287"
+    ],
+    "6_s-8_0_c_sr_f_0_HardRainSunset_low_": [
+        "17537"
+    ],
+    "6_s-8_0_c_sr_f_0_HardRainSunset_mid_": [
+        "17508"
+    ],
+    "6_s-8_0_c_sr_f_0_MidRainSunset_high_": [
+        "17414"
+    ],
+    "6_s-8_0_c_sr_f_0_MidRainyNoon_high_": [
+        "30235"
+    ],
+    "6_s-8_0_c_sr_f_0_MidRainyNoon_low_": [
+        "33334"
+    ],
+    "6_s-8_0_c_sr_f_0_MidRainyNoon_mid_": [
+        "17402"
+    ],
+    "6_s-8_0_c_sr_f_0_WetNoon_mid_": [
+        "17541"
+    ],
+    "6_s-8_0_c_sr_f_0_WetSunset_high_": [
+        "17398"
+    ],
+    "6_s-8_0_c_sr_f_0_WetSunset_low_": [
+        "28059"
+    ],
+    "6_s-8_0_c_sr_f_0_WetSunset_mid_": [
+        "17470"
+    ],
+    "6_s-8_0_c_sr_sl_0_ClearSunset_low_": [
+        "18832"
+    ],
+    "6_s-8_0_c_sr_sl_0_CloudyNoon_high_": [
+        "17415"
+    ],
+    "6_s-8_0_c_sr_sl_0_HardRainNoon_low_": [
+        "17342"
+    ],
+    "6_s-8_0_c_sr_sl_0_HardRainNoon_mid_": [
+        "17449"
+    ],
+    "6_s-8_0_c_sr_sl_0_HardRainSunset_low_": [
+        "15543"
+    ],
+    "6_s-8_0_c_sr_sl_0_HardRainSunset_mid_": [
+        "16044"
+    ],
+    "6_s-8_0_c_sr_sl_0_WetNoon_mid_": [
+        "16693"
+    ],
+    "6_s-8_0_c_sr_sl_0_WetSunset_mid_": [
+        "16698"
+    ],
+    "6_t1-3_1_p_j_l_j_CloudyNoon_high_": [
+        "16884"
+    ],
+    "6_t1-3_1_p_j_l_j_CloudySunset_low_": [
+        "17085"
+    ],
+    "6_t1-3_1_p_j_l_j_CloudySunset_mid_": [
+        "17134"
+    ],
+    "6_t1-3_1_p_j_l_j_HardRainNoon_high_": [
+        "17101"
+    ],
+    "6_t1-3_1_p_j_l_j_HardRainNoon_low_": [
+        "17277"
+    ],
+    "6_t1-3_1_p_j_l_j_HardRainNoon_mid_": [
+        "17307"
+    ],
+    "6_t1-3_1_p_j_l_j_HardRainSunset_high_": [
+        "17414"
+    ],
+    "6_t1-3_1_p_j_l_j_HardRainSunset_mid_": [
+        "27828"
+    ],
+    "6_t1-3_1_p_j_l_j_MidRainSunset_low_": [
+        "17466"
+    ],
+    "6_t1-3_1_p_j_l_j_MidRainSunset_mid_": [
+        "17409"
+    ],
+    "6_t1-3_1_p_j_l_j_WetNoon_mid_": [
+        "17470"
+    ],
+    "6_t1-3_1_p_j_l_j_WetSunset_high_": [
+        "25238"
+    ],
+    "6_t1-3_1_p_j_l_j_WetSunset_low_": [
+        "17488"
+    ],
+    "7_i-1_1_c_l_r_0_ClearSunset_high_": [
+        "30106"
+    ],
+    "7_i-1_1_c_l_r_0_ClearSunset_low_": [
+        "49504"
+    ],
+    "7_i-1_1_c_l_r_0_ClearSunset_mid_": [
+        "42000"
+    ],
+    "7_i-1_1_c_l_r_0_CloudySunset_high_": [
+        "28485"
+    ],
+    "7_i-1_1_c_l_r_0_HardRainNoon_high_": [
+        "28963"
+    ],
+    "7_i-1_1_c_l_r_0_HardRainNoon_low_": [
+        "45853"
+    ],
+    "7_i-1_1_c_l_r_0_HardRainSunset_high_": [
+        "28306"
+    ],
+    "7_i-1_1_c_l_r_0_MidRainSunset_low_": [
+        "50669"
+    ],
+    "7_i-1_1_c_l_r_0_MidRainSunset_mid_": [
+        "38818"
+    ],
+    "7_i-1_1_c_l_r_0_MidRainyNoon_high_": [
+        "42202"
+    ],
+    "7_i-1_1_c_l_r_0_MidRainyNoon_mid_": [
+        "40327"
+    ],
+    "7_i-1_1_c_l_r_0_WetNoon_high_": [
+        "29726"
+    ],
+    "7_i-1_1_c_l_r_0_WetSunset_low_": [
+        "42862"
+    ],
+    "7_i-1_1_c_l_r_0_WetSunset_mid_": [
+        "37328"
+    ],
+    "7_i-2_1_m_f_f_rl_CloudySunset_low_": [
+        "30282"
+    ],
+    "7_i-2_1_m_f_f_rl_CloudySunset_mid_": [
+        "29931"
+    ],
+    "7_i-2_1_m_f_f_rl_HardRainSunset_mid_": [
+        "41703"
+    ],
+    "7_i-2_1_m_f_f_rl_MidRainSunset_high_": [
+        "29391"
+    ],
+    "7_i-2_1_m_f_f_rl_MidRainSunset_low_": [
+        "30325"
+    ],
+    "7_i-2_1_m_f_f_rl_MidRainSunset_mid_": [
+        "30220"
+    ],
+    "7_i-2_1_m_f_f_rl_MidRainyNoon_low_": [
+        "30211"
+    ],
+    "7_i-2_1_m_f_f_rl_WetNoon_low_": [
+        "28896"
+    ],
+    "7_i-2_1_m_f_f_rl_WetSunset_low_": [
+        "45119"
+    ],
+    "7_i-2_1_t_f_f_rl_ClearSunset_mid_": [
+        "29598"
+    ],
+    "7_i-2_1_t_f_f_rl_CloudySunset_low_": [
+        "32774"
+    ],
+    "7_i-2_1_t_f_f_rl_HardRainNoon_high_": [
+        "35061"
+    ],
+    "7_i-2_1_t_f_f_rl_HardRainNoon_low_": [
+        "23239"
+    ],
+    "7_i-2_1_t_f_f_rl_HardRainSunset_low_": [
+        "23380"
+    ],
+    "7_i-2_1_t_f_f_rl_MidRainSunset_high_": [
+        "38654"
+    ],
+    "7_i-2_1_t_f_f_rl_MidRainSunset_low_": [
+        "32394"
+    ],
+    "7_i-2_1_t_f_f_rl_MidRainSunset_mid_": [
+        "32318"
+    ],
+    "7_i-2_1_t_f_f_rl_MidRainyNoon_high_": [
+        "23389"
+    ],
+    "7_i-2_1_t_f_f_rl_MidRainyNoon_low_": [
+        "35140"
+    ],
+    "7_i-2_1_t_f_f_rl_MidRainyNoon_mid_": [
+        "32273"
+    ],
+    "7_i-2_1_t_f_f_rl_WetSunset_high_": [
+        "23743"
+    ],
+    "7_i-2_1_t_f_f_rl_WetSunset_low_": [
+        "40835"
+    ],
+    "7_i-3_0_p_c_l_0_ClearSunset_high_": [
+        "23775"
+    ],
+    "7_i-3_0_p_c_l_0_ClearSunset_mid_": [
+        "35111"
+    ],
+    "7_i-3_0_p_c_l_0_CloudyNoon_mid_": [
+        "34275"
+    ],
+    "7_i-3_0_p_c_l_0_CloudySunset_low_": [
+        "43703"
+    ],
+    "7_i-3_0_p_c_l_0_CloudySunset_mid_": [
+        "35108"
+    ],
+    "7_i-3_0_p_c_l_0_HardRainNoon_low_": [
+        "35174"
+    ],
+    "7_i-3_0_p_c_l_0_HardRainNoon_mid_": [
+        "37954"
+    ],
+    "7_i-3_0_p_c_l_0_HardRainSunset_high_": [
+        "35182"
+    ],
+    "7_i-3_0_p_c_l_0_MidRainSunset_high_": [
+        "37883"
+    ],
+    "7_i-3_0_p_c_l_0_MidRainSunset_low_": [
+        "32950"
+    ],
+    "7_i-3_0_p_c_l_0_MidRainSunset_mid_": [
+        "23754"
+    ],
+    "7_i-3_0_p_c_l_0_MidRainyNoon_high_": [
+        "35110"
+    ],
+    "7_i-3_0_p_c_l_0_MidRainyNoon_low_": [
+        "35161"
+    ],
+    "7_i-3_0_p_c_l_0_MidRainyNoon_mid_": [
+        "23532"
+    ],
+    "7_i-3_0_p_c_l_0_WetNoon_mid_": [
+        "23690"
+    ],
+    "7_i-3_0_p_c_l_0_WetSunset_high_": [
+        "32325"
+    ],
+    "7_i-3_0_p_c_l_0_WetSunset_low_": [
+        "32175"
+    ],
+    "7_r-1_0_t_u_r_0_ClearSunset_high_": [
+        "32357"
+    ],
+    "7_r-1_0_t_u_r_0_ClearSunset_low_": [
+        "23686"
+    ],
+    "7_r-1_0_t_u_r_0_ClearSunset_mid_": [
+        "39696"
+    ],
+    "7_r-1_0_t_u_r_0_CloudyNoon_high_": [
+        "41296"
+    ],
+    "7_r-1_0_t_u_r_0_CloudyNoon_mid_": [
+        "23621"
+    ],
+    "7_r-1_0_t_u_r_0_CloudySunset_mid_": [
+        "23613"
+    ],
+    "7_r-1_0_t_u_r_0_HardRainNoon_low_": [
+        "23583"
+    ],
+    "7_r-1_0_t_u_r_0_HardRainNoon_mid_": [
+        "42208"
+    ],
+    "7_r-1_0_t_u_r_0_HardRainSunset_low_": [
+        "41984"
+    ],
+    "7_r-1_0_t_u_r_0_HardRainSunset_mid_": [
+        "32253"
+    ],
+    "7_r-1_0_t_u_r_0_MidRainSunset_high_": [
+        "32374"
+    ],
+    "7_r-1_0_t_u_r_0_MidRainyNoon_high_": [
+        "32394"
+    ],
+    "7_r-1_0_t_u_r_0_MidRainyNoon_low_": [
+        "35090"
+    ],
+    "7_r-1_0_t_u_r_0_MidRainyNoon_mid_": [
+        "34842"
+    ],
+    "7_r-1_0_t_u_r_0_WetSunset_high_": [
+        "40409"
+    ],
+    "7_r-1_0_t_u_r_0_WetSunset_low_": [
+        "23392"
+    ],
+    "7_s-1_0_b_l_f_0_ClearSunset_mid_": [
+        "39542"
+    ],
+    "7_s-1_0_b_l_f_0_CloudyNoon_high_": [
+        "23803"
+    ],
+    "7_s-1_0_b_l_f_0_CloudyNoon_mid_": [
+        "23663"
+    ],
+    "7_s-1_0_b_l_f_0_CloudySunset_high_": [
+        "23619"
+    ],
+    "7_s-1_0_b_l_f_0_HardRainNoon_mid_": [
+        "32356"
+    ],
+    "7_s-1_0_b_l_f_0_HardRainSunset_low_": [
+        "23669"
+    ],
+    "7_s-1_0_b_l_f_0_MidRainSunset_high_": [
+        "40368"
+    ],
+    "7_s-1_0_b_l_f_0_MidRainyNoon_high_": [
+        "22711"
+    ],
+    "7_s-1_0_b_l_f_0_MidRainyNoon_low_": [
+        "43777"
+    ],
+    "7_s-1_0_b_l_f_0_MidRainyNoon_mid_": [
+        "23370"
+    ],
+    "7_s-1_0_b_l_f_0_WetSunset_high_": [
+        "23415"
+    ],
+    "7_s-1_0_b_l_f_0_WetSunset_low_": [
+        "42885"
+    ],
+    "7_s-1_0_b_l_f_0_WetSunset_mid_": [
+        "37395"
+    ],
+    "7_s-1_0_b_r_f_0_ClearSunset_low_": [
+        "32362"
+    ],
+    "7_s-1_0_b_r_f_0_CloudyNoon_high_": [
+        "34978"
+    ],
+    "7_s-1_0_b_r_f_0_CloudyNoon_mid_": [
+        "23629"
+    ],
+    "7_s-1_0_b_r_f_0_CloudySunset_low_": [
+        "23652"
+    ],
+    "7_s-1_0_b_r_f_0_CloudySunset_mid_": [
+        "32298"
+    ],
+    "7_s-1_0_b_r_f_0_HardRainNoon_high_": [
+        "40389"
+    ],
+    "7_s-1_0_b_r_f_0_HardRainNoon_mid_": [
+        "34848"
+    ],
+    "7_s-1_0_b_r_f_0_HardRainSunset_high_": [
+        "44028"
+    ],
+    "7_s-1_0_b_r_f_0_HardRainSunset_low_": [
+        "32371"
+    ],
+    "7_s-1_0_b_r_f_0_HardRainSunset_mid_": [
+        "40710"
+    ],
+    "7_s-1_0_b_r_f_0_MidRainSunset_high_": [
+        "32275"
+    ],
+    "7_s-1_0_b_r_f_0_MidRainSunset_low_": [
+        "22696"
+    ],
+    "7_s-1_0_b_r_f_0_MidRainyNoon_low_": [
+        "32399"
+    ],
+    "7_s-1_0_b_r_f_0_5_ClearNoon_mid_": [
+        "53765"
+    ],
+    "7_s-1_0_b_r_f_0_5_CloudyNoon_mid_": [
+        "51267"
+    ],
+    "7_s-1_0_b_r_f_0_5_HardRainNoon_high_": [
+        "35910"
+    ],
+    "7_s-1_0_b_r_f_0_5_HardRainNoon_low_": [
+        "35606"
+    ],
+    "7_s-1_0_b_r_f_0_5_HardRainSunset_high_": [
+        "36275"
+    ],
+    "7_s-1_0_b_r_f_0_5_HardRainSunset_low_": [
+        "36281"
+    ],
+    "7_s-1_0_b_r_f_0_5_MidRainSunset_mid_": [
+        "36245"
+    ],
+    "7_s-1_0_b_r_f_0_5_WetNoon_high_": [
+        "44906"
+    ],
+    "7_s-4_0_t_l_f_0_1_ClearSunset_low_": [
+        "35009"
+    ],
+    "7_s-4_0_t_l_f_0_1_HardRainNoon_low_": [
+        "32343"
+    ],
+    "7_s-4_0_t_l_f_0_1_HardRainSunset_low_": [
+        "40273"
+    ],
+    "7_s-4_0_t_l_f_0_1_MidRainyNoon_low_": [
+        "32327"
+    ],
+    "7_s-4_0_t_l_f_0_1_MidRainyNoon_mid_": [
+        "32175"
+    ],
+    "7_s-4_0_t_l_f_0_1_WetSunset_low_": [
+        "32304"
+    ],
+    "7_s-4_0_t_l_f_0_1_WetSunset_mid_": [
+        "32378"
+    ],
+    "7_t1-2_1_m_f_r_0_ClearSunset_high_": [
+        "37550"
+    ],
+    "7_t1-2_1_m_f_r_0_CloudyNoon_mid_": [
+        "35054"
+    ],
+    "7_t1-2_1_m_f_r_0_CloudySunset_low_": [
+        "39767"
+    ],
+    "7_t1-2_1_m_f_r_0_CloudySunset_mid_": [
+        "32359"
+    ],
+    "7_t1-2_1_m_f_r_0_HardRainNoon_low_": [
+        "32336"
+    ],
+    "7_t1-2_1_m_f_r_0_HardRainNoon_mid_": [
+        "35558"
+    ],
+    "7_t1-2_1_m_f_r_0_HardRainSunset_high_": [
+        "40415"
+    ],
+    "7_t1-2_1_m_f_r_0_HardRainSunset_low_": [
+        "32045"
+    ],
+    "7_t1-2_1_m_f_r_0_HardRainSunset_mid_": [
+        "32300"
+    ],
+    "7_t1-2_1_m_f_r_0_MidRainSunset_high_": [
+        "32369"
+    ],
+    "7_t1-2_1_m_f_r_0_MidRainSunset_mid_": [
+        "31881"
+    ],
+    "7_t1-2_1_m_f_r_0_MidRainyNoon_high_": [
+        "39457"
+    ],
+    "7_t1-2_1_m_f_r_0_MidRainyNoon_low_": [
+        "33432"
+    ],
+    "7_t1-2_1_m_f_r_0_MidRainyNoon_mid_": [
+        "31609"
+    ],
+    "7_t1-2_1_m_f_r_0_WetNoon_high_": [
+        "31959"
+    ],
+    "7_t1-2_1_m_f_r_0_WetNoon_mid_": [
+        "32387"
+    ],
+    "7_t1-2_1_m_f_r_0_WetSunset_high_": [
+        "37841"
+    ],
+    "7_t1-2_1_m_l_r_0_ClearSunset_high_": [
+        "43636"
+    ],
+    "7_t1-2_1_m_l_r_0_ClearSunset_low_": [
+        "39563"
+    ],
+    "7_t1-2_1_m_l_r_0_ClearSunset_mid_": [
+        "37935"
+    ],
+    "7_t1-2_1_m_l_r_0_HardRainNoon_high_": [
+        "31731"
+    ],
+    "7_t1-2_1_m_l_r_0_HardRainNoon_low_": [
+        "31879"
+    ],
+    "7_t1-2_1_m_l_r_0_HardRainNoon_mid_": [
+        "32142"
+    ],
+    "7_t1-2_1_m_l_r_0_HardRainSunset_mid_": [
+        "40681"
+    ],
+    "7_t1-2_1_m_l_r_0_MidRainyNoon_high_": [
+        "36708"
+    ],
+    "7_t1-2_1_m_l_r_0_MidRainyNoon_low_": [
+        "35045"
+    ],
+    "7_t1-2_1_m_l_r_0_MidRainyNoon_mid_": [
+        "32252"
+    ],
+    "7_t1-2_1_m_l_r_0_WetNoon_high_": [
+        "37469"
+    ],
+    "7_t1-2_1_m_l_r_0_WetSunset_high_": [
+        "32373"
+    ],
+    "7_t1-2_1_m_l_r_0_WetSunset_low_": [
+        "32390"
+    ],
+    "7_t1-3_0_p_j_r_j_ClearSunset_low_": [
+        "31636"
+    ],
+    "7_t1-3_0_p_j_r_j_CloudyNoon_mid_": [
+        "32352"
+    ],
+    "7_t1-3_0_p_j_r_j_CloudySunset_low_": [
+        "41290"
+    ],
+    "7_t1-3_0_p_j_r_j_CloudySunset_mid_": [
+        "43557"
+    ],
+    "7_t1-3_0_p_j_r_j_HardRainNoon_low_": [
+        "31427"
+    ],
+    "7_t1-3_0_p_j_r_j_HardRainNoon_mid_": [
+        "32006"
+    ],
+    "7_t1-3_0_p_j_r_j_HardRainSunset_low_": [
+        "35100"
+    ],
+    "7_t1-3_0_p_j_r_j_HardRainSunset_mid_": [
+        "32151"
+    ],
+    "7_t1-3_0_p_j_r_j_MidRainSunset_low_": [
+        "32303"
+    ],
+    "7_t1-3_0_p_j_r_j_MidRainSunset_mid_": [
+        "32260"
+    ],
+    "7_t1-3_0_p_j_r_j_MidRainyNoon_low_": [
+        "32381"
+    ],
+    "7_t1-3_0_p_j_r_j_MidRainyNoon_mid_": [
+        "32328"
+    ],
+    "7_t1-5_0_m_f_r_0_ClearSunset_low_": [
+        "37341"
+    ],
+    "7_t1-5_0_m_f_r_0_HardRainSunset_low_": [
+        "34046"
+    ],
+    "7_t1-5_0_m_f_r_0_HardRainSunset_mid_": [
+        "30196"
+    ],
+    "7_t1-5_0_m_f_r_0_MidRainSunset_high_": [
+        "44521"
+    ],
+    "7_t1-5_0_m_f_r_0_MidRainSunset_low_": [
+        "42460"
+    ],
+    "7_t1-5_0_m_f_r_0_MidRainSunset_mid_": [
+        "29557"
+    ],
+    "7_t1-5_0_m_f_r_0_MidRainyNoon_high_": [
+        "31529"
+    ],
+    "7_t1-5_0_m_f_r_0_MidRainyNoon_low_": [
+        "38346"
+    ],
+    "7_t1-5_0_m_f_r_0_MidRainyNoon_mid_": [
+        "32439"
+    ],
+    "7_t1-5_0_m_f_r_0_WetSunset_high_": [
+        "42782"
+    ],
+    "7_t1-5_0_m_f_r_0_WetSunset_low_": [
+        "38535"
+    ],
+    "7_t1-5_0_m_f_r_0_WetSunset_mid_": [
+        "32774"
+    ],
+    "7_t1-5_0_m_l_f_s_ClearSunset_low_": [
+        "32195"
+    ],
+    "7_t1-5_0_m_l_f_s_ClearSunset_mid_": [
+        "32393"
+    ],
+    "7_t1-5_0_m_l_f_s_CloudyNoon_high_": [
+        "40459"
+    ],
+    "7_t1-5_0_m_l_f_s_CloudyNoon_mid_": [
+        "40741"
+    ],
+    "7_t1-5_0_m_l_f_s_CloudySunset_high_": [
+        "31742"
+    ],
+    "7_t1-5_0_m_l_f_s_HardRainNoon_high_": [
+        "35130"
+    ],
+    "7_t1-5_0_m_l_f_s_HardRainNoon_low_": [
+        "31754"
+    ],
+    "7_t1-5_0_m_l_f_s_HardRainNoon_mid_": [
+        "32159"
+    ],
+    "7_t1-5_0_m_l_f_s_HardRainSunset_high_": [
+        "32020"
+    ],
+    "7_t1-5_0_m_l_f_s_HardRainSunset_low_": [
+        "32319"
+    ],
+    "7_t1-5_0_m_l_f_s_HardRainSunset_mid_": [
+        "33868"
+    ],
+    "7_t1-5_0_m_l_f_s_MidRainSunset_high_": [
+        "33668"
+    ],
+    "7_t1-5_0_m_l_f_s_MidRainSunset_low_": [
+        "42536"
+    ],
+    "7_t1-5_0_m_l_f_s_MidRainyNoon_low_": [
+        "40330"
+    ],
+    "7_t1-5_0_m_l_f_s_MidRainyNoon_mid_": [
+        "31882"
+    ],
+    "7_t1-5_0_m_l_f_s_WetNoon_high_": [
+        "37821"
+    ],
+    "7_t1-5_0_m_l_f_s_WetSunset_high_": [
+        "44909"
+    ],
+    "7_t1-5_0_m_l_f_s_WetSunset_low_": [
+        "36629"
+    ],
+    "7_t1-5_0_m_l_f_s_WetSunset_mid_": [
+        "37750"
+    ],
+    "7_t2-1_0_t_l_r_0_CloudyNoon_mid_": [
+        "45327"
+    ],
+    "7_t2-1_0_t_l_r_0_CloudySunset_high_": [
+        "40325"
+    ],
+    "7_t2-1_0_t_l_r_0_HardRainNoon_high_": [
+        "31467"
+    ],
+    "7_t2-1_0_t_l_r_0_HardRainNoon_low_": [
+        "32356"
+    ],
+    "7_t2-1_0_t_l_r_0_HardRainNoon_mid_": [
+        "32202"
+    ],
+    "7_t2-1_0_t_l_r_0_HardRainSunset_high_": [
+        "37933"
+    ],
+    "7_t2-1_0_t_l_r_0_HardRainSunset_low_": [
+        "46435"
+    ],
+    "7_t2-1_0_t_l_r_0_MidRainSunset_high_": [
+        "30934"
+    ],
+    "7_t2-1_0_t_l_r_0_MidRainSunset_low_": [
+        "32359"
+    ],
+    "7_t2-1_0_t_l_r_0_MidRainSunset_mid_": [
+        "32289"
+    ],
+    "7_t2-1_0_t_l_r_0_MidRainyNoon_mid_": [
+        "32363"
+    ],
+    "7_t2-1_0_t_l_r_0_WetNoon_high_": [
+        "33824"
+    ],
+    "7_t2-1_0_t_l_r_0_WetNoon_low_": [
+        "38653"
+    ],
+    "7_t2-1_0_t_l_r_0_WetNoon_mid_": [
+        "41321"
+    ],
+    "7_t2-1_0_t_l_r_0_WetSunset_high_": [
+        "32346"
+    ],
+    "7_t2-1_0_t_l_r_0_WetSunset_low_": [
+        "31265"
+    ],
+    "7_t2-1_0_t_l_r_0_WetSunset_mid_": [
+        "31709"
+    ],
+    "7_t2-1_0_t_r_f_0_ClearSunset_mid_": [
+        "32235"
+    ],
+    "7_t2-1_0_t_r_f_0_CloudySunset_high_": [
+        "43872"
+    ],
+    "7_t2-1_0_t_r_f_0_CloudySunset_low_": [
+        "32312"
+    ],
+    "7_t2-1_0_t_r_f_0_HardRainNoon_high_": [
+        "32318"
+    ],
+    "7_t2-1_0_t_r_f_0_HardRainNoon_low_": [
+        "29330"
+    ],
+    "7_t2-1_0_t_r_f_0_HardRainSunset_high_": [
+        "32121"
+    ],
+    "7_t2-1_0_t_r_f_0_HardRainSunset_low_": [
+        "32337"
+    ],
+    "7_t2-1_0_t_r_f_0_HardRainSunset_mid_": [
+        "32377"
+    ],
+    "7_t2-1_0_t_r_f_0_MidRainSunset_high_": [
+        "31946"
+    ],
+    "7_t2-1_0_t_r_f_0_MidRainSunset_low_": [
+        "32373"
+    ],
+    "7_t2-1_0_t_r_f_0_MidRainSunset_mid_": [
+        "32338"
+    ],
+    "7_t2-1_0_t_r_f_0_WetSunset_low_": [
+        "40496"
+    ],
+    "7_t2-3_0_p_c_r_0_ClearSunset_low_": [
+        "35092"
+    ],
+    "7_t2-3_0_p_c_r_0_ClearSunset_mid_": [
+        "33062"
+    ],
+    "7_t2-3_0_p_c_r_0_CloudyNoon_high_": [
+        "31825"
+    ],
+    "7_t2-3_0_p_c_r_0_CloudyNoon_mid_": [
+        "43719"
+    ],
+    "7_t2-3_0_p_c_r_0_HardRainNoon_low_": [
+        "38438"
+    ],
+    "7_t2-3_0_p_c_r_0_HardRainNoon_mid_": [
+        "33413"
+    ],
+    "7_t2-3_0_p_c_r_0_HardRainSunset_low_": [
+        "32094"
+    ],
+    "7_t2-3_0_p_c_r_0_HardRainSunset_mid_": [
+        "33272"
+    ],
+    "7_t2-3_0_p_c_r_0_MidRainSunset_low_": [
+        "42400"
+    ],
+    "7_t2-3_0_p_c_r_0_MidRainSunset_mid_": [
+        "32115"
+    ],
+    "7_t2-3_0_p_c_r_0_MidRainyNoon_high_": [
+        "32331"
+    ],
+    "7_t2-3_0_p_c_r_0_WetNoon_mid_": [
+        "32397"
+    ],
+    "7_t2-5_0_b_r_f_0_ClearSunset_high_": [
+        "31847"
+    ],
+    "7_t2-5_0_b_r_f_0_ClearSunset_low_": [
+        "50714"
+    ],
+    "7_t2-5_0_b_r_f_0_CloudyNoon_high_": [
+        "32110"
+    ],
+    "7_t2-5_0_b_r_f_0_CloudySunset_mid_": [
+        "43339"
+    ],
+    "7_t2-5_0_b_r_f_0_HardRainNoon_mid_": [
+        "31852"
+    ],
+    "7_t2-5_0_b_r_f_0_HardRainSunset_low_": [
+        "32307"
+    ],
+    "7_t2-5_0_b_r_f_0_HardRainSunset_mid_": [
+        "32317"
+    ],
+    "7_t2-5_0_b_r_f_0_MidRainSunset_low_": [
+        "44551"
+    ],
+    "7_t2-5_0_b_r_f_0_MidRainSunset_mid_": [
+        "35095"
+    ],
+    "7_t2-5_0_b_r_f_0_MidRainyNoon_high_": [
+        "32324"
+    ],
+    "7_t2-5_0_b_r_f_0_MidRainyNoon_low_": [
+        "32375"
+    ],
+    "7_t2-5_0_b_r_f_0_MidRainyNoon_mid_": [
+        "32346"
+    ],
+    "7_t2-5_0_b_r_f_0_WetNoon_high_": [
+        "32009"
+    ],
+    "7_t2-5_0_b_r_f_0_WetNoon_mid_": [
+        "40410"
+    ],
+    "7_t2-5_0_b_r_f_0_WetSunset_high_": [
+        "43353"
+    ],
+    "7_t2-5_0_b_r_f_0_WetSunset_low_": [
+        "40816"
+    ],
+    "7_t2-5_0_b_r_f_0_WetSunset_mid_": [
+        "31973"
+    ],
+    "7_t2-5_0_b_r_f_0_5_ClearNoon_high_": [
+        "36011"
+    ],
+    "7_t2-5_0_b_r_f_0_5_ClearNoon_mid_": [
+        "36254"
+    ],
+    "7_t3-1_0_t_r_l_0_CloudyNoon_high_": [
+        "39903"
+    ],
+    "7_t3-1_0_t_r_l_0_CloudyNoon_mid_": [
+        "31984"
+    ],
+    "7_t3-1_0_t_r_l_0_CloudySunset_high_": [
+        "32352"
+    ],
+    "7_t3-1_0_t_r_l_0_CloudySunset_low_": [
+        "32343"
+    ],
+    "7_t3-1_0_t_r_l_0_HardRainNoon_high_": [
+        "32103"
+    ],
+    "7_t3-1_0_t_r_l_0_HardRainNoon_mid_": [
+        "39239"
+    ],
+    "7_t3-1_0_t_r_l_0_HardRainSunset_high_": [
+        "40753"
+    ],
+    "7_t3-1_0_t_r_l_0_HardRainSunset_low_": [
+        "32347"
+    ],
+    "7_t3-1_0_t_r_l_0_HardRainSunset_mid_": [
+        "32770"
+    ],
+    "7_t3-1_0_t_r_l_0_MidRainSunset_high_": [
+        "32371"
+    ],
+    "7_t3-1_0_t_r_l_0_MidRainSunset_mid_": [
+        "43638"
+    ],
+    "7_t3-1_0_t_r_l_0_MidRainyNoon_high_": [
+        "20963"
+    ],
+    "7_t3-1_0_t_r_l_0_MidRainyNoon_low_": [
+        "32394"
+    ],
+    "7_t3-1_0_t_r_l_0_WetNoon_high_": [
+        "39091"
+    ],
+    "7_t3-1_0_t_r_l_0_WetSunset_high_": [
+        "20864"
+    ],
+    "7_t3-1_0_t_r_l_0_WetSunset_low_": [
+        "32372"
+    ],
+    "7_t3-3_0_p_j_f_j_ClearSunset_mid_": [
+        "32341"
+    ],
+    "7_t3-3_0_p_j_f_j_CloudyNoon_mid_": [
+        "20769"
+    ],
+    "7_t3-3_0_p_j_f_j_CloudySunset_high_": [
+        "32354"
+    ],
+    "7_t3-3_0_p_j_f_j_CloudySunset_low_": [
+        "32398"
+    ],
+    "7_t3-3_0_p_j_f_j_HardRainNoon_low_": [
+        "32404"
+    ],
+    "7_t3-3_0_p_j_f_j_HardRainSunset_mid_": [
+        "32249"
+    ],
+    "7_t3-3_0_p_j_f_j_MidRainyNoon_mid_": [
+        "42486"
+    ],
+    "7_t3-3_0_p_j_f_j_WetSunset_high_": [
+        "20889"
+    ],
+    "A1_r-1_0_b_er_er_1_0_ClearSunset_low_": [
+        "44021"
+    ],
+    "A1_r-1_0_b_er_er_1_0_CloudySunset_high_": [
+        "36306"
+    ],
+    "A1_r-1_0_b_er_er_1_0_HardRainNoon_low_": [
+        "33027"
+    ],
+    "A1_r-1_0_b_er_er_1_0_HardRainNoon_mid_": [
+        "33452"
+    ],
+    "A1_r-1_0_b_er_er_1_0_HardRainSunset_high_": [
+        "33471"
+    ],
+    "A1_r-1_0_b_er_er_1_0_MidRainSunset_low_": [
+        "33767"
+    ],
+    "A1_r-1_0_b_er_er_1_0_MidRainyNoon_high_": [
+        "33643"
+    ],
+    "A1_r-1_0_b_er_er_1_0_MidRainyNoon_low_": [
+        "33885"
+    ],
+    "A1_r-1_0_b_er_er_1_0_WetNoon_high_": [
+        "38456"
+    ],
+    "A1_r-1_0_b_er_er_1_0_WetSunset_high_": [
+        "39469"
+    ],
+    "A1_r-1_0_b_er_er_1_0_WetSunset_mid_": [
+        "47908"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_ClearNoon_high_": [
+        "49980"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_ClearNoon_low_": [
+        "47969"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_ClearNoon_mid_": [
+        "50254"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_ClearSunset_low_": [
+        "44434"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_CloudyNoon_high_": [
+        "45037"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_CloudySunset_mid_": [
+        "45796"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_HardRainNoon_low_": [
+        "49742"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_HardRainSunset_low_": [
+        "44838"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_HardRainSunset_mid_": [
+        "40944"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_MidRainyNoon_high_": [
+        "44911"
+    ],
+    "A1_r-1_0_b_er_er_1_0_5_WetSunset_high_": [
+        "53283"
+    ],
+    "A1_r-1_0_c_er_gr_0_ClearSunset_mid_": [
+        "33315"
+    ],
+    "A1_r-1_0_c_er_gr_0_CloudySunset_low_": [
+        "42922"
+    ],
+    "A1_r-1_0_c_er_gr_0_CloudySunset_mid_": [
+        "42645"
+    ],
+    "A1_r-1_0_c_er_gr_0_HardRainNoon_low_": [
+        "37588"
+    ],
+    "A1_r-1_0_c_er_gr_0_HardRainSunset_high_": [
+        "32984"
+    ],
+    "A1_r-1_0_c_er_gr_0_HardRainSunset_low_": [
+        "36787"
+    ],
+    "A1_r-1_0_c_er_gr_0_HardRainSunset_mid_": [
+        "32662"
+    ],
+    "A1_r-1_0_c_er_gr_0_MidRainSunset_high_": [
+        "33833"
+    ],
+    "A1_r-1_0_c_er_gr_0_MidRainyNoon_high_": [
+        "37573"
+    ],
+    "A1_r-1_0_c_er_gr_0_MidRainyNoon_mid_": [
+        "43015"
+    ],
+    "A1_r-1_0_c_er_gr_0_WetNoon_high_": [
+        "34310"
+    ],
+    "A1_r-1_0_c_er_gr_0_WetSunset_high_": [
+        "32291"
+    ],
+    "A1_r-1_0_c_er_gr_0_WetSunset_low_": [
+        "45286"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_CloudyNoon_mid_": [
+        "38539"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_CloudySunset_low_": [
+        "38916"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_CloudySunset_mid_": [
+        "41148"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_HardRainNoon_high_": [
+        "34660"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_HardRainNoon_low_": [
+        "34379"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_HardRainSunset_low_": [
+        "34334"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_HardRainSunset_mid_": [
+        "34319"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_MidRainSunset_high_": [
+        "45028"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_MidRainSunset_mid_": [
+        "33712"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_MidRainyNoon_low_": [
+        "45862"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_MidRainyNoon_mid_": [
+        "33846"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_WetSunset_high_": [
+        "49173"
+    ],
+    "A1_r-1_0_c_er_gr_0_1_WetSunset_low_": [
+        "34365"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_ClearSunset_mid_": [
+        "42952"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_CloudyNoon_high_": [
+        "34687"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_CloudyNoon_low_": [
+        "33695"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_CloudyNoon_mid_": [
+        "34039"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_CloudySunset_high_": [
+        "34288"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_HardRainNoon_low_": [
+        "48329"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_HardRainSunset_mid_": [
+        "34001"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_MidRainSunset_high_": [
+        "45029"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_MidRainyNoon_high_": [
+        "43637"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_WetSunset_low_": [
+        "33738"
+    ],
+    "A1_r-1_0_c_er_gr_0_2_WetSunset_mid_": [
+        "34266"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_ClearSunset_mid_": [
+        "41577"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_CloudyNoon_high_": [
+        "34357"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_CloudySunset_high_": [
+        "43180"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_CloudySunset_low_": [
+        "33697"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_HardRainNoon_high_": [
+        "38109"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_HardRainNoon_low_": [
+        "37725"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_HardRainNoon_mid_": [
+        "41021"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_HardRainSunset_high_": [
+        "37667"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_HardRainSunset_low_": [
+        "33981"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_HardRainSunset_mid_": [
+        "44717"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_MidRainSunset_high_": [
+        "33493"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_MidRainSunset_low_": [
+        "33200"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_MidRainyNoon_high_": [
+        "33586"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_WetNoon_mid_": [
+        "42587"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_WetSunset_high_": [
+        "33939"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_WetSunset_low_": [
+        "33774"
+    ],
+    "A1_r-1_0_c_er_gr_0_3_WetSunset_mid_": [
+        "34160"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_ClearSunset_high_": [
+        "34054"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_ClearSunset_mid_": [
+        "34360"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_CloudyNoon_high_": [
+        "42423"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_CloudySunset_high_": [
+        "33646"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_CloudySunset_low_": [
+        "33786"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_HardRainNoon_high_": [
+        "33887"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_HardRainNoon_low_": [
+        "43232"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_HardRainNoon_mid_": [
+        "32939"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_HardRainSunset_low_": [
+        "37741"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_HardRainSunset_mid_": [
+        "33513"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_MidRainSunset_high_": [
+        "34275"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_MidRainSunset_low_": [
+        "34671"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_MidRainSunset_mid_": [
+        "34668"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_MidRainyNoon_high_": [
+        "33930"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_MidRainyNoon_low_": [
+        "41703"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_MidRainyNoon_mid_": [
+        "44879"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_WetNoon_mid_": [
+        "39020"
+    ],
+    "A1_r-1_0_c_er_gr_0_4_WetSunset_low_": [
+        "46489"
+    ],
+    "A1_r-1_0_c_gi_gi_0_CloudyNoon_high_": [
+        "41040"
+    ],
+    "A1_r-1_0_c_gi_gi_0_CloudyNoon_mid_": [
+        "37133"
+    ],
+    "A1_r-1_0_c_gi_gi_0_CloudySunset_mid_": [
+        "33905"
+    ],
+    "A1_r-1_0_c_gi_gi_0_HardRainNoon_low_": [
+        "33570"
+    ],
+    "A1_r-1_0_c_gi_gi_0_HardRainNoon_mid_": [
+        "33883"
+    ],
+    "A1_r-1_0_c_gi_gi_0_HardRainSunset_low_": [
+        "33968"
+    ],
+    "A1_r-1_0_c_gi_gi_0_HardRainSunset_mid_": [
+        "33947"
+    ],
+    "A1_r-1_0_c_gi_gi_0_MidRainSunset_high_": [
+        "33979"
+    ],
+    "A1_r-1_0_c_gi_gi_0_MidRainSunset_low_": [
+        "34632"
+    ],
+    "A1_r-1_0_c_gi_gi_0_MidRainSunset_mid_": [
+        "34629"
+    ],
+    "A1_r-1_0_c_gi_gi_0_MidRainyNoon_high_": [
+        "44790"
+    ],
+    "A1_r-1_0_c_gi_gi_0_MidRainyNoon_low_": [
+        "41972"
+    ],
+    "A1_r-1_0_c_gi_gi_0_MidRainyNoon_mid_": [
+        "33937"
+    ],
+    "A1_r-1_0_c_gi_gi_0_WetSunset_high_": [
+        "34216"
+    ],
+    "A1_r-1_0_c_gi_gi_0_WetSunset_low_": [
+        "34366"
+    ],
+    "A1_r-1_0_c_gi_gi_0_WetSunset_mid_": [
+        "34173"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_ClearSunset_high_": [
+        "33805"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_ClearSunset_mid_": [
+        "33856"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_CloudySunset_low_": [
+        "33891"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_HardRainNoon_high_": [
+        "39754"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_HardRainNoon_mid_": [
+        "33889"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_HardRainSunset_high_": [
+        "34350"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_HardRainSunset_mid_": [
+        "36176"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_MidRainSunset_mid_": [
+        "33103"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_MidRainyNoon_high_": [
+        "33604"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_MidRainyNoon_low_": [
+        "44088"
+    ],
+    "A1_r-1_0_c_gi_gi_0_1_WetSunset_high_": [
+        "40747"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_ClearSunset_high_": [
+        "33932"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_ClearSunset_low_": [
+        "42752"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_CloudyNoon_high_": [
+        "33985"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_CloudySunset_high_": [
+        "33948"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_CloudySunset_low_": [
+        "38696"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_CloudySunset_mid_": [
+        "34091"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_HardRainNoon_high_": [
+        "33910"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_HardRainNoon_low_": [
+        "34667"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_HardRainNoon_mid_": [
+        "34621"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_HardRainSunset_high_": [
+        "34667"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_HardRainSunset_mid_": [
+        "34670"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_MidRainSunset_high_": [
+        "34694"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_MidRainSunset_low_": [
+        "38369"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_MidRainSunset_mid_": [
+        "34157"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_MidRainyNoon_low_": [
+        "34658"
+    ],
+    "A1_r-1_0_c_gi_gi_0_2_MidRainyNoon_mid_": [
+        "34615"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_CloudySunset_high_": [
+        "46608"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_CloudySunset_low_": [
+        "41940"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_CloudySunset_mid_": [
+        "33505"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_HardRainNoon_high_": [
+        "33959"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_HardRainNoon_low_": [
+        "49847"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_HardRainNoon_mid_": [
+        "34335"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_HardRainSunset_high_": [
+        "36743"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_HardRainSunset_low_": [
+        "45124"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_HardRainSunset_mid_": [
+        "34350"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_MidRainSunset_high_": [
+        "50175"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_MidRainSunset_low_": [
+        "33945"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_MidRainyNoon_high_": [
+        "34320"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_MidRainyNoon_low_": [
+        "34691"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_MidRainyNoon_mid_": [
+        "34673"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_WetNoon_high_": [
+        "39163"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_WetNoon_mid_": [
+        "34671"
+    ],
+    "A1_r-1_0_c_gi_gi_0_3_WetSunset_mid_": [
+        "34319"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_CloudySunset_low_": [
+        "34650"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_HardRainNoon_mid_": [
+        "34683"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_HardRainSunset_high_": [
+        "41979"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_HardRainSunset_mid_": [
+        "35556"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_MidRainSunset_low_": [
+        "42709"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_MidRainSunset_mid_": [
+        "35131"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_MidRainyNoon_low_": [
+        "25914"
+    ],
+    "A1_r-1_0_c_gr_er_0_3_WetNoon_mid_": [
+        "26099"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_ClearSunset_low_": [
+        "25805"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_CloudySunset_high_": [
+        "26589"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_CloudySunset_low_": [
+        "43419"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_CloudySunset_mid_": [
+        "26044"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_HardRainNoon_high_": [
+        "41922"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_HardRainNoon_low_": [
+        "41011"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_HardRainNoon_mid_": [
+        "25905"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_HardRainSunset_high_": [
+        "26044"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_HardRainSunset_low_": [
+        "43333"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_MidRainSunset_low_": [
+        "25865"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_MidRainSunset_mid_": [
+        "46313"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_MidRainyNoon_high_": [
+        "40734"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_MidRainyNoon_mid_": [
+        "25644"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_WetNoon_high_": [
+        "26069"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_WetNoon_mid_": [
+        "25725"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_WetSunset_high_": [
+        "35035"
+    ],
+    "A1_r-1_0_c_gr_er_0_4_WetSunset_mid_": [
+        "25133"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_ClearSunset_mid_": [
+        "37788"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_CloudyNoon_mid_": [
+        "25779"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_CloudySunset_low_": [
+        "37831"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_HardRainNoon_low_": [
+        "37804"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_HardRainNoon_mid_": [
+        "26015"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_HardRainSunset_high_": [
+        "25939"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_HardRainSunset_low_": [
+        "25325"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_MidRainSunset_low_": [
+        "25626"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_MidRainSunset_mid_": [
+        "25837"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_MidRainyNoon_high_": [
+        "26576"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_MidRainyNoon_low_": [
+        "25565"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_MidRainyNoon_mid_": [
+        "25308"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_WetNoon_high_": [
+        "25917"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_WetNoon_mid_": [
+        "45312"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_WetSunset_high_": [
+        "25939"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_WetSunset_low_": [
+        "25640"
+    ],
+    "A1_r-1_0_c_gr_er_0_5_WetSunset_mid_": [
+        "42412"
+    ],
+    "A1_r-1_0_c_gr_gr_0_HardRainSunset_high_": [
+        "44613"
+    ],
+    "A1_r-1_0_c_gr_gr_0_HardRainSunset_mid_": [
+        "41730"
+    ],
+    "A1_r-1_0_c_gr_gr_0_WetSunset_low_": [
+        "46667"
+    ],
+    "A1_r-1_0_c_gr_gr_0_1_ClearSunset_low_": [
+        "35015"
+    ],
+    "A1_r-1_0_c_gr_gr_0_1_CloudyNoon_mid_": [
+        "45300"
+    ],
+    "A1_r-1_0_c_gr_gr_0_1_MidRainyNoon_low_": [
+        "49584"
+    ],
+    "A1_r-1_0_c_gr_gr_0_1_MidRainyNoon_mid_": [
+        "26061"
+    ],
+    "A1_r-1_0_c_gr_gr_0_1_WetNoon_mid_": [
+        "43512"
+    ],
+    "A1_r-1_0_c_gr_gr_0_1_WetSunset_mid_": [
+        "26031"
+    ],
+    "A1_r-1_0_c_gr_gr_0_2_ClearSunset_low_": [
+        "25415"
+    ],
+    "A1_r-1_0_c_gr_gr_0_2_HardRainNoon_low_": [
+        "26093"
+    ],
+    "A1_r-1_0_c_gr_gr_0_2_HardRainSunset_low_": [
+        "26058"
+    ],
+    "A1_r-1_0_c_gr_gr_0_2_HardRainSunset_mid_": [
+        "26093"
+    ],
+    "A6_r-1_0_p_c_er_0_ClearSunset_low_": [
+        "24599"
+    ],
+    "A6_r-1_0_p_c_er_0_HardRainSunset_mid_": [
+        "24628"
+    ],
+    "A6_r-1_0_p_c_er_0_1_HardRainSunset_mid_": [
+        "36924"
+    ],
+    "A6_r-1_0_p_c_er_0_1_MidRainSunset_low_": [
+        "36910"
+    ],
+    "A6_r-1_0_p_c_er_0_1_MidRainyNoon_low_": [
+        "36979"
+    ],
+    "A6_r-1_0_p_c_er_0_2_ClearSunset_low_": [
+        "24760"
+    ],
+    "A6_r-1_0_p_c_er_0_2_CloudySunset_low_": [
+        "24681"
+    ],
+    "A6_r-1_0_p_c_er_0_2_HardRainNoon_low_": [
+        "24643"
+    ],
+    "A6_r-1_0_p_c_er_0_2_HardRainSunset_low_": [
+        "24366"
+    ],
+    "A6_r-1_0_p_c_er_0_3_ClearSunset_low_": [
+        "36983"
+    ],
+    "A6_r-1_0_p_c_er_0_3_HardRainNoon_low_": [
+        "50126"
+    ],
+    "A6_r-1_0_p_c_er_0_3_HardRainNoon_mid_": [
+        "21857"
+    ],
+    "A6_r-1_0_p_c_er_0_3_HardRainSunset_low_": [
+        "21576"
+    ],
+    "A6_r-1_0_p_c_er_0_3_MidRainSunset_low_": [
+        "41756"
+    ],
+    "A6_r-1_0_p_c_er_0_3_MidRainyNoon_low_": [
+        "30896"
+    ],
+    "A6_r-1_0_p_c_er_0_3_MidRainyNoon_mid_": [
+        "30895"
+    ],
+    "A6_r-1_0_p_c_er_0_3_WetNoon_low_": [
+        "28489"
+    ],
+    "A6_r-1_0_p_j_gi_0_ClearSunset_low_": [
+        "24495"
+    ],
+    "A6_r-1_0_p_j_gi_0_CloudySunset_high_": [
+        "35314"
+    ],
+    "A6_r-1_0_p_j_gi_0_HardRainNoon_high_": [
+        "25689"
+    ],
+    "A6_r-1_0_p_j_gi_0_HardRainNoon_mid_": [
+        "39555"
+    ],
+    "A6_r-1_0_p_j_gi_0_HardRainSunset_low_": [
+        "40983"
+    ],
+    "A6_r-1_0_p_j_gi_0_HardRainSunset_mid_": [
+        "27458"
+    ],
+    "A6_r-1_0_p_j_gi_0_MidRainSunset_mid_": [
+        "27568"
+    ],
+    "A6_r-1_0_p_j_gi_0_MidRainyNoon_high_": [
+        "41284"
+    ],
+    "A6_r-1_0_p_j_gi_0_MidRainyNoon_low_": [
+        "45976"
+    ],
+    "A6_r-1_0_p_j_gi_0_WetSunset_high_": [
+        "25406"
+    ],
+    "A6_r-1_0_p_j_gi_0_WetSunset_mid_": [
+        "39433"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_ClearSunset_high_": [
+        "27663"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_ClearSunset_mid_": [
+        "27561"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_CloudyNoon_mid_": [
+        "39310"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_CloudySunset_low_": [
+        "33224"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_CloudySunset_mid_": [
+        "33079"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_HardRainNoon_low_": [
+        "44838"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_HardRainNoon_mid_": [
+        "35074"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_HardRainSunset_mid_": [
+        "38131"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_MidRainSunset_low_": [
+        "45076"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_MidRainSunset_mid_": [
+        "31387"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_MidRainyNoon_high_": [
+        "38372"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_MidRainyNoon_mid_": [
+        "45665"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_WetNoon_mid_": [
+        "35638"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_WetSunset_high_": [
+        "26483"
+    ],
+    "A6_r-1_0_p_j_gi_0_1_WetSunset_low_": [
+        "29719"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_ClearSunset_low_": [
+        "41402"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_ClearSunset_mid_": [
+        "26076"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_CloudyNoon_mid_": [
+        "37442"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_CloudySunset_low_": [
+        "41348"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_HardRainNoon_high_": [
+        "26485"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_HardRainNoon_low_": [
+        "41547"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_HardRainNoon_mid_": [
+        "25999"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_HardRainSunset_low_": [
+        "38231"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_HardRainSunset_mid_": [
+        "29642"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_MidRainSunset_high_": [
+        "26486"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_MidRainSunset_low_": [
+        "41488"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_MidRainSunset_mid_": [
+        "39899"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_MidRainyNoon_mid_": [
+        "25458"
+    ],
+    "A6_r-1_0_p_j_gi_0_2_WetNoon_mid_": [
+        "25947"
+    ],
+    "A6_r-1_0_p_j_gi_j_ClearSunset_high_": [
+        "26047"
+    ],
+    "A6_r-1_0_p_j_gi_j_CloudyNoon_mid_": [
+        "41841"
+    ],
+    "A6_r-1_0_p_j_gi_j_CloudySunset_low_": [
+        "25505"
+    ],
+    "A6_r-1_0_p_j_gi_j_CloudySunset_mid_": [
+        "37868"
+    ],
+    "A6_r-1_0_p_j_gi_j_HardRainSunset_low_": [
+        "29627"
+    ],
+    "A6_r-1_0_p_j_gi_j_HardRainSunset_mid_": [
+        "26584"
+    ],
+    "A6_r-1_0_p_j_gi_j_MidRainSunset_high_": [
+        "42532"
+    ],
+    "A6_r-1_0_p_j_gi_j_MidRainSunset_low_": [
+        "35218"
+    ],
+    "A6_r-1_0_p_j_gi_j_MidRainyNoon_high_": [
+        "39380"
+    ],
+    "A6_r-1_0_p_j_gi_j_MidRainyNoon_low_": [
+        "29987"
+    ],
+    "A6_r-1_0_p_j_gi_j_MidRainyNoon_mid_": [
+        "40533"
+    ],
+    "A6_r-1_0_p_j_gi_j_WetSunset_low_": [
+        "24556"
+    ],
+    "A6_r-1_0_p_j_gi_j_WetSunset_mid_": [
+        "25380"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_4_ClearSunset_low_": [
+        "51564"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_4_HardRainNoon_mid_": [
+        "50338"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_4_HardRainSunset_low_": [
+        "47906"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_4_HardRainSunset_mid_": [
+        "44939"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_4_MidRainSunset_high_": [
+        "36099"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_4_MidRainyNoon_low_": [
+        "42131"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_4_WetNoon_mid_": [
+        "47949"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_ClearSunset_low_": [
+        "47695"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_ClearSunset_mid_": [
+        "43467"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_CloudySunset_low_": [
+        "44651"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_HardRainNoon_high_": [
+        "37173"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_HardRainNoon_mid_": [
+        "40418"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_HardRainSunset_high_": [
+        "35461"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_HardRainSunset_low_": [
+        "47139"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_MidRainSunset_high_": [
+        "36567"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_MidRainSunset_low_": [
+        "37232"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_MidRainSunset_mid_": [
+        "46844"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_MidRainyNoon_high_": [
+        "37612"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_MidRainyNoon_low_": [
+        "36742"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_MidRainyNoon_mid_": [
+        "37156"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_WetNoon_high_": [
+        "43762"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_WetSunset_high_": [
+        "42461"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_7_WetSunset_mid_": [
+        "47796"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_ClearNoon_high_": [
+        "25560"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_ClearNoon_mid_": [
+        "26903"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_CloudySunset_high_": [
+        "43810"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_HardRainSunset_high_": [
+        "30030"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_MidRainSunset_low_": [
+        "50658"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_MidRainSunset_mid_": [
+        "45088"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_MidRainyNoon_low_": [
+        "42202"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_WetNoon_high_": [
+        "30966"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_8_WetSunset_low_": [
+        "46619"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_ClearNoon_high_": [
+        "30967"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_ClearNoon_mid_": [
+        "25523"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_ClearSunset_mid_": [
+        "27379"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_CloudyNoon_mid_": [
+        "30984"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_CloudySunset_low_": [
+        "40790"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_HardRainSunset_mid_": [
+        "44528"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_MidRainSunset_high_": [
+        "30952"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_MidRainSunset_low_": [
+        "30074"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_MidRainyNoon_high_": [
+        "30975"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_MidRainyNoon_low_": [
+        "30949"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_MidRainyNoon_mid_": [
+        "30957"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_WetNoon_high_": [
+        "42136"
+    ],
+    "B3_r-1_0_b_er_gr_1_0_9_WetSunset_high_": [
+        "30950"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_ClearSunset_high_": [
+        "44790"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_ClearSunset_low_": [
+        "36010"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_CloudyNoon_mid_": [
+        "36394"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_HardRainNoon_high_": [
+        "45807"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_HardRainNoon_low_": [
+        "35932"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_HardRainSunset_mid_": [
+        "38290"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_MidRainSunset_low_": [
+        "45363"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_MidRainyNoon_high_": [
+        "36498"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_MidRainyNoon_mid_": [
+        "47731"
+    ],
+    "B3_r-1_0_t_er_er_1_0_3_WetNoon_high_": [
+        "33016"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_ClearSunset_high_": [
+        "34882"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_ClearSunset_low_": [
+        "45788"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_CloudySunset_mid_": [
+        "34215"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_HardRainNoon_high_": [
+        "35757"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_HardRainNoon_low_": [
+        "34787"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_HardRainSunset_high_": [
+        "46732"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_HardRainSunset_low_": [
+        "33732"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_HardRainSunset_mid_": [
+        "44517"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_MidRainSunset_high_": [
+        "34093"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_MidRainSunset_low_": [
+        "50599"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_MidRainyNoon_low_": [
+        "33768"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_MidRainyNoon_mid_": [
+        "34219"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_WetNoon_high_": [
+        "44687"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_WetNoon_mid_": [
+        "33911"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_WetSunset_low_": [
+        "33801"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_1_WetSunset_mid_": [
+        "33874"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_2_ClearSunset_low_": [
+        "47760"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_2_ClearSunset_mid_": [
+        "34632"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_2_HardRainNoon_low_": [
+        "33958"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_2_HardRainNoon_mid_": [
+        "34198"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_2_HardRainSunset_high_": [
+        "34655"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_2_HardRainSunset_low_": [
+        "50241"
+    ],
+    "B3_r-1_0_t_er_gr_1_0_2_MidRainyNoon_low_": [
+        "33271"
+    ],
+    "B7_r-1_0_p_c_er_0_1_CloudyNoon_mid_": [
+        "20952"
+    ],
+    "B7_r-1_0_p_c_er_0_1_HardRainNoon_mid_": [
+        "20981"
+    ],
+    "B7_r-1_0_p_c_er_0_1_HardRainSunset_high_": [
+        "25815"
+    ],
+    "B7_r-1_0_p_c_er_0_1_HardRainSunset_low_": [
+        "20976"
+    ],
+    "B7_r-1_0_p_c_er_0_1_MidRainyNoon_high_": [
+        "21876"
+    ],
+    "B7_r-1_0_p_c_er_0_1_MidRainyNoon_low_": [
+        "40849"
+    ],
+    "B7_r-1_0_p_c_er_0_1_WetSunset_high_": [
+        "20970"
+    ],
+    "B7_r-1_0_p_c_er_0_1_WetSunset_low_": [
+        "20712"
+    ],
+    "B7_r-1_0_p_c_er_0_1_WetSunset_mid_": [
+        "20974"
+    ],
+    "B7_r-1_0_p_j_er_j_ClearNoon_high_": [
+        "21460"
+    ],
+    "B7_r-1_0_p_j_er_j_ClearNoon_mid_": [
+        "31239"
+    ],
+    "B7_r-1_0_p_j_er_j_ClearSunset_mid_": [
+        "25901"
+    ],
+    "B7_r-1_0_p_j_er_j_CloudyNoon_high_": [
+        "20974"
+    ],
+    "B7_r-1_0_p_j_er_j_CloudyNoon_mid_": [
+        "21927"
+    ],
+    "B7_r-1_0_p_j_er_j_CloudySunset_low_": [
+        "20980"
+    ],
+    "B7_r-1_0_p_j_er_j_HardRainNoon_low_": [
+        "20976"
+    ],
+    "B7_r-1_0_p_j_er_j_HardRainNoon_mid_": [
+        "26983"
+    ],
+    "B7_r-1_0_p_j_er_j_HardRainSunset_high_": [
+        "20939"
+    ],
+    "B7_r-1_0_p_j_er_j_HardRainSunset_low_": [
+        "20981"
+    ],
+    "B7_r-1_0_p_j_er_j_HardRainSunset_mid_": [
+        "20992"
+    ],
+    "B7_r-1_0_p_j_er_j_WetNoon_mid_": [
+        "40730"
+    ],
+    "B7_r-1_0_p_j_er_j_1_ClearNoon_mid_": [
+        "21003"
+    ],
+    "B7_r-1_0_p_j_er_j_1_ClearSunset_low_": [
+        "20973"
+    ],
+    "B7_r-1_0_p_j_er_j_1_CloudyNoon_high_": [
+        "25806"
+    ],
+    "B7_r-1_0_p_j_er_j_1_CloudyNoon_mid_": [
+        "21561"
+    ],
+    "B7_r-1_0_p_j_er_j_1_HardRainNoon_high_": [
+        "22091"
+    ],
+    "B7_r-1_0_p_j_er_j_1_HardRainNoon_low_": [
+        "22000"
+    ],
+    "B7_r-1_0_p_j_er_j_1_HardRainSunset_low_": [
+        "26977"
+    ],
+    "B7_r-1_0_p_j_er_j_1_HardRainSunset_mid_": [
+        "24602"
+    ],
+    "B7_r-1_0_p_j_er_j_1_MidRainSunset_mid_": [
+        "20777"
+    ],
+    "B7_r-1_0_p_j_er_j_1_MidRainyNoon_mid_": [
+        "22083"
+    ],
+    "B7_r-1_0_p_j_er_j_1_WetSunset_mid_": [
+        "27296"
+    ],
+    "B8_r-1_0_p_c_er_0_1_ClearNoon_high_": [
+        "27002"
+    ],
+    "B8_r-1_0_p_c_er_0_1_ClearNoon_mid_": [
+        "27441"
+    ],
+    "B8_r-1_0_p_c_er_0_1_CloudySunset_low_": [
+        "41833"
+    ],
+    "B8_r-1_0_p_c_er_0_1_HardRainNoon_low_": [
+        "31430"
+    ],
+    "B8_r-1_0_p_c_er_0_1_HardRainNoon_mid_": [
+        "26626"
+    ],
+    "B8_r-1_0_p_c_er_0_1_MidRainSunset_low_": [
+        "27465"
+    ],
+    "B8_r-1_0_p_c_er_0_1_MidRainyNoon_high_": [
+        "27044"
+    ],
+    "B8_r-1_0_p_c_er_0_1_MidRainyNoon_low_": [
+        "41744"
+    ],
+    "B8_r-1_0_p_c_er_0_1_WetNoon_high_": [
+        "27421"
+    ],
+    "B8_r-1_0_p_c_er_0_1_WetNoon_mid_": [
+        "44596"
+    ],
+    "B8_r-1_0_p_c_er_0_1_WetSunset_low_": [
+        "32322"
+    ],
+    "B8_r-1_0_p_c_er_0_2_ClearSunset_low_": [
+        "25336"
+    ],
+    "B8_r-1_0_p_c_er_0_2_CloudySunset_high_": [
+        "29770"
+    ],
+    "B8_r-1_0_p_c_er_0_2_HardRainNoon_low_": [
+        "49929"
+    ],
+    "B8_r-1_0_p_c_er_0_2_HardRainNoon_mid_": [
+        "24304"
+    ],
+    "B8_r-1_0_p_c_er_0_2_HardRainSunset_high_": [
+        "24732"
+    ],
+    "B8_r-1_0_p_c_er_0_2_HardRainSunset_mid_": [
+        "43957"
+    ],
+    "B8_r-1_0_p_c_er_0_2_MidRainSunset_low_": [
+        "41132"
+    ],
+    "B8_r-1_0_p_c_er_0_2_MidRainyNoon_low_": [
+        "29733"
+    ],
+    "B8_r-1_0_p_c_er_0_2_WetSunset_low_": [
+        "29761"
+    ],
+    "B8_r-1_0_p_c_er_0_2_WetSunset_mid_": [
+        "29728"
+    ],
+    "B8_r-1_0_p_j_er_j_ClearNoon_low_": [
+        "37341"
+    ],
+    "B8_r-1_0_p_j_er_j_CloudySunset_low_": [
+        "29700"
+    ],
+    "B8_r-1_0_p_j_er_j_CloudySunset_mid_": [
+        "29719"
+    ],
+    "B8_r-1_0_p_j_er_j_HardRainSunset_low_": [
+        "29483"
+    ],
+    "B8_r-1_0_p_j_er_j_MidRainSunset_low_": [
+        "29698"
+    ],
+    "B8_r-1_0_p_j_er_j_MidRainyNoon_low_": [
+        "29700"
+    ],
+    "B8_r-1_0_p_j_er_j_MidRainyNoon_mid_": [
+        "45342"
+    ]
+}

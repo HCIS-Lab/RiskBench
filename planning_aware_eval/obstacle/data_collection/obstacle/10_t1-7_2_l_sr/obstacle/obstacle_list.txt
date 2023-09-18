@@ -1,0 +1,12 @@
+static.prop.trafficwarning	Transform(Location(x=44.028950, y=52.548702, z=0.000000), Rotation(pitch=0.000000, yaw=-180.751099, roll=0.000000))	206
+static.prop.trafficwarning	Transform(Location(x=43.629570, y=58.974739, z=0.000000), Rotation(pitch=0.000000, yaw=-165.602768, roll=0.000000))	207
+static.prop.trafficwarning	Transform(Location(x=-67.081741, y=-65.193367, z=0.000000), Rotation(pitch=0.000000, yaw=-269.403259, roll=0.000000))	208
+static.prop.trafficwarning	Transform(Location(x=-61.082069, y=-65.130882, z=0.000000), Rotation(pitch=0.000000, yaw=-269.403259, roll=0.000000))	209
+static.prop.trafficwarning	Transform(Location(x=-41.658382, y=52.625542, z=0.000000), Rotation(pitch=0.000000, yaw=-180.161224, roll=0.000000))	210
+static.prop.trafficwarning	Transform(Location(x=-41.635868, y=60.625511, z=0.000000), Rotation(pitch=0.000000, yaw=-180.161224, roll=0.000000))	211
+static.prop.trafficwarning	Transform(Location(x=99.078568, y=42.141800, z=0.000000), Rotation(pitch=0.000000, yaw=-359.609253, roll=0.000000))	212
+static.prop.trafficwarning	Transform(Location(x=99.104881, y=38.102741, z=0.000000), Rotation(pitch=0.000000, yaw=-360.559631, roll=0.000000))	213
+static.prop.trafficwarning	Transform(Location(x=-28.560219, y=137.035614, z=0.000000), Rotation(pitch=0.000000, yaw=-449.647888, roll=0.000000))	214
+static.prop.trafficwarning	Transform(Location(x=-32.560143, y=137.011032, z=0.000000), Rotation(pitch=0.000000, yaw=-449.647888, roll=0.000000))	215
+static.prop.trafficwarning	Transform(Location(x=-110.688164, y=39.860500, z=0.000000), Rotation(pitch=0.000000, yaw=0.642235, roll=0.000000))	216
+static.prop.trafficwarning	Transform(Location(x=-110.598495, y=31.861002, z=0.000000), Rotation(pitch=0.000000, yaw=0.642235, roll=0.000000))	217
