@@ -1,5 +1,3 @@
-import os
-import json
 from collections import OrderedDict
 
 import numpy as np
@@ -12,16 +10,19 @@ __all__ = ['compute_result',
            'tta']
 
 
-def compute_result(class_index, score_metrics, target_metrics, result_path, result_name,
-                   ignore_class=[], save=False, verbose=False):
+def compute_result(class_index, score_metrics, target_metrics):
+    """
+        class_index: ['go', 'stop']
+    """
 
     result = OrderedDict()
     score_metrics = np.array(score_metrics)
     pred_metrics = np.argmax(score_metrics, axis=1)
+    # pred_metrics = score_metrics
     target_metrics = np.array(target_metrics)
 
-    print(pred_metrics)
-    print(target_metrics)
+    # print(pred_metrics)
+    # print(target_metrics)
 
     # Compute ACC (stop)
     correct_stop = np.sum((target_metrics != 0) &
@@ -32,44 +33,30 @@ def compute_result(class_index, score_metrics, target_metrics, result_path, resu
         target_metrics == pred_metrics))
     total_go = np.sum(target_metrics != 1)
 
-    result['ACC_stop'] = correct_stop / total_stop
     result['ACC_go'] = correct_go / total_go
-
-    if verbose:
-        print('ACC_stop: {:.5f}'.format(result['ACC_stop']))
-        print('ACC_go: {:.5f}'.format(result['ACC_go']))
+    result['ACC_stop'] = correct_stop / total_stop
+    result['ACC_total'] = (correct_go+correct_stop) / (total_go+total_stop)
 
     # Compute confusion matrix
     # [ [gt0_pre0, gt0_pre1],
     #   [gt1_pre0, gt1_pre1] ]
-    result['confusion_matrix'] = \
-        confusion_matrix(target_metrics, pred_metrics).tolist()
+    result['confusion_matrix'] = confusion_matrix(
+        target_metrics, pred_metrics).tolist()
 
-    # Compute AP
+    # # Compute AP
     result['AP'] = OrderedDict()
     for cls in range(len(class_index)):
-        if cls not in ignore_class:
-            result['AP'][class_index[cls]] = average_precision_score(
-                (target_metrics[target_metrics != 24] == cls).astype(np.int),
-                score_metrics[target_metrics != 24, cls])
-            if verbose:
-                print('{} AP: {:.5f}'.format(
-                    class_index[cls], result['AP'][class_index[cls]]))
+
+        result['AP'][class_index[cls]] = average_precision_score(
+            (target_metrics[target_metrics != 24] == cls).astype(np.int),
+            score_metrics[target_metrics != 24, cls])
 
     # Compute mAP
-    result['mAP'] = np.mean(list(result['AP'].values()))
-    if verbose:
-        print('mAP: {:.5f}'.format(result['mAP']))
+    # result['mAP'] = np.mean(list(result['AP'].values()))
+    result['mAP'] = (result['AP']['go']*total_go+result['AP']
+                     ['stop']*total_stop)/(total_go+total_stop)
 
-    # Save
-    if save:
-        with open(os.path.join(result_path, result_name), 'w') as f:
-            json.dump(result, f)
-        if verbose:
-            print('Saved the result to {}'.format(
-                os.path.join(result_path, result_name)))
-
-    return result['mAP'], result
+    return result
 
 
 def topk_accuracy(scores, labels, ks, selected_class=None):

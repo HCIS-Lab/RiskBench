@@ -14,7 +14,7 @@ __all__ = ['PDResNet', 'pdresnet18', 'pdresnet34', 'pdresnet50', 'pdresnet101',
 model_urls = {
     'pdresnet18': '',
     'pdresnet34': '',
-    'pdresnet50': '../../../models/model_best.pth',
+    'pdresnet50': './models/model_best.pth',
     'inceptionresnetv2_partialConv': 'http://data.lip6.fr/cadene/pretrainedmodels/inceptionresnetv2-520b38e4.pth',
     'pdresnet101': '',
     'pdresnet152': '',
@@ -180,15 +180,15 @@ class PDResNet(nn.Module):
         m = self.maxpool(m)
 
         x, m = self.layer1((x, m))
+
         x, m = self.layer2((x, m))
         x, m = self.layer3((x, m))
         x, m = self.layer4((x, m))
-
         # x = self.avgpool(x)
         # x = x.view(x.size(0), -1)
         # x = self.fc(x)
 
-        return x    # B*2048*10*10
+        return x    # B*2048*12*20
 
 
 def pdresnet18(pretrained=False, **kwargs):
@@ -234,7 +234,6 @@ def pdresnet50(pretrained=False, **kwargs):
         state_dict_pdresnet50 = torch.load(
             model_urls['pdresnet50'])['state_dict']
         state_dict_resnet50 = model_zoo.load_url(_model_urls['resnet50'])
-
         state_dict_new = {}
 
         for key in state_dict_pdresnet50.keys():
@@ -257,6 +256,19 @@ def pdresnet50(pretrained=False, **kwargs):
                 del state_dict_new[new_key]
 
         model.load_state_dict(state_dict_new)
+
+        for t in model.parameters():
+            t.requires_grad = False
+
+        for t in model.layer4[0].parameters():
+            t.requires_grad = True
+        for t in model.layer4[1].parameters():
+            t.requires_grad = True
+        for t in model.layer4[2].parameters():
+            t.requires_grad = True
+
+        # for name, param in model.named_parameters():
+        #     print(name, param.requires_grad)
 
     return model
 

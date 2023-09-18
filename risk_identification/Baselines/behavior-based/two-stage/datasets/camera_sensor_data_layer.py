@@ -1,6 +1,4 @@
-import os.path as osp
 import os
-import cv2
 import torch
 import torch.utils.data as data
 import numpy as np
@@ -14,307 +12,210 @@ __all__ = [
 
 
 class GCNDataLayer(data.Dataset):
-    def __init__(self, data_root, _cause, sessions, time_steps, camera_transforms, image_resize=(360, 640), data_augmentation=False, dist=False, training=True):
-        self.width = 1280
-        self.height = 720
-        self.num_box = 60
-        self.image_resize = image_resize
-        # self.data_root = data_root
-        # self.cause = cause
-        self.sessions = sessions
+    def __init__(self, data_root, behavior_root, state_root, scenario, time_steps, camera_transforms, num_box,
+                 raw_img_size=(256, 640), img_resize=(256, 640), data_augmentation=True, phase="train"):
+
+        self.data_root = data_root
         self.time_steps = time_steps
-        self.training = training
         self.camera_transforms = camera_transforms
+        self.raw_img_size = raw_img_size
+        self.img_resize = img_resize
         self.data_augmentation = data_augmentation
-        self.dist = dist
+        self.phase = phase
+        self.num_box = num_box
+        self.scale_w = img_resize[1]/raw_img_size[1]
+        self.scale_h = img_resize[0]/raw_img_size[0]
 
+        self.behavior_dict = {}
+        self.state_dict = {}
+        self.cnt_labels = np.zeros(2, dtype=np.int32)
         self.inputs = []
-        cnt_go, cnt_stop = 0, 0
 
-        for (session, cause) in self.sessions:
-            # load positive and negative samples of this session
-            positive_frame, negative_frame, positive_frame2 = self.behavior_gt(
-                session, cause)
+        self.load_behavior(behavior_root)
+        self.load_state(state_root, scenario)
 
-            # go
-            if len(positive_frame) > 2:
-                st, et = positive_frame[0], positive_frame[-1]
-                for start, end in zip(range(st, et, self.time_steps), range(st + self.time_steps, et, self.time_steps)):
-                    self.inputs.append(
-                        [session, start, end, np.array([0]), cause])
-                    cnt_go += 1
+        for (basic, variant, data_type) in scenario:
 
-            # stop
-            if len(negative_frame) > 2:
-                st, et = negative_frame[0], negative_frame[-1]
-                for start, end in zip(range(st, et, self.time_steps), range(st + self.time_steps, et, self.time_steps)):
-                    self.inputs.append(
-                        [session, start, end, np.array([1]), cause])
-                    cnt_stop += 1
+            variant_path = os.path.join(
+                data_root, data_type, basic, "variant_scenario", variant)
 
-            # go
-            if len(positive_frame2) > 2:
-                st, et = positive_frame2[0], positive_frame2[-1]
-                for start, end in zip(range(st, et, self.time_steps), range(st + self.time_steps, et, self.time_steps)):
-                    self.inputs.append(
-                        [session, start, end, np.array([0]), cause])
-                    cnt_go += 1
+            # get positive and negative behavior from behavior_dict
+            frames, labels = self.get_behavior(
+                basic, variant, variant_path, data_type)
 
-        print(f"Label 'go':   {cnt_go*self.time_steps:7d}")
-        print(f"Label 'stop': {cnt_stop*self.time_steps:7d}")
-        # Training: {'go': 55578, 'stop': 7500}
-        # Evaluating: {'go': 13746, 'stop':  1451}
+            for frame_no, label in list(zip(frames, labels))[::5]:
+                # for frame_no, label in zip(frames_no, labels):
+                self.inputs.append([variant_path, frame_no-self.time_steps+1,
+                                    frame_no+1, np.array(label), data_type])
+                self.cnt_labels[label] += 1
 
-    def behavior_gt(self, session, cause):
+        """
+            train   Label 'go'   (negative):   38387
+            train   Label 'stop' (positive):   27032
+            test    Label 'go'   (negative):   11072
+            test    Label 'stop' (positive):    4148
+        """
+        print(f"{phase}\tLabel 'go'   (negative): {self.cnt_labels[0]:7d}")
+        print(f"{phase}\tLabel 'stop' (positive): {self.cnt_labels[1]:7d}")
 
-        rgb_path = osp.join(session, 'rgb/front')
-        all_frame = sorted(os.listdir(rgb_path))
-        # n_frame = len(all_frame)
-        first_frame_id = int(all_frame[0].split('.')[0])
-        last_frame_id = int(all_frame[-1].split('.')[0])
+    def load_behavior(self, behavior_root):
 
-        if cause == 'non-interactive':
-            return list(range(first_frame_id, last_frame_id)), [0], [0]
+        for _type in ["interactive", "obstacle"]:
+            behavior_path = os.path.join(
+                behavior_root, f"{_type}.json")
+            behavior = json.load(open(behavior_path))
+            self.behavior_dict[_type] = behavior
 
-        else:
-            if cause == 'obstacle':
-                annotations_path = session+'/behavior_annotation.txt'
+    def load_state(self, state_root, scenario):
+        
+        for (basic, variant, data_type) in scenario:
+            state_path = os.path.join(state_root, data_type, basic+"_"+variant+".json")
+            state = json.load(open(state_path))   
+            self.state_dict[basic+"_"+variant] = state
 
-                if osp.isfile(annotations_path):
-                    # interactive
-                    file = open(annotations_path, 'r')
-                    temp = file.readlines()
-                    file.close()
+    def get_behavior(self, basic, variant, variant_path, data_type, start_frame=1):
 
-                    st = int(temp[0].strip())
-                    ed = int(temp[1].strip())
+        N = len(os.listdir(variant_path+'/rgb/front'))
+        first_frame_id = start_frame + self.time_steps - 1
+        last_frame_id = start_frame + N - 1
 
-                # annotations_path = session+'/obstacle_info.json'
-                # if osp.isfile(annotations_path):
-                #     # obstacle
-                #     file = open(annotations_path, 'r')
-                #     temp = json.load(file)
-                #     file.close()
-                #     st, ed = temp["interactive frame"]
-                else:
-                    print(session)
+        frames = list(range(first_frame_id, last_frame_id+1))
+        labels = np.zeros(N, dtype=np.int32)
 
-            else:
-                annotations_path = session.split('variant_scenario')[
-                    0]+'behavior_annotation.txt'
+        if data_type in ["interactive", "obstacle"]:
+            stop_behavior = self.behavior_dict[data_type][basic][variant]
+            start, end = stop_behavior
+            start = min(start, first_frame_id)
+            end = min(end, last_frame_id)
 
-                if osp.isfile(annotations_path):
-                    # interactive
-                    file = open(annotations_path, 'r')
-                    temp = file.readlines()
-                    file.close()
+            labels[start-first_frame_id: end-first_frame_id] = 1
 
-                    st = int(temp[0].strip())
-                    ed = int(temp[1].strip())
-                else:
-                    print(session)
-
-            if last_frame_id <= ed:
-                ed = last_frame_id
-
-            return list(range(first_frame_id, st)), list(range(st, ed+1)), list(range(ed+1, last_frame_id+1))
+        return frames, labels
 
     def normalize_box(self, trackers):
-
-        # print(trackers[-1][0:4])
-        trackers[:, :, 2] = trackers[:, :, 0] + trackers[:, :, 2]
-        trackers[:, :, 3] = trackers[:, :, 1] + trackers[:, :, 3]
-
-        tmp = trackers[:, :, 0] / self.width
-        trackers[:, :, 0] = trackers[:, :, 1] / self.height
-        trackers[:, :, 1] = tmp
-
-        tmp = trackers[:, :, 2] / self.width
-        trackers[:, :, 2] = trackers[:, :, 3] / self.height
-        trackers[:, :, 3] = tmp
-
-        return trackers
-
-    def cal_pairwise_distance(self, X):
         """
-        computes pairwise distance between each element
-        Args:
-            X: [N,D]
-            Y: [M,D]
-        Returns:
-            dist: [N,M] matrix of euclidean distances
+            return normalized_trackers TxNx4 ndarray:
+            [BBOX_TOPLEFT_X, BBOX_TOPLEFT_Y, BBOX_BOTRIGHT_X, BBOX_BOTRIGHT_Y]
         """
 
-        Y = X
-        X = np.expand_dims(X[0], axis=0)
-        rx = np.reshape(np.sum(np.power(X, 2), axis=1), (-1, 1))
-        ry = np.reshape(np.sum(np.power(Y, 2), axis=1), (-1, 1))
-        dist = np.clip(rx-2.0*np.matmul(X, np.transpose(Y)) +
-                       np.transpose(ry), 0.0, float('inf'))
+        normalized_trackers = trackers.copy()
+        normalized_trackers[:, :,
+                            0] = normalized_trackers[:, :, 0] * self.scale_w
+        normalized_trackers[:, :,
+                            2] = normalized_trackers[:, :, 2] * self.scale_w
+        normalized_trackers[:, :,
+                            1] = normalized_trackers[:, :, 1] * self.scale_h
+        normalized_trackers[:, :,
+                            3] = normalized_trackers[:, :, 3] * self.scale_h
 
-        return np.sqrt(dist)
+        return normalized_trackers
 
-    def compute_dist(self, tracker, depth, num_object):
-        ##################################
-        # tracker: Nx4 y1,x1,y2,x2
-        #
-        ##################################
-        self._inv_intrinsics = np.linalg.inv(
-            np.array([[936.86, 0.0, 647.48], [0.0, 936.4, 404.14], [0.0, 0.0, 1.0]]))
-        threshold = 5
-
-        center_x = np.expand_dims(
-            (tracker[:, 1]+tracker[:, 3])*0.5*self.width, axis=1)  # Nx1
-        center_y = np.expand_dims(
-            (tracker[:, 0]+tracker[:, 2])*0.5*self.height, axis=1)  # Nx1
-
-        center = np.concatenate([center_x, center_y], axis=1)  # Nx2
-        depth_list = depth[center_y.astype(
-            np.int32), center_x.astype(np.int32)]  # (N,)
-
-        depth_list[0] = 1.0
-        depth_list = np.reshape(depth_list, [-1])
-        center[0, :] = np.array([640, 719])  # ego position
-        center = np.append(center, np.ones(
-            [np.shape(center)[0], 1]).astype(np.float32), axis=1)  # N*3
-        center_3d = np.multiply(
-            np.matmul(self._inv_intrinsics, np.transpose(center)), depth_list)
-        distance_map = self.cal_pairwise_distance(np.transpose(center_3d))
-        distance_mask = np.ones(self.num_box)
-        zero_index = np.where(distance_map > threshold)
-        distance_mask[zero_index[1]] = 0
-        distance_mask[num_object+1:] = 0
-
-        return distance_mask
-
-    def process_tracking(self, session, start, end):
-
-        tracking_results = np.load(osp.join(session, 'tracking.npy'))
+    def process_tracking(self, variant_path, start, end):
         """
-        tracking_results = np.array(
-            [[187, 876, 1021, 402, 259, 317, 1, -1, -1, -1]])
+            tracking_results Kx10 ndarray:
+            [FRAME_ID, ACTOR_ID, BBOX_TOPLEFT_X, BBOX_TOPLEFT_Y, BBOX_WIDTH, BBOX_HEIGHT, 1, -1, -1, -1]
+            e.g. tracking_results = np.array([[187, 876, 1021, 402, 259, 317, 1, -1, -1, -1]])
         """
 
-        try:
-            t_array = tracking_results[:, 0]
+        INTENTIONS = {'r': 1, 'sl': 2, 'f': 3, 'gi': 4, 'l': 5, 'gr': 6, 'u': 7, 'sr': 8,'er': 9}
 
-        except Exception as e:
-            print(session)
-            print(tracking_results.shape)
-            print(tracking_results)
-            exit()
+        def parse_scenario_id(variant_path):
+            
+            variant_path_token = variant_path.split('/')
+            
+            basic = variant_path_token[-3]
+            variant = variant_path_token[-1]
 
+            basic_token = basic.split('_')
+
+            if "obstacle" in variant_path:
+                return basic_token[3], basic, variant
+            else:
+                return basic_token[5], basic, variant
+
+        ego_intention, basic, variant = parse_scenario_id(variant_path)
+
+        tracking_results = np.load(
+            os.path.join(variant_path, 'tracking.npy'))
+        assert len(tracking_results) > 0, f"{variant_path} No tracklet"
+
+        height, width = self.raw_img_size
+
+        t_array = tracking_results[:, 0]
         tracking_index = tracking_results[np.where(t_array == end-1)[0], 1]
-        num_object = len(tracking_index)
 
-        trackers = np.zeros([self.time_steps, self.num_box, 4])   # TxNx4
-        trackers[:, 0, :] = np.array(
-            [0.0, 0.0, self.width, self.height])  # Ego bounding box
+        trackers = np.zeros([self.time_steps, self.num_box, 4]).astype(np.float32) # TxNx4
+        intentions = np.zeros(10).astype(np.float32)   # 10
+        states = np.zeros([self.time_steps, self.num_box+1, 2]).astype(np.float32)   # Tx(N+1)x2
+
+        intentions[INTENTIONS[ego_intention]] = 1
 
         for t in range(start, end):
             current_tracking = tracking_results[np.where(t_array == t)[0]]
+
             for i, object_id in enumerate(tracking_index):
-                if i > self.num_box - 2:
-                    break
-                if object_id in current_tracking[:, 1]:
-                    # w1, h1, w, h
-                    bbox = current_tracking[np.where(
-                        current_tracking[:, 1] == object_id)[0], 2:6]
-                    trackers[t-start, i+1, :] = bbox
+                current_actor_id_idx = np.where(
+                    current_tracking[:, 1] == object_id)[0]
 
-        trackers = self.normalize_box(trackers)  # TxNx4 : y1, x1, y2, x2
+                if len(current_actor_id_idx) != 0:
+                    # x1, y1, x2, y2
+                    bbox = current_tracking[current_actor_id_idx, 2:6]
+                    bbox[:, 0] = np.clip(bbox[:, 0], 0, width)
+                    bbox[:, 2] = np.clip(bbox[:, 0]+bbox[:, 2], 0, width)
+                    bbox[:, 1] = np.clip(bbox[:, 1], 0, height)
+                    bbox[:, 3] = np.clip(bbox[:, 1]+bbox[:, 3], 0, height)
+                    trackers[t-start, i, :] = bbox
 
-        return trackers, num_object, tracking_index
+                    try:
+                        states[t-start, i+1] = self.state_dict[basic+"_"+variant][str(t)][str(object_id)]
+                    except:
+                        states[t-start, i+1] = 0
+
+
+        trackers = self.normalize_box(trackers)
+
+        return trackers, tracking_index, intentions, states
 
     def __getitem__(self, index):
 
-        session, start, end, vel_target, cause = self.inputs[index]
+        variant_path, start, end, label, data_type = self.inputs[index]
 
         camera_inputs = []
-        id_to_class = {}
+
         for idx in range(start, end):
-            camera_name = str(idx).zfill(8)+'.png'
-            camera_path = osp.join(session, 'rgb/front', camera_name)
+            camera_name = f"{int(idx):08d}.jpg"
+            camera_path = os.path.join(variant_path, "rgb/front", camera_name)
             img = self.camera_transforms(
                 Image.open(camera_path).convert('RGB'))
-            img = np.array(img)
             camera_inputs.append(img)
 
-            if cause == 'obstacle':
-                bbox_name = str(idx).zfill(8)+'.json'
-                bbox_path = osp.join(session, 'bbox/front', bbox_name)
-                bbox_file = open(bbox_path)
-                bbox_info = json.load(bbox_file)
-                bbox_file.close()
-                for bbox in bbox_info:
-                    id_to_class[bbox["actor_id"]] = bbox["class"]
+        camera_inputs = torch.stack(camera_inputs)
 
-        camera_inputs = np.stack(camera_inputs)
-        camera_inputs = torch.from_numpy(
-            camera_inputs.astype(np.float32))  # (t, c, w, h)
+        trackers, tracking_id, intention_inputs, state_inputs = self.process_tracking(
+            variant_path, start, end)
 
-        # trackers: y1, x1, y2, x2 for image coordinate
-        trackers, num_object, tracking_id = self.process_tracking(
-            session, start, end)
-
-        dist_mask = np.ones(self.num_box)
-        dist_mask = torch.from_numpy(dist_mask.astype(np.float32))
-
-        # print(tracking_id)
-        # print(id_to_class)
-        # print(trackers[0,:10])
-        # print(num_object)
-
-        obstacle_type = int(session.split('/')[-3].split('_')[2])
+        num_object = len(tracking_id)
         obstacle_idx = []
-
-        if cause == 'obstacle' and obstacle_type != 3:
-            for i in range(num_object):
-                if id_to_class[tracking_id[i]] == 20:
-                    obstacle_idx.append(i+1)
-        else:
-            obstacle_idx.append(random.randint(0, num_object)+1)
+        obstacle_idx.append(random.randint(0, num_object)+1)
 
         # add data augmentation
-        if self.data_augmentation and vel_target[0] == 0:
-            mask = np.ones(
-                (self.time_steps, 3, self.image_resize[0], self.image_resize[1]))
+        mask = torch.ones(
+            (self.time_steps, 3, self.img_resize[0], self.img_resize[1]))
+
+        if self.data_augmentation and data_type != "obstacle" and label == 0:
 
             for t in range(self.time_steps):
                 for i in obstacle_idx:
-                    # x1, y1, x2, y2 for array index
-                    x1, y1, x2, y2 = trackers[t, i, :]
 
-                    x1 = int(x1*self.image_resize[0])  # x1
-                    x2 = int(x2*self.image_resize[0])  # x2
-                    y1 = int(y1*self.image_resize[1])  # y1
-                    y2 = int(y2*self.image_resize[1])  # y2
+                    y1, x1, y2, x2 = trackers[t, i, :]
+                    mask[t, :, int(y1):int(y2), int(x1):int(x2)] = 0
 
-                    mask[t, :, x1:x2, y1:y2] = 0
+        trackers = torch.from_numpy(trackers)
+        intention_inputs = torch.from_numpy(intention_inputs)
+        state_inputs = torch.from_numpy(state_inputs)
+        label = torch.from_numpy(label.astype(np.int64))
 
-
-            mask = torch.from_numpy(mask.astype(np.float32))
-
-        else:
-            mask = torch.ones(
-                (self.time_steps, 3, self.image_resize[0], self.image_resize[1]))
-
-        trackers = torch.from_numpy(trackers.astype(np.float32))
-        vel_target = torch.from_numpy(vel_target.astype(np.int64))
-
-        return camera_inputs, trackers, mask, dist_mask, vel_target
+        return camera_inputs, trackers, mask, label, intention_inputs, state_inputs
 
     def __len__(self):
         return len(self.inputs)
-
-    # if vel_target[0] == 0:
-    #     import torchvision.transforms as T
-    #     transform = T.ToPILImage()
-    #     print("=============================================")
-    #     print(x1, y1, x2, y2)
-    #     print(trackers[-1])
-
-    #     img = transform(camera_inputs[-1].cpu())
-    #     img.show()
-    #     img = transform(mask[-1].cpu())
-    #     img.show()
