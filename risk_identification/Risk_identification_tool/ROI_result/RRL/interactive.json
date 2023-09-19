@@ -1,0 +1,24 @@
+{
+    "Method": "RRL",
+    "Attribute": "All",
+    "type": "interactive",
+    "confusion matrix": {
+        "TP": 2624,
+        "FN": 14376,
+        "FP": 2683,
+        "TN": 119293
+    },
+    "recall": "15.44%",
+    "precision": "49.44%",
+    "accuracy": "87.73%",
+    "f1-Score": "23.53%",
+    "IDcnt": "138976",
+    "IDsw": "2975",
+    "IDsw rate": "2.14%",
+    "MOTA": "85.58%",
+    "PIC": "22.4",
+    "FA": "0.00%",
+    "Consistency_1s": "5.23%",
+    "Consistency_2s": "3.10%",
+    "Consistency_3s": "1.36%"
+}

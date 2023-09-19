@@ -1,0 +1,24 @@
+{
+    "Method": "BP",
+    "Attribute": "All",
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 2388,
+        "FN": 21959,
+        "FP": 824,
+        "TN": 99811
+    },
+    "recall": "9.81%",
+    "precision": "74.35%",
+    "accuracy": "81.77%",
+    "f1-Score": "17.33%",
+    "IDcnt": "124982",
+    "IDsw": "765",
+    "IDsw rate": "0.61%",
+    "MOTA": "81.16%",
+    "PIC": "25.1",
+    "FA": "0.00%",
+    "Consistency_1s": "3.33%",
+    "Consistency_2s": "2.61%",
+    "Consistency_3s": "1.66%"
+}

@@ -1,0 +1,24 @@
+{
+    "Method": "Social-GAN",
+    "Attribute": "All",
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 11472,
+        "FN": 13792,
+        "FP": 7412,
+        "TN": 98159
+    },
+    "recall": "45.41%",
+    "precision": "60.75%",
+    "accuracy": "83.79%",
+    "f1-Score": "51.97%",
+    "IDcnt": "130835",
+    "IDsw": "805",
+    "IDsw rate": "0.62%",
+    "MOTA": "83.18%",
+    "PIC": "7.8",
+    "FA": "0.00%",
+    "Consistency_1s": "38.72%",
+    "Consistency_2s": "21.85%",
+    "Consistency_3s": "14.49%"
+}

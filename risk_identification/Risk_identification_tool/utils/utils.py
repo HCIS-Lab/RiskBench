@@ -4,27 +4,35 @@ import cv2
 import imageio
 import json
 
-attr_dict = {"4-Way": 0, "T-intersection-A": 0, "T-intersection-B": 0, "T-intersection-C": 0, "Straight": 0, "Roundabout": 0,
-             "Low": 1, "Mid": 1, "High": 1,
-             "Clear": 1, "Cloudy": 1, "Wet": 1, "Rain": 1, "Noon": 1, "Sunset": 1, "Night": 1,
-             "Car": 2, "Truck": 2, "Bike": 2, "Motor": 2, "Pedestrian": 2, "4-Wheeler": 2, "2-Wheeler": 2}
+attr_cls = {"4-Way": 0, "T-intersection-A": 0, "T-intersection-B": 0, "T-intersection-C": 0, "Straight": 0, "Roundabout": 0,
+            "Low": 1, "Mid": 1, "High": 1,
+            "Clear": 1, "Cloudy": 1, "Wet": 1, "Rain": 1, "Noon": 1, "Sunset": 1, "Night": 1,
+            "Car": 2, "Truck": 2, "Bike": 2, "Motor": 2, "Pedestrian": 2, "4-Wheeler": 2, "2-Wheeler": 2,
+            "Obstacle": 3, "Illegal Parking": 3}
 
 attr_to_token = {"4-Way": "i", "T-intersection-A": "t1-", "T-intersection-B": "t2-", "T-intersection-C": "t3-",
                  "Straight": "s", "Roundabout": "r",
                  "Low": "low", "Mid": "mid", "High": "high",
                  "Clear": "Clear", "Cloudy": "Cloudy", "Wet": "Wet", "Rain": "Rain", "Noon": "Noon", "Sunset": "Sunset", "Night": "Night",
-                 "Car": "c", "Truck": "t", "Bike": "b", "Motor": "m", "Pedestrian": "p", "4-Wheeler": "4", "2-Wheeler": "2"}
+                 "Car": "c", "Truck": "t", "Bike": "b", "Motor": "m", "Pedestrian": "p", "4-Wheeler": "4", "2-Wheeler": "2",
+                 "Obstacle": ["0", "1", "2"], "Illegal Parking": ["3"]}
 
 
-def filter_roi_scenario(data_type, method, attr_list="", model_root="./model", TOWN="10"):
+def filter_roi_scenario(data_type, method, attr_list="", model_root="./model"):
 
     model_path = os.path.join(model_root, method, f"{data_type}.json")
     roi_result = json.load(open(model_path))
+    
+    if attr_list == "All":
+        return roi_result
 
     # filter scenario
     new_roi_result = {}
 
     for attr in attr_list:
+
+        if attr_cls[attr] == 3 and data_type != "obstacle":
+            continue
 
         copy_roi_result = roi_result.copy()
         all_scnarios = list(copy_roi_result.keys())
@@ -33,16 +41,15 @@ def filter_roi_scenario(data_type, method, attr_list="", model_root="./model", T
 
             is_del = False
 
-            if attr_dict[attr] == 0:
+            if attr_cls[attr] == 0:
                 topo = scenario_weather.split('_')[1]
                 if not attr_to_token[attr] in topo:
                     is_del = True
 
-            elif attr_dict[attr] == 1:
+            elif attr_cls[attr] == 1:
                 if not attr_to_token[attr] in scenario_weather:
                     is_del = True
-
-            else:
+            elif attr_cls[attr] == 2:
                 actor_type = scenario_weather.split('_')[3]
                 if attr_to_token[attr] == "4":
                     if not actor_type in ["c", "t"]:
@@ -53,6 +60,11 @@ def filter_roi_scenario(data_type, method, attr_list="", model_root="./model", T
                 else:
                     if attr_to_token[attr] != actor_type:
                         is_del = True
+
+            elif attr_cls[attr] == 3:
+                obstacle_type = scenario_weather.split('_')[2]
+                if not obstacle_type in attr_to_token[attr]:
+                    is_del = True
 
             if is_del:
                 del copy_roi_result[scenario_weather]
@@ -182,4 +194,4 @@ def make_video(gif_save_path, variant_path, roi, behavior, risky_id, FPS=10):
 
     if len(frame_list) != 0:
         imageio.mimsave(gif_save_path, frame_list,
-                        format='GIF', duration=1./FPS)
+                        format='GIF', duration=1000/FPS)

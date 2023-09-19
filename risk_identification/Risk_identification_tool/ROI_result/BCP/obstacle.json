@@ -1,0 +1,24 @@
+{
+    "Method": "BCP",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 3795,
+        "FN": 6981,
+        "FP": 8035,
+        "TN": 125548
+    },
+    "recall": "35.22%",
+    "precision": "32.08%",
+    "accuracy": "89.60%",
+    "f1-Score": "33.57%",
+    "IDcnt": "144359",
+    "IDsw": "2989",
+    "IDsw rate": "2.07%",
+    "MOTA": "87.53%",
+    "PIC": "23.0",
+    "FA": "0.00%",
+    "Consistency_1s": "9.21%",
+    "Consistency_2s": "4.93%",
+    "Consistency_3s": "4.28%"
+}

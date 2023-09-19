@@ -1,19 +1,18 @@
 import numpy as np
 
-PRED_SEC = 20
 FRAME_PER_SEC = 20
+TOTAL_FRAME = FRAME_PER_SEC*3
 
 
 def cal_confusion_matrix(data_type, roi_result, risky_dict, behavior_dict=None):
 
     TP, FN, FP, TN = 0, 0, 0, 0
-    f1_sec = np.zeros((PRED_SEC+1, 4))
 
     for scenario_weather in roi_result.keys():
 
         basic = '_'.join(scenario_weather.split('_')[:-3])
         variant = '_'.join(scenario_weather.split('_')[-3:])
-        
+
         if data_type in ["interactive", "obstacle"]:
             start, end = behavior_dict[basic][variant]
         else:
@@ -55,7 +54,7 @@ def cal_confusion_matrix(data_type, roi_result, risky_dict, behavior_dict=None):
             FP += _FP
             TN += _TN
 
-    return np.array([TP, FN, FP, TN]).astype(int), f1_sec
+    return [TP, FN, FP, TN]
 
 
 def cal_IDsw(roi_result):
@@ -84,15 +83,15 @@ def cal_IDsw(roi_result):
     return IDcnt, IDsw
 
 
-def cal_MOTA(cur_confusion_matrix, IDsw, IDcnt):
+def cal_MOTA(cur_confusion_matrix, IDsw, IDcnt, EPS=1e-05):
 
     FN, FP = cur_confusion_matrix[1:3]
-    MOTA = 1-(FN+FP+IDsw)/IDcnt
+    MOTA = 1-(FN+FP+IDsw)/(IDcnt+EPS)
 
     return MOTA
 
 
-def cal_PIC(data_type, roi_result, behavior_dict, risky_dict, critical_dict, EPS=1e-8):
+def cal_PIC(data_type, roi_result, behavior_dict, risky_dict, critical_dict, EPS=1e-08):
 
     assert data_type != "non-interactive", "non-interactive can not calculate PIC!!!"
 
@@ -108,7 +107,7 @@ def cal_PIC(data_type, roi_result, behavior_dict, risky_dict, critical_dict, EPS
             start, end = 0, 999
 
         end_frame = critical_dict[scenario_weather]
-        risky_id = risky_dict[scenario_weather]
+        risky_id = risky_dict[scenario_weather][0]
 
         for frame_id in roi_result[scenario_weather]:
 
@@ -127,8 +126,8 @@ def cal_PIC(data_type, roi_result, behavior_dict, risky_dict, critical_dict, EPS
 
                 is_risky = roi_result[scenario_weather][frame_id][actor_id]
 
-                if behavior_stop and (str(int(actor_id) % 65536) in risky_id
-                                      or str(int(actor_id) % 65536+65536) in risky_id):
+                if behavior_stop and (str(int(actor_id) % 65536) == risky_id
+                                      or str(int(actor_id) % 65536+65536) == risky_id):
                     if is_risky:
                         TP += 1
                     else:
@@ -150,14 +149,11 @@ def cal_PIC(data_type, roi_result, behavior_dict, risky_dict, critical_dict, EPS
     return PIC
 
 
-def cal_consistency(data_type, roi_result, risky_dict, critical_dict, EPS=1e-05):
-
-    FRAME_PER_SEC = 20
-    TOTAL_FRAME = FRAME_PER_SEC*3
+def cal_consistency(data_type, roi_result, risky_dict, critical_dict):
 
     # consistency in 0~3 seconds
-    consistency_sec = np.ones(4)*EPS
-    consistency_sec_cnt = np.ones(4)*EPS
+    consistency_sec = np.ones(4)
+    consistency_sec_cnt = np.ones(4)
 
     for scenario_weather in roi_result.keys():
 
@@ -228,46 +224,56 @@ def compute_f1(confusion_matrix, EPS=1e-5):
     return recall, precision, f1_score
 
 
-def show_result(_type, method, confusion_matrix, IDcnt, IDsw, MOTA, PIC=-1,
-                consistency_sec=-1, consistency_sec_cnt=-1, FA=-1, n_frame=-1, attribute=None):
+def cal_metric(data_type, method, confusion_matrix, IDcnt, IDsw, MOTA, PIC,
+               consistency_sec, consistency_sec_cnt, FA, n_frame, attribute="All", EPS=1e-05):
 
     TP, FN, FP, TN = confusion_matrix
     recall, precision, f1_score = compute_f1(confusion_matrix)
 
-    metric_result = {"Method": method, "Attribute": attribute, "type": _type, "confusion matrix": confusion_matrix.tolist(),
-              "recall": f"{recall:.4f}", "precision": f"{precision:.4f}",
-              "accuracy": f"{(TP+TN)/(TP+FN+FP+TN):.4f}", "f1-Score": f"{f1_score:.4f}",
-              "IDcnt": f"{IDcnt}", "IDsw": f"{IDsw}", "IDsw rate": f"{IDsw/IDcnt:.4f}",
-              "MOTA": f"{MOTA:.4f}", "PIC": f"{PIC:.1f}", "FA": f"{FA/n_frame:.4f}",
-              "Consistency_1s": f"{consistency_sec[1]/consistency_sec_cnt[1]:.4f}",
-              "Consistency_2s": f"{consistency_sec[2]/consistency_sec_cnt[2]:.4f}",
-              "Consistency_3s": f"{consistency_sec[3]/consistency_sec_cnt[3]:.4f}"}
+    metric_result_raw = {"Method": method, "Attribute": attribute, "type": data_type,
+                         "confusion matrix": {"TP": TP, "FN": FN, "FP": FP, "TN": TN},
+                         "recall": recall, "precision": precision,
+                         "accuracy": (TP+TN)/(TP+FN+FP+TN+EPS), "f1-Score": f1_score,
+                         "IDcnt": IDcnt, "IDsw": IDsw, "IDsw rate": IDsw/(IDcnt+EPS),
+                         "MOTA": MOTA, "PIC": PIC, "FA": FA/(n_frame+EPS),
+                         "Consistency_1s": consistency_sec[1]/(consistency_sec_cnt[1]+EPS),
+                         "Consistency_2s": consistency_sec[2]/(consistency_sec_cnt[2]+EPS),
+                         "Consistency_3s": consistency_sec[3]/(consistency_sec_cnt[3]+EPS)}
 
-    return metric_result
+    metric_result_str = {"Method": method, "Attribute": attribute, "type": data_type,
+                         "confusion matrix": {"TP": TP, "FN": FN, "FP": FP, "TN": TN},
+                         "recall": f"{recall*100:.2f}%", "precision": f"{precision*100:.2f}%",
+                         "accuracy": f"{(TP+TN)/(TP+FN+FP+TN+EPS)*100:.2f}%", "f1-Score": f"{f1_score*100:.2f}%",
+                         "IDcnt": f"{IDcnt}", "IDsw": f"{IDsw}", "IDsw rate": f"{IDsw/(IDcnt+EPS)*100:.2f}%",
+                         "MOTA": f"{MOTA*100:.2f}%", "PIC": f"{PIC:.1f}", "FA": f"{FA/(n_frame+EPS)*100:.2f}%",
+                         "Consistency_1s": f"{consistency_sec[1]/(consistency_sec_cnt[1]+EPS)*100:.2f}%",
+                         "Consistency_2s": f"{consistency_sec[2]/(consistency_sec_cnt[2]+EPS)*100:.2f}%",
+                         "Consistency_3s": f"{consistency_sec[3]/(consistency_sec_cnt[3]+EPS)*100:.2f}%"}
+
+    return metric_result_raw, metric_result_str
 
 
-def ROI_evaluation(_type, method, roi_result, behavior_dict=None, risky_dict=None, critical_dict=None, attribute=None):
+def ROI_evaluation(data_type, method, roi_result, behavior_dict=None, risky_dict=None, critical_dict=None, attribute="All"):
 
-    EPS = 1e-05
     PIC = -1
-    FA, n_frame = 0, -1
+    FA, n_frame = 0, 0
     consistency_sec = np.zeros(4)
-    consistency_sec_cnt = np.ones(4)*EPS
+    consistency_sec_cnt = np.zeros(4)
 
-    confusion_matrix, f1_sec = cal_confusion_matrix(
-        _type, roi_result, risky_dict, behavior_dict)
+    confusion_matrix = cal_confusion_matrix(
+        data_type, roi_result, risky_dict, behavior_dict)
     IDcnt, IDsw = cal_IDsw(roi_result)
     MOTA = cal_MOTA(confusion_matrix, IDsw, IDcnt)
 
-    if _type != "non-interactive":
-        PIC = cal_PIC(_type, roi_result, behavior_dict, risky_dict, critical_dict)
+    if data_type != "non-interactive":
+        PIC = cal_PIC(data_type, roi_result, behavior_dict,
+                      risky_dict, critical_dict)
         consistency_sec, consistency_sec_cnt = cal_consistency(
-            _type, roi_result, risky_dict, critical_dict)
+            data_type, roi_result, risky_dict, critical_dict)
     else:
         FA, n_frame = cal_FA(roi_result)
 
-    metric_result = show_result(
-        _type, method, confusion_matrix, IDcnt, IDsw, MOTA, PIC, consistency_sec, consistency_sec_cnt, FA, n_frame, attribute)
+    metric_result_raw, metric_result_str = cal_metric(
+        data_type, method, confusion_matrix, IDcnt, IDsw, MOTA, PIC, consistency_sec, consistency_sec_cnt, FA, n_frame, attribute)
 
-    return metric_result
-
+    return metric_result_raw, metric_result_str

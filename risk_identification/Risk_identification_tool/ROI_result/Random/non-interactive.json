@@ -1,0 +1,24 @@
+{
+    "Method": "Random",
+    "Attribute": "All",
+    "type": "non-interactive",
+    "confusion matrix": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 68895,
+        "TN": 68669
+    },
+    "recall": "0.00%",
+    "precision": "0.00%",
+    "accuracy": "49.92%",
+    "f1-Score": "0.00%",
+    "IDcnt": "137564",
+    "IDsw": "64798",
+    "IDsw rate": "47.10%",
+    "MOTA": "2.81%",
+    "PIC": "-1.0",
+    "FA": "80.08%",
+    "Consistency_1s": "0.00%",
+    "Consistency_2s": "0.00%",
+    "Consistency_3s": "0.00%"
+}

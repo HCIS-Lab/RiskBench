@@ -1,0 +1,24 @@
+{
+    "Method": "BP",
+    "Attribute": "All",
+    "type": "non-interactive",
+    "confusion matrix": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 1941,
+        "TN": 130451
+    },
+    "recall": "0.00%",
+    "precision": "0.00%",
+    "accuracy": "98.53%",
+    "f1-Score": "0.00%",
+    "IDcnt": "132392",
+    "IDsw": "810",
+    "IDsw rate": "0.61%",
+    "MOTA": "97.92%",
+    "PIC": "-1.0",
+    "FA": "4.69%",
+    "Consistency_1s": "0.00%",
+    "Consistency_2s": "0.00%",
+    "Consistency_3s": "0.00%"
+}

@@ -1,0 +1,24 @@
+{
+    "Method": "Kalman filter",
+    "Attribute": "All",
+    "type": "interactive",
+    "confusion matrix": {
+        "TP": 9409,
+        "FN": 8009,
+        "FP": 16056,
+        "TN": 147468
+    },
+    "recall": "54.02%",
+    "precision": "36.95%",
+    "accuracy": "86.70%",
+    "f1-Score": "43.88%",
+    "IDcnt": "180942",
+    "IDsw": "1566",
+    "IDsw rate": "0.87%",
+    "MOTA": "85.83%",
+    "PIC": "15.4",
+    "FA": "0.00%",
+    "Consistency_1s": "31.98%",
+    "Consistency_2s": "16.47%",
+    "Consistency_3s": "9.30%"
+}

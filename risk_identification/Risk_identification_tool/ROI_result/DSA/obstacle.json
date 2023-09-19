@@ -1,0 +1,24 @@
+{
+    "Method": "DSA",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 5054,
+        "FN": 5656,
+        "FP": 4266,
+        "TN": 106379
+    },
+    "recall": "47.19%",
+    "precision": "54.23%",
+    "accuracy": "91.82%",
+    "f1-Score": "50.46%",
+    "IDcnt": "121355",
+    "IDsw": "4929",
+    "IDsw rate": "4.06%",
+    "MOTA": "87.76%",
+    "PIC": "19.3",
+    "FA": "0.00%",
+    "Consistency_1s": "5.23%",
+    "Consistency_2s": "2.61%",
+    "Consistency_3s": "2.61%"
+}

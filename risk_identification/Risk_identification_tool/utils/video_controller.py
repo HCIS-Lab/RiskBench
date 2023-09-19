@@ -3,7 +3,7 @@ import time
 from PyQt5 import QtCore
 from PyQt5.QtGui import QImage, QPixmap
 from PyQt5.QtCore import QTimer
-from opencv_engine import opencv_engine
+from .opencv_engine import opencv_engine
 
 
 class video_controller(object):
@@ -16,7 +16,7 @@ class video_controller(object):
         self.videoplayer_state = "play"
         self.set_icon()
 
-    def set_icon(self, icon_path="icon.png"):
+    def set_icon(self, icon_path="./utils/icon.png"):
 
         import cv2
         icon_img = opencv_engine.read_image(icon_path)

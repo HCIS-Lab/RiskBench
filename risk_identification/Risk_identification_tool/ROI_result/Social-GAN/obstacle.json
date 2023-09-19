@@ -1,0 +1,24 @@
+{
+    "Method": "Social-GAN",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 7485,
+        "FN": 3313,
+        "FP": 12807,
+        "TN": 126927
+    },
+    "recall": "69.32%",
+    "precision": "36.89%",
+    "accuracy": "89.29%",
+    "f1-Score": "48.15%",
+    "IDcnt": "150532",
+    "IDsw": "1169",
+    "IDsw rate": "0.78%",
+    "MOTA": "88.51%",
+    "PIC": "6.5",
+    "FA": "0.00%",
+    "Consistency_1s": "67.43%",
+    "Consistency_2s": "16.45%",
+    "Consistency_3s": "4.61%"
+}

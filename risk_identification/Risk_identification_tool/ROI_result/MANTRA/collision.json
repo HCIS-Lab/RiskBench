@@ -1,0 +1,24 @@
+{
+    "Method": "MANTRA",
+    "Attribute": "All",
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 11477,
+        "FN": 13787,
+        "FP": 8207,
+        "TN": 97364
+    },
+    "recall": "45.43%",
+    "precision": "58.31%",
+    "accuracy": "83.19%",
+    "f1-Score": "51.07%",
+    "IDcnt": "130835",
+    "IDsw": "908",
+    "IDsw rate": "0.69%",
+    "MOTA": "82.50%",
+    "PIC": "7.1",
+    "FA": "0.00%",
+    "Consistency_1s": "38.00%",
+    "Consistency_2s": "22.09%",
+    "Consistency_3s": "14.73%"
+}

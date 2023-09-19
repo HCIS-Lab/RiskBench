@@ -1,0 +1,24 @@
+{
+    "Method": "QCNet",
+    "Attribute": "All",
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 9931,
+        "FN": 11940,
+        "FP": 6530,
+        "TN": 89547
+    },
+    "recall": "45.41%",
+    "precision": "60.33%",
+    "accuracy": "84.34%",
+    "f1-Score": "51.82%",
+    "IDcnt": "117948",
+    "IDsw": "749",
+    "IDsw rate": "0.64%",
+    "MOTA": "83.71%",
+    "PIC": "9.4",
+    "FA": "0.00%",
+    "Consistency_1s": "49.54%",
+    "Consistency_2s": "28.44%",
+    "Consistency_3s": "18.96%"
+}

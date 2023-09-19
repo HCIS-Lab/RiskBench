@@ -1,0 +1,24 @@
+{
+    "Method": "Random",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 5436,
+        "FN": 5362,
+        "FP": 70449,
+        "TN": 70581
+    },
+    "recall": "50.34%",
+    "precision": "7.16%",
+    "accuracy": "50.07%",
+    "f1-Score": "12.54%",
+    "IDcnt": "151828",
+    "IDsw": "72608",
+    "IDsw rate": "47.82%",
+    "MOTA": "2.25%",
+    "PIC": "17.3",
+    "FA": "0.00%",
+    "Consistency_1s": "1.97%",
+    "Consistency_2s": "1.97%",
+    "Consistency_3s": "1.97%"
+}

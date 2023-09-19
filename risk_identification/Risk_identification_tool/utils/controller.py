@@ -5,10 +5,10 @@ import time
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from UI import Ui_MainWindow
-from video_controller import video_controller
-from cal_metric import ROI_evaluation
-from utils import filter_roi_scenario, read_metadata, get_scenario_info, make_video
+from .UI import Ui_MainWindow
+from .video_controller import video_controller
+from .cal_metric import ROI_evaluation
+from .utils import filter_roi_scenario, read_metadata, get_scenario_info, make_video
 
 
 class MainWindow_controller(QMainWindow):
@@ -48,6 +48,7 @@ class MainWindow_controller(QMainWindow):
         self.scenario_change = True
 
         self.update_model()
+        self.update_type()
 
         self.video_controller = video_controller(ui=self.ui, FPS=self.FPS)
         self.ui.button_play.clicked.connect(self.video_controller.play)
@@ -76,6 +77,9 @@ class MainWindow_controller(QMainWindow):
                 self.ui.checkBox_actor_pedestrian,
                 self.ui.checkBox_actor_2wheel,
                 self.ui.checkBox_actor_4wheel,
+                self.ui.checkBox_actor_obstacle,
+                self.ui.checkBox_actor_parking,
+
             ],
             "weather": [
                 self.ui.checkBox_weather_all,
@@ -114,7 +118,6 @@ class MainWindow_controller(QMainWindow):
             for i in range(len(self.checkBox_list[attr_type])):
                 init_checkBox(self.checkBox_list[attr_type][i], attr_type, i)
 
-
     def update_model(self):
 
         if self.model_change:
@@ -130,9 +133,6 @@ class MainWindow_controller(QMainWindow):
                     self.ui.comboBox_model.addItem(model)
 
                 self.model_change = True
-
-            self.type_clear = False
-            self.update_type()
 
     def update_type(self):
 
@@ -293,8 +293,8 @@ class MainWindow_controller(QMainWindow):
             self.vis_result_path, "gif", model, data_type, basic)
         if not os.path.isdir(gif_save_folder):
             os.makedirs(gif_save_folder)
-
         gif_save_path = os.path.join(gif_save_folder, f"{variant}.gif")
+
         make_video(gif_save_path, variant_path,
                    roi, behavior, risky_id, self.FPS)
 
@@ -345,24 +345,24 @@ class MainWindow_controller(QMainWindow):
         data_type = self.ui.comboBox_type.currentText()
         model = self.ui.comboBox_model.currentText()
 
-        self.metric_result = ROI_evaluation(data_type, model, self.roi_result,
-                                            self.behavior_dict, self.gt_risk_dict, self.critical_dict, attribute=self.user_attr_list)
+        self.metric_result, _ = ROI_evaluation(data_type, model, self.roi_result,
+                                               self.behavior_dict, self.gt_risk_dict, self.critical_dict, attribute=self.user_attr_list)
 
         self.ui.f1_label.setText(
-            f"{'F1-Score':9s} : {float(self.metric_result['f1-Score'])*100:.1f}%")
+            f"{'F1-Score':9s} : {self.metric_result['f1-Score']*100:.1f}%")
         self.ui.recall_label.setText(
-            f"{'Recall':9s} : {float(self.metric_result['recall'])*100:.1f}%")
+            f"{'Recall':9s} : {self.metric_result['recall']*100:.1f}%")
         self.ui.precision_label.setText(
-            f"{'Precision':9s} : {float(self.metric_result['precision'])*100:.1f}%")
+            f"{'Precision':9s} : {self.metric_result['precision']*100:.1f}%")
 
         if self.pre_metric_result != None:
 
-            diff_f1 = float(
-                self.metric_result['f1-Score'])-float(self.pre_metric_result['f1-Score'])
-            diff_recall = float(
-                self.metric_result['recall'])-float(self.pre_metric_result['recall'])
-            diff_precision = float(
-                self.metric_result['precision'])-float(self.pre_metric_result['precision'])
+            diff_f1 = self.metric_result['f1-Score'] - \
+                self.pre_metric_result['f1-Score']
+            diff_recall = self.metric_result['recall'] - \
+                self.pre_metric_result['recall']
+            diff_precision = self.metric_result['precision'] - \
+                self.pre_metric_result['precision']
 
             set_color(self.ui.f1_diff_label, diff_f1, f"({diff_f1*100:+.1f}%)")
             set_color(self.ui.recall_diff_label, diff_recall,
@@ -378,7 +378,7 @@ class MainWindow_controller(QMainWindow):
             self.ui.consistency_label_3.setText(
                 f"{'Consistency 3s':9s} : None")
             self.ui.pic_fa_label.setText(
-                f"{'FA':9s} : {float(self.metric_result['FA'])*100:.1f}%")
+                f"{'FA':9s} : {self.metric_result['FA']*100:.1f}%")
 
             self.ui.consistency_diff_label_1.setText(f"")
             self.ui.consistency_diff_label_2.setText(f"")
@@ -387,20 +387,19 @@ class MainWindow_controller(QMainWindow):
             if self.pre_metric_result == None or self.pre_metric_result['type'] != "non-interactive":
                 self.ui.pic_fa_diff_label.setText(f"")
             else:
-                diff_fa = float(
-                    self.metric_result['FA'])-float(self.pre_metric_result['FA'])
+                diff_fa = self.metric_result['FA']-self.pre_metric_result['FA']
                 set_color(self.ui.pic_fa_diff_label, diff_fa,
                           f"({diff_fa*100:+.1f}%)", reverse_color=True)
 
         else:
             self.ui.consistency_label_1.setText(
-                f"{'Consistency 1s':9s} : {float(self.metric_result['Consistency_1s'])*100:.1f}%")
+                f"{'Consistency 1s':9s} : {self.metric_result['Consistency_1s']*100:.1f}%")
             self.ui.consistency_label_2.setText(
-                f"{'Consistency 2s':9s} : {float(self.metric_result['Consistency_2s'])*100:.1f}%")
+                f"{'Consistency 2s':9s} : {self.metric_result['Consistency_2s']*100:.1f}%")
             self.ui.consistency_label_3.setText(
-                f"{'Consistency 3s':9s} : {float(self.metric_result['Consistency_3s'])*100:.1f}%")
+                f"{'Consistency 3s':9s} : {self.metric_result['Consistency_3s']*100:.1f}%")
             self.ui.pic_fa_label.setText(
-                f"{'PIC':9s} : {self.metric_result['PIC']}")
+                f"{'PIC':9s} : {self.metric_result['PIC']:.1f}")
 
             if self.pre_metric_result == None or self.pre_metric_result['type'] == "non-interactive":
                 self.ui.consistency_diff_label_1.setText(f"")
@@ -409,14 +408,14 @@ class MainWindow_controller(QMainWindow):
                 self.ui.pic_fa_diff_label.setText(f"")
             else:
 
-                diff_consistency_1 = float(
-                    self.metric_result['Consistency_1s'])-float(self.pre_metric_result['Consistency_1s'])
-                diff_consistency_2 = float(
-                    self.metric_result['Consistency_2s'])-float(self.pre_metric_result['Consistency_2s'])
-                diff_consistency_3 = float(
-                    self.metric_result['Consistency_3s'])-float(self.pre_metric_result['Consistency_3s'])
-                diff_pic = float(
-                    self.metric_result['PIC'])-float(self.pre_metric_result['PIC'])
+                diff_consistency_1 = self.metric_result['Consistency_1s'] - \
+                    self.pre_metric_result['Consistency_1s']
+                diff_consistency_2 = self.metric_result['Consistency_2s'] - \
+                    self.pre_metric_result['Consistency_2s']
+                diff_consistency_3 = self.metric_result['Consistency_3s'] - \
+                    self.pre_metric_result['Consistency_3s']
+                diff_pic = self.metric_result['PIC'] - \
+                    self.pre_metric_result['PIC']
 
                 set_color(self.ui.consistency_diff_label_1,
                           diff_consistency_1, f"({diff_consistency_1*100:+.1f}%)")

@@ -1,0 +1,24 @@
+{
+    "Method": "QCNet",
+    "Attribute": "All",
+    "type": "interactive",
+    "confusion matrix": {
+        "TP": 9769,
+        "FN": 7505,
+        "FP": 14639,
+        "TN": 148556
+    },
+    "recall": "56.55%",
+    "precision": "40.02%",
+    "accuracy": "87.73%",
+    "f1-Score": "46.87%",
+    "IDcnt": "180469",
+    "IDsw": "1650",
+    "IDsw rate": "0.91%",
+    "MOTA": "86.82%",
+    "PIC": "14.3",
+    "FA": "0.00%",
+    "Consistency_1s": "28.94%",
+    "Consistency_2s": "17.32%",
+    "Consistency_3s": "9.84%"
+}

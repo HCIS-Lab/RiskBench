@@ -1,0 +1,24 @@
+{
+    "Method": "MANTRA",
+    "Attribute": "All",
+    "type": "non-interactive",
+    "confusion matrix": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 7826,
+        "TN": 128635
+    },
+    "recall": "0.00%",
+    "precision": "0.00%",
+    "accuracy": "94.27%",
+    "f1-Score": "0.00%",
+    "IDcnt": "136461",
+    "IDsw": "673",
+    "IDsw rate": "0.49%",
+    "MOTA": "93.77%",
+    "PIC": "-1.0",
+    "FA": "16.53%",
+    "Consistency_1s": "0.00%",
+    "Consistency_2s": "0.00%",
+    "Consistency_3s": "0.00%"
+}

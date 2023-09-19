@@ -1,0 +1,24 @@
+{
+    "Method": "DSA",
+    "Attribute": "All",
+    "type": "non-interactive",
+    "confusion matrix": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 1293,
+        "TN": 99508
+    },
+    "recall": "0.00%",
+    "precision": "0.00%",
+    "accuracy": "98.72%",
+    "f1-Score": "0.00%",
+    "IDcnt": "100801",
+    "IDsw": "1242",
+    "IDsw rate": "1.23%",
+    "MOTA": "97.49%",
+    "PIC": "-1.0",
+    "FA": "3.27%",
+    "Consistency_1s": "0.00%",
+    "Consistency_2s": "0.00%",
+    "Consistency_3s": "0.00%"
+}

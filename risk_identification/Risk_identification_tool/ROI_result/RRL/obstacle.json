@@ -1,0 +1,24 @@
+{
+    "Method": "RRL",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 2039,
+        "FN": 8671,
+        "FP": 2295,
+        "TN": 108350
+    },
+    "recall": "19.04%",
+    "precision": "47.05%",
+    "accuracy": "90.96%",
+    "f1-Score": "27.11%",
+    "IDcnt": "121355",
+    "IDsw": "2259",
+    "IDsw rate": "1.86%",
+    "MOTA": "89.10%",
+    "PIC": "17.9",
+    "FA": "0.00%",
+    "Consistency_1s": "3.92%",
+    "Consistency_2s": "2.94%",
+    "Consistency_3s": "2.61%"
+}

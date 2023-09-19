@@ -1,0 +1,24 @@
+{
+    "Method": "Kalman filter",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 6606,
+        "FN": 4192,
+        "FP": 12092,
+        "TN": 127642
+    },
+    "recall": "61.18%",
+    "precision": "35.33%",
+    "accuracy": "89.18%",
+    "f1-Score": "44.79%",
+    "IDcnt": "150532",
+    "IDsw": "1703",
+    "IDsw rate": "1.13%",
+    "MOTA": "88.05%",
+    "PIC": "13.7",
+    "FA": "0.00%",
+    "Consistency_1s": "51.97%",
+    "Consistency_2s": "20.07%",
+    "Consistency_3s": "3.95%"
+}

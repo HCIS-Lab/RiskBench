@@ -1,0 +1,24 @@
+{
+    "Method": "DSA",
+    "Attribute": "All",
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 10146,
+        "FN": 11949,
+        "FP": 2632,
+        "TN": 77101
+    },
+    "recall": "45.92%",
+    "precision": "79.40%",
+    "accuracy": "85.68%",
+    "f1-Score": "58.19%",
+    "IDcnt": "101828",
+    "IDsw": "3316",
+    "IDsw rate": "3.26%",
+    "MOTA": "82.42%",
+    "PIC": "4.2",
+    "FA": "0.00%",
+    "Consistency_1s": "31.35%",
+    "Consistency_2s": "8.31%",
+    "Consistency_3s": "6.18%"
+}

@@ -1,0 +1,24 @@
+{
+    "Method": "Range",
+    "Attribute": "All",
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 15886,
+        "FN": 9556,
+        "FP": 7056,
+        "TN": 99397
+    },
+    "recall": "62.44%",
+    "precision": "69.24%",
+    "accuracy": "87.41%",
+    "f1-Score": "65.67%",
+    "IDcnt": "131895",
+    "IDsw": "734",
+    "IDsw rate": "0.56%",
+    "MOTA": "86.85%",
+    "PIC": "3.8",
+    "FA": "0.00%",
+    "Consistency_1s": "52.26%",
+    "Consistency_2s": "34.20%",
+    "Consistency_3s": "29.22%"
+}

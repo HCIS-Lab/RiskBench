@@ -1,0 +1,24 @@
+{
+    "Method": "BP",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 318,
+        "FN": 10458,
+        "FP": 1103,
+        "TN": 132480
+    },
+    "recall": "2.95%",
+    "precision": "22.38%",
+    "accuracy": "91.99%",
+    "f1-Score": "5.21%",
+    "IDcnt": "144359",
+    "IDsw": "385",
+    "IDsw rate": "0.27%",
+    "MOTA": "91.72%",
+    "PIC": "28.4",
+    "FA": "0.00%",
+    "Consistency_1s": "2.96%",
+    "Consistency_2s": "1.97%",
+    "Consistency_3s": "1.97%"
+}

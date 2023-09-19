@@ -1,0 +1,24 @@
+{
+    "Method": "BCP",
+    "Attribute": "All",
+    "type": "non-interactive",
+    "confusion matrix": {
+        "TP": 0,
+        "FN": 0,
+        "FP": 2018,
+        "TN": 130374
+    },
+    "recall": "0.00%",
+    "precision": "0.00%",
+    "accuracy": "98.48%",
+    "f1-Score": "0.00%",
+    "IDcnt": "132392",
+    "IDsw": "820",
+    "IDsw rate": "0.62%",
+    "MOTA": "97.86%",
+    "PIC": "-1.0",
+    "FA": "4.73%",
+    "Consistency_1s": "0.00%",
+    "Consistency_2s": "0.00%",
+    "Consistency_3s": "0.00%"
+}

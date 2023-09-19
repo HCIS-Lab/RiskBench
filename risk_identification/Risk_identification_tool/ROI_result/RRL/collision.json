@@ -1,0 +1,24 @@
+{
+    "Method": "RRL",
+    "Attribute": "All",
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 14262,
+        "FN": 7833,
+        "FP": 2078,
+        "TN": 77655
+    },
+    "recall": "64.55%",
+    "precision": "87.28%",
+    "accuracy": "90.27%",
+    "f1-Score": "74.21%",
+    "IDcnt": "101828",
+    "IDsw": "3358",
+    "IDsw rate": "3.30%",
+    "MOTA": "86.97%",
+    "PIC": "4.6",
+    "FA": "0.00%",
+    "Consistency_1s": "47.51%",
+    "Consistency_2s": "19.71%",
+    "Consistency_3s": "11.16%"
+}

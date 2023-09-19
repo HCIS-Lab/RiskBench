@@ -1,0 +1,24 @@
+{
+    "Method": "MANTRA",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 7752,
+        "FN": 3046,
+        "FP": 13964,
+        "TN": 125770
+    },
+    "recall": "71.79%",
+    "precision": "35.70%",
+    "accuracy": "88.70%",
+    "f1-Score": "47.68%",
+    "IDcnt": "150532",
+    "IDsw": "1410",
+    "IDsw rate": "0.94%",
+    "MOTA": "87.76%",
+    "PIC": "5.2",
+    "FA": "0.00%",
+    "Consistency_1s": "70.07%",
+    "Consistency_2s": "15.13%",
+    "Consistency_3s": "4.61%"
+}

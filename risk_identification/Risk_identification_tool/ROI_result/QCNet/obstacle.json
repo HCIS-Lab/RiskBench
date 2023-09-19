@@ -1,0 +1,24 @@
+{
+    "Method": "QCNet",
+    "Attribute": "All",
+    "type": "obstacle",
+    "confusion matrix": {
+        "TP": 7376,
+        "FN": 3324,
+        "FP": 11943,
+        "TN": 127402
+    },
+    "recall": "68.93%",
+    "precision": "38.18%",
+    "accuracy": "89.83%",
+    "f1-Score": "49.14%",
+    "IDcnt": "150045",
+    "IDsw": "1487",
+    "IDsw rate": "0.99%",
+    "MOTA": "88.83%",
+    "PIC": "7.0",
+    "FA": "0.00%",
+    "Consistency_1s": "69.67%",
+    "Consistency_2s": "16.33%",
+    "Consistency_3s": "4.67%"
+}
