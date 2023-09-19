@@ -1,0 +1,6 @@
+interactive#10_i-1_1_p_c_l_1_0#Town10HD#WetSunset#low#78040#2.184184582118361#13.055444795642517#False
+interactive#10_t2-4_1_t_u_r_1_rl_1#Town10HD#HardRainSunset#mid#3225#13.136331020839394#18.665943649358493#False
+interactive#10_t2-7_1_t_r_r_1_0#Town10HD#HardRainSunset#mid#4051#5.4850400840885385#11.415652258085787#False
+interactive#10_t2-7_1_t_r_r_1_0#Town10HD#MidRainyNoon#low#54119#5.47975519755542#12.334721631073199#False
+interactive#10_t3-7_1_t_u_f_1_0#Town10HD#WetNoon#high#28676#20.33787173975352#22.42277977318098#False
+interactive#B3_r-1_0_t_gr_er_1_0_2#B3#HardRainSunset#high#85952#10.822165551707469#12.256667343350953#False
