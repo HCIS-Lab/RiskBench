@@ -9,7 +9,7 @@ Planning-aware risk identification evaluation takes place in CARLA simulaotr ( 0
 3. unzip CARLA_0.9.14_instalce_id.zip
 4. unzip data_collection.zip under the folder **Planning_Aware_Metric**
 5. unzip weights.zip under the folder **Planning_Aware_Metric/models/**
-6. mv Planning_Aware_Metric /PATH/TO/CARLA_0.9.14_instance_id/PythonAPI/
+6. `mv Planning_Aware_Metric /PATH/TO/CARLA_0.9.14_instance_id/PythonAPI/`
 7. create conda environment follow below infos.
 
 ```bash
