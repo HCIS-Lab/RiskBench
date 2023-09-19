@@ -83,8 +83,8 @@ bash run_inference.sh
 
 ```
 #### Note:
-To reproduce the result.
-For testing the scenario, each method 
+To reproduce the resul.
+For testing each method, it 
 - require 4-6 hours for interactive scenario
 - require 3-5 hours for obstacle scneario
  
