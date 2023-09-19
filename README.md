@@ -9,6 +9,10 @@
 - CARLA (Tested using CARLA 0.9.13)
 - GPU ( Tested using Nvidia rtx3090)
 
+## clone 
+```bash
+git clone --depth 1 https://github.com/HCIS-Lab/RiskBench.git
+```
 ## Installation
 1. Download CARLA from https://drive.google.com/file/d/1bQE3H4mh2WBSGK8tZ4UzTfogce-5HcEJ/view?usp=share_link
 2. Unzip CARLA.zip
