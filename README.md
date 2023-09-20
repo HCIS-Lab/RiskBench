@@ -9,7 +9,7 @@
 - CARLA (Tested using CARLA 0.9.13)
 - GPU ( Tested using Nvidia rtx3090)
 
-## clone 
+## Clone 
 ```bash
 git clone --depth 1 https://github.com/HCIS-Lab/RiskBench.git
 ```
