@@ -2,12 +2,13 @@
 ![RiskBench](images/teaser.png)
 
 ## System requirements
-- Linux (Tested on Ubuntu 18.04)
-- Python3 (Tested using Python 3.7)
-- PyTorch (Tested using PyTorch 1.10.0)
-- CUDA (Tested using CUDA 11.3)
-- CARLA (Tested using CARLA 0.9.13)
-- GPU ( Tested using Nvidia rtx3090)
+- Linux (Tested on Ubuntu 18.04, 20.04)
+- Python3 (Tested on Python 3.7)
+- PyTorch (Tested on PyTorch 1.10.0)
+- CUDA (Tested on CUDA 11.3)
+- CARLA (Tested on CARLA 0.9.14)
+- GPU ( Tested on Nvidia RTX3090, RTX4090)
+- CPU ( Tested on AMD 7950x3d, Intel 12900kf)
 
 ## Clone 
 ```bash
