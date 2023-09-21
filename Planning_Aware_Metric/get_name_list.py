@@ -33,7 +33,7 @@ if __name__ =="__main__":
                 with open(f"./data_collection/{scenario}/{basic_scenario}/variant_scenario/{variant_scenario}/seed.txt") as f:
                     random_seed = int(f.readline())
                 print(scenario, basic_scenario, town, weather, actor, random_seed)
-                break
+                
      
         
                     
