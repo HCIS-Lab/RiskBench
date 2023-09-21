@@ -19,7 +19,7 @@ git clone --depth 1 https://github.com/HCIS-Lab/RiskBench.git
 - CUDA ( Tested on CUDA 11.3 )
 - CARLA ( Tested on CARLA 0.9.14 )
 - GPU ( Tested on Nvidia RTX3090, RTX4090 )
-- CPU ( Tested on AMD 7950x3d, Intel 12900kf )
+- CPU ( Tested on AMD 7950X3D, Intel 12900kf )
 
 
 ### Dataset
