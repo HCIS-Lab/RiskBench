@@ -152,7 +152,7 @@ It will generate {weather}_{randon_actor} inside the folder `/path/to/data_colle
 Finally, `cd path/to/data_collection` and `python get_remove_list -s {scenario_type}`. And manually remove the fail folders.
 
 ## Labeling start position and end position for collecting the data
-We provideo a tool to label the start position and end position 
+We provide a tool to label the start position and end position 
 ![tool_demo](https://github.com/HCIS-Lab/RiskBench/blob/main/images/tool_ui.png)
 ```
 cd path/to/vis_tools/
