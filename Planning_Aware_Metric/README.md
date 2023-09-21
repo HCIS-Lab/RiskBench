@@ -154,8 +154,6 @@ Finally, `cd path/to/data_collection` and `python get_remove_list -s {scenario_t
 ## Labeling start position and end position for collecting the data
 We provideo a tool to label the start position and end position 
 
-![](https://hackmd.io/_uploads/B1AlMFKJT.png)
-
 ```
 cd path/to/vis_tools/
 
