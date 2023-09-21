@@ -1,0 +1,2200 @@
+{
+    "34545": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 98.607506,
+            "y": -8.119556,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.390747,
+            "roll": 0.0
+        }
+    },
+    "34541": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": 99.408981,
+            "y": -6.305562,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.390747,
+            "roll": 0.0
+        }
+    },
+    "34537": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -53.991749,
+            "y": -36.874088,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.43232,
+            "roll": 0.0
+        }
+    },
+    "34533": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -52.021988,
+            "y": -32.859112,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.43232,
+            "roll": 0.0
+        }
+    },
+    "34529": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -51.385521,
+            "y": -28.854198,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.43232,
+            "roll": 0.0
+        }
+    },
+    "34525": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -51.082378,
+            "y": -24.851797,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.43232,
+            "roll": 0.0
+        }
+    },
+    "34521": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -52.312527,
+            "y": -20.860966,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.43232,
+            "roll": 0.0
+        }
+    },
+    "34517": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -86.493752,
+            "y": 20.015684,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34513": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -76.666107,
+            "y": 24.471003,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34509": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -21.186462,
+            "y": 142.381027,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.647873,
+            "roll": 0.0
+        }
+    },
+    "34505": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -17.17424,
+            "y": 140.405655,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.647873,
+            "roll": 0.0
+        }
+    },
+    "34501": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -13.170216,
+            "y": 139.763565,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.647873,
+            "roll": 0.0
+        }
+    },
+    "34497": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -9.168242,
+            "y": 139.454834,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.647873,
+            "roll": 0.0
+        }
+    },
+    "34493": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -5.167087,
+            "y": 139.279404,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.647873,
+            "roll": 0.0
+        }
+    },
+    "34489": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -1.175771,
+            "y": 140.703979,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.647873,
+            "roll": 0.0
+        }
+    },
+    "34485": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -12.093869,
+            "y": 57.069942,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34481": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -114.232773,
+            "y": 43.821014,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.642235,
+            "roll": 0.0
+        }
+    },
+    "34477": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 62.793663,
+            "y": 30.158514,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34473": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 66.799202,
+            "y": 28.169638,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34469": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 70.801041,
+            "y": 27.514088,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34465": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 74.801949,
+            "y": 27.19187,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34461": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 78.80249,
+            "y": 27.002985,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34458": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": 82.798584,
+            "y": 28.414093,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.840805,
+            "roll": 0.0
+        }
+    },
+    "34455": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 109.238884,
+            "y": 91.985886,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -179.609253,
+            "roll": 0.0
+        }
+    },
+    "34451": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 109.414276,
+            "y": -30.373875,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -189.163666,
+            "roll": 0.0
+        }
+    },
+    "34447": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 104.063416,
+            "y": 88.208725,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.390747,
+            "roll": 0.0
+        }
+    },
+    "34443": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 102.037384,
+            "y": 92.192513,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.471077,
+            "roll": 0.0
+        }
+    },
+    "34439": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 101.181129,
+            "y": 96.038391,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 5.179497,
+            "roll": 0.0
+        }
+    },
+    "34435": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 100.34256,
+            "y": 99.857933,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 9.887909,
+            "roll": 0.0
+        }
+    },
+    "34431": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 99.325233,
+            "y": 103.624008,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 14.596329,
+            "roll": 0.0
+        }
+    },
+    "34427": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 98.068054,
+            "y": 107.31073,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 19.304749,
+            "roll": 0.0
+        }
+    },
+    "34423": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 96.550034,
+            "y": 110.892998,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 24.013161,
+            "roll": 0.0
+        }
+    },
+    "34419": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 94.766502,
+            "y": 114.346558,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 28.721573,
+            "roll": 0.0
+        }
+    },
+    "34415": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 92.721085,
+            "y": 117.64801,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 33.429993,
+            "roll": 0.0
+        }
+    },
+    "34411": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 90.422455,
+            "y": 120.775063,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 38.138412,
+            "roll": 0.0
+        }
+    },
+    "34407": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 87.885429,
+            "y": 123.661102,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 44.010193,
+            "roll": 0.0
+        }
+    },
+    "34403": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 85.064629,
+            "y": 126.24781,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 50.326477,
+            "roll": 0.0
+        }
+    },
+    "34399": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 81.980812,
+            "y": 128.511841,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 56.642746,
+            "roll": 0.0
+        }
+    },
+    "34395": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 78.670113,
+            "y": 130.42572,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 62.95903,
+            "roll": 0.0
+        }
+    },
+    "34391": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 75.171745,
+            "y": 131.966156,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 69.275299,
+            "roll": 0.0
+        }
+    },
+    "34387": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 71.527382,
+            "y": 133.114502,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 75.591583,
+            "roll": 0.0
+        }
+    },
+    "34383": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 67.780655,
+            "y": 133.856766,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 81.907867,
+            "roll": 0.0
+        }
+    },
+    "34379": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 63.976536,
+            "y": 134.183945,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 88.224136,
+            "roll": 0.0
+        }
+    },
+    "34375": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 60.029087,
+            "y": 134.184967,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34371": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 56.018627,
+            "y": 134.162521,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34367": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 52.009178,
+            "y": 134.140091,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34363": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 48.000587,
+            "y": 134.117661,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34359": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 43.992748,
+            "y": 134.09523,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34355": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 39.985565,
+            "y": 134.0728,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34351": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 35.97897,
+            "y": 134.050385,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34347": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 31.972881,
+            "y": 134.027985,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34343": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 27.967249,
+            "y": 134.005569,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34339": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 23.962023,
+            "y": 133.98317,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34335": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": 22.017914,
+            "y": 133.974838,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.32045,
+            "roll": 0.0
+        }
+    },
+    "34331": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -5.80217,
+            "y": -62.75502,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.596741,
+            "roll": 0.0
+        }
+    },
+    "34327": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -9.781125,
+            "y": -64.79657,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.596741,
+            "roll": 0.0
+        }
+    },
+    "34323": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -13.773965,
+            "y": -65.504868,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.596741,
+            "roll": 0.0
+        }
+    },
+    "34319": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -17.770275,
+            "y": -65.879837,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.596741,
+            "roll": 0.0
+        }
+    },
+    "34315": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -21.767977,
+            "y": -66.121483,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.596741,
+            "roll": 0.0
+        }
+    },
+    "34311": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -25.782339,
+            "y": -64.763222,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.596741,
+            "roll": 0.0
+        }
+    },
+    "34307": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": -69.578667,
+            "y": -68.719559,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.596741,
+            "roll": 0.0
+        }
+    },
+    "34303": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": -78.607018,
+            "y": -67.973297,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 78.835709,
+            "roll": 0.0
+        }
+    },
+    "34299": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -39.686394,
+            "y": 113.739998,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34295": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -41.697643,
+            "y": 109.745644,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34291": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -42.375565,
+            "y": 105.747536,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34287": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -42.720154,
+            "y": 101.748489,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34283": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -42.931404,
+            "y": 97.749062,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34279": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -43.075996,
+            "y": 93.749458,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34275": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -43.182491,
+            "y": 89.749741,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34271": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -41.565182,
+            "y": 85.745178,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -180.161224,
+            "roll": 0.0
+        }
+    },
+    "34267": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 109.502762,
+            "y": 53.293152,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -179.609253,
+            "roll": 0.0
+        }
+    },
+    "34263": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 109.55732,
+            "y": 45.293339,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -179.609253,
+            "roll": 0.0
+        }
+    },
+    "34259": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": -48.685619,
+            "y": 42.955288,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -0.161232,
+            "roll": 0.0
+        }
+    },
+    "34255": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": -48.663109,
+            "y": 50.955257,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -0.161232,
+            "roll": 0.0
+        }
+    },
+    "34251": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 74.979973,
+            "y": 16.892326,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34247": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 19.142973,
+            "y": 16.737183,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34243": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -72.891983,
+            "y": -63.284668,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 86.453049,
+            "roll": 0.0
+        }
+    },
+    "34239": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -77.311188,
+            "y": -64.868942,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 79.862366,
+            "roll": 0.0
+        }
+    },
+    "34235": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -81.478676,
+            "y": -64.588333,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 73.271667,
+            "roll": 0.0
+        }
+    },
+    "34231": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -85.46553,
+            "y": -63.49799,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 66.680984,
+            "roll": 0.0
+        }
+    },
+    "34227": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -89.244614,
+            "y": -61.825371,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 60.090302,
+            "roll": 0.0
+        }
+    },
+    "34223": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -92.774635,
+            "y": -59.664818,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 53.499603,
+            "roll": 0.0
+        }
+    },
+    "34219": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -96.012764,
+            "y": -57.076511,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 46.90892,
+            "roll": 0.0
+        }
+    },
+    "34215": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -98.918121,
+            "y": -54.110859,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 40.318237,
+            "roll": 0.0
+        }
+    },
+    "34211": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -101.467888,
+            "y": -50.884785,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 35.254013,
+            "roll": 0.0
+        }
+    },
+    "34207": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -103.719666,
+            "y": -47.440342,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 30.266747,
+            "roll": 0.0
+        }
+    },
+    "34203": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -105.65847,
+            "y": -43.805431,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 25.279472,
+            "roll": 0.0
+        }
+    },
+    "34199": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -107.26989,
+            "y": -40.009945,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 20.292198,
+            "roll": 0.0
+        }
+    },
+    "34195": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -108.541954,
+            "y": -36.084332,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 15.304924,
+            "roll": 0.0
+        }
+    },
+    "34191": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -109.465149,
+            "y": -32.059559,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 10.317657,
+            "roll": 0.0
+        }
+    },
+    "34187": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -110.032608,
+            "y": -27.967037,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 5.330383,
+            "roll": 0.0
+        }
+    },
+    "34183": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -110.240677,
+            "y": -23.84762,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.642235,
+            "roll": 0.0
+        }
+    },
+    "34179": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -110.287346,
+            "y": -19.863197,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.642235,
+            "roll": 0.0
+        }
+    },
+    "34175": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -110.333824,
+            "y": -15.877073,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.642235,
+            "roll": 0.0
+        }
+    },
+    "34171": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -110.380119,
+            "y": -11.889515,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.642235,
+            "roll": 0.0
+        }
+    },
+    "34167": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -110.17614,
+            "y": -5.816201,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.642235,
+            "roll": 0.0
+        }
+    },
+    "34163": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 74.473892,
+            "y": 13.390905,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34159": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 18.894793,
+            "y": 13.236479,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34155": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 111.971161,
+            "y": -25.410999,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -182.511749,
+            "roll": 0.0
+        }
+    },
+    "34151": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 109.287933,
+            "y": -29.707672,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -188.326736,
+            "roll": 0.0
+        }
+    },
+    "34147": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 107.653458,
+            "y": -34.080418,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -194.141724,
+            "roll": 0.0
+        }
+    },
+    "34143": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 105.94915,
+            "y": -38.376522,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -199.956696,
+            "roll": 0.0
+        }
+    },
+    "34139": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 103.96315,
+            "y": -42.530006,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -205.771667,
+            "roll": 0.0
+        }
+    },
+    "34135": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 101.638412,
+            "y": -46.49078,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -211.58667,
+            "roll": 0.0
+        }
+    },
+    "34131": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 98.965073,
+            "y": -50.21487,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -217.401642,
+            "roll": 0.0
+        }
+    },
+    "34127": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 95.953445,
+            "y": -53.662319,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -223.216629,
+            "roll": 0.0
+        }
+    },
+    "34123": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 92.624748,
+            "y": -56.796722,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -229.031601,
+            "roll": 0.0
+        }
+    },
+    "34119": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 89.00721,
+            "y": -59.585251,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -234.846588,
+            "roll": 0.0
+        }
+    },
+    "34115": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 85.134148,
+            "y": -61.998833,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -240.661575,
+            "roll": 0.0
+        }
+    },
+    "34111": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 81.042702,
+            "y": -64.012367,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -246.476547,
+            "roll": 0.0
+        }
+    },
+    "34107": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 76.773048,
+            "y": -65.604965,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -252.291534,
+            "roll": 0.0
+        }
+    },
+    "34103": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 72.367722,
+            "y": -66.760071,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -258.106506,
+            "roll": 0.0
+        }
+    },
+    "34099": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 67.870972,
+            "y": -67.465729,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -263.921509,
+            "roll": 0.0
+        }
+    },
+    "34095": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 63.328243,
+            "y": -67.714577,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.73645,
+            "roll": 0.0
+        }
+    },
+    "34091": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 59.285362,
+            "y": -67.711914,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34087": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 55.270626,
+            "y": -67.708885,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34083": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 51.257439,
+            "y": -67.706001,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34079": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 47.245567,
+            "y": -67.703247,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34075": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 43.234829,
+            "y": -67.700584,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34071": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 39.225063,
+            "y": -67.698029,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34067": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 35.216148,
+            "y": -67.695549,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34063": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 31.207979,
+            "y": -67.693138,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34059": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 27.200459,
+            "y": -67.690796,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34055": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 23.19352,
+            "y": -67.688492,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34051": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 19.187094,
+            "y": -67.686249,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34047": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 15.181128,
+            "y": -67.684052,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34043": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 11.175578,
+            "y": -67.681892,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34039": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": 9.500884,
+            "y": -67.900856,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 89.976578,
+            "roll": 0.0
+        }
+    },
+    "34035": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 23.880041,
+            "y": 18.550352,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34031": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 19.885612,
+            "y": 16.539246,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34027": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 15.88748,
+            "y": 15.861467,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34023": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 11.888421,
+            "y": 15.517021,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34019": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 7.888993,
+            "y": 15.305907,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34015": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 3.889378,
+            "y": 15.161461,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34011": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -0.110342,
+            "y": 15.055109,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34007": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -4.110128,
+            "y": 14.972567,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "34003": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -8.109959,
+            "y": 14.905897,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "33999": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -12.10982,
+            "y": 14.850338,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "33995": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -16.109703,
+            "y": 14.802861,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "33991": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -20.109604,
+            "y": 14.761444,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "33987": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -24.109516,
+            "y": 14.724689,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "33983": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -28.114759,
+            "y": 16.605875,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": 90.159195,
+            "roll": 0.0
+        }
+    },
+    "33979": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 59.055271,
+            "y": 69.824066,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.926727,
+            "roll": 0.0
+        }
+    },
+    "33975": {
+        "obstacle_type": "static.prop.streetbarrier",
+        "basic_id": -1,
+        "location": {
+            "x": 67.055267,
+            "y": 69.834297,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -89.926727,
+            "roll": 0.0
+        }
+    },
+    "33971": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 23.144602,
+            "y": 64.478149,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33967": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 19.142046,
+            "y": 66.473022,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33963": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 15.141194,
+            "y": 67.134583,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33959": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 11.140772,
+            "y": 67.462799,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33955": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 7.140519,
+            "y": 67.657684,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33951": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": 3.140351,
+            "y": 67.785904,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33947": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -0.859767,
+            "y": 67.876022,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33943": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -4.859855,
+            "y": 67.942337,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33939": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -8.859922,
+            "y": 67.992783,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33935": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -12.859976,
+            "y": 68.032104,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33931": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -16.860022,
+            "y": 68.063362,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33927": {
+        "obstacle_type": "static.prop.trafficcone01",
+        "basic_id": -1,
+        "location": {
+            "x": -20.860058,
+            "y": 68.088547,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    },
+    "33923": {
+        "obstacle_type": "static.prop.trafficwarning",
+        "basic_id": -1,
+        "location": {
+            "x": -24.857664,
+            "y": 66.216766,
+            "z": 0.0
+        },
+        "rotation": {
+            "pitch": 0.0,
+            "yaw": -269.926727,
+            "roll": 0.0
+        }
+    }
+}
