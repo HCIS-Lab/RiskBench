@@ -129,12 +129,10 @@ Press **"c"** to enter ID
 - Press **"r"** again to stop record the scenario and enter the scenario tags in the terminal to name this scenario ( map_id, road_id, is_traffic_light, actor_type, actor_action, name_my_action, is_interactive, name_violated_rule )
 
 
-## How to test if the recording file is ok to use
+## How to check if the recording file is ok to use ?
 
 ```
 bash run_test_scenario.sh
-
-
 ```
 
 >Input the scenario_type you want to process
