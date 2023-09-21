@@ -1,9 +1,5 @@
-from ast import Delete
-from hashlib import new
-from operator import ne
 import torch
 import torch.nn as nn
-import math
 import torch.utils.model_zoo as model_zoo
 from .partialconv2d import PartialConv2d
 from torchvision.models.resnet import model_urls as _model_urls
@@ -15,7 +11,6 @@ model_urls = {
     'pdresnet18': '',
     'pdresnet34': '',
     'pdresnet50': './models/model_best.pth',
-    'inceptionresnetv2_partialConv': 'http://data.lip6.fr/cadene/pretrainedmodels/inceptionresnetv2-520b38e4.pth',
     'pdresnet101': '',
     'pdresnet152': '',
 }
@@ -188,7 +183,7 @@ class PDResNet(nn.Module):
         # x = x.view(x.size(0), -1)
         # x = self.fc(x)
 
-        return x    # B*2048*12*20
+        return x
 
 
 def pdresnet18(pretrained=False, **kwargs):

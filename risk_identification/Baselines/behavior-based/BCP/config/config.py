@@ -98,7 +98,7 @@ def read_data(args, valiation=False):
 def parse_args(parser):
 
     parser.add_argument(
-        '--data_root', default=f"/path/to/RiskBench_Dataset", type=str)
+        '--data_root', default=f"/PATH/TO/RiskBench_Dataset", type=str)
     parser.add_argument(
         '--behavior_root', default=f"./datasets/behavior", type=str)
     parser.add_argument(

@@ -21,16 +21,11 @@ class ROI_ALIGN(nn.Module):
             nn.ReLU(inplace=True),
             nn.AdaptiveAvgPool2d(output_size=(1, 1)),
         )
-        # self.conv1 = nn.Conv2d(2048, 512, 1)
-        # self.pool1 = nn.AdaptiveAvgPool2d(1)
         self.n = n
 
     def forward(self, features, boxes):
         b = len(boxes)
         boxes = list(boxes)
-
-        # crops = torchvision.ops.roi_align(input_image, [torch.FloatTensor(
-        # [[60, 80, 160, 220], [250, 250, 500, 500]]).to(device)], output_size=(200, 300))
 
         x = self.roi_align(features, boxes, [self.kernel, self.kernel], self.scale)
         x = self.global_img(x)

@@ -1,6 +1,6 @@
 # Setup
 1. Download `RiskBench_Dataset` & `metadata`
-2. unzip model.zip 
+2. Unzip `model.zip`, `metadata.zip`, `RiskBench_Dataset`
 3. Install dependencies in your favorite environment. 
 	
 	e.g. start by creating a new conda environment:
