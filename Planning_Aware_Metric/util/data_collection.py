@@ -96,7 +96,11 @@ class Data_Collection():
 
         data = self.collect_actor_data(world)
 
+
         self.data_list.append(data)
+        
+
+
         self.ego_list.append(data[self.ego_id])
         self.topology_list.append(self.collect_topology(world))
 
@@ -633,7 +637,7 @@ class Data_Collection():
         data["vehicles_ids"] = vehicles_id_list
         data["pedestrian_ids"] = pedestrian_id_list
 
-        return data, obstacle_id_list, traffic_id_list, pedestrian_id_list
+        return data # , obstacle_id_list, traffic_id_list, pedestrian_id_list
 
     def _get_forward_speed(self, transform, velocity):
         """ Convert the vehicle transform directly to forward speed """

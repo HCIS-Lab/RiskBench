@@ -2171,14 +2171,18 @@ def game_loop(args):
     detect_start = True
     detect_end = False
     # read start position and end position
+    if (args.inference and not args.generate_random_seed) or not args.no_save:
+        with open(f"{path}/start_end_point.json") as f:
+            data = json.load(f)
+            start_position_x = float(data["start_x"])
+            start_position_y = float(data["start_y"])
+            end_position_x = float(data["end_x"])
+            end_position_y = float(data["end_y"])
 
-    with open(f"{path}/start_end_point.json") as f:
-        data = json.load(f)
 
-        start_position_x = float(data["start_x"])
-        start_position_y = float(data["start_y"])
-        end_position_x = float(data["end_x"])
-        end_position_y = float(data["end_y"])
+
+
+
 
     client = carla.Client(args.host, args.port)
     client.reload_world()
@@ -2320,7 +2324,7 @@ def game_loop(args):
     iter_start = 25
     iter_toggle = 50
 
-    if not args.no_save and not args.inference:
+    if not args.no_save :
         data_collection = Data_Collection()
         data_collection.set_scenario_type(args.scenario_type)
         data_collection.set_ego_id(world)
@@ -2441,28 +2445,29 @@ def game_loop(args):
                 else:
                     finish[actor_id] = True
 
-            if detect_start:
+            if args.inference:
+                if detect_start:
+                    
+                    if args.mode == "BP" or  args.mode == "BCP" or  args.mode ==  "DSA" or  args.mode ==  "RRL" or args.mode =="BCP_smoothing" or args.mode == "BP_smoothing" or args.mode == "RRL_smoothing" or args.mode == "DSA_smoothing":
+                        inference.run_inference(frame, world, True)
+                    else:
+                        inference.collect_actor_data(world, frame)
                 
-                if args.mode == "BP" or  args.mode == "BCP" or  args.mode ==  "DSA" or  args.mode ==  "RRL" or args.mode =="BCP_smoothing" or args.mode == "BP_smoothing" or args.mode == "RRL_smoothing" or args.mode == "DSA_smoothing":
-                    inference.run_inference(frame, world, True)
-                else:
-                    inference.collect_actor_data(world, frame)
-            
-            
-            if not detect_start:
-                if args.inference:
-                    control, isReach = inference.run_inference(frame, world)
-                    world.player.apply_control(control)
+                
+                if not detect_start:
+                    if args.inference:
+                        control, isReach = inference.run_inference(frame, world)
+                        world.player.apply_control(control)
 
-                    if isReach:
-                        break
+                        if isReach:
+                            break
+                    else:
+                        if args.mode =="AUTO":    
+                            inference.agent.run_step()
+                        
                 else:
                     if args.mode =="AUTO":    
                         inference.agent.run_step()
-                    
-            else:
-                if args.mode =="AUTO":    
-                    inference.agent.run_step()
 
             if not False in finish.values():
                 break
@@ -2481,10 +2486,15 @@ def game_loop(args):
             if world.collision_sensor.collision and args.scenario_type != 'collision':
                 print('unintentional collision')
 
+                if not args.inference:
+                    abandon_scenario = True
+
+
             
             elif world.collision_sensor.wrong_collision:
                 print('collided with wrong object')
-
+                if not args.inference:  
+                    abandon_scenario = True
             if abandon_scenario:
                 if args.inference:
                     inference.save_video()
@@ -2509,7 +2519,7 @@ def game_loop(args):
                 x = ego_loc.x
                 y = ego_loc.y
 
-                if not args.test:
+                if not args.test and not args.generate_random_seed:
                     if detect_start:
                         distacne = math.sqrt(
                             (x - start_position_x)**2 + (y - start_position_y)**2)
@@ -2520,7 +2530,7 @@ def game_loop(args):
                             if not args.no_save and not args.inference:
                                 data_collection.set_start_frame(frame)
 
-                    if not args.inference:
+                    if not args.inference or not args.no_save:
                         # check end point
                         if detect_end:
                             if args.scenario_type != "collision":

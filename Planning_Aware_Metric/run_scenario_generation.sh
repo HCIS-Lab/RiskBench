@@ -86,7 +86,7 @@ do
 
 
 
-            if [ `echo ${eachfile:$len:1} | awk -v tem="A=B" '{print($1==tem)? "1":"0"}'` -eq "1" ]
+            if [ `echo ${eachfile:$len:1} | awk -v tem="B" '{print($1==tem)? "1":"0"}'` -eq "1" ]
             then
                 # B3, B7, B8
                 python data_generator.py --scenario_type ${scenario_type} --scenario_id ${eachfile:$len} --map ${eachfile:$len:2} --no_save --generate_random_seed --weather ${weather[${w[${i}]}]}  --random_actors ${random_actor[j]} 
