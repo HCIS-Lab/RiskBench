@@ -1,4 +1,4 @@
-# Planning Aware Metric
+# Planning Aware Metric And Data collection
 
 Planning-aware risk identification evaluation takes place in CARLA simulaotr ( 0.9.14 ). We provide the materials (vehicle's control and random seed) to reproduce all testing scenarios.
 
