@@ -1,0 +1,34 @@
+{
+    "Method": "QCNet",
+    "Attribute": [
+        "Pedestrian",
+        "Rain",
+        "Noon",
+        "Sunset",
+        "Night",
+        "High",
+        "T-intersection-A",
+        "T-intersection-B",
+        "T-intersection-C"
+    ],
+    "type": "collision",
+    "confusion matrix": {
+        "TP": 261,
+        "FN": 997,
+        "FP": 738,
+        "TN": 9373
+    },
+    "recall": 0.20747217641119098,
+    "precision": 0.26126125864603345,
+    "accuracy": 0.847392030216033,
+    "f1-Score": 0.23127552468698506,
+    "IDcnt": 11369,
+    "IDsw": 71,
+    "IDsw rate": 0.006245052329804686,
+    "MOTA": 0.8411469787658132,
+    "PIC": 16.102237430993938,
+    "FA": 0.0,
+    "Consistency_1s": 0.05263155124655198,
+    "Consistency_2s": 0.05263155124655198,
+    "Consistency_3s": 0.05263155124655198
+}

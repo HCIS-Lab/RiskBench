@@ -1,0 +1,34 @@
+{
+    "Method": "QCNet",
+    "Attribute": [
+        "4-Wheeler",
+        "Rain",
+        "Noon",
+        "Sunset",
+        "Night",
+        "High",
+        "T-intersection-A",
+        "T-intersection-B",
+        "T-intersection-C"
+    ],
+    "type": "interactive",
+    "confusion matrix": {
+        "TP": 330,
+        "FN": 232,
+        "FP": 393,
+        "TN": 8977
+    },
+    "recall": 0.5871886016514484,
+    "precision": 0.45643152895668704,
+    "accuracy": 0.9370720892699637,
+    "f1-Score": 0.5136137475861036,
+    "IDcnt": 9932,
+    "IDsw": 54,
+    "IDsw rate": 0.005436971400083597,
+    "MOTA": 0.9316351188767267,
+    "PIC": 14.997008662023287,
+    "FA": 0.0,
+    "Consistency_1s": 0.15789465373965592,
+    "Consistency_2s": 0.05263155124655198,
+    "Consistency_3s": 0.05263155124655198
+}

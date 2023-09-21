@@ -4,7 +4,7 @@
 3. Install dependencies in your favorite environment. 
 	
 	e.g. start by creating a new conda environment:
-	```		
+	```bash
 	conda create -n analysis_tool python=3.7
 	conda activate analysis_tool
 	cd ${TOOL_ROOT}
@@ -15,16 +15,19 @@
 
 # Quantitative Results For Risk Object Identification (ROI)
 1. Execute 
-	```
+	```bash
 	python ROI_tool.py --method ${MODEL} --data_type ${DATA_TYPE} --metadata_root ${METADATA_ROOT} --save_result --result_path ${ROI_PATH}
 	```
-3. The results will be saved to `${ROI_PATH}/${MODEL}/${DATA_TYPE}.josn`
+
+2. The results will be saved to `${ROI_PATH}/${MODEL}/${DATA_TYPE}.josn`
+
+
 
 
 # Fine-grained Scenario-based Analysis
 
 1. Execute 
-	```
+	```bash
 	python ROI_vis_tool.py --data_root ${DATASET_ROOT} --metadata_root ${METADATA_ROOT} --vis_result_path ${VIS_PATH}
 	```
 2. Choose Model and Scenario Type

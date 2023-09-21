@@ -1,7 +1,14 @@
 # RiskBench: A Scenario-based Benchmark for Risk Identification
 ![RiskBench](images/teaser.png)
+<!-- > **RiskBench: A Scenario-based Benchmark for Risk Identification**  
+> [Chi-Hsi Kung](https://hankkung.github.io/website/), Chieh-Chih Yang, Pang-Yuan Pao, Shu-Wei Lu, Pin-Lun Chen, Hsin-Cheng Lu, [Yi-Ting Chen](https://sites.google.com/site/yitingchen0524/)
+> - [Paper](https://hcis-lab.github.io/RiskBench/)
+> - [Website](https://hcis-lab.github.io/RiskBench/) -->
+---
 
-## System requirements
+## Setup
+
+### System Requirements
 - Linux ( Tested on Ubuntu 18.04, 20.04 )
 - Python3 ( Tested on Python 3.7 )
 - PyTorch ( Tested on PyTorch 1.10.0 )
@@ -10,47 +17,45 @@
 - GPU ( Tested on Nvidia RTX3090, RTX4090 )
 - CPU ( Tested on AMD 7950x3d, Intel 12900kf )
 
-## Clone 
+### Repo Cloning
 ```bash
 git clone --depth 1 https://github.com/HCIS-Lab/RiskBench.git
 ```
-## Installation
-### CARLA
-Please refer to [CARLA's page](https://carla.readthedocs.io/en/latest/start_quickstart/).
 
-### Baselies
-There are multiple baselines in RiskBench. We provide a single installation guide that is compatible with every baselines except for QCNet.
-```bash
-# create conda environment 
-conda create -n carla python=3.7
-conda activate carla
+### Dataset
+* The RiskBench dataset can be downloaded [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
 
-# install pytorch 
-conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+* Download **RiskBench_Dataset** for the whole dataset. In addition, we provide **DATA_FOR_Planning_Aware_Metric** and **DATASET_for_LBC_Training** for planning aware metric evaluation and LBC training data respectively.
 
-# install packages
-pip install -r requirements.txt
-
-```
-Note: For QCNet's installation, please refer to QCNet's main page.
-
-## Dataset
-The RiskBench dataset can be downloaded [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
-
-Download **RiskBench_Dataset** for the whole dataset. In addition, we provide **DATA_FOR_Planning_Aware_Metric** and **DATASET_for_LBC_Training** for planning aware metric evaluation and LBC training data respectively.
-
-Also, we provide instructions on how to collect basic scenarios and data augmentation. Please refer to [link](Planning_Aware_Metric/).
+* We provide instructions on how to collect basic scenarios and data augmentation. Please refer to [link](Planning_Aware_Metric/).
 
 <!-- Dataset statistics: 
 
-|       | Amount                     | Example       |
-| :-----| :--------------------------- | :-----------: |
-| Train |                      |    |
-| Val   |                 |      |
-| Test  |                                         |         | -->
+|       | Amount | Example |
+| :---- | :----- | :-----: |
+| Train |        |         |
+| Val   |        |         |
+| Test  |        |         |
 
-## Risk identification
+--> 
+
+---
+
+## Risk Identification Benchmark
+
+### Baseline
 We provide each baseline's training and inference details which can be found [here](risk_identification/Baselines).
+
+
+### Offline Risk Identification Evaluation
+We perform offline risk identification evaluation and fine-grained scenario-based analysis by taking input as preserved risk identification prediction. You can generate by following the instruction in this [page](risk_identification/Risk_identification_tool). 
+
+
+### Planning-aware Risk Identification
+[TBD](Planning_Aware_Metric)
+
+
+---
 
 ## Citation
 ```
