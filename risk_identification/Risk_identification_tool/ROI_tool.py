@@ -21,8 +21,8 @@ def show_result(metric_result):
     recall, precision, accuracy, f1_score = metric_result["recall"], metric_result[
         "precision"], metric_result["accuracy"], metric_result["f1-Score"]
 
-    IDcnt, IDsw, IDsw_rate = metric_result['IDcnt'], metric_result['IDsw'], metric_result['IDsw rate']
-    MOTA = metric_result['MOTA']
+    # IDcnt, IDsw, IDsw_rate = metric_result['IDcnt'], metric_result['IDsw'], metric_result['IDsw rate']
+    # MOTA = metric_result['MOTA']
     PIC, FA_rate = metric_result['PIC'], metric_result['FA']
 
     print()

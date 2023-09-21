@@ -11,13 +11,13 @@
 	conda  install pyqt
 	pip3 install -r requirements.txt
 	```
-	
+
 # Quantitative Results For Risk Object Identification (ROI)
 1. Execute 
 	```
 	python ROI_tool.py --method ${MODEL} --data_type ${DATA_TYPE} --metadata_root ${METADATA_ROOT} --save_result --result_path ${ROI_PATH}
 	```
-3. The results will be saved to `${ROI_PATH}/\${MODEL}/\${DATA_TYPE}.josn`
+3. The results will be saved to `${ROI_PATH}/${MODEL}/${DATA_TYPE}.josn`
 
 
 # Fine-grained Scenario-based Analysis
@@ -31,4 +31,7 @@
 4. Click **Filter Scenario**
 5. Choose one scenario and click **Generate Video**
 6. Click **Generate JSON** to save the reult in JSON file
-7. The results will be saved to `${VIS_PATH}/gif/\${MODEL}/\${DATA_TYPE}` or `{VIS_PATH}/json/\${MODEL}/\${DATA_TYPE}`
+7. The results will be saved to `${VIS_PATH}/gif/${MODEL}/${DATA_TYPE}` or `{VIS_PATH}/json/${MODEL}/${DATA_TYPE}`
+
+	![Fine-grained Scenario-based Analysis](utils/localization_anticipation.gif)
+
