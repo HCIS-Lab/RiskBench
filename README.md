@@ -8,6 +8,10 @@
 
 ## Setup
 
+```bash
+git clone --depth 1 https://github.com/HCIS-Lab/RiskBench.git
+```
+
 ### System Requirements
 - Linux ( Tested on Ubuntu 18.04, 20.04 )
 - Python3 ( Tested on Python 3.7 )
@@ -17,15 +21,11 @@
 - GPU ( Tested on Nvidia RTX3090, RTX4090 )
 - CPU ( Tested on AMD 7950x3d, Intel 12900kf )
 
-### Repo Cloning
-```bash
-git clone --depth 1 https://github.com/HCIS-Lab/RiskBench.git
-```
 
 ### Dataset
-* The RiskBench dataset can be downloaded [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
+* The complete **RiskBench dataset** is available for download [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
 
-* Download **RiskBench_Dataset** for the whole dataset. In addition, we provide **DATA_FOR_Planning_Aware_Metric** and **DATASET_for_LBC_Training** for planning aware metric evaluation and LBC training data respectively.
+* We provide **DATA_FOR_Planning_Aware_Metric** and **DATASET_for_LBC_Training** for planning aware metric evaluation and LBC training data respectively.
 
 * We provide instructions on how to collect basic scenarios and data augmentation. Please refer to [link](Planning_Aware_Metric/).
 
@@ -51,7 +51,7 @@ We provide each baseline's training and inference details which can be found [he
 We perform offline risk identification evaluation and fine-grained scenario-based analysis by taking input as preserved risk identification prediction. You can generate by following the instruction in this [page](risk_identification/Risk_identification_tool). 
 
 
-### Planning-aware Risk Identification
+### Planning-aware Evaluation
 [TBD](Planning_Aware_Metric)
 
 
