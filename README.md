@@ -52,7 +52,7 @@ We perform offline risk identification evaluation and fine-grained scenario-base
 
 
 ### Planning-aware Evaluation
-[Follow the ReadMe in this page.](Planning_Aware_Metric)
+[Follow the README in this page.](Planning_Aware_Metric)
 
 
 ---
