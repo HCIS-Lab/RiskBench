@@ -1,5 +1,5 @@
 # Setup
-1. Download `RiskBench_Dataset` & `metadata`
+1. Download `RiskBench_Dataset` & `metadata` [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
 2. Unzip `model.zip`, `metadata.zip`, `RiskBench_Dataset`
 3. Install dependencies in your favorite environment. 
 	
