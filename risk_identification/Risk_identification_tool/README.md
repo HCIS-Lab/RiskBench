@@ -1,7 +1,8 @@
 # Setup
 1. Download `RiskBench_Dataset` & `metadata` [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
-2. Unzip `model.zip`, `metadata.zip`, `RiskBench_Dataset`
-3. Install dependencies in your favorite environment. 
+2. Download `metadata.zip` [here]([https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm](https://nycu1-my.sharepoint.com/personal/ychen_m365_nycu_edu_tw/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fychen%5Fm365%5Fnycu%5Fedu%5Ftw%2FDocuments%2FRiskBench%2FDATA%5FFOR%5FPlanning%5FAware%5FMetric)).
+3. Unzip `model.zip`, `metadata.zip`, `RiskBench_Dataset`
+4. Install dependencies in your favorite environment. 
 	
 	e.g. start by creating a new conda environment:
 	```bash
