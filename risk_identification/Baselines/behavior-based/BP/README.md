@@ -56,13 +56,14 @@ If the predicted behavior is ”Influenced”, we select the object with the hig
 
 1. Environment set up
   	
-	Install dependencies in your favorite environment. 	
-	```bash
-	conda create -n BP_env python=3.7
-	conda activate BP_env
-	cd ${BCP_ROOT}
-	pip install -r requirements.txt
-	```
+	* Install dependencies in your favorite environment. 	
+		```bash
+		conda create -n BP_env python=3.7
+		conda activate BP_env
+		cd ${BP_ROOT}
+		pip install -r requirements.txt
+		```
+	* Download and unzip [metadata.zip](https://nycu1-my.sharepoint.com/personal/ychen_m365_nycu_edu_tw/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fychen%5Fm365%5Fnycu%5Fedu%5Ftw%2FDocuments%2FRiskBench%2FDATA%5FFOR%5FPlanning%5FAware%5FMetric) to `./datasets/`
 1. Tracklet generating
 	```bash
 	python utils/gen_tracking.py	

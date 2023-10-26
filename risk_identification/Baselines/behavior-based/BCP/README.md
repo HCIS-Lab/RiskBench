@@ -59,26 +59,27 @@ The task is formulated as the cause-effect problem which is aims to predict the 
 
 1. Environment set up
   	
-	Install dependencies in your favorite environment. 	
-	```bash
-	conda create -n BCP_env python=3.7
-	conda activate BCP_env
-	cd ${BCP_ROOT}
-	pip install -r requirements.txt
-	```
-1. Tracklet generating
+	* Install dependencies in your favorite environment. 	
+		```bash
+		conda create -n BCP_env python=3.7
+		conda activate BCP_env
+		cd ${BCP_ROOT}
+		pip install -r requirements.txt
+		```
+	* Download and unzip [metadata.zip](https://nycu1-my.sharepoint.com/personal/ychen_m365_nycu_edu_tw/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fychen%5Fm365%5Fnycu%5Fedu%5Ftw%2FDocuments%2FRiskBench%2FDATA%5FFOR%5FPlanning%5FAware%5FMetric) to `./datasets/`
+2. Tracklet generating
 	```bash
 	python utils/gen_tracking.py	
 	```
-2.  Training
+3.  Training
 	```bash
 	python train.py --data_type all --gpu DEVICE_ID
 	```
-3. Testing
+4. Testing
 	```bash
 	python test.py --data_type ${DATA_TYPE} --ckpt_path ${PATH}
 	```
-4. Traing log
+5. Traing log
 	```bash
 	tensorboard dev upload --logdir logs/${LOG_NAME} --name ${LOG_NAME}
 	```

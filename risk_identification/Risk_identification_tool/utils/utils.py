@@ -189,8 +189,8 @@ def make_video(gif_save_path, variant_path, roi, behavior, risky_id, FPS=10):
             continue
         roi_dict = roi[f"{frame}"]
 
-        frame = mask_risk_object(rgb_path, seg_path, bbox, roi_dict, risky_id)
-        frame_list.append(frame)
+        roi_frame = mask_risk_object(rgb_path, seg_path, bbox, roi_dict, risky_id)
+        frame_list.append(roi_frame)
 
     if len(frame_list) != 0:
         imageio.mimsave(gif_save_path, frame_list,

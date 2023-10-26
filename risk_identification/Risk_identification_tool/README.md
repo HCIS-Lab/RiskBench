@@ -1,6 +1,6 @@
 # Setup
-1. Download `RiskBench_Dataset` & `metadata` [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
-2. Download `metadata.zip` [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
+1. Download `RiskBench_Dataset` [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
+2. Download `metadata.zip` [here](https://nycu1-my.sharepoint.com/personal/ychen_m365_nycu_edu_tw/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fychen%5Fm365%5Fnycu%5Fedu%5Ftw%2FDocuments%2FRiskBench%2FDATA%5FFOR%5FPlanning%5FAware%5FMetric).
 3. Unzip `model.zip`, `metadata.zip`, `RiskBench_Dataset`
 4. Install dependencies in your favorite environment. 
 	
@@ -34,9 +34,11 @@
 2. Choose Model and Scenario Type
 3. Check interest attributes
 4. Click **Filter Scenario**
-5. Choose one scenario and click **Generate Video**
-6. Click **Generate JSON** to save the reult in JSON file
-7. The results will be saved to `${VIS_PATH}/gif/${MODEL}/${DATA_TYPE}` or `{VIS_PATH}/json/${MODEL}/${DATA_TYPE}`
+5. Choose one scenario
+   * Click **Generate Video** to save the qualitative result in gif file
+   * Click **Generate JSON** to save the quantitative result in JSON file
+   * The results will be saved to `${VIS_PATH}/gif/${MODEL}/${DATA_TYPE}` or `{VIS_PATH}/json/${MODEL}/${DATA_TYPE}`
+
 
 	![Fine-grained Scenario-based Analysis](utils/localization_anticipation.gif)
 
