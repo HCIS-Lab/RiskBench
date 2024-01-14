@@ -60,10 +60,11 @@ We provide data collection pipeline and planning aware evluation platform which 
 
 ## Citation
 ```
-@misc{RiskBench,
-    title={A Scenario-based Benchmark for Risk Identification},
-    author={Chi-Hsi Kung and Chieh-Chih Yang and Pang-Yuan Pao and Shu-Wei Lu and Pin-Lun Chen and Hsin-Cheng Lu and Yi-Ting Chen},
-    year={2023},
-    organization={National Yang Ming Chiao Tung University}
+@article{kung2023riskbench,
+  title={RiskBench: A Scenario-based Benchmark for Risk Identification},
+  author={Kung, Chi-Hsi and Yang, Chieh-Chi and Pao, Pang-Yuan and Lu, Shu-Wei and Chen, Pin-Lun and Lu, Hsin-Cheng and Chen, Yi-Ting},
+  journal={arXiv preprint arXiv:2312.01659},
+  year={2023}
+  organization={National Yang Ming Chiao Tung University}
 }
 ```
