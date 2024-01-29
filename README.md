@@ -1,4 +1,4 @@
-# RiskBench: A Scenario-based Benchmark for Risk Identification
+# [ICRA 2024] RiskBench: A Scenario-based Benchmark for Risk Identification
 ![RiskBench](images/teaser.png)
 <!-- > **RiskBench: A Scenario-based Benchmark for Risk Identification**  
 > [Chi-Hsi Kung](https://hankkung.github.io/website/), Chieh-Chih Yang, Pang-Yuan Pao, Shu-Wei Lu, Pin-Lun Chen, Hsin-Cheng Lu, [Yi-Ting Chen](https://sites.google.com/site/yitingchen0524/)
