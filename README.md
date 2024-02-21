@@ -60,11 +60,11 @@ We provide data collection pipeline and planning aware evluation platform which 
 
 ## Citation
 ```
-@article{kung2023riskbench,
+@@inproceedings{kung2023riskbench,
   title={RiskBench: A Scenario-based Benchmark for Risk Identification},
   author={Kung, Chi-Hsi and Yang, Chieh-Chi and Pao, Pang-Yuan and Lu, Shu-Wei and Chen, Pin-Lun and Lu, Hsin-Cheng and Chen, Yi-Ting},
   journal={2024 IEEE International Conference on Robotics and Automation (ICRA)},
   year={2023}
-  organization={National Yang Ming Chiao Tung University}
+  organization={IEEE}
 }
 ```
