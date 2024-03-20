@@ -34,9 +34,8 @@ class custom_loss(nn.Module):
             if self.supervised:
                 tmp = self.obj_cel(self.m(obj_pred[:,i]),obj_targets[:,i])
                 tmp = self.supervised_weight * tmp
-                # print("Loss:",obj_loss.mean(), temp_loss.mean())
-                # print("obj_loss:",obj_loss,"collision_loss:",loss)
                 obj_loss = obj_loss + tmp
+                
         return {'collision_loss':loss,'obj_loss': obj_loss,'total_loss':loss+obj_loss}
 
 class Baseline_SA(nn.Module):
@@ -96,7 +95,7 @@ class Baseline_SA(nn.Module):
 
         hx, cx = self.lstm(self.drop(fusion), (hx, cx))
 
-        return self.output_layer(hx), hx, cx,#self.risky_object(hx)
+        return self.output_layer(hx), hx, cx
 
     def forward(self, img, bbox,intention=None,state=None):
         """
@@ -153,6 +152,4 @@ class Baseline_SA(nn.Module):
         all_alphas = torch.stack(all_alphas).permute(2,0,1)
         if self.supervised:
             all_obj = torch.stack(all_obj).permute(2,0,1)
-        print(bbox[0,int(frames*0.8)])
-        print(all_alphas[0,int(frames*0.8)])
         return out, all_alphas, all_obj
