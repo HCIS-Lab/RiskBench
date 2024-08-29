@@ -23,7 +23,10 @@ git clone --depth 1 https://github.com/HCIS-Lab/RiskBench.git
 
 
 ### Dataset
-* The complete **RiskBench dataset** is available for download [here](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm).
+* The complete **RiskBench dataset** is available for download
+  * [split folder into multiple large zip files. ](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/EviA5ovlh6hPo_ZXEPQjxAQB2R3vNubk3HM1u4ib1VdPFA?e=WHEWdm)
+  * [split folder into multiple fixed tar files, each 2 Gb. ](https://nycu1-my.sharepoint.com/:f:/g/personal/ychen_m365_nycu_edu_tw/Ekv-ljiKGVJHmXaiSUCYTjoBIoGHvTIcMexbed5tp2oAhQ?e=RbxfhA).
+
 
 * We provide **DATA_FOR_Planning_Aware_Metric** and **DATASET_for_LBC_Training** for planning aware metric evaluation and LBC training data respectively.
 
