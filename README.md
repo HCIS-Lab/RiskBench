@@ -55,7 +55,7 @@ We perform offline risk identification evaluation and fine-grained scenario-base
 
 
 ### Planning-aware Evaluation
-We provide data collection pipeline and planning aware evluation platform which can be found [here](Planning_Aware_Metric)
+We provide data collection pipeline and planning aware evaluation platform which can be found [here](Planning_Aware_Metric)
 
 
 
